@@ -455,7 +455,17 @@
     background: var(--primary);
 }
 
-
+.Fecha {
+    background-color: rgb(255, 204, 0); 
+    width: 70px; height: 40px; 
+    position: relative; 
+    padding-top: 6px ; 
+    left: 295px; top:315px; 
+    text-align: center; 
+    color: rgb(75, 2, 2); 
+    border-radius: 7px; 
+    z-index: 100;
+}
 /*** Footer ***/
 .formContacto {
     padding-left: 50px;
