@@ -130,7 +130,34 @@
     </div>
     <!-- Contact End -->
 
-
+    <form action="php/contact.php" method="post" class ="formContacto">
+        <div class="elem-group">
+          <label for="name">Tu nombre:</label>
+          <input type="text" id="name" name="visitor_name" placeholder="Irene Martínez" pattern=[A-Z\sa-z]{3,20} required>
+        </div>
+        <div class="elem-group">
+          <label for="email">Your correo electrónico:</label>
+          <input type="email" id="email" name="visitor_email" placeholder="irene.martinez@gmail.com" required>
+        </div>
+        <div class="elem-group">
+          <label for="department-selection">Tu consulta es referente a:</label>
+          <select id="department-selection" name="concerned_department" required>
+              <option value="">Elige una opción:</option>
+              <option value="billing">DGMakers</option>
+              <option value="marketing">GDPatrimonio</option>
+              <option value="technical support">Grupos de Desarrollo</option>
+          </select>
+        </div>
+<!--         <div class="elem-group">
+          <label for="title">Reason For Contacting Us</label>
+          <input type="text" id="title" name="email_title" required placeholder="Unable to Reset my Password" > pattern=[A-Za-z0-9\s]{8,60} 
+        </div> -->
+        <div class="elem-group">
+          <label for="message">Escribe tu mensaje:</label>
+          <textarea id="message" name="visitor_message" placeholder="Escribe qué deseas..." required></textarea>
+        </div>
+        <button type="submit">Enviar mensaje.</button>
+      </form>
 
 
     <!-- Footer Start -->
