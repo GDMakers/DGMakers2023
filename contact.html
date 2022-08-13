@@ -34,24 +34,27 @@
 
 <body>
     <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border position-relative text-primary" style="width: 6rem; height: 6rem;" role="status"></div>
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border position-relative text-primary" style="width: 6rem; height: 6rem;" role="status">
+        </div>
         <i class="fa fa-laptop-code fa-2x text-primary position-absolute top-50 start-50 translate-middle"></i>
     </div>
     <!-- Spinner End -->
 
 
     <!-- Topbar Start -->
-   
+
     <!-- Topbar End -->
 
 
-   
+
 
 
 
     <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg bg-primary navbar-dark sticky-top py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark sticky-top py-lg-0 px-lg-5 wow fadeIn"
+        data-wow-delay="0.1s">
         <a href="#" class="navbar-brand ms-3 d-lg-none">MENU</a>
         <button type="button" class="navbar-toggler me-3" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -70,7 +73,7 @@
                         <a href="" class="dropdown-item">DGMakers Docentes</a>
                         <a href="GDPatrimonio.html" class="dropdown-item">GDPatrimonio</a>
                         <a href="http://gdmuseos.es" target="_blank" class="dropdown-item">GDMuseos</a>
-                        <a href="IntEmo.html"  class="dropdown-item">Inteligencia emocional</a>
+                        <a href="IntEmo.html" class="dropdown-item">Inteligencia emocional</a>
 
                         <!-- <a href="testimonial.html" class="dropdown-item">Testimonios</a> -->
                         <!-- <a href="404.html" class="dropdown-item">404 Page</a> -->
@@ -99,7 +102,7 @@
     <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container text-center py-5">
             <h1 class="display-4 text-white animated slideInDown mb-3">Contacta con nosotros</h1>
-<!--             <nav aria-label="breadcrumb animated slideInDown">
+            <!--             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
                     <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
                     <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
@@ -118,46 +121,56 @@
                 <h6 class="section-title bg-white text-center text-primary px-3">Contacto</h6>
                 <h1 class="display-6 mb-4">¿Más información? </h1>
             </div>
-            <div class="row g-0 justify-content-center">
+            <!-- <div class="row g-0 justify-content-center">
                 <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.5s">
                     <p class="text-center mb-4">
                         Envía un correo a gines.ruiz@murciaeduca.es
                     </p>
-                    
+
+                </div>
+            </div> -->
+            <div class="row g-0 justify-content-center">
+                <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.5s">
+                    <form action="php/contact.php" method="post" class="formContacto">
+                        <div class="elem-group">
+                            <label for="name">Tu nombre:</label>
+                            <input type="text" id="name" name="visitor_name" placeholder="Irene Martínez"
+                                 required> <!-- pattern=[A-Z\sa-z]{3,20} -->
+                        </div>
+                        <div class="elem-group">
+                            <label for="email">Tu correo electrónico:</label>
+                            <input type="email" id="email" name="visitor_email" placeholder="irene.martinez@gmail.com"
+                                required>
+                        </div>
+                        <div class="elem-group">
+                            <label for="department-selection">Tu consulta es referente a:</label>
+                            <select id="department-selection" name="concerned_department" required>
+                                <option value="">Elige una opción:</option>
+                                <option value="billing">DGMakers</option>
+                                <option value="marketing">GDPatrimonio</option>
+                                <option value="technical support">Grupos de Desarrollo</option>
+                                <option value="technical support">DGMaths</option>
+                            </select>
+                        </div>
+                        <div class="elem-group">
+                            <!-- <label for="title">Reason For Contacting Us</label> -->
+                            <input type="hidden" id="title"  name="email_title" required
+                                placeholder="DGMakers"> <!-- pattern=[A-Za-z0-9\s]{8,60} -->
+                        </div>
+                        <div class="elem-group">
+                            <label for="message">Escribe tu mensaje:</label>
+                            <textarea id="message" name="visitor_message" placeholder="Escribe qué deseas..."
+                                required></textarea>
+                        </div>
+                        <button type="submit">Enviar mensaje</button>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
     <!-- Contact End -->
 
-    <form action="php/contact.php" method="post" class ="formContacto">
-        <div class="elem-group">
-          <label for="name">Tu nombre:</label>
-          <input type="text" id="name" name="visitor_name" placeholder="Irene Martínez" pattern=[A-Z\sa-z]{3,20} required>
-        </div>
-        <div class="elem-group">
-          <label for="email">Your correo electrónico:</label>
-          <input type="email" id="email" name="visitor_email" placeholder="irene.martinez@gmail.com" required>
-        </div>
-        <div class="elem-group">
-          <label for="department-selection">Tu consulta es referente a:</label>
-          <select id="department-selection" name="concerned_department" required>
-              <option value="">Elige una opción:</option>
-              <option value="billing">DGMakers</option>
-              <option value="marketing">GDPatrimonio</option>
-              <option value="technical support">Grupos de Desarrollo</option>
-          </select>
-        </div>
-<!--         <div class="elem-group">
-          <label for="title">Reason For Contacting Us</label>
-          <input type="text" id="title" name="email_title" required placeholder="Unable to Reset my Password" > pattern=[A-Za-z0-9\s]{8,60} 
-        </div> -->
-        <div class="elem-group">
-          <label for="message">Escribe tu mensaje:</label>
-          <textarea id="message" name="visitor_message" placeholder="Escribe qué deseas..." required></textarea>
-        </div>
-        <button type="submit">Enviar mensaje.</button>
-      </form>
+
 
 
     <!-- Footer Start -->
@@ -170,10 +183,14 @@
                     <!-- <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p> -->
                     <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-outline-secondary rounded-circle me-1" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-outline-secondary rounded-circle me-1" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-outline-secondary rounded-circle me-1" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-outline-secondary rounded-circle me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-square btn-outline-secondary rounded-circle me-1" href=""><i
+                                class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-secondary rounded-circle me-1" href=""><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-secondary rounded-circle me-1" href=""><i
+                                class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-secondary rounded-circle me-0" href=""><i
+                                class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -209,10 +226,11 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">Grupos de Desarrollo</h5>
-                    <p style ="font-size: small; margin: 0; padding: 0;">Si quieres dominar algo, enséñalo.</p>
-                    <p style ="font-size: small; margin: 0; padding: 0;">Cuanto más enseñes, mejor aprendes.</p>
-                    <p style ="font-size: small; margin: 0; padding: 0;">La enseñanza es una herramienta poderosa para aprender.</p>
-                    <p style ="font-size: small; margin: 0; padding-top: 10px; color: gray;">Richard Feynman</p>
+                    <p style="font-size: small; margin: 0; padding: 0;">Si quieres dominar algo, enséñalo.</p>
+                    <p style="font-size: small; margin: 0; padding: 0;">Cuanto más enseñes, mejor aprendes.</p>
+                    <p style="font-size: small; margin: 0; padding: 0;">La enseñanza es una herramienta poderosa para
+                        aprender.</p>
+                    <p style="font-size: small; margin: 0; padding-top: 10px; color: gray;">Richard Feynman</p>
                     <!-- <div class="position-relative mx-auto" style="max-width: 400px;">
                         <input class="form-control bg-transparent border-secondary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
                         <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
@@ -240,7 +258,8 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->

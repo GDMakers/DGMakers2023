@@ -3,7 +3,7 @@
 if($_POST) {
     $visitor_name = "";
     $visitor_email = "";
-    $email_title = "";
+    $email_title = "DGMakers";
     $concerned_department = "";
     $visitor_message = "";
      
@@ -16,9 +16,9 @@ if($_POST) {
         $visitor_email = filter_var($visitor_email, FILTER_VALIDATE_EMAIL);
     }
      
-    if(isset($_POST['email_title'])) {
+    /* if(isset($_POST['email_title'])) {
         $email_title = filter_var($_POST['email_title'], FILTER_SANITIZE_STRING);
-    }
+    } */
      
     if(isset($_POST['concerned_department'])) {
         $concerned_department = filter_var($_POST['concerned_department'], FILTER_SANITIZE_STRING);
