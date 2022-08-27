@@ -28,9 +28,9 @@ if($_POST) {
         $visitor_message = htmlspecialchars($_POST['visitor_message']);
     }
      
-    if($concerned_department == "Coordinador") {
+  /*   if($concerned_department == "Coordinador") {
         $recipient = "gines.ruiz@murciaeduca.es";
-    }
+    } */
     else if($concerned_department == "GDPatrimonio") {
         $recipient =  "gines.ruiz@murciaeduca.es";
     }
