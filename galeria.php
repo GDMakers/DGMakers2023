@@ -101,102 +101,36 @@
     </nav>
     </DGMAKERS_MENU>
 
-
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container text-center py-5">
-            <h1 class="display-4 text-white animated slideInDown mb-3">Contacta con nosotros</h1>
-            <!--             <nav aria-label="breadcrumb animated slideInDown">
-                <ol class="breadcrumb justify-content-center mb-0">
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                    <li class="breadcrumb-item text-primary active" aria-current="page">Contact</li>
-                </ol>
-            </nav> -->
+            <h1 class="display-4 text-white animated slideInDown mb-3">Galería</h1>
         </div>
     </div>
-    <!-- Page Header End -->
-   <!--  <div class="content" style=" 
-    display: flex;
-    position: fixed;
-    top: 20%;
-    left: 20%;
-    width: 60%;
-    height: 60%;
-    background-color: rgb(255, 255, 255);
-    border: solid 1px rgb(155, 155, 155);
-    z-index: 100;
-    justify-content: center;
-    align-items: center;
-    opacity: 1;
-    ">
-        <div>
-            <h3>
-                El IES Alcántara 
-            </h3>
-            <h6 style="padding-top: 50px;">
-                Reconocimiento por ...
-            </h6>
-        </div>
-
-    </div> -->
+ 
     <!-- Contact Start -->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <h6 class="section-title bg-white text-center text-primary px-3">Contacto</h6>
-                <h1 class="display-6 mb-4">¿Más información? </h1>
-            </div>
-            <div class="row g-0 justify-content-center">
-                <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.5s">
-                    <p class="text-center mb-4">
-
-                        <a href="mailto:dgmakers@gruposdedesarrollo.es">Envía un correo a DGMakers</a> 
-                        
-                    </p>
-
-                </div>
+                <h6 class="section-title bg-white text-center text-primary px-3">DGMakers</h6>
             </div>
 
+            <?php
 
-            <!--  <div class="row g-0 justify-content-center">
-                <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.5s">
-                    <form action="php/contact.php" method="post" class="formContacto">
-                        <div class="elem-group">
-                            <label for="name">Tu nombre:</label>
-                            <input type="text" id="name" name="visitor_name" placeholder="Irene Martínez"
-                                 required> 
-                        </div>
-                        <div class="elem-group">
-                            <label for="email">Tu correo electrónico:</label>
-                            <input type="email" id="email" name="visitor_email" placeholder="irene.martinez@gmail.com"
-                                required>
-                        </div>
-                        <div class="elem-group">
-                            <div class="g-recaptcha" data-sitekey="6LdV9rEhAAAAANG6mX89i-SQ-_JXxtZ7OoDrIikq"></div>
-                            <label for="department-selection">Tu consulta es referente a:</label>
-                            <select id="department-selection" name="concerned_department" required>
-                                <option value="">Elige una opción:</option>
-                                <option value="billing">DGMakers</option>
-                                <option value="marketing">GDPatrimonio</option>
-                                <option value="technical support">Grupos de Desarrollo</option>
-                                <option value="technical support">DGMaths</option>
-                            </select>
-                        </div>
-                        <div class="elem-group">
-                            
-                            <input type="hidden" id="title"  name="email_title" required
-                                placeholder="DGMakers">
-                        </div>
-                        <div class="elem-group">
-                            <label for="message">Escribe tu mensaje:</label>
-                            <textarea id="message" name="visitor_message" placeholder="Escribe qué deseas..."
-                                required></textarea>
-                        </div>
-                        <button type="submit">Enviar mensaje</button>
-                    </form>
-                </div>
-            </div> -->
+            $directory="img/Galerias/prueba/";
+            $dirint = dir($directory);
+
+            while (($archivo = $dirint->read()) != false)
+            {
+                if (strpos($archivo,'jpg') || strpos($archivo,'jpeg')){
+                $image = $directory. $archivo;
+                echo'<img style="width: 10vw;" src='.$image. '>';
+                }
+            }
+            $dirint->close();
+
+            ?>
+
         </div>
     </div>
     <!-- Contact End -->
@@ -226,7 +160,7 @@
                     <h5 class="text-light mb-4">Enlaces rápidos</h5>
 
                     <a class="btn btn-link" href="team.html">Nosotros</a>
-                    <a class="btn btn-link" href="galeria.php">Contacta con nosotros</a>
+                    <a class="btn btn-link" href="php/galeria.php">Contacta con nosotros</a>
                     <a class="btn btn-link" href="index.html#Proyectos">Nuestros proyectos</a>
             
                     <!--a class="btn btn-link" href="team.html">Nosotros</a>
