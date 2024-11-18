@@ -12,7 +12,7 @@
 
 	<?php
 
-	 $directory="../img/galerias/prueba/";
+	 $directory="../img/Galerias/prueba/";
 	    $dirint = dir($directory);
 
 	    while (($archivo = $dirint->read()) != false)
