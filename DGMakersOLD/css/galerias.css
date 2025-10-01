@@ -1,0 +1,18 @@
+body{
+text-align:center;	
+}
+h1{
+text-align:center;	
+}
+.boton{
+margin-top:20px;
+height:50px;
+font-size:1.3em;
+font-weight:bolder;
+}
+table{
+ margin:0 auto;
+ }
+table,td,th{
+ border:1px solid black;
+ }
