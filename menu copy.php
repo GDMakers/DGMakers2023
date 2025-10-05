@@ -78,15 +78,7 @@ echo "<nav class='navbar navbar-expand-lg navbar-dark py-2 sticky-top'>
                         <a class='nav-link dropdown-toggle' href='#' id='navbarDropdown' role='button' data-bs-toggle='dropdown' aria-expanded='false'>Programas educativos</a>
                         <ul class='dropdown-menu' aria-labelledby='navbarDropdown'>
                             <li><a class='dropdown-item' href='$pages/programas/GDPatrimonio.php'>GDPatrimonio</a></li>
-                            <li class='dropdown-submenu'>
-                                <a class='dropdown-item dropdown-toggle' href='#'>4Inclusion</a>
-                                <ul class='dropdown-menu'>
-                                    <li><a class='dropdown-item' href='$pages/programas/4Inclusion.php'>DGMakers 4Inclusion</a></li>
-                                    <li><a class='dropdown-item' href='$pages/programas/Jornadas4Inclusion.php'>Jonadas 4Inclusion</a></li>
-                                    <li><a class='dropdown-item' href='$pages/programas/live-hub.php'>Live-Hub</a></li>
-                                    <li><a class='dropdown-item' href='$pages/programas/StartPack.php'>Start Pack</a></li>
-                                </ul>
-                            </li>
+                            <li><a class='dropdown-item' href='$pages/programas/4Inclusion.php'>4Inclusion</a></li>
                         </ul>
                     </li>
 
