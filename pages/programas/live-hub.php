@@ -79,7 +79,7 @@
 
                         <div class="container" style="padding-bottom: 50px;">
                             <div class="row">
-                                <div class="col-sm-4 col-md-4">
+                                <div class="col-sm-4 col-md-4 fact-item">
                                     <h5 style="color: var(--primary)">Lunes 8 abril · 17:00 · Clinic</h5>
                                     <h4><b>Office Hours 3D</b></h4>
                                     <p>Trae tu STL y dudas de perfiles. Ajustamos altura de capa, relleno y tiempos. Sal con el perfil listo.</p>
@@ -88,7 +88,7 @@
                                         <a class="btn btn-outline-primary" href="">Apuntarme</a>
                                     </p>                                    
                                 </div>
-                                <div class="col-sm-4 col-md-4">
+                                <div class="col-sm-4 col-md-4 fact-item">
                                     <h5 style="color: var(--primary)">Martes 9 abril · 18:30 · Lab</h5>
                                     <h4><b>Vídeo & Subtítulos Lab</b></h4>
                                     <p>Graba clips de 30–45 s y añade subtítulos claros. Audio limpio, planos estables y mensaje directo.</p>
@@ -97,7 +97,7 @@
                                         <a class="btn btn-outline-primary" href="">Apuntarme</a>
                                     </p>                                    
                                 </div>
-                                <div class="col-sm-4 col-md-4">
+                                <div class="col-sm-4 col-md-4 fact-item">
                                     <h5 style="color: var(--primary)">Miércoles 10 abril · 16:00 · Clinic</h5>
                                     <h4><b>Señalética & Pictos</b></h4>
                                     <p>Carteles lectura fácil + pictos + QR con audio TTS. Señaliza aula, biblioteca o pasillos en una mañana.</p>
@@ -111,7 +111,7 @@
 
                         <div class="container" style="padding-bottom: 50px;">
                             <div class="row">
-                                <div class="col-sm-4 col-md-4">
+                                <div class="col-sm-4 col-md-4 fact-item">
                                     <h5 style="color: var(--primary)">Jueves 11 abril · 18:00 · Match</h5>
                                     <h4><b>Match de Skills</b></h4>
                                     <p>Speed networking: “busco 3D”, “sé de TTS”, “edito vídeo”. Encuentra pareja de proyecto ya.</p>
@@ -120,7 +120,7 @@
                                         <a class="btn btn-outline-primary" href="">Apuntarme</a>
                                     </p>                                    
                                 </div>
-                                <div class="col-sm-4 col-md-4">
+                                <div class="col-sm-4 col-md-4 fact-item">
                                     <h5 style="color: var(--primary)">Viernes 12 abril · 17:30 · Demo Day</h5>
                                     <h4><b>Demo Day</b></h4>
                                     <p>Presenta tu prototipo en 90 s. Feedback rápido, siguiente sprint decidido. Todo queda en galería.</p>
@@ -129,7 +129,7 @@
                                         <a class="btn btn-outline-primary" href="">Apuntarme</a>
                                     </p>                                    
                                 </div>
-                                <div class="col-sm-4 col-md-4">
+                                <div class="col-sm-4 col-md-4 fact-item">
                                     <h5 style="color: var(--primary)">Sábado 13 abril · 10:30 · Mentoríac</h5>
                                     <h4><b>Mentorías 1:1</b></h4>
                                     <p>30 minutos para desbloquear tu proyecto: foco, siguiente paso y checklist de publicación.</p>
@@ -143,7 +143,7 @@
 
                         <div class="container" style="padding-bottom: 50px;">
                             <div class="row">
-                                <div class="col-sm-4 col-md-4">
+                                <div class="col-sm-4 col-md-4 fact-item">
                                     <h5 style="color: var(--primary)">Domingo 14 abril · 19:00 · Clinic</h5>
                                     <h4><b>TTS & Comunicación Aumentativa</b></h4>
                                     <p>Crea soundboards y audios TTS de frases clave (sí/no, ayuda, pausa). Voz clara y accesible.</p>
@@ -197,19 +197,19 @@
 
                         <div class="container">
                             <div class="row">
-                                <div class="col-sm-4 col-md-4">
+                                <div class="col-sm-4 col-md-4 fact-item">
                                     <p><b>Office Hours 3D</b></p>
                                     <p>
                                        Trae tu STL y dudas de perfiles. Ajustamos altura de capa, relleno y tiempos. Te vas listo para imprimir.
                                     </p>
                                 </div>
-                                <div class="col-sm-4 col-md-4">
+                                <div class="col-sm-4 col-md-4 fact-item">
                                     <p><b>Vídeo & Subtítulos Lab</b></p>
                                     <p>
                                         Graba clips de 30–45 s y añade subtítulos claros. Audio limpio, planos estables y mensaje directo.
                                     </p>
                                 </div>
-                                <div class="col-sm-4 col-md-4">
+                                <div class="col-sm-4 col-md-4 fact-item">
                                     <p><b>Señalética & Pictos</b></p>
                                     <p>
                                         Carteles lectura fácil + pictos + QR con audio TTS. Señaliza aula, biblioteca o pasillos en una mañana.
@@ -220,19 +220,19 @@
 
                         <div class="container">
                             <div class="row">
-                                <div class="col-sm-4 col-md-4">
+                                <div class="col-sm-4 col-md-4 fact-item">
                                     <p><b>Lectura Fácil Studio</b></p>
                                     <p>
                                         Simplifica textos y guiones en 3–5 pasos. Probamos con usuarios, medimos claridad y mejoramos.
                                     </p>
                                 </div>
-                                <div class="col-sm-4 col-md-4">
+                                <div class="col-sm-4 col-md-4 fact-item">
                                     <p><b>Teatro Foro (ensayo)</b></p>
                                     <p>
                                         Escenas cortas de barreras reales y re-actuación con soluciones. Empatía ON, ideas útiles al momento.
                                     </p>
                                 </div>
-                                <div class="col-sm-4 col-md-4">
+                                <div class="col-sm-4 col-md-4 fact-item">
                                     <p><b>Demo Day</b></p>
                                     <p>
                                         Presenta tu prototipo en 90 s. Feedback rápido, siguiente sprint decidido. Todo queda en galería.
@@ -243,19 +243,19 @@
 
                         <div class="container">
                             <div class="row">
-                                <div class="col-sm-4 col-md-4">
+                                <div class="col-sm-4 col-md-4 fact-item">
                                     <p><b>Match de Skills</b></p>
                                     <p>
                                         Speed networking: “busco 3D”, “sé de TTS”, “edito vídeo”. Encuentra pareja de proyecto ya.
                                     </p>
                                 </div>
-                                <div class="col-sm-4 col-md-4">
+                                <div class="col-sm-4 col-md-4 fact-item">
                                     <p><b>TTS & Comunicación Aumentativa</b></p>
                                     <p>
                                         Crea soundboards y audios TTS de frases clave (sí/no, ayuda, pausa). Voz clara y accesible.
                                     </p>
                                 </div>
-                                <div class="col-sm-4 col-md-4">
+                                <div class="col-sm-4 col-md-4 fact-item">
                                     <p><b>AR/QR Cards</b></p>
                                     <p>
                                         Tarjetas con QR a mini-vídeos o gifs: “entrar a clase”, “pedir turno”, “ir a biblioteca”. Rápido y útil.
@@ -266,19 +266,19 @@
                         
                         <div class="container">
                             <div class="row">
-                                <div class="col-sm-4 col-md-4">
+                                <div class="col-sm-4 col-md-4 fact-item">
                                     <p><b>3D Apoyos Rápidos</b></p>
                                     <p>
                                         Diseña grips, guías de lectura, adaptadores. Incluye perfil de impresión y ficha de uso en A4.
                                     </p>
                                 </div>
-                                <div class="col-sm-4 col-md-4">
+                                <div class="col-sm-4 col-md-4 fact-item">
                                     <p><b>Data & Scoreboard</b></p>
                                     <p>
                                         Leemos KPIs (uso, adopciones, equidad) y decidimos el próximo sprint. Lo que se mide, mejora.
                                     </p>
                                 </div>
-                                <div class="col-sm-4 col-md-4">
+                                <div class="col-sm-4 col-md-4 fact-item">
                                     <p><b>Mentorías 1:1</b></p>
                                     <p>
                                         30 minutos para desbloquear tu proyecto: foco, siguiente paso y checklist de publicación.

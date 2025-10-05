@@ -97,7 +97,7 @@
 
                         <div class="container">
                             <div class="row">
-                                <div class="col-sm-4 col-md-4">
+                                <div class="col-sm-4 col-md-4 fact-item">
                                     <p><b>09:00 – 09:20 · Kick-off Show</b></p>
                                     <ul>
                                         <li>Bienvenida rápida en el salón de actos.</li>
@@ -105,7 +105,7 @@
                                         <li>Icebreaker con emojis para formar equipos al vuelo.</li>
                                     </ul>
                                 </div>
-                                <div class="col-sm-4 col-md-4">
+                                <div class="col-sm-4 col-md-4 fact-item">
                                     <p><b>09:30 – 11:00 · Talleres Bloque 1</b></p>
                                     <ul>
                                         <li><b>Minecraft Inclusion Lab</b>: mapear rutas accesibles con pictos.</li>
@@ -114,7 +114,7 @@
                                         <li><b>Podcast Studio</b>: grabar un audio “Incluir mola” de 3 minutos.</li>
                                     </ul>
                                 </div>
-                                <div class="col-sm-4 col-md-4">
+                                <div class="col-sm-4 col-md-4 fact-item">
                                     <p><b>11:00 – 11:30 · Break & Meet</b></p>
                                     <ul>
                                         <li>Zona chill con música suave y snack compartido.</li>
@@ -126,7 +126,7 @@
 
                         <div class="container">
                             <div class="row">
-                                <div class="col-sm-4 col-md-4">
+                                <div class="col-sm-4 col-md-4 fact-item">
                                     <p><b>11:30 – 13:00 · Talleres Bloque 2</b></p>
                                     <ul>
                                         <li><b>Vídeo Express</b>: tutorial inclusivo de 45 segundos con subtítulos</li>
@@ -134,14 +134,14 @@
                                         <li><b>Music & Beat Lab</b>: jingle “Crea sin límites” en 15 segundos.</li>
                                     </ul>
                                 </div>
-                                <div class="col-sm-4 col-md-4">
+                                <div class="col-sm-4 col-md-4 fact-item">
                                     <p><b>13:00 – 13:15 · Closing Flash</b></p>
                                     <ul>
                                         <li>Cada equipo comparte su demo en 1 minuto.</li>
                                         <li>Reto final: subir el proyecto en 24 h y ganar tu badge 4Inclusion.</li>
                                     </ul>
                                 </div>
-                                <div class="col-sm-4 col-md-4">
+                                <div class="col-sm-4 col-md-4 fact-item">
                                     </div>
                                 </div>                                                        
                             </div>

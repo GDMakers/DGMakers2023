@@ -127,13 +127,13 @@
 
                         <div class="container">
                             <div class="row">
-                                <div class="col-sm-4 col-md-4">
+                                <div class="col-sm-4 col-md-4 fact-item">
                                     <p>Taller exprés de modelado 3D para crear soportes personalizados en aula.</p>
                                 </div>
-                                <div class="col-sm-4 col-md-4">
+                                <div class="col-sm-4 col-md-4 fact-item">
                                     <p>Sesión colaborativa de señalética accesible con pictogramas listos para imprimir.</p>
                                 </div>
-                                <div class="col-sm-4 col-md-4">
+                                <div class="col-sm-4 col-md-4 fact-item">
                                     <p>Office hours de TTS: resuelve dudas sobre voces sintéticas y flujos de publicación.</p>
                                 </div>
                             </div>
