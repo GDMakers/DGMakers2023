@@ -214,45 +214,7 @@
                 </div>
             </div>
 
-            <div class="row gy-3 my-5 fact-item" id="microcopys">
-                <div class="col-lg-12 wow fadeInUp" data-wow-delay="1.3s">
-                    <div class="h-100">
-                        <h6 class="section-title bg-white text-start text-primary pe-3 wow fadeInLeftBig">Microcopys recomendados</h6>
-                        <p class="mb-2" style="text-align:justify;">
-                            <ul>
-                                <li>Crea. Sube. Brilla.</li>
-                                <li>Pedir ayuda a un especialista</li>
-                                <li>Proponer una quedada</li>
-                                <li>Ver office hours</li>
-                                <li>Hacer fork de este recurso</li>
-                                <li>Subir versión mejorada</li>
-                                <li>Publicar demo (30–45 s)</li>
-                            </ul>
-                        </p>
-                    </div>
-                </div>      
-            </div>
-
-            <div class="row gy-3 my-5 fact-item" id="textos">
-                <div class="col-lg-12 wow fadeInUp" data-wow-delay="1.5s">
-                    <div class="h-100">
-                        <h6 class="section-title bg-white text-start text-primary pe-3 wow fadeInLeftBig">Textos auxiliares</h6>
-                        <p class="mb-4 mt-2" style="text-align:justify;">
-                            Alt-text sugeridos para asegurar accesibilidad desde la primera iteración:
-                        </p>
-
-                        <p class="mb-2" style="text-align:justify;">
-                            <ul>
-                                <li>Logo: “Logo de DGMakers 4Inclusion.”</li>
-                                <li>Galería de recursos: “Miniaturas de modelos 3D, señalética accesible y vídeos con subtítulos.”</li>
-                                <li>Kanban: “Tablero con tarjetas de proyectos: Idea, Prototipo, Piloto y Publicado.”</li>
-                                <li>Calendario: “Agenda con quedadas por habilidades y ‘office hours’ de especialistas.”</li>
-                            </ul>
-                        </p>
-                    </div>
-                </div>      
-            </div>
-
+            
         </div>
     </div>
   
