@@ -214,6 +214,25 @@
                 </div>
             </div>
 
+            <div class="row gy-3 my-5 fact-item" id="coordinacion">
+                <div class="col-lg-12 wow fadeInUp" data-wow-delay="1.3s">
+                    <div class="h-100">
+                        <h6 class="section-title bg-white text-start text-primary pe-3 wow fadeInLeftBig">Equipo de coordinación</h6>
+                        <p class="mb-4" style="text-align:justify;">
+                            El núcleo que acompaña el programa 4Inclusion reúne perfiles pedagógicos, técnicos y de gestión para que cada centro encuentre apoyo en cada fase: ideación, prototipado, publicación y evaluación de impacto.
+                        </p>
+                        <ul class="mb-4" style="text-align:justify;">
+                            <li><strong>Coordinación general:</strong> Dirección Regional de Innovación Educativa.</li>
+                            <li><strong>Coordinación pedagógica:</strong> Docentes SEC ↔ EE que tutorizan cada dúo de centros.</li>
+                            <li><strong>Coordinación tecnológica:</strong> Equipo DGMakers Lab para makerspace, IA accesible y documentación.</li>
+                        </ul>
+                        <p class="wow fadeIn" data-wow-delay="0.5s" style="text-align:center;">
+                            <a class="btn btn-outline-primary" href="formacion1.php">Plan de formación y contacto del equipo</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
             
         </div>
     </div>
