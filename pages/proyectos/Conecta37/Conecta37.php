@@ -53,7 +53,7 @@
             <div class="row gy-4 mb-5 fact-item">
                 <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="h-100">
-                        <h4 class="section-title bg-white text-start text-primary pe-3">Resumen Ejecutivo</h4>
+                        <h4 class="section-title bg-white text-start text-primary pe-3">¿Qué es Conecta 37?</h4>
                         <p class="mb-0" style="text-align:justify;">
                             Conecta-37 es un proyecto de transformaci&oacute;n digital para mejorar los resultados acad&eacute;micos.
                             Centros de Primaria y Secundaria colaboran para que el alumnado aprenda m&aacute;s y mejor,
@@ -89,7 +89,7 @@
                             </p>
                         </div>
                         <div class="mb-4">
-                            <h5 class="fw-semibold text-primary">Matem&aacute;ticas que se Expresan</h5>
+                            <h5 class="fw-semibold text-primary">Matem&aacute;ticas que se expresan</h5>
                             <ul class="mb-0">
                                 <li>Redactan el proceso de resoluci&oacute;n de problemas reales.</li>
                                 <li>Graban v&iacute;deos o podcasts explicando c&oacute;mo pensaron.</li>
@@ -97,7 +97,7 @@
                             </ul>
                         </div>
                         <div class="mb-0">
-                            <h5 class="fw-semibold text-primary">Lengua que Comunica</h5>
+                            <h5 class="fw-semibold text-primary">Palabras en Acción</h5>
                             <ul class="mb-0">
                                 <li>Producen contenidos para el peri&oacute;dico o la radio escolar digital.</li>
                                 <li>Escriben guiones y graban podcasts o programas de v&iacute;deo sobre temas de su inter&eacute;s.</li>
@@ -125,12 +125,12 @@
                             </ul>
                         </div>
                         <div class="mb-0">
-                            <h5 class="fw-semibold text-primary">Reuni&oacute;n Cero (Punto de Partida)</h5>
+                            <h5 class="fw-semibold text-primary">Reuni&oacute;n Cero</h5>
                             <p class="mb-0" style="text-align:justify;">
-                                En la sesi&oacute;n inicial de septiembre:
+                                En la sesi&oacute;n inicial de octubre:
                             </p>
                             <ul class="mb-0">
-                                <li>Se forma al equipo docente en la metodolog&iacute;a de sprints.</li>
+                                <li>Se forma al equipo docente.</li>
                                 <li>Se prepara la plataforma y los materiales comunes.</li>
                                 <li>Se co-dise&ntilde;a la primera mini-unidad del trimestre.</li>
                             </ul>

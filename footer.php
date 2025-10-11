@@ -27,7 +27,7 @@ echo "<div class='container-fluid bg-dark text-body footer pt-3 wow fadeIn' data
             </div>
             <div class='col-lg-4 col-md-6 pt-3 pb-4'>
                 <!--h5 class='text-light mb-4'>Contacto</h5-->
-                <p><a href='mailto:dgmakers@gruposdedesarrollo.es' style='color: white; font-size: medium; font-style: ita;'><i class='fa fa-envelope' aria-hidden='true'></i> dgmakers@gruposdedesarrollo.es</a></p>
+                <p><a href='mailto:dgmakers@iesalcantara.es' style='color: white; font-size: medium; font-style: ita;'><i class='fa fa-envelope' aria-hidden='true'></i> dgmakers@gruposdedesarrollo.es</a></p>
                 <div class='d-flex pt-2'>
                     <a class='btn btn-square btn-outline-secondary rounded-circle me-1' href='https://twitter.com/IesAlcantara'><i
                             class='fab fa-twitter'></i></a>
