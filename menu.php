@@ -16,6 +16,7 @@ echo "<nav class='navbar navbar-expand-lg navbar-dark py-2 sticky-top'>
                         <ul class='dropdown-menu' aria-labelledby='navbarDropdown'>
                             <li><a class='dropdown-item' href='https://gdmuseos.iesalcantara.es' target='_blank'>GDMuseos</a></li>
                             <li><a class='dropdown-item' href='$pages/proyectos/GDPatrimonio.php'>GDPatrimonio</a></li>
+                            
                             <li class='dropdown-submenu'>
                                 <a class='dropdown-item dropdown-toggle' href='#'>DGMakers</a>
                                 <ul class='dropdown-menu'>
