@@ -134,7 +134,7 @@
             <div class="row gy-4 mb-5 fact-item align-items-center" id="ritmo-semanal">
                 <div class="col-lg-7 order-lg-2 wow fadeInUp" data-wow-delay="1.1s">
                     <div class="h-100">
-                        <h6 class="section-title bg-white text-start text-primary pe-3">Ritmo semanal (agenda tipo 60’)</h6>
+                        <h6 class="section-title bg-white text-start text-primary pe-3">Ritmo semanal (agenda tipo 50’)</h6>
                         <ul class="mb-0" style="text-align:justify;">
                             <li><strong>15’ Stand-up:</strong> qué hice / bloqueo / siguiente paso.</li>
                             <li><strong>30’ Maker time:</strong> construir, testear, iterar.</li>
@@ -159,7 +159,7 @@
                     </div>
                 </div>
                 <div class="col-lg-5 wow fadeInUp" data-wow-delay="1.4s">
-                    <img src="../../img/project-4.jpg" class="img-fluid rounded shadow-sm" alt="Prototipos creados por el equipo DGMakers">
+                    <img src="https://dgmakers.iesalcantara.es/img/4Inclusion/iTEA2.png" class="img-fluid rounded shadow-sm" alt="Prototipos creados por el equipo DGMakers">
                 </div>
             </div>
 
