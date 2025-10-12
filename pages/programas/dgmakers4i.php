@@ -46,7 +46,10 @@
         <div class="container py-5 text-center text-white">
             <h1 class="display-4 fw-bold mb-3">Equipo DGMakers · Cómo empezar</h1>
             <p class="lead mb-4">Selecciona, activa y acompaña a tu equipo DGMakers para crear, documentar y formar a otros centros con impacto real.</p>
-            <a href="#que-es" class="btn btn-light py-2 px-4">Ver guía paso a paso</a>
+            <!-- <a href="#que-es" class="btn btn-light py-2 px-4">Ver guía paso a paso</a>. -->
+             
+             <a href="https://drive.google.com/file/d/1q_2yutPeBob6H5_k7qA2rmynt3BXdgk3/view?usp=share_link" class="btn btn-light py-2 px-4">Ver guía paso a paso</a>
+
         </div>
     </div>
     <!-- Hero End -->
@@ -236,7 +239,7 @@
                         <p class="mb-4" style="text-align:justify;">
                             ¿Te ves dentro? <strong>Únete al equipo DGMakers</strong>, construye cosas que importan y enseña a otros cómo hacerlo.
                         </p>
-                        <a href="#" class="btn btn-outline-primary">Quiero sumarme</a>
+                        <a href="mailto:dgmakers@iesalcantara.es?subject=Quiero%20sumarme%20al%20equipo%20DGMakers" class="btn btn-outline-primary">Quiero sumarme</a>
                     </div>
                 </div>
                 <div class="col-lg-5 order-lg-1 wow fadeInUp" data-wow-delay="2.6s">
