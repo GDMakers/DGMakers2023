@@ -227,8 +227,8 @@
                         </ol>
                     </div>
                 </div>
-                <div class="col-lg-5 wow fadeInUp" data-wow-delay="2.4s">
-                    <img src="https://cdn.pixabay.com/photo/2013/07/13/11/27/calendar-158194_1280.png" class="img-fluid rounded shadow-sm" alt="Calendario de lanzamiento del equipo DGMakers">
+                <div class="col-lg-5 wow fadeInUp text-center" data-wow-delay="2.4s">
+                    <img src="https://cdn.pixabay.com/photo/2013/07/13/11/27/calendar-158194_1280.png" class="img-fluid rounded shadow-sm" style="width: 50%; min-width: 180px;" alt="Calendario de lanzamiento del equipo DGMakers">
                 </div>
             </div>
 
