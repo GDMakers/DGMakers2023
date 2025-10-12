@@ -59,7 +59,7 @@
                         </ul>
                     </div>
                     <div class="col-lg-6 text-center">
-                        <img class="img-fluid metodologia-image" src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Estudiantes creando con tecnología">
+                        <img class="img-fluid metodologia-image" src="img/creando.png" alt="Estudiantes creando con tecnología">
                     </div>
                 </div>
             </section>
@@ -76,7 +76,7 @@
                         </ul>
                     </div>
                     <div class="col-lg-6 text-center">
-                        <img class="img-fluid metodologia-image" src="https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Fórmulas matemáticas en una pizarra">
+                        <img class="img-fluid metodologia-image" src="img/matematicas.png" alt="Fórmulas matemáticas en una pizarra">
                     </div>
                 </div>
             </section>
@@ -93,7 +93,7 @@
                         </ul>
                     </div>
                     <div class="col-lg-6 text-center">
-                        <img class="img-fluid metodologia-image" src="https://images.unsplash.com/photo-1580408193904-7ff6c08a91dc?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Estudio de podcast con micrófono profesional">
+                        <img class="img-fluid metodologia-image" src="img/lengua.png" alt="Estudio de podcast con micrófono profesional">
                     </div>
                 </div>
             </section>
@@ -101,7 +101,7 @@
             <section class="metodologia-block">
                 <div class="row g-5 align-items-center flex-lg-row-reverse">
                     <div class="col-lg-6">
-                        <h2 class="text-primary mb-3">Ciclo 1-2-3 (sprints)</h2>
+                        <h2 class="text-primary mb-3">Ciclo 1-2-3</h2>
                         <p class="mb-4"><strong>Diseñar → Crear → Compartir</strong> en 3 semanas.</p>
                         <ul class="arrow-list">
                             <li>Diseño: objetivo, criterios y entregable.</li>
@@ -110,7 +110,7 @@
                         </ul>
                     </div>
                     <div class="col-lg-6 text-center">
-                        <img class="img-fluid metodologia-image" src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Planificación creativa con notas adhesivas">
+                        <img class="img-fluid metodologia-image" src="img/ciclo.png" alt="Planificación creativa con notas adhesivas">
                     </div>
                 </div>
             </section>
@@ -127,7 +127,7 @@
                         </ul>
                     </div>
                     <div class="col-lg-6 text-center">
-                        <img class="img-fluid metodologia-image" src="https://images.unsplash.com/photo-1580894906472-6b9c944c6af1?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Edición de vídeo en un portátil">
+                        <img class="img-fluid metodologia-image" src="img/publico.png" alt="Edición de vídeo en un portátil">
                     </div>
                 </div>
             </section>
@@ -144,7 +144,7 @@
                         </ul>
                     </div>
                     <div class="col-lg-6 text-center">
-                        <img class="img-fluid metodologia-image" src="https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Equipo de estudiantes colaborando con portátiles">
+                        <img class="img-fluid metodologia-image" src="img/mentorias.png" alt="Equipo de estudiantes colaborando con portátiles">
                     </div>
                 </div>
             </section>
@@ -161,7 +161,7 @@
                         </ul>
                     </div>
                     <div class="col-lg-6 text-center">
-                        <img class="img-fluid metodologia-image" src="https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Panel de datos y dashboards en pantallas">
+                        <img class="img-fluid metodologia-image" src="img/evaluacion.png" alt="Panel de datos y dashboards en pantallas">
                     </div>
                 </div>
             </section>
@@ -178,7 +178,7 @@
                         </ul>
                     </div>
                     <div class="col-lg-6 text-center">
-                        <img class="img-fluid metodologia-image" src="https://images.unsplash.com/photo-1600267165548-9a9f04b66f6d?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Equipo diverso trabajando con tecnología">
+                        <img class="img-fluid metodologia-image" src="img/accesibilidad.png" alt="Equipo diverso trabajando con tecnología">
                     </div>
                 </div>
             </section>
