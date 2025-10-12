@@ -77,6 +77,7 @@
                         <p class="mb-4" style="text-align:justify;">
                             <ul>
                                 <li><b>Lugar</b>: IES Alcántara</li>
+                                <li><b>Fecha</b>: 6 Noviembre</li>
                                 <li><b>Horario</b>: 09:00 – 13:15</li>
                                 <li><b>Público</b>: DGMakers + Educación Especial</li>
                                 <li><b>Vibe</b>: colaborativo, creativo y muy tech</li>
@@ -94,59 +95,134 @@
                 <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="h-100">
                         <h6 class="section-title bg-white text-start text-primary pe-3 wow fadeInLeftBig">Programa express</h6>
-
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-sm-4 col-md-4 fact-item">
-                                    <p><b>09:00 – 09:20 · Kick-off Show</b></p>
-                                    <ul>
-                                        <li>Bienvenida rápida en el salón de actos.</li>
-                                        <li>Reto del día: crear algo inclusivo listo para usar mañana.</li>
-                                        <li>Icebreaker con emojis para formar equipos al vuelo.</li>
-                                    </ul>
-                                </div>
-                                <div class="col-sm-4 col-md-4 fact-item">
-                                    <p><b>09:30 – 11:00 · Talleres Bloque 1</b></p>
-                                    <ul>
-                                        <li><b>Minecraft Inclusion Lab</b>: mapear rutas accesibles con pictos.</li>
-                                        <li><b>3D Factory</b>: diseñar un apoyo rápido en Tinkercad.</li>
-                                        <li><b>Reality Composer Jam</b>: montar guiados AR con mensajes motivadores.</li>
-                                        <li><b>Podcast Studio</b>: grabar un audio “Incluir mola” de 3 minutos.</li>
-                                    </ul>
-                                </div>
-                                <div class="col-sm-4 col-md-4 fact-item">
-                                    <p><b>11:00 – 11:30 · Break & Meet</b></p>
-                                    <ul>
-                                        <li>Zona chill con música suave y snack compartido.</li>
-                                        <li>Speed-friendship: descubre el superpoder tech de tu compi.</li>
-                                    </ul>
-                                </div>
-                            </div>
+                        <p class="mb-4" style="text-align:justify;">
+                            Cada hora se activan cuatro talleres en paralelo. Elige aula, completa el reto rápido y comparte resultados en la nube 4Inclusion antes de moverte a la siguiente parada.
+                        </p>
+                        <div class="alert alert-primary" role="alert">
+                            <strong>09:00 – 09:15 · Kick-off en Salón de actos</strong> · Bienvenida, reto del día y formación de equipos mixtos DGMakers + EE.
                         </div>
 
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-sm-4 col-md-4 fact-item">
-                                    <p><b>11:30 – 13:00 · Talleres Bloque 2</b></p>
-                                    <ul>
-                                        <li><b>Vídeo Express</b>: tutorial inclusivo de 45 segundos con subtítulos</li>
-                                        <li><b>Theatre Hack</b>: micro-escenas con soluciones creativas.</li>
-                                        <li><b>Music & Beat Lab</b>: jingle “Crea sin límites” en 15 segundos.</li>
-                                    </ul>
-                                </div>
-                                <div class="col-sm-4 col-md-4 fact-item">
-                                    <p><b>13:00 – 13:15 · Closing Flash</b></p>
-                                    <ul>
-                                        <li>Cada equipo comparte su demo en 1 minuto.</li>
-                                        <li>Reto final: subir el proyecto en 24 h y ganar tu badge 4Inclusion.</li>
-                                    </ul>
-                                </div>
-                                <div class="col-sm-4 col-md-4 fact-item">
-                                    </div>
-                                </div>                                                        
-                            </div>
+                        <div class="table-responsive">
+                            <table class="table table-striped align-middle">
+                                <thead class="table-primary">
+                                    <tr>
+                                        <th scope="col">Horario</th>
+                                        <th scope="col">Aula DGMakers</th>
+                                        <th scope="col">Aula 0A04</th>
+                                        <th scope="col">Aula 0A06</th>
+                                        <th scope="col">Salón de actos</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">09:15 – 10:15</th>
+                                        <td>
+                                            <ul class="mb-0">
+                                                <li>Escaneado, modelado (CrealityScan) e impresión 3D</li>
+                                                <li>Diseño e impresión 3D</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul class="mb-0">
+                                                <li>Animación de objetos 3D en Blender</li>
+                                                <li>Diseño 3D con Tinkercad</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul class="mb-0">
+                                                <li>Realidad aumentada con Reality Composer</li>
+                                                <li>Creación de entorno 3D e interacciones en Roblox Estudio</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul class="mb-0">
+                                                <li>Vídeo Podcast</li>
+                                                <li>Doblaje</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">10:15 – 11:15</th>
+                                        <td>
+                                            <ul class="mb-0">
+                                                <li>Gafas de Realidad Virtual y vídeo 360º</li>
+                                                <li>Edición vídeo y croma (OBS o iPad)</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul class="mb-0">
+                                                <li>MBot2</li>
+                                                <li>Arduino</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul class="mb-0">
+                                                <li>Minecraft</li>
+                                                <li>Programación Scratch</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul class="mb-0">
+                                                <li>App Inventor</li>
+                                                <li>Diseño web</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">11:15 – 12:15</th>
+                                        <td>
+                                            <ul class="mb-0">
+                                                <li>IA para rendimiento académico</li>
+                                                <li>Microbit</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul class="mb-0">
+                                                <li>Construcción filtros de agua</li>
+                                                <li>Jabón casero</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul class="mb-0">
+                                                <li>Chapas</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul class="mb-0">
+                                                <li>Música/Teatro</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">12:15 – 13:15</th>
+                                        <td>
+                                            <ul class="mb-0">
+                                                <li>Lumio Smart TV</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul class="mb-0">
+                                                <li>Construye tu amuleto egipcio</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul class="mb-0">
+                                                <li>Cortadora Láser</li>
+                                            </ul>
+                                        </td>
+                                        <td>
+                                            <ul class="mb-0">
+                                                <li>Juegos y deporte</li>
+                                            </ul>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
 
+                        <div class="alert alert-primary mt-4" role="alert">
+                            <strong>13:15 · Closing Flash</strong> · Demo en 60 segundos por equipo, subida de materiales y entrega de badges 4Inclusion.
+                        </div>
                     </div>
                 </div>
             </div>
