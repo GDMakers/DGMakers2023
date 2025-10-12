@@ -191,7 +191,7 @@
                     </div>
                 </div>
                 <div class="col-lg-5 wow fadeInUp" data-wow-delay="1.8s">
-                    <img src="../../img/project-6.jpg" class="img-fluid rounded shadow-sm" alt="Indicadores de impacto del equipo DGMakers">
+                    <img src="https://images.unsplash.com/photo-1759884247134-89b8fc25f726?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2574" class="img-fluid rounded shadow-sm" alt="Indicadores de impacto del equipo DGMakers">
                 </div>
             </div>
 
