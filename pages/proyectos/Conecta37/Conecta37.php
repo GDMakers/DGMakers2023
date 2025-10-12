@@ -30,6 +30,21 @@
 
     <!-- Template Stylesheet -->
     <link href="../../../css/style.css" rel="stylesheet">
+    <style>
+        .btn-conecta37 {
+            background-color: #015183;
+            border-color: #015183;
+            color: #ffffff;
+            transition: background-color .3s ease, color .3s ease, border-color .3s ease;
+        }
+
+        .btn-conecta37:hover,
+        .btn-conecta37:focus {
+            background-color: #ffffff;
+            border-color: var(--primary-hover);
+            color: var(--primary-hover);
+        }
+    </style>
 </head>
 
 <body>
@@ -41,10 +56,16 @@
         include "../../../menu.php";      // incluye el menu comun
     ?>
 
-    <div class="container-fluid bg-primary py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container-fluid hero-conecta py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5 text-center">
             <h1 class="display-4 text-white mb-3">Proyecto Conecta 37</h1>
             <p class="lead text-white mb-0">Transformaci&oacute;n digital enfocada en la calidad del aprendizaje y con evidencias.</p>
+            <div class="d-flex flex-wrap justify-content-center gap-2 mt-4">
+                <a href="Conecta37.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Visi&oacute;n general</a>
+                <a href="Encuentro37.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Jornadas 26</a>
+                <a href="Livehub37.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Live Hub</a>
+                <a href="Recursos37.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Showcase de proyectos</a>
+            </div>
         </div>
     </div>
 
@@ -85,7 +106,7 @@
                             <h5 class="fw-semibold text-primary">Aprender Creando</h5>
                             <p class="mb-0" style="text-align:justify;">
                                 El alumnado aprende haciendo: investiga, dise&ntilde;a y comunica lo aprendido. Cada reto termina con un producto
-                                p&uacute;blico (&mdash;un v&iacute;deo, podcast, infograf&iacute;a o presentaci&oacute;n&mdash;) que muestra lo que sabe.
+                                p&uacute;blico: un v&iacute;deo, podcast, infograf&iacute;a o presentaci&oacute;n,  que muestra lo que sabe.
                             </p>
                         </div>
                         <div class="mb-4">
@@ -105,9 +126,12 @@
                             </ul>
                         </div>
                         <p class="mt-4 mb-0" style="text-align:justify;">
-                            Lengua y Matem&aacute;ticas son obligatorias, pero se suman otras &aacute;reas (Ciencias, Historia, Arte, STEAM)
+                            Lengua y Matem&aacute;ticas son obligatorias, pero se suman otras &aacute;reas (Ciencias, Historia, Inglés...)
                             para crear proyectos interdisciplinares.
                         </p>
+                        <div class="mt-3">
+                            <a href="Metodologia37.php" class="btn btn-conecta37 btn-lg">Explorar la metodolog&iacute;a</a>
+                        </div>
                     </div>
                 </div>
             </div>
