@@ -66,7 +66,7 @@
                     </div>
                 </div>
                 <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.2s">
-                    <img src="../../img/DGMakers/dgm1.JPG" class="img-fluid rounded shadow-sm" alt="Estudiantes creando un proyecto DGMakers">
+                    <img src="https://www.iesalcantara.es/img/bg-img/EquipoDis.JPG" class="img-fluid rounded shadow-sm" alt="Estudiantes creando un proyecto DGMakers">
                 </div>
             </div>
 
@@ -82,7 +82,7 @@
                     </div>
                 </div>
                 <div class="col-lg-5 order-lg-1 wow fadeInUp" data-wow-delay="0.4s">
-                    <img src="../../img/DGMakers/dgm2.JPG" class="img-fluid rounded shadow-sm" alt="Selección de estudiantes para el equipo DGMakers">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE088bTpGt3AZOlolCKL6wTlIthipSWkFn4A&s" class="img-fluid rounded shadow-sm" alt="Selección de estudiantes para el equipo DGMakers">
                 </div>
             </div>
 
@@ -114,7 +114,7 @@
                     </div>
                 </div>
                 <div class="col-lg-5 order-lg-1 wow fadeInUp" data-wow-delay="0.8s">
-                    <img src="../../img/project-3.jpg" class="img-fluid rounded shadow-sm" alt="Equipo DGMakers colaborando en proyectos">
+                    <img src="https://fseneca.es/secyt24/wp-content/uploads/2024/07/SeCyT-2024-25.jpg" class="img-fluid rounded shadow-sm" alt="Equipo DGMakers colaborando en proyectos">
                 </div>
             </div>
 
