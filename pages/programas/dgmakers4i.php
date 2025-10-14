@@ -75,9 +75,9 @@
                     <div class="h-100">
                         <h6 class="section-title bg-white text-start text-primary pe-3">Quién puede entrar</h6>
                         <ul class="mb-0" style="text-align:justify;">
-                            <li><strong>Perfiles proactivos</strong>, no solo altas capacidades.</li>
+                            <li><strong>Perfiles proactivos.</strong></li>
                             <li>Ganas de <strong>aprender haciendo</strong> y de <strong>compartir</strong>.</li>
-                            <li>Compromiso semanal (reunión fija y entregables breves).</li>
+                            <li>Compromiso (reunión fija y entregables).</li>
                         </ul>
                     </div>
                 </div>
@@ -93,8 +93,9 @@
                         <ol class="mb-0" style="text-align:justify;">
                             <li><strong>Convocatoria abierta</strong> (cartel + formulario con 3 preguntas).</li>
                             <li><strong>Micro-reto</strong> de 48 h (p. ej., “explica algo en 60 s”).</li>
-                            <li><strong>Mini-entrevista</strong> (5 min): motivación, tiempo, rol.</li>
+                            <li><strong>Mini-entrevista</strong>: motivación, tiempo, rol.</li>
                         </ol>
+                        <p>Para comenzar seleccionar a 4 o 5 candidatos.</p>
                     </div>
                 </div>
                 <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.6s">
@@ -107,9 +108,10 @@
                     <div class="h-100">
                         <h6 class="section-title bg-white text-start text-primary pe-3">Compromisos del equipo</h6>
                         <ul class="mb-0" style="text-align:justify;">
-                            <li><strong>Quedar 1 vez/semana</strong> (60–75 min): formarse y producir.</li>
-                            <li><strong>Formar a otros</strong>: talleres internos y entre centros.</li>
-                            <li><strong>Publicar</strong>: proyectos, guías y plantillas reutilizables.</li>
+                            <li><strong>Aprender para enseñar</strong>: formarse y producir.</li>
+                            <li><strong>Impartir talleres</strong>: talleres internos y entre centros.</li>
+                            <li><strong>Todos aprenden todo</strong>.</li>
+                            <li><strong>Compartir</strong>: proyectos, guías y plantillas reutilizables.</li>
                         </ul>
                     </div>
                 </div>
@@ -121,12 +123,8 @@
             <div class="row gy-4 mb-5 fact-item align-items-center" id="roles">
                 <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.9s">
                     <div class="h-100">
-                        <h6 class="section-title bg-white text-start text-primary pe-3">Roles (elige 3 por equipo)</h6>
-                        <ul class="mb-0" style="text-align:justify;">
-                            <li><strong>Tech Lead:</strong> prototipa y documenta.</li>
-                            <li><strong>Media Lead:</strong> guion, vídeo/podcast e imagen.</li>
-                            <li><strong>Outreach Lead:</strong> coordina talleres y publicaciones.</li>
-                        </ul>
+                        <h6 class="section-title bg-white text-start text-primary pe-3">Roles</h6>
+                        <p>Cada estudiante desarrolla sus habilidades más potentes.</p>
                     </div>
                 </div>
                 <div class="col-lg-5 wow fadeInUp" data-wow-delay="1.0s">
@@ -137,11 +135,11 @@
             <div class="row gy-4 mb-5 fact-item align-items-center" id="ritmo-semanal">
                 <div class="col-lg-7 order-lg-2 wow fadeInUp" data-wow-delay="1.1s">
                     <div class="h-100">
-                        <h6 class="section-title bg-white text-start text-primary pe-3">Ritmo semanal (agenda tipo 50’)</h6>
+                        <h6 class="section-title bg-white text-start text-primary pe-3">Ritmo semanal</h6>
                         <ul class="mb-0" style="text-align:justify;">
-                            <li><strong>15’ Stand-up:</strong> qué hice / bloqueo / siguiente paso.</li>
-                            <li><strong>30’ Maker time:</strong> construir, testear, iterar.</li>
-                            <li><strong>15’ Share:</strong> subir avances + checklist de calidad.</li>
+                            <li><strong>Situar:</strong> qué hice / bloqueo / siguiente paso.</li>
+                            <li><strong>Desarrollar:</strong> construir, testear, iterar.</li>
+                            <li><strong>Compartir:</strong> subir avances + checklist de calidad.</li>
                         </ul>
                     </div>
                 </div>
@@ -171,8 +169,8 @@
                     <div class="h-100">
                         <h6 class="section-title bg-white text-start text-primary pe-3">Cómo formamos a otros</h6>
                         <ul class="mb-0" style="text-align:justify;">
-                            <li><strong>Taller express (30–45’):</strong> demo + práctica + QR a materiales.</li>
-                            <li><strong>Mentoría entre pares:</strong> “2 pluses y 1 pregunta” por equipo.</li>
+                            <li><strong>Taller express:</strong> demo + práctica + QR a materiales.</li>
+                            <li><strong>DGMakers especialistas:</strong> puedes recurrir cuando tienes dudas.</li>
                             <li><strong>Repositorio común:</strong> todo con licencias abiertas.</li>
                         </ul>
                     </div>
@@ -185,11 +183,11 @@
             <div class="row gy-4 mb-5 fact-item align-items-center" id="indicadores">
                 <div class="col-lg-7 wow fadeInUp" data-wow-delay="1.7s">
                     <div class="h-100">
-                        <h6 class="section-title bg-white text-start text-primary pe-3">Indicadores simples (KPI)</h6>
+                        <h6 class="section-title bg-white text-start text-primary pe-3">Indicadores simples</h6>
                         <ul class="mb-0" style="text-align:justify;">
-                            <li><strong>1 proyecto/mes</strong> publicado en la galería.</li>
-                            <li><strong>1 taller/trimestre</strong> impartido a otros grupos/centros.</li>
-                            <li><strong>1 mejora/semana</strong> registrada (changelog breve).</li>
+                            <li><strong>1 proyecto</strong> publicado en la galería.</li>
+                            <li><strong>1 taller</strong> impartido a otros grupos/centros.</li>
+                            
                         </ul>
                     </div>
                 </div>
@@ -219,10 +217,10 @@
             <div class="row gy-4 mb-5 fact-item align-items-center" id="calendario">
                 <div class="col-lg-7 wow fadeInUp" data-wow-delay="2.3s">
                     <div class="h-100">
-                        <h6 class="section-title bg-white text-start text-primary pe-3">Calendario de arranque (30 días)</h6>
+                        <h6 class="section-title bg-white text-start text-primary pe-3">Calendario de arranque</h6>
                         <ol class="mb-0" style="text-align:justify;">
                             <li><strong>Semana 1:</strong> selección + reunión cero (roles, normas, plantillas).</li>
-                            <li><strong>Semana 2–3:</strong> primer mini-proyecto + material de formación.</li>
+                            <li><strong>Semana 2–3:</strong> primer mini-proyecto + formación por parte de otros DGMakers.</li>
                             <li><strong>Semana 4:</strong> taller piloto a otro grupo + publicación en galería.</li>
                         </ol>
                     </div>
