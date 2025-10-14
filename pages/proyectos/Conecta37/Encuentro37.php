@@ -57,6 +57,7 @@
         <div class="row mb-4">
           <div class="col-lg-10 mx-auto text-center">
             <h4 class="section-title bg-white text-primary d-inline-block px-3">Programa & Streaming</h4>
+            <h5 class="card-title mb-1">Febrero 2026</h5>
             <p class="mt-3 mb-0">Formato online · sesiones de 60–90’ · materiales descargables · Q&A en vivo.</p>
           </div>
         </div>
@@ -191,7 +192,7 @@
           <div class="col-lg-7">
             <div class="ratio ratio-16x9 shadow-sm">
               <!-- Sustituye el src por el enlace real del directo -->
-              <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Streaming Jornadas Conecta-37" allowfullscreen></iframe>
+              <iframe src="https://www.youtube.com/embed/yz73wdm_ozM" title="Streaming Jornadas Conecta-37" allowfullscreen></iframe>
             </div>
           </div>
           <div class="col-lg-5">
