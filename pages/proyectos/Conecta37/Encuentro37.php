@@ -30,6 +30,21 @@
 
     <!-- Template Stylesheet -->
     <link href="../../../css/style.css" rel="stylesheet">
+
+    <style>
+        .encuentro-card-img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            object-position: center;
+        }
+
+        @media (min-width: 992px) {
+            .encuentro-card-img {
+                height: 240px;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -68,7 +83,7 @@
           <!-- Sesión 1 -->
           <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.05s">
             <div class="card h-100 shadow-sm">
-              <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1864" class="card-img-top" alt="Enseñar en digital con propósito">
+              <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1864" class="card-img-top encuentro-card-img" alt="Enseñar en digital con propósito">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title mb-1">Enseñar en digital con propósito</h5>
                 <p class="mb-2"><span class="badge bg-primary">Metodología</span> <span class="badge bg-secondary">Producto público</span></p>
@@ -88,7 +103,7 @@
           <!-- Sesión 2 -->
           <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
             <div class="card h-100 shadow-sm">
-              <img src="https://images.pexels.com/photos/7743253/pexels-photo-7743253.jpeg?_gl=1*1yb2vyl*_ga*MTY3Nzk3MjE3My4xNzYwNDUxMjcy*_ga_8JE65Q40S6*czE3NjA0NTEyNzEkbzEkZzEkdDE3NjA0NTEzMDQkajI3JGwwJGgw" class="card-img-top" alt="Matemáticas que se expresan">
+              <img src="https://images.pexels.com/photos/7743253/pexels-photo-7743253.jpeg?_gl=1*1yb2vyl*_ga*MTY3Nzk3MjE3My4xNzYwNDUxMjcy*_ga_8JE65Q40S6*czE3NjA0NTEyNzEkbzEkZzEkdDE3NjA0NTEzMDQkajI3JGwwJGgw" class="card-img-top encuentro-card-img" alt="Matemáticas que se expresan">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title mb-1">Matemáticas que se expresan</h5>
                 <p class="mb-2"><span class="badge bg-primary">Matemáticas</span> <span class="badge bg-secondary">Vídeo/Podcast</span></p>
@@ -108,7 +123,7 @@
           <!-- Sesión 3 -->
           <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.15s">
             <div class="card h-100 shadow-sm">
-              <img src="https://images.pexels.com/photos/3184399/pexels-photo-3184399.jpeg" class="card-img-top" alt="Lengua: productos que importan">
+              <img src="https://images.pexels.com/photos/3184399/pexels-photo-3184399.jpeg" class="card-img-top encuentro-card-img" alt="Lengua: productos que importan">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title mb-1">Lengua: productos que importan</h5>
                 <p class="mb-2"><span class="badge bg-primary">Lengua</span> <span class="badge bg-secondary">Comunicación</span></p>
@@ -128,7 +143,7 @@
           <!-- Sesión 4 -->
           <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.05s">
             <div class="card h-100 shadow-sm">
-              <img src="https://images.pexels.com/photos/8850706/pexels-photo-8850706.jpeg" class="card-img-top" alt="Evaluar sin complicarse">
+              <img src="https://images.pexels.com/photos/8850706/pexels-photo-8850706.jpeg" class="card-img-top encuentro-card-img" alt="Evaluar sin complicarse">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title mb-1">Evaluar sin complicarse</h5>
                 <p class="mb-2"><span class="badge bg-primary">Evaluación</span> <span class="badge bg-secondary">Rúbricas 1-página</span></p>
@@ -148,7 +163,7 @@
           <!-- Sesión 5 -->
           <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
             <div class="card h-100 shadow-sm">
-              <img src="https://images.pexels.com/photos/6954220/pexels-photo-6954220.jpeg" class="card-img-top" alt="Herramientas de grabación rápida">
+              <img src="https://images.pexels.com/photos/6954220/pexels-photo-6954220.jpeg" class="card-img-top encuentro-card-img" alt="Herramientas de grabación rápida">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title mb-1">Grabación rápida: vídeo & audio</h5>
                 <p class="mb-2"><span class="badge bg-primary">Taller</span> <span class="badge bg-secondary">Herramientas</span></p>
@@ -168,7 +183,7 @@
           <!-- Sesión 6 -->
           <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.15s">
             <div class="card h-100 shadow-sm">
-              <img src="https://images.unsplash.com/photo-1655993810480-c15dccf9b3a0?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1160" class="card-img-top" alt="Intercentros: casos y mentoría">
+              <img src="https://images.unsplash.com/photo-1655993810480-c15dccf9b3a0?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1160" class="card-img-top encuentro-card-img" alt="Intercentros: casos y mentoría">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title mb-1">Intercentros: casos y mentoría</h5>
                 <p class="mb-2"><span class="badge bg-primary">Colaboración</span> <span class="badge bg-secondary">Mentoría</span></p>
