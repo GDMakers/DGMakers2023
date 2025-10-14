@@ -63,7 +63,7 @@
                         <p class="mb-4" style="text-align:justify;">
                             Descubre en dos minutos cómo activamos equipos DGMakers en los centros y qué impacto buscamos al compartir metodologías y recursos entre alumnado y docentes.
                         </p>
-                        <div class="ratio ratio-16x9">
+                        <div class="ratio ratio-16x9" style="max-width: 600px; margin: 0 auto;">
                             <iframe src="https://www.youtube.com/embed/vITabvM9dEg?si=QPeSD-IEWLsircZ1" title="Equipo DGMakers 4Inclusion" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                     </div>
