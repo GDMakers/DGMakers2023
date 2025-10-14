@@ -74,19 +74,18 @@
                             Conoce quién está dentro. Este bloque presenta a los 5 dúos IES ↔ Educación Especial y enlaza al Directorio completo.
                         </p-->
 
-                        <p class="mb-4" style="text-align:justify;">
-                            <ul>
-                                <li><b>Lugar</b>: IES Alcántara</li>
-                                <li><b>Fecha</b>: 6 Noviembre</li>
-                                <li><b>Horario</b>: 09:00 – 13:15</li>
-                                <li><b>Público</b>: DGMakers + Educación Especial</li>
-                                <li><b>Vibe</b>: colaborativo, creativo y muy tech</li>
-                            </ul>
+                        <ul class="mb-4" style="text-align:justify;">
+                            <li><b>Lugar</b>: IES Alcántara</li>
+                            <li><b>Fecha</b>: 6 Noviembre</li>
+                            <li><b>Horario</b>: 09:00 – 13:15</li>
+                            <li><b>Público</b>: DGMakers + Educación Especial</li>
+                            <li><b>Vibe</b>: colaborativo, creativo y muy tech</li>
+                        </ul>
+                        <p class="wow fadeIn" data-wow-delay="0.5s" style="text-align:center;">
+                            <a class="btn btn-primary" href="https://docs.google.com/spreadsheets/d/150usOMUg_JGZcS__s2Hf2QxezfZFXWT6n6lG6VviGBc/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-pencil-square me-2"></i>Talleres solicitados
+                            </a>
                         </p>
-
-                        <!--p class="wow fadeIn" data-wow-delay="0.5s" style="text-align:center;">
-                            <a class="btn btn-outline-primary" href="directorio-de-centros.php">Ir al Directorio de Centros</a>
-                        </p-->
                     </div>
                 </div>      
             </div>
@@ -99,7 +98,7 @@
                             Cada hora se activan cuatro talleres en paralelo. Elige aula, completa el reto rápido y comparte resultados en la nube 4Inclusion antes de moverte a la siguiente parada.
                         </p>
                         <div class="alert alert-primary" role="alert">
-                            <strong>09:00 – 09:15 · Kick-off en Salón de actos</strong> · Bienvenida, reto del día y formación de equipos mixtos DGMakers + EE.
+                            <strong>10:00 – 10:15 · Kick-off en Salón de actos</strong> · Bienvenida, reto del día y formación de equipos mixtos DGMakers + EE.
                         </div>
 
                         <div class="table-responsive">
@@ -114,35 +113,9 @@
                                     </tr>
                                 </thead>
                                 <tbody>
+                                    
                                     <tr>
-                                        <th scope="row">09:15 – 10:15</th>
-                                        <td>
-                                            <ul class="mb-0">
-                                                <li>Escaneado, modelado (CrealityScan) e impresión 3D</li>
-                                                <li>Diseño e impresión 3D</li>
-                                            </ul>
-                                        </td>
-                                        <td>
-                                            <ul class="mb-0">
-                                                <li>Animación de objetos 3D en Blender</li>
-                                                <li>Diseño 3D con Tinkercad</li>
-                                            </ul>
-                                        </td>
-                                        <td>
-                                            <ul class="mb-0">
-                                                <li>Realidad aumentada con Reality Composer</li>
-                                                <li>Creación de entorno 3D e interacciones en Roblox Estudio</li>
-                                            </ul>
-                                        </td>
-                                        <td>
-                                            <ul class="mb-0">
-                                                <li>Vídeo Podcast</li>
-                                                <li>Doblaje</li>
-                                            </ul>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">10:15 – 11:15</th>
+                                        <th scope="row">10:15 – 11:00</th>
                                         <td>
                                             <ul class="mb-0">
                                                 <li>Gafas de Realidad Virtual y vídeo 360º</li>
@@ -168,8 +141,17 @@
                                             </ul>
                                         </td>
                                     </tr>
+                                    <tr class="table-warning">
+                                        <th scope="row">11:00 – 11:30</th>
+                                        <td colspan="2" class="fw-semibold">
+                                            <i class="bi bi-cup-hot-fill me-2"></i>Pausa creativa &mdash; café para docentes y networking
+                                        </td>
+                                        <td colspan="2">
+                                            Espacio informal para compartir aprendizajes, recargar energías y descubrir cómo replicar los talleres en tu centro.
+                                        </td>
+                                    </tr>
                                     <tr>
-                                        <th scope="row">11:15 – 12:15</th>
+                                        <th scope="row">11:30 – 12:15</th>
                                         <td>
                                             <ul class="mb-0">
                                                 <li>IA para rendimiento académico</li>
@@ -194,7 +176,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">12:15 – 13:15</th>
+                                        <th scope="row">12:15 – 13:00</th>
                                         <td>
                                             <ul class="mb-0">
                                                 <li>Lumio Smart TV</li>

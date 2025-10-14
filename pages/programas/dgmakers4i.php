@@ -56,6 +56,20 @@
 
     <div class="container-xxl py-5">
         <div class="container">
+            <div class="row gy-4 mb-5 fact-item" id="video">
+                <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="h-100">
+                        <h6 class="section-title bg-white text-start text-primary pe-3">Vídeo · Equipo DGMakers</h6>
+                        <p class="mb-4" style="text-align:justify;">
+                            Descubre en dos minutos cómo activamos equipos DGMakers en los centros y qué impacto buscamos al compartir metodologías y recursos entre alumnado y docentes.
+                        </p>
+                        <div class="ratio ratio-16x9">
+                            <iframe src="https://www.youtube.com/embed/vITabvM9dEg?si=QPeSD-IEWLsircZ1" title="Equipo DGMakers 4Inclusion" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="row gy-4 mb-5 fact-item align-items-center" id="que-es">
                 <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="h-100">
@@ -177,6 +191,58 @@
                 </div>
                 <div class="col-lg-5 order-lg-1 wow fadeInUp" data-wow-delay="1.6s">
                     <img src="../../img/Talleres/WorkshopBots.PNG" class="img-fluid rounded shadow-sm" alt="Taller impartido por el equipo DGMakers">
+                </div>
+            </div>
+
+            <div class="row gy-4 mb-5 fact-item" id="talleres">
+                <div class="col-lg-12 wow fadeInUp" data-wow-delay="1.7s">
+                    <div class="h-100">
+                        <h6 class="section-title bg-white text-start text-primary pe-3">Talleres que podemos ofrecer</h6>
+                        <p class="mb-4" style="text-align:justify;">
+                            Adaptamos cada sesión al nivel del grupo y aportamos materiales listos para reutilizar. Estos son los talleres que más nos piden los centros DGMakers:
+                        </p>
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6 mb-3">
+                                <ul class="mb-0">
+                                    <li>Escaneado, modelado (CrealityScan) e impresión 3D</li>
+                                    <li>Animación de objetos 3D en Blender</li>
+                                    <li>Creación de entorno 3D e interacciones en Roblox Estudio</li>
+                                    <li>Diseño 3D con Tinkercad</li>
+                                    <li>Realidad aumentada con Reality Composer</li>
+                                    <li>Vídeo Podcast</li>
+                                    <li>MBot2</li>
+                                    <li>Minecraft</li>
+                                    <li>App Inventor</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4 col-sm-6 mb-3">
+                                <ul class="mb-0">
+                                    <li>Doblaje</li>
+                                    <li>Construcción filtros de agua</li>
+                                    <li>Chapas</li>
+                                    <li>Música/Teatro</li>
+                                    <li>Juegos y deporte</li>
+                                    <li>Jabón casero</li>
+                                    <li>Diseño e impresión 3D</li>
+                                    <li>Gafas de Realidad Virtual y vídeo 360º</li>
+                                    <li>Cortadora Láser</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4 col-sm-6 mb-3">
+                                <ul class="mb-0">
+                                    <li>Edición vídeo y croma, con OBS o con iPad</li>
+                                    <li>Lumio Smart TV</li>
+                                    <li>Arduino</li>
+                                    <li>Diseño web</li>
+                                    <li>Microbit</li>
+                                    <li>IA para rendimiento académico</li>
+                                    <li>Programación Scratch</li>
+                                    <li>Macramé</li>
+                                    <li>Construye tu amuleto egipcio</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
