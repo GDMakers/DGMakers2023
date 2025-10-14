@@ -85,7 +85,7 @@
                                     <p>Trae tu STL y dudas de perfiles. Ajustamos altura de capa, relleno y tiempos. Sal con el perfil listo.</p>
 
                                     <p class="wow fadeIn" data-wow-delay="0.5s" style="text-align:center;">
-                                        <a class="btn btn-outline-primary" href="">Apuntarme</a>
+                                        <a class="btn btn-outline-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSfwl6xtmO-nK08itHusQXtq3hlCGMUsvg75YGJUNV0stG93yw/viewform?usp=pp_url&entry.413747202=Office+Hours+3D" target="_blank">Apuntarme</a>
                                     </p>                                    
                                 </div>
                                 <div class="col-sm-4 col-md-4 fact-item">
@@ -94,7 +94,7 @@
                                     <p>Graba clips de 30–45 s y añade subtítulos claros. Audio limpio, planos estables y mensaje directo.</p>
 
                                     <p class="wow fadeIn" data-wow-delay="0.5s" style="text-align:center;">
-                                        <a class="btn btn-outline-primary" href="">Apuntarme</a>
+                                        <a class="btn btn-outline-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSfwl6xtmO-nK08itHusQXtq3hlCGMUsvg75YGJUNV0stG93yw/viewform?usp=pp_url&entry.413747202=V%C3%ADdeo+%26+Subt%C3%ADtulos+Lab" target="_blank">Apuntarme</a>
                                     </p>                                    
                                 </div>
                                 <div class="col-sm-4 col-md-4 fact-item">
@@ -103,7 +103,7 @@
                                     <p>Carteles lectura fácil + pictos + QR con audio TTS. Señaliza aula, biblioteca o pasillos en una mañana.</p>
 
                                     <p class="wow fadeIn" data-wow-delay="0.5s" style="text-align:center;">
-                                        <a class="btn btn-outline-primary" href="">Apuntarme</a>
+                                        <a class="btn btn-outline-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSfwl6xtmO-nK08itHusQXtq3hlCGMUsvg75YGJUNV0stG93yw/viewform?usp=pp_url&entry.413747202=Se%C3%B1al%C3%A9tica+%26+Pictos" target="_blank">Apuntarme</a>
                                     </p>                                    
                                 </div>
                             </div>
@@ -117,7 +117,7 @@
                                     <p>Speed networking: “busco 3D”, “sé de TTS”, “edito vídeo”. Encuentra pareja de proyecto ya.</p>
 
                                     <p class="wow fadeIn" data-wow-delay="0.5s" style="text-align:center;">
-                                        <a class="btn btn-outline-primary" href="">Apuntarme</a>
+                                        <a class="btn btn-outline-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSfwl6xtmO-nK08itHusQXtq3hlCGMUsvg75YGJUNV0stG93yw/viewform?usp=pp_url&entry.413747202=Match+de+Skills" target="_blank">Apuntarme</a>
                                     </p>                                    
                                 </div>
                                 <div class="col-sm-4 col-md-4 fact-item">
@@ -126,7 +126,7 @@
                                     <p>Presenta tu prototipo en 90 s. Feedback rápido, siguiente sprint decidido. Todo queda en galería.</p>
 
                                     <p class="wow fadeIn" data-wow-delay="0.5s" style="text-align:center;">
-                                        <a class="btn btn-outline-primary" href="">Apuntarme</a>
+                                        <a class="btn btn-outline-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSfwl6xtmO-nK08itHusQXtq3hlCGMUsvg75YGJUNV0stG93yw/viewform?usp=pp_url&entry.413747202=Demo+Day" target="_blank">Apuntarme</a>
                                     </p>                                    
                                 </div>
                                 <div class="col-sm-4 col-md-4 fact-item">
@@ -135,7 +135,7 @@
                                     <p>30 minutos para desbloquear tu proyecto: foco, siguiente paso y checklist de publicación.</p>
 
                                     <p class="wow fadeIn" data-wow-delay="0.5s" style="text-align:center;">
-                                        <a class="btn btn-outline-primary" href="">Apuntarme</a>
+                                        <a class="btn btn-outline-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSfwl6xtmO-nK08itHusQXtq3hlCGMUsvg75YGJUNV0stG93yw/viewform?usp=pp_url&entry.413747202=Mentor%C3%ADas+1:1" target="_blank">Apuntarme</a>
                                     </p>                                    
                                 </div>
                             </div>
@@ -149,7 +149,7 @@
                                     <p>Crea soundboards y audios TTS de frases clave (sí/no, ayuda, pausa). Voz clara y accesible.</p>
 
                                     <p class="wow fadeIn" data-wow-delay="0.5s" style="text-align:center;">
-                                        <a class="btn btn-outline-primary" href="">Apuntarme</a>
+                                        <a class="btn btn-outline-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSfwl6xtmO-nK08itHusQXtq3hlCGMUsvg75YGJUNV0stG93yw/viewform?usp=pp_url&entry.413747202=TTS+%26+Comunicaci%C3%B3n+Aumentativa" target="_blank">Apuntarme</a>
                                     </p>                                    
                                 </div>
                                 <div class="col-sm-4 col-md-4">
