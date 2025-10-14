@@ -19,7 +19,7 @@ echo "<nav class='navbar navbar-expand-lg navbar-dark py-2 sticky-top'>
                             <li class='dropdown-submenu'>
                                 <a class='dropdown-item dropdown-toggle' href='#'>Conecta 37</a>
                                 <ul class='dropdown-menu'>
-                                    <li><a class='dropdown-item' href='$pages/proyectos/Conecta37/index.php'>Proyecto</a></li>
+                                    <li><a class='dropdown-item' href='$pages/proyectos/Conecta37/Conecta37.php'>Proyecto</a></li>
                                     <li><a class='dropdown-item' href='$pages/proyectos/Conecta37/Encuentro37.php'>Jornadas 2026</a></li>
                                     <li><a class='dropdown-item' href='$pages/proyectos/Conecta37/Livehub37.php'>Live Hub</a></li>
                                     <li><a class='dropdown-item' href='$pages/proyectos/Conecta37/Recursos37.php'>Recursos</a></li>
