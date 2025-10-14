@@ -74,7 +74,7 @@
               <!-- Card 1 -->
               <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="card h-100 shadow-sm">
-                  <img src="https://picsum.photos/seed/enc1/800/520" class="card-img-top" alt="Encuentro Matemáticas en vivo">
+                  <img src="https://images.unsplash.com/photo-1526628953301-3e589a6a8b74?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1612" class="card-img-top" alt="Encuentro Matemáticas en vivo">
                   <div class="card-body d-flex flex-column">
                     <h5 class="card-title mb-1">Math Live: Explicar con datos</h5>
                     <p class="mb-2">
@@ -98,7 +98,7 @@
               <!-- Card 2 -->
               <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.15s">
                 <div class="card h-100 shadow-sm">
-                  <img src="https://picsum.photos/seed/enc2/800/520" class="card-img-top" alt="Taller Podcast Escolar">
+                  <img src="https://images.unsplash.com/photo-1589903308904-1010c2294adc?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1740" class="card-img-top" alt="Taller Podcast Escolar">
                   <div class="card-body d-flex flex-column">
                     <h5 class="card-title mb-1">AudioLab: Tu podcast en 60 minutos</h5>
                     <p class="mb-2">
@@ -122,7 +122,7 @@
               <!-- Card 3 -->
               <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
                 <div class="card h-100 shadow-sm">
-                  <img src="https://picsum.photos/seed/enc3/800/520" class="card-img-top" alt="Jornada STEAM Intercentros">
+                  <img src="https://images.unsplash.com/photo-1611117775350-ac3950990985?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1742" class="card-img-top" alt="Jornada STEAM Intercentros">
                   <div class="card-body d-flex flex-column">
                     <h5 class="card-title mb-1">STEAM Jam: Diseña–Construye–Presenta</h5>
                     <p class="mb-2">

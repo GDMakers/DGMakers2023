@@ -148,7 +148,7 @@
           <!-- Sesión 5 -->
           <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
             <div class="card h-100 shadow-sm">
-              <img src="https://picsum.photos/seed/j5/800/520" class="card-img-top" alt="Herramientas de grabación rápida">
+              <img src="https://images.pexels.com/photos/6954220/pexels-photo-6954220.jpeg" class="card-img-top" alt="Herramientas de grabación rápida">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title mb-1">Grabación rápida: vídeo & audio</h5>
                 <p class="mb-2"><span class="badge bg-primary">Taller</span> <span class="badge bg-secondary">Herramientas</span></p>
@@ -168,7 +168,7 @@
           <!-- Sesión 6 -->
           <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.15s">
             <div class="card h-100 shadow-sm">
-              <img src="https://picsum.photos/seed/j6/800/520" class="card-img-top" alt="Intercentros: casos y mentoría">
+              <img src="https://images.unsplash.com/photo-1655993810480-c15dccf9b3a0?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1160" class="card-img-top" alt="Intercentros: casos y mentoría">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title mb-1">Intercentros: casos y mentoría</h5>
                 <p class="mb-2"><span class="badge bg-primary">Colaboración</span> <span class="badge bg-secondary">Mentoría</span></p>

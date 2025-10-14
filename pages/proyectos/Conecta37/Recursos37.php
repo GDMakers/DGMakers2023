@@ -69,7 +69,7 @@
           <!-- PROYECTO 1 -->
           <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
             <div class="card h-100 shadow-sm">
-              <img src="https://picsum.photos/seed/mathcast/800/600" class="card-img-top" alt="MathCast portada">
+              <img src="https://images.pexels.com/photos/5399017/pexels-photo-5399017.jpeg" class="card-img-top" alt="MathCast portada">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title mb-1">MathCast: Números que cuentan historias</h5>
                 <p class="mb-2">
@@ -94,7 +94,7 @@
           <!-- PROYECTO 2 -->
           <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.15s">
             <div class="card h-100 shadow-sm">
-              <img src="https://picsum.photos/seed/urbangeo/800/600" class="card-img-top" alt="GeoVlog portada">
+              <img src="https://images.pexels.com/photos/5077049/pexels-photo-5077049.jpeg" class="card-img-top" alt="GeoVlog portada">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title mb-1">GeoVlog: Mi barrio en 3 capas</h5>
                 <p class="mb-2">
@@ -119,7 +119,7 @@
           <!-- PROYECTO 3 -->
           <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
             <div class="card h-100 shadow-sm">
-              <img src="https://picsum.photos/seed/ecoimpact/800/600" class="card-img-top" alt="EcoImpact portada">
+              <img src="https://images.pexels.com/photos/7567222/pexels-photo-7567222.jpeg" class="card-img-top" alt="EcoImpact portada">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title mb-1">EcoImpact: Datos que cambian hábitos</h5>
                 <p class="mb-2">
@@ -219,7 +219,7 @@
           <!-- PROYECTO 7 -->
           <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
             <div class="card h-100 shadow-sm">
-              <img src="https://picsum.photos/seed/finhack/800/600" class="card-img-top" alt="FinHack portada">
+              <img src="https://images.pexels.com/photos/164501/pexels-photo-164501.jpeg" class="card-img-top" alt="FinHack portada">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title mb-1">FinHack: Finanzas en la vida real</h5>
                 <p class="mb-2">
@@ -269,7 +269,7 @@
           <!-- PROYECTO 9 -->
           <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
             <div class="card h-100 shadow-sm">
-              <img src="https://picsum.photos/seed/sportdata/800/600" class="card-img-top" alt="SportData portada">
+              <img src="https://images.pexels.com/photos/24426021/pexels-photo-24426021.jpeg" class="card-img-top" alt="SportData portada">
               <div class="card-body d-flex flex-column">
                 <h5 class="card-title mb-1">SportData: Ciencia del deporte</h5>
                 <p class="mb-2">
