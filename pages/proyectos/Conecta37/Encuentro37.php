@@ -44,6 +44,10 @@
                 height: 240px;
             }
         }
+
+        .accordion-button {
+            font-family: 'Open Sans', 'Segoe UI', system-ui, -apple-system, sans-serif;
+        }
     </style>
 </head>
 
@@ -256,7 +260,7 @@
                     ¿Cómo enviamos dudas o propuestas de sesión?
                   </button>
                 </h2>
-                <div id="a3" class="accordion-collapse collapse" aria-labelledby="q3" data-bs-parent="#faqJornadas">
+                <div id="a3" class="accordion-collapse collapse" aria-labelledby="q1" data-bs-parent="#faqJornadas">
                   <div class="accordion-body">Usa el formulario de propuesta o el canal de la red. Respondemos en menos de 48 h lectivas.</div>
                 </div>
               </div>
