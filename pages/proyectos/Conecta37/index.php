@@ -65,6 +65,7 @@
                 <a href="Encuentro37.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Jornadas 26</a>
                 <a href="Livehub37.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Live Hub</a>
                 <a href="Recursos37.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Showcase de proyectos</a>
+                <a href="Centros.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Centros participantes</a>
             </div>
         </div>
     </div>
@@ -80,6 +81,24 @@
                             Centros de Primaria y Secundaria colaboran para que el alumnado aprenda m&aacute;s y mejor,
                             demostr&aacute;ndolo con evidencias. El foco est&aacute; en Lengua y Matem&aacute;ticas, integrando la
                             tecnolog&iacute;a de forma pr&aacute;ctica y creativa.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row gy-4 mb-5 fact-item">
+                <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.15s">
+                    <div class="h-100">
+                        <h4 class="section-title bg-white text-start text-primary pe-3">Centros participantes</h4>
+                        <ul class="mb-0">
+                            <li>CEIPS Santo Domingo (Madrid)</li>
+                            <li>IES Alc&aacute;ntara (Murcia)</li>
+                            <li>IES Ca&ntilde;ada de las Eras (Murcia)</li>
+                            <li>IES Floridablanca (Murcia)</li>
+                            <li>IES Sangonera la Verde (Murcia)</li>
+                        </ul>
+                        <p class="mt-3 mb-0">
+                            <a href="Centros.php" class="btn btn-conecta37 btn-sm">Conocer los centros y ver sus logotipos</a>
                         </p>
                     </div>
                 </div>
