@@ -138,6 +138,17 @@
     <!-- About Start -->
     <div class="container-xxl py-5">
         <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h6 class="section-title bg-white text-center text-primary px-3">IES ALCÁNTARA</h6>
+                <h1 class="display-6 mb-4">APRENDE PARA ENSEÑAR</h1>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-xxl py-5">
+        <div class="container">
             <div class="row g-5">
             
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
