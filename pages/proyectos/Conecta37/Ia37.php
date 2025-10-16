@@ -86,7 +86,7 @@
                         </ul>
                     </div>
                     <div class="col-lg-6 text-center">
-                        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80" class="ia37-image" alt="Detalla de circuito iluminado con IA">
+                        <img src="https://drive.google.com/thumbnail?id=1LvaoMb0HmH_y0mQ0VX3KMV6gNubBIzsd&sz=w1200" class="ia37-image" alt="Detalle de circuito iluminado con IA">
                     </div>
                 </div>
             </section>
