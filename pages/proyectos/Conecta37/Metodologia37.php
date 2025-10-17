@@ -195,6 +195,11 @@
                             <li><strong>Diseño y construcción creativa de productos,</strong> manteniendo la autoría humana en ideas, decisiones y voz final.</li>
                             <li><strong>Conexión real entre compañeros y comunidad,</strong> asegurando verificación con al menos dos fuentes fiables.</li>
                         </ul>
+                        <div class="text-center">
+                            <a class="btn btn-outline-primary" href="Ia37.php">
+                                Conoce cómo usamos la IA
+                            </a>
+                        </div>
                     </div>
                     <div class="col-lg-6 text-center">
                         <img class="img-fluid metodologia-image" src="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Estudiantes usando IA como apoyo en el aula">
