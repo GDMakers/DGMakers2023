@@ -77,7 +77,7 @@
                     <div class="h-100">
                         <h4 class="section-title bg-white text-start text-primary pe-3">¿Qué es Conecta 37?</h4>
                         <p class="mb-0" style="text-align:justify;">
-                            Conecta-37 es un proyecto de transformaci&oacute;n digital para mejorar los resultados acad&eacute;micos.
+                            Conecta 37 es un proyecto de transformaci&oacute;n digital para mejorar los resultados acad&eacute;micos.
                             Centros de Primaria y Secundaria colaboran para que el alumnado aprenda m&aacute;s y mejor,
                             demostr&aacute;ndolo con evidencias. El foco est&aacute; en Lengua y Matem&aacute;ticas, integrando la
                             tecnolog&iacute;a de forma pr&aacute;ctica y creativa.
