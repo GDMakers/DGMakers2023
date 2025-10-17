@@ -139,7 +139,7 @@
                         <p class="mb-4">Aquí el micro también es del alumnado.</p>
                         <ul class="arrow-list">
                             <li><strong>Student trainers</strong>: explican a otros grupos/centros.</li>
-                            <li>Parejas mentoras: revisan, dan “pluses y preguntas”.</li>
+                            <li>Grupos mentores: revisan, dan “pluses y preguntas”.</li>
                             <li>Turnos cortos: todos pasan por cámara/altavoz.</li>
                         </ul>
                     </div>
@@ -155,7 +155,7 @@
                         <h2 class="text-primary mb-3">Evaluación simple</h2>
                         <p class="mb-4">Medimos para <strong>mejorar</strong>, no para estresar.</p>
                         <ul class="arrow-list">
-                            <li><strong>Pre/Post</strong>para ver progreso.</li>
+                            <li><strong>Pre/Post</strong> para ver progreso.</li>
                             <li>Rúbricas 1-página (producto, escrita, oral).</li>
                             <li>Tablero con datos básicos y logros.</li>
                         </ul>
@@ -179,6 +179,25 @@
                     </div>
                     <div class="col-lg-6 text-center">
                         <img class="img-fluid metodologia-image" src="img/accesibilidad.png" alt="Equipo diverso trabajando con tecnología">
+                    </div>
+                </div>
+            </section>
+
+            <section class="metodologia-block">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6">
+                        <h2 class="text-primary mb-3">IA al servicio del proyecto</h2>
+                        
+                        
+                        <p class="mb-3"><strong>Descubre cómo la IA impulsa cada fase</strong> con un apoyo inteligente para aprender mejor.</p>
+                        <ul class="arrow-list">
+                            <li><strong>Pensamiento crítico y resolución de problemas,</strong>  con transparencia sobre cuándo y cómo se usó la IA.</li>
+                            <li><strong>Diseño y construcción creativa de productos,</strong> manteniendo la autoría humana en ideas, decisiones y voz final.</li>
+                            <li><strong>Conexión real entre compañeros y comunidad,</strong> asegurando verificación con al menos dos fuentes fiables.</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 text-center">
+                        <img class="img-fluid metodologia-image" src="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Estudiantes usando IA como apoyo en el aula">
                     </div>
                 </div>
             </section>

@@ -111,7 +111,7 @@
                         <ul class="mb-0">
                             <li><strong>Mejorar notas y competencias:</strong> demostrar una mejora medible en los resultados acad&eacute;micos.</li>
                             <li><strong>Aprender creando:</strong> cambiar el rol del alumno de consumidor a creador de contenidos.</li>
-                            <li><strong>Dejar capacidad instalada:</strong> equipar al centro con metodolog&iacute;as y recursos sostenibles.</li>
+                            <li><strong>Dejar capacidad instalada:</strong> diseñar modelos replicables por otros centros.</li>
                         </ul>
                     </div>
                 </div>
@@ -125,7 +125,7 @@
                             <h5 class="fw-semibold text-primary">Aprender Creando</h5>
                             <p class="mb-0" style="text-align:justify;">
                                 El alumnado aprende haciendo: investiga, dise&ntilde;a y comunica lo aprendido. Cada reto termina con un producto
-                                p&uacute;blico: un v&iacute;deo, podcast, infograf&iacute;a o presentaci&oacute;n,  que muestra lo que sabe.
+                                p&uacute;blico: un v&iacute;deo, podcast, infograf&iacute;a o presentaci&oacute;n,  donde muestra lo que sabe.
                             </p>
                         </div>
                         <div class="mb-4">
