@@ -72,8 +72,8 @@
 
     <div class="container-xxl py-5">
         <div class="container">
-            <div class="row gy-4 mb-5 fact-item">
-                <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="row gy-4 mb-5 fact-item align-items-center">
+                <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="h-100">
                         <h4 class="section-title bg-white text-start text-primary pe-3">¿Qué es Conecta 37?</h4>
                         <p class="mb-3" style="text-align:justify;">
@@ -86,6 +86,9 @@
                             tecnolog&iacute;a de forma pr&aacute;ctica y creativa.
                         </p>
                     </div>
+                </div>
+                <div class="col-lg-4 text-center wow fadeInUp" data-wow-delay="0.2s">
+                    <img src="img/LogoConecta37.png" alt="Logo Conecta 37" class="img-fluid" style="max-width: 260px;">
                 </div>
             </div>
 
