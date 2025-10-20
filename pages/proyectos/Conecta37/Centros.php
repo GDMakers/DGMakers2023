@@ -82,7 +82,7 @@
                     <div class="h-100">
                         <h4 class="section-title bg-white text-start text-primary pe-3">Conecta 37 es red</h4>
                         <p class="mb-0" style="text-align:justify;">
-                            Esta edición reúne centros de Madrid y Murcia que comparten un objetivo común: mejorar Lengua y Matemáticas demostrando evidencias. Cada logotipo enlaza con la identidad de un centro que aporta equipo directivo, docentes y alumnado a la red Conecta 37.
+                            Esta edición reúne centros de Madrid y Murcia que comparten un objetivo común.
                         </p>
                     </div>
                 </div>
@@ -94,6 +94,16 @@
                         <div class="card-body d-flex flex-column justify-content-center position-relative">
                             <a href="https://www.ceipsantodomingo.com" class="stretched-link d-inline-block mx-auto" target="_blank" rel="noopener noreferrer" aria-label="CEIPS Santo Domingo (Madrid)">
                                 <img src="img/CEIPSSantoDomingo.png" class="img-fluid mx-auto" alt="Logotipo CEIPS Santo Domingo">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                   
+                <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="card border-0 shadow-sm text-center h-100 logo-card">
+                        <div class="card-body d-flex flex-column justify-content-center position-relative">
+                            <a href="https://colegiolitterator.com" class="stretched-link d-inline-block mx-auto" target="_blank" rel="noopener noreferrer" aria-label="Colegio Litterator (Madrid)">
+                                <img src="img/ColegioLitterator.png" class="img-fluid mx-auto" alt="Logotipo Colegio Litterator">
                             </a>
                         </div>
                     </div>
