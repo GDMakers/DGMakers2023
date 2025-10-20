@@ -98,6 +98,7 @@
                         <h4 class="section-title bg-white text-start text-primary pe-3">Centros participantes</h4>
                         <ul class="mb-0">
                             <li>CEIPS Santo Domingo (Madrid)</li>
+                            <li>Colegio Litterator (Madrid)</li>
                             <li>IES Alc&aacute;ntara (Murcia)</li>
                             <li>IES Ca&ntilde;ada de las Eras (Murcia)</li>
                             <li>IES Floridablanca (Murcia)</li>

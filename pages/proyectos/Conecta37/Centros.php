@@ -98,6 +98,16 @@
                         </div>
                     </div>
                 </div>
+                   <div class="row gy-4">
+                <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="card border-0 shadow-sm text-center h-100 logo-card">
+                        <div class="card-body d-flex flex-column justify-content-center position-relative">
+                            <a href="https://colegiolitterator.com" class="stretched-link d-inline-block mx-auto" target="_blank" rel="noopener noreferrer" aria-label="Colegio Litterator (Madrid)">
+                                <img src="img/ColegioLitterator.svg" class="img-fluid mx-auto" alt="Logotipo Colegio Litterator">
+                            </a>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-sm-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="card border-0 shadow-sm text-center h-100 logo-card">
                         <div class="card-body d-flex flex-column justify-content-center position-relative">
