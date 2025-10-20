@@ -32,6 +32,22 @@
     <link href="../../../css/style.css" rel="stylesheet">
 
     <style>
+        .btn-conecta37 {
+            background-color: #015183;
+            border-color: #015183;
+            color: #ffffff;
+            transition: background-color .3s ease, color .3s ease, border-color .3s ease;
+        }
+
+        .btn-conecta37:hover,
+        .btn-conecta37:focus {
+            background-color: #ffffff;
+            border-color: var(--primary-hover);
+            color: var(--primary-hover);
+        }
+    </style>
+
+    <style>
         .encuentro-card-img {
             width: 100%;
             height: 220px;
@@ -65,7 +81,16 @@
         <div class="container py-5 text-center">
             <h1 class="display-4 text-white mb-3">Jornadas Online Conecta 37</h1>
             <p class="lead text-white mb-4">Sesiones cortas, muy prácticas y en directo: enseñar en digital con producto público y evidencias.</p>
-            <a href="#" class="btn btn-light btn-lg"><i class="bi bi-box-arrow-in-right"></i> Inscripción</a>
+            <div class="d-flex flex-wrap justify-content-center gap-2 mt-4">
+                <a href="index.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Visi&oacute;n general</a>
+                <a href="Encuentro37.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1 active" aria-current="page">Jornadas 26</a>
+                <a href="Livehub37.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Live Hub</a>
+                <a href="Recursos37.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Showcase de proyectos</a>
+                <a href="Centros.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Centros participantes</a>
+            </div>
+            <div class="mt-3">
+                <a href="#" class="btn btn-light btn-lg"><i class="bi bi-box-arrow-in-right"></i> Inscripción</a>
+            </div>
         </div>
     </div>
 

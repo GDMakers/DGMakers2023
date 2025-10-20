@@ -30,6 +30,22 @@
 
     <!-- Template Stylesheet -->
     <link href="../../../css/style.css" rel="stylesheet">
+
+    <style>
+        .btn-conecta37 {
+            background-color: #015183;
+            border-color: #015183;
+            color: #ffffff;
+            transition: background-color .3s ease, color .3s ease, border-color .3s ease;
+        }
+
+        .btn-conecta37:hover,
+        .btn-conecta37:focus {
+            background-color: #ffffff;
+            border-color: var(--primary-hover);
+            color: var(--primary-hover);
+        }
+    </style>
 </head>
 
 <body>
@@ -48,6 +64,13 @@
             <p class="lead text-white mb-0">
                 Sube tu proyecto, enseña a tu comunidad y comparte tu talento. Aquí no se guarda: <strong>se lanza</strong>.
             </p>
+            <div class="d-flex flex-wrap justify-content-center gap-2 mt-4">
+                <a href="index.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Visi&oacute;n general</a>
+                <a href="Encuentro37.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Jornadas 26</a>
+                <a href="Livehub37.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Live Hub</a>
+                <a href="Recursos37.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1 active" aria-current="page">Showcase de proyectos</a>
+                <a href="Centros.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Centros participantes</a>
+            </div>
         </div>
     </div>
 
