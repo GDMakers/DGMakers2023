@@ -82,7 +82,7 @@
                     <div class="h-100">
                         <h4 class="section-title bg-white text-start text-primary pe-3">Conecta 37 es red</h4>
                         <p class="mb-0" style="text-align:justify;">
-                            Esta edición reúne centros de Madrid y Murcia que comparten un objetivo común: mejorar Lengua y Matemáticas demostrando evidencias. Cada logotipo enlaza con la identidad de un centro que aporta equipo directivo, docentes y alumnado a la red Conecta 37.
+                            Esta edición reúne centros de Madrid y Murcia que comparten un objetivo común.
                         </p>
                     </div>
                 </div>
