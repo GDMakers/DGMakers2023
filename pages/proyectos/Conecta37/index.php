@@ -77,7 +77,7 @@
                     <div class="h-100">
                         <h4 class="section-title bg-white text-start text-primary pe-3">¿Qué es Conecta 37?</h4>
                         <p class="mb-3" style="text-align:justify;">
-                            <strong>Aprendizaje eficaz, impulsado por tecnología</strong>: Menos tareas mecánicas, más pensamiento y creación.
+                            <strong>Aprendizaje eficaz, impulsado por tecnología</strong>: menos tareas mecánicas, más pensamiento y creación.
                         </p>
                         <p class="mb-0" style="text-align:justify;">
                             Conecta 37 es un proyecto de transformaci&oacute;n digital para mejorar los resultados acad&eacute;micos.
