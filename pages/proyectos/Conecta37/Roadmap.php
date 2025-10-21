@@ -144,7 +144,7 @@
                 </div>
             </div>
 
-            <div class="row gy-4 mb-5 fact-item align-items-center roadmap-today">
+            <div class="row gy-4 mb-5 fact-item align-items-center flex-lg-row-reverse roadmap-today">
                 <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
                     <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80" class="img-fluid roadmap-image" alt="Docentes colaborando en una reunión de lanzamiento">
                 </div>
@@ -164,7 +164,7 @@
                 </div>
             </div>
 
-            <div class="row gy-4 mb-5 fact-item align-items-center flex-lg-row-reverse roadmap-next">
+            <div class="row gy-4 mb-5 fact-item align-items-center roadmap-next">
                 <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
                     <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80" class="img-fluid roadmap-image" alt="Docentes co-diseñando contenidos en una mesa de trabajo">
                 </div>
