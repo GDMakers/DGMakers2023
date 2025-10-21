@@ -255,19 +255,19 @@
                                         <th scope="row">Cata de aromas</th>
                                         <td>IES FLORIDABLANCA</td>
                                         <td>Los asistentes identificarán por el olfato diferentes aceites esenciales.</td>
-                                        <td>Nada ;)</td>
+                                        <td>&mdash;</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">Crea tu amuleto egipcio</th>
                                         <td>IES FLORIDABLANCA</td>
                                         <td>Los asistentes crearán con arcilla su propio amuleto egipcio.</td>
-                                        <td>Nada ;)</td>
+                                        <td>&mdash;</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">Danzas del Mundo</th>
                                         <td>IES FLORIDABLANCA</td>
                                         <td>La profesora de música y 15 alumnos nos harán bailar danzas de diferentes partes del mundo.</td>
-                                        <td>Nada ;)</td>
+                                        <td>&mdash;</td>
                                     </tr>
                                 </tbody>
                             </table>
