@@ -133,7 +133,7 @@
                 </div>
                 <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.15s">
                     <div class="h-100">
-                        <h4 class="section-title bg-white text-start text-primary pe-3">Code Zero · Idea en marcha</h4>
+                        <h4 class="section-title bg-white text-start text-primary pe-3">Code Zero</h4>
                         <h5>MAY 25</h5>
                         <ul class="mb-0" style="display: flex; flex-direction: column; gap: 0.6rem;">
                             <li><strong>Reconexión con centros:</strong> mapa de personas clave y canales de coordinación.</li>
@@ -150,7 +150,7 @@
                 </div>
                 <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="h-100">
-                        <h4 class="section-title bg-white text-start text-primary pe-3">Reuni&oacute;n 0 · Kickoff Conecta 37</h4>
+                        <h4 class="section-title bg-white text-start text-primary pe-3">Reuni&oacute;n 0 · Kickoff</h4>
                         <h5>22 OCT 25</h5>
                         <ul class="mb-0" style="display: flex; flex-direction: column; gap: 0.75rem;">
                             <li><strong>Equipo activado:</strong> equipos docentes por centro y t&aacute;ndems intercentros definidos.</li>
@@ -170,7 +170,7 @@
                 </div>
                 <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="h-100 roadmap-step">
-                        <h4 class="section-title bg-white text-start text-primary pe-3">Reuni&oacute;n 1 · Co-dise&ntilde;o de contenidos</h4>
+                        <h4 class="section-title bg-white text-start text-primary pe-3">Reuni&oacute;n 1 · Activate Mode</h4>
                         <h5>12 NOV 25</h5>
                         <ul class="mb-0">
                             <li><strong>Sprint planning:</strong> Lengua + Matem&aacute;ticas obligatorias, &aacute;reas extra bienvenidas.</li>
