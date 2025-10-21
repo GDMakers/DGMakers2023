@@ -59,6 +59,8 @@
         .roadmap-step h4,
         .roadmap-step h5 {
             margin-bottom: 1rem;
+            color: #0a558c;
+            font-weight: 600;
         }
 
         .roadmap-step ul {
@@ -68,6 +70,33 @@
 
         .roadmap-step ul li {
             margin-bottom: 0.4rem;
+        }
+
+        .roadmap-idea {
+            background: rgba(1, 81, 131, 0.08);
+            border-radius: 16px;
+            padding: 2rem 1.5rem;
+        }
+
+        .roadmap-today {
+            border-left: 6px solid #0a558c;
+            background: rgba(10, 85, 140, 0.08);
+            border-radius: 16px;
+            padding: 2rem 1.5rem;
+        }
+
+        .roadmap-today img {
+            border-radius: 16px;
+        }
+
+        .roadmap-next {
+            opacity: 0.85;
+            position: relative;
+            overflow: hidden;
+
+            border: 1px dashed rgba(1, 81, 131, 0.35);
+            border-radius: 16px;
+            padding: 2rem 1.5rem;
         }
     </style>
 </head>
@@ -98,7 +127,24 @@
 
     <div class="container-xxl py-5">
         <div class="container">
-            <div class="row gy-4 mb-5 fact-item align-items-center">
+            <div class="row gy-4 mb-5 fact-item align-items-center roadmap-idea">
+                <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.05s">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80" class="img-fluid roadmap-image" alt="Primer contacto e idea inicial">
+                </div>
+                <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.15s">
+                    <div class="h-100">
+                        <h4 class="section-title bg-white text-start text-primary pe-3">Code Zero · Idea en marcha</h4>
+                        <h5>MAY 25</h5>
+                        <ul class="mb-0" style="display: flex; flex-direction: column; gap: 0.6rem;">
+                            <li><strong>Reconexión con centros:</strong> mapa de personas clave y canales de coordinación.</li>
+                            <li><strong>Necesidades detectadas:</strong> retos prioritarios en Lengua y Matemáticas.</li>
+                            <li><strong>Hoja de ruta preliminar:</strong> calendario de trabajo y compromisos por centro.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row gy-4 mb-5 fact-item align-items-center roadmap-today">
                 <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
                     <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80" class="img-fluid roadmap-image" alt="Docentes colaborando en una reunión de lanzamiento">
                 </div>
@@ -118,7 +164,7 @@
                 </div>
             </div>
 
-            <div class="row gy-4 mb-5 fact-item align-items-center flex-lg-row-reverse">
+            <div class="row gy-4 mb-5 fact-item align-items-center flex-lg-row-reverse roadmap-next">
                 <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
                     <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80" class="img-fluid roadmap-image" alt="Docentes co-diseñando contenidos en una mesa de trabajo">
                 </div>
