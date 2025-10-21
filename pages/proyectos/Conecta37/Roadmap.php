@@ -105,7 +105,7 @@
                 <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="h-100">
                         <h4 class="section-title bg-white text-start text-primary pe-3">Reuni&oacute;n 0 · Kickoff Conecta 37</h4>
-                        <ul class="mb-0">
+                        <ul class="mb-0" style="display: flex; flex-direction: column; gap: 0.75rem;">
                             <li><strong>Equipo activado:</strong> equipos docentes por centro y t&aacute;ndems intercentros definidos.</li>
                             <li><strong>Ecosistema digital preparado:</strong> plataforma com&uacute;n, carpetas, permisos y plantillas.</li>
                             <li><strong>Metodolog&iacute;a en acci&oacute;n:</strong> ciclo Dise&ntilde;ar &middot; Crear &middot; Compartir.</li>

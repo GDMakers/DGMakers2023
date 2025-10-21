@@ -106,7 +106,7 @@
                             <li>IES Sangonera la Verde (Murcia)</li>
                         </ul>
                         <p class="mt-3 mb-0">
-                            <a href="Centros.php" class="btn btn-conecta37 btn-sm">Conocer los centros.</a>
+                            <a href="Centros.php" class="btn btn-conecta37 btn-sm">Conocer los centros</a>
                         </p>
                     </div>
                 </div>
