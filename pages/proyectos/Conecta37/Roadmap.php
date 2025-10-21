@@ -176,8 +176,8 @@
                             <li><strong>Sprint planning:</strong> Lengua + Matem&aacute;ticas obligatorias, &aacute;reas extra bienvenidas.</li>
                             <li><strong>Mini-unidad 1:</strong> plantillas b&aacute;sicas listas para adaptar y publicar.</li>
                             <li><strong>Evidencias &amp; publicaci&oacute;n:</strong> pruebas pre/post y artefactos para la Showcase.</li>
-                            <li><strong>Showcase de Proyectos:</strong> demo-day, producto p&uacute;blico e hitos en el Hall of Learning.</li>
-                            <li><strong>Live Hub:</strong> microtalleres Student-to-Student, Teacher Clinics y matchmaking mentor&ndash;mentee.</li>
+                            <li><strong>Showcase de proyectos:</strong> demo-day, producto p&uacute;blico e hitos en el Hall of Learning.</li>
+                            <li><strong>Live hub:</strong> microtalleres Student-to-Student, Teacher Clinics y matchmaking mentor&ndash;mentee.</li>
                             <li><strong>Jornadas 2026:</strong> keynotes, showroom y Hack-Sprint con Informe de Impacto.</li>
                         </ul>
                     </div>
