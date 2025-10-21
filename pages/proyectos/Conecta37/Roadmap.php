@@ -105,6 +105,7 @@
                 <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="h-100">
                         <h4 class="section-title bg-white text-start text-primary pe-3">Reuni&oacute;n 0 · Kickoff Conecta 37</h4>
+                        <h5>22 OCT 25</h5>
                         <ul class="mb-0" style="display: flex; flex-direction: column; gap: 0.75rem;">
                             <li><strong>Equipo activado:</strong> equipos docentes por centro y t&aacute;ndems intercentros definidos.</li>
                             <li><strong>Ecosistema digital preparado:</strong> plataforma com&uacute;n, carpetas, permisos y plantillas.</li>
@@ -124,6 +125,7 @@
                 <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="h-100 roadmap-step">
                         <h4 class="section-title bg-white text-start text-primary pe-3">Reuni&oacute;n 1 · Co-dise&ntilde;o de contenidos</h4>
+                        <h5>12 NOV 25</h5>
                         <ul class="mb-0">
                             <li><strong>Sprint planning:</strong> Lengua + Matem&aacute;ticas obligatorias, &aacute;reas extra bienvenidas.</li>
                             <li><strong>Mini-unidad 1:</strong> plantillas b&aacute;sicas listas para adaptar y publicar.</li>
