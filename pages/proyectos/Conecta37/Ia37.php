@@ -70,17 +70,24 @@
         include "../../../menu.php";
     ?>
 
-    <header class="hero-conecta text-center" style="background: linear-gradient(120deg, rgba(1,81,131,0.92), rgba(18,111,184,0.92)), url('img/ia-header.jpg') center/cover no-repeat;">
+    <header class="hero-conecta" style="background: linear-gradient(120deg, rgba(1,81,131,0.92), rgba(18,111,184,0.92)), url('img/ia-header.jpg') center/cover no-repeat;">
         <div class="container py-5">
-            <h1 class="display-4 text-white fw-bold mb-3">IA en Conecta 37</h1>
-            <p class="lead text-white mb-0">Un impulso para aprender: automatizamos lo rutinario para dedicar tiempo a pensar, crear y conectar.</p>
-            <div class="d-flex flex-wrap justify-content-center gap-2 mt-4">
-                <a href="index.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Visi&oacute;n general</a>
-                <a href="Encuentro37.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Jornadas 26</a>
-                <a href="Livehub37.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Live Hub</a>
-                <a href="Recursos37.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Showcase de proyectos</a>
-                <a href="Roadmap.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Roadmap</a>
-                <a href="Centros.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Centros participantes</a>
+            <div class="row align-items-center gy-4">
+                <div class="col-lg-3 text-center text-lg-start">
+                    <img src="img/LogoConecta37ByN.png" alt="Logo Conecta 37 en blanco y negro" class="img-fluid" style="max-width: 220px;">
+                </div>
+                <div class="col-lg-9 text-center text-lg-start">
+                    <h1 class="display-4 text-white fw-bold mb-3">Estrategias digitales con inteligencia artificial</h1>
+                    <p class="lead text-white mb-0">Un impulso para aprender: automatizamos lo rutinario para dedicar tiempo a pensar, crear y conectar.</p>
+                    <div class="d-flex flex-wrap justify-content-center justify-content-lg-start gap-2 mt-4">
+                        <a href="index.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Visi&oacute;n general</a>
+                        <a href="Encuentro37.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Jornadas 26</a>
+                        <a href="Livehub37.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Live Hub</a>
+                        <a href="Recursos37.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Showcase de proyectos</a>
+                        <a href="Roadmap.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Roadmap</a>
+                        <a href="Centros.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Centros participantes</a>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
