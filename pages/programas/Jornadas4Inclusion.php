@@ -209,6 +209,73 @@
                 </div>
             </div>
 
+            <div class="row gy-3 mb-5 fact-item" id="talleres">
+                <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="h-100">
+                        <h6 class="section-title bg-white text-start text-primary pe-3 wow fadeInLeftBig">Talleres disponibles</h6>
+                        <p class="mb-4" style="text-align:justify;">
+                            Consulta de un vistazo los talleres, quién los imparte y qué necesitarás para aprovecharlos al máximo.
+                        </p>
+                        <div class="table-responsive">
+                            <table class="table table-striped align-middle">
+                                <thead class="table-primary">
+                                    <tr>
+                                        <th scope="col">Taller</th>
+                                        <th scope="col">Centro</th>
+                                        <th scope="col">Descripción</th>
+                                        <th scope="col">Material</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Lumio</th>
+                                        <td>CEE EUSEBIO MARTÍNEZ</td>
+                                        <td>Jugar y crear sus propios juegos.</td>
+                                        <td>&mdash;</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Tinkerdard</th>
+                                        <td>CEE EUSEBIO MARTÍNEZ</td>
+                                        <td>Diseño en 3D y cómo enviarlo a imprimir en la impresora.</td>
+                                        <td>&mdash;</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Escaneado y realidad aumentada con Reality Composer</th>
+                                        <td>IES CAÑADA DE LAS ERAS</td>
+                                        <td>Se muestra el proceso de escaneo con iPad Pro y la incorporación del objeto en Reality Composer para su enriquecimiento y visión en RA.</td>
+                                        <td>&mdash;</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Vectorizar dibujo y preparación en Tinkercad para impresión en 3D</th>
+                                        <td>IES CAÑADA DE LAS ERAS</td>
+                                        <td>Los asistentes hacen un dibujo, se fotografía, se vectoriza y posteriormente en Tinkercad se extruye y prepara para impresión 3D.</td>
+                                        <td>Tablet</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Cata de aromas</th>
+                                        <td>IES FLORIDABLANCA</td>
+                                        <td>Los asistentes identificarán por el olfato diferentes aceites esenciales.</td>
+                                        <td>Nada ;)</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Crea tu amuleto egipcio</th>
+                                        <td>IES FLORIDABLANCA</td>
+                                        <td>Los asistentes crearán con arcilla su propio amuleto egipcio.</td>
+                                        <td>Nada ;)</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Danzas del Mundo</th>
+                                        <td>IES FLORIDABLANCA</td>
+                                        <td>La profesora de música y 15 alumnos nos harán bailar danzas de diferentes partes del mundo.</td>
+                                        <td>Nada ;)</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="row gy-3 mb-5 fact-item" id="aprovechar">
                 <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="h-100">
