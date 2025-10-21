@@ -176,15 +176,7 @@
                             </ul>
                         </div>
                         <div class="mb-0">
-                            <h5 class="fw-semibold text-primary">Reuni&oacute;n Cero</h5>
-                            <p class="mb-0" style="text-align:justify;">
-                                En la sesi&oacute;n inicial de octubre:
-                            </p>
-                            <ul class="mb-0">
-                                <li>Se forma al equipo docente.</li>
-                                <li>Se prepara la plataforma y los materiales comunes.</li>
-                                <li>Se co-dise&ntilde;a la primera mini-unidad del trimestre.</li>
-                            </ul>
+                            <a href="Roadmap.php" class="btn btn-conecta37 btn-lg">Roadmap del proyecto</a>
                         </div>
                     </div>
                 </div>

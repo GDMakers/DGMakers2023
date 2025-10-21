@@ -109,49 +109,19 @@
                             <li><strong>Mini-unidad 1:</strong> plantillas b&aacute;sicas listas para adaptar y publicar.</li>
                             <li><strong>Evidencias &amp; publicaci&oacute;n:</strong> pruebas pre/post y artefactos para la Showcase.</li>
                         </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row gy-4 mb-5 fact-item align-items-center">
-                <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
-                    <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1200&q=80" class="img-fluid roadmap-image" alt="Equipo docente presentando un proyecto en vivo">
-                </div>
-                <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="h-100">
-                        <h4 class="section-title bg-white text-start text-primary pe-3">Showcase de Proyectos</h4>
+                        <h5 class="section-title bg-white text-start text-primary pe-3">Showcase de Proyectos</h5>
                         <ul class="mb-0">
                             <li><strong>Demo-Day:</strong> 3&prime; de presentaci&oacute;n + 2&prime; de Q&amp;A por equipo.</li>
                             <li><strong>Producto p&uacute;blico:</strong> v&iacute;deo, podcast, infograf&iacute;a o dashboard con cr&eacute;ditos e IA declarada.</li>
                             <li><strong>Hall of Learning:</strong> lecciones clave en formato breve.</li>
                         </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row gy-4 mb-5 fact-item align-items-center flex-lg-row-reverse">
-                <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
-                    <img src="https://images.unsplash.com/photo-1518606376740-b93c27bd6510?auto=format&fit=crop&w=1200&q=80" class="img-fluid roadmap-image" alt="Estudiantes colaborando en un taller tecnológico">
-                </div>
-                <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="h-100">
-                        <h4 class="section-title bg-white text-start text-primary pe-3">Live Hub</h4>
+                        <h5 class="section-title bg-white text-start text-primary pe-3">Live Hub</h5>
                         <ul class="mb-0">
                             <li><strong>Student-to-Student:</strong> microtalleres de 30&rsquo; entre centros (edici&oacute;n, datos, oratoria).</li>
                             <li><strong>Teacher Clinics:</strong> r&uacute;bricas, IA, accesibilidad y difusi&oacute;n.</li>
                             <li><strong>Matchmaking:</strong> pares mentor&ndash;mentee para acelerar proyectos.</li>
                         </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row gy-4 mb-5 fact-item align-items-center">
-                <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
-                    <img src="https://images.unsplash.com/photo-1515169067865-5387ec356754?auto=format&fit=crop&w=1200&q=80" class="img-fluid roadmap-image" alt="Auditorio con asistentes a una conferencia educativa">
-                </div>
-                <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="h-100">
-                        <h4 class="section-title bg-white text-start text-primary pe-3">Jornadas 2026 · Conecta-37 Summit</h4>
+                        <h5 class="section-title bg-white text-start text-primary pe-3">Jornadas 2026 · Conecta-37 Summit</h5>
                         <ul class="mb-0">
                             <li><strong>Keynotes cortas y paneles:</strong> ideas accionables para escalar la transformaci&oacute;n.</li>
                             <li><strong>Showroom de proyectos:</strong> stands de centros con demostraciones en vivo.</li>
@@ -160,6 +130,11 @@
                     </div>
                 </div>
             </div>
+
+            
+
+           
+
 
             <div class="row gy-4 fact-item">
                 <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.3s">
