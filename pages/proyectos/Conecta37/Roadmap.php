@@ -49,6 +49,26 @@
             border-radius: 0.75rem;
             box-shadow: 0 0.75rem 1.5rem rgba(1, 81, 131, 0.18);
         }
+
+        .roadmap-step {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .roadmap-step h4,
+        .roadmap-step h5 {
+            margin-bottom: 1rem;
+        }
+
+        .roadmap-step ul {
+            padding-left: 1.2rem;
+            margin-bottom: 0;
+        }
+
+        .roadmap-step ul li {
+            margin-bottom: 0.4rem;
+        }
     </style>
 </head>
 
@@ -102,39 +122,19 @@
                     <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80" class="img-fluid roadmap-image" alt="Docentes co-diseñando contenidos en una mesa de trabajo">
                 </div>
                 <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="h-100">
+                    <div class="h-100 roadmap-step">
                         <h4 class="section-title bg-white text-start text-primary pe-3">Reuni&oacute;n 1 · Co-dise&ntilde;o de contenidos</h4>
                         <ul class="mb-0">
                             <li><strong>Sprint planning:</strong> Lengua + Matem&aacute;ticas obligatorias, &aacute;reas extra bienvenidas.</li>
                             <li><strong>Mini-unidad 1:</strong> plantillas b&aacute;sicas listas para adaptar y publicar.</li>
                             <li><strong>Evidencias &amp; publicaci&oacute;n:</strong> pruebas pre/post y artefactos para la Showcase.</li>
-                        </ul>
-                        <h5 class="section-title bg-white text-start text-primary pe-3">Showcase de Proyectos</h5>
-                        <ul class="mb-0">
-                            <li><strong>Demo-Day:</strong> 3&prime; de presentaci&oacute;n + 2&prime; de Q&amp;A por equipo.</li>
-                            <li><strong>Producto p&uacute;blico:</strong> v&iacute;deo, podcast, infograf&iacute;a o dashboard con cr&eacute;ditos e IA declarada.</li>
-                            <li><strong>Hall of Learning:</strong> lecciones clave en formato breve.</li>
-                        </ul>
-                        <h5 class="section-title bg-white text-start text-primary pe-3">Live Hub</h5>
-                        <ul class="mb-0">
-                            <li><strong>Student-to-Student:</strong> microtalleres de 30&rsquo; entre centros (edici&oacute;n, datos, oratoria).</li>
-                            <li><strong>Teacher Clinics:</strong> r&uacute;bricas, IA, accesibilidad y difusi&oacute;n.</li>
-                            <li><strong>Matchmaking:</strong> pares mentor&ndash;mentee para acelerar proyectos.</li>
-                        </ul>
-                        <h5 class="section-title bg-white text-start text-primary pe-3">Jornadas 2026 · Conecta-37 Summit</h5>
-                        <ul class="mb-0">
-                            <li><strong>Keynotes cortas y paneles:</strong> ideas accionables para escalar la transformaci&oacute;n.</li>
-                            <li><strong>Showroom de proyectos:</strong> stands de centros con demostraciones en vivo.</li>
-                            <li><strong>Hack-Sprint 90&rsquo;:</strong> reto colaborativo y publicaci&oacute;n del Informe de Impacto.</li>
+                            <li><strong>Showcase de Proyectos:</strong> demo-day, producto p&uacute;blico e hitos en el Hall of Learning.</li>
+                            <li><strong>Live Hub:</strong> microtalleres Student-to-Student, Teacher Clinics y matchmaking mentor&ndash;mentee.</li>
+                            <li><strong>Jornadas 2026:</strong> keynotes, showroom y Hack-Sprint con Informe de Impacto.</li>
                         </ul>
                     </div>
                 </div>
             </div>
-
-            
-
-           
-
 
             <div class="row gy-4 fact-item">
                 <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.3s">
