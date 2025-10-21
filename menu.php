@@ -15,7 +15,7 @@ echo "<nav class='navbar navbar-expand-lg navbar-dark py-2 sticky-top'>
                         <a class='nav-link dropdown-toggle' href='#' id='navbarDropdown' role='button' data-bs-toggle='dropdown' aria-expanded='false'>Proyectos</a>
                         <ul class='dropdown-menu' aria-labelledby='navbarDropdown'>
                             <li><a class='dropdown-item' href='https://gdmuseos.iesalcantara.es' target='_blank'>GDMuseos</a></li>
-                            <li><a class='dropdown-item' href='$pages/proyectos/GDPatrimonio.php'>GDPatrimonio</a></li>
+                            <li><a class='dropdown-item' href='$pages/programas/GDPatrimonio/GDPatrimonio.php'>GDPatrimonio</a></li>
                             <li class='dropdown-submenu'>
                                 <a class='dropdown-item dropdown-toggle' href='#'>Conecta 37</a>
                                 <ul class='dropdown-menu'>
@@ -89,7 +89,7 @@ echo "<nav class='navbar navbar-expand-lg navbar-dark py-2 sticky-top'>
                     <li class='nav-item dropdown'>
                         <a class='nav-link dropdown-toggle' href='#' id='navbarDropdown' role='button' data-bs-toggle='dropdown' aria-expanded='false'>Programas educativos</a>
                         <ul class='dropdown-menu' aria-labelledby='navbarDropdown'>
-                            <li><a class='dropdown-item' href='$pages/programas/GDPatrimonio.php'>GDPatrimonio</a></li>
+                            <li><a class='dropdown-item' href='$pages/programas/GDPatrimonio/GDPatrimonio.php'>GDPatrimonio</a></li>
                             <li class='dropdown-submenu'>
                                 <a class='dropdown-item dropdown-toggle' href='#'>4Inclusion</a>
                                 <ul class='dropdown-menu'>

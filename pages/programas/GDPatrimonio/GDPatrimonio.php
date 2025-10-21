@@ -9,7 +9,7 @@
     <meta content="" name="description">
 
     <!-- Favicon -->
-    <link href="../../img/favicon.png" rel="icon">
+    <link href="../../../img/favicon.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,24 +21,24 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="../../lib/animate/animate.min.css" rel="stylesheet">
-    <link href="../../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="..././lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="../../../lib/animate/animate.min.css" rel="stylesheet">
+    <link href="../../../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="../../../lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="../../css/style.css" rel="stylesheet">
+    <link href="../../../css/style.css" rel="stylesheet">
 </head>
 
 <body>
 	<!-- Menú común -->
 	<?php
-        $img="../..";                   // ruta a la carpeta de imágenes
-        $pages="..";                    // ruta a la carpeta del resto de páginas de la web
-        $index="../..";                 // ruta a la carpeta del index.php
-        include "../../menu.php";       // inlcuye el menu común
+        $img="../../../img";                   // ruta a la carpeta de imágenes
+        $pages="../../../pages";               // ruta a la carpeta del resto de páginas de la web
+        $index="../../..";                     // ruta a la carpeta del index.php
+        include "../../../menu.php";           // inlcuye el menu común
     ?>
 
     <!-- Carousel Start -->
@@ -48,19 +48,19 @@
 
                 <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1">
-                    <img class="img-fluid" src="../../img/GDPatrimonio/Taller3J.JPG" alt="Image">
+                    <img class="img-fluid" src="../../../img/GDPatrimonio/Taller3J.JPG" alt="Image">
                 </button>
                 <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="1" aria-label="Slide 2">
-                    <img class="img-fluid" src="../../img/GDPatrimonio/Taller2J.JPG" alt="Image">
+                    <img class="img-fluid" src="../../../img/GDPatrimonio/Taller2J.JPG" alt="Image">
                 </button>
                 <button type="button" data-bs-target="#header-carousel" data-bs-slide-to="2" aria-label="Slide 3">
-                    <img class="img-fluid" src="../../img/GDPatrimonio/Taller1J.JPG" alt="Image">
+                    <img class="img-fluid" src="../../../img/GDPatrimonio/Taller1J.JPG" alt="Image">
                 </button>
             </div>
             <div class="carousel-inner">
 
                 <div class="carousel-item active">
-                    <img class="w-100" src="../../img/GDPatrimonio/Taller3J.JPG" alt="Image">
+                    <img class="w-100" src="../../../img/GDPatrimonio/Taller3J.JPG" alt="Image">
                     <div class="carousel-caption">
                         <div class="p-3" style="max-width: 900px;">
                             <h4 class="text-white text-uppercase mb-4 animated zoomIn">Forma parte de una</h4>
@@ -69,7 +69,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="../../img/GDPatrimonio/Taller2J.JPG" alt="Image">
+                    <img class="w-100" src="../../../img/GDPatrimonio/Taller2J.JPG" alt="Image">
                     <div class="carousel-caption">
                         <div class="p-3" style="max-width: 900px;">
                             <h4 class="text-white text-uppercase mb-4 animated zoomIn">Desarrolla tu creatividad </h4>
@@ -78,7 +78,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src= "../../img/GDPatrimonio/Taller1J.JPG" alt="Image">
+                    <img class="w-100" src= "../../../img/GDPatrimonio/Taller1J.JPG" alt="Image">
                     <div class="carousel-caption">
                         <div class="p-3" style="max-width: 900px;">
 
@@ -102,7 +102,7 @@
     <!-- Carousel End -->
 
     <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-        <img class="img-fluid rounded mb-4" src="../../img/GDPatrimonio/LogoGDPatrimonio.png" alt="">
+        <img class="img-fluid rounded mb-4" src="../../../img/GDPatrimonio/LogoGDPatrimonio.png" alt="">
     </div>
 
     <!-- Service End -->
@@ -139,7 +139,7 @@
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="img-border">
-                            <img class="img-fluid" src="../../img/GDPatrimonio/Comunidad.jpg" alt="">
+                            <img class="img-fluid" src="../../../img/GDPatrimonio/Comunidad.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -153,7 +153,7 @@
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="img-border">
-                        <img class="img-fluid" src="../../img/GDPatrimonio/ImpTalleres.png" alt="">
+                        <img class="img-fluid" src="../../../img/GDPatrimonio/ImpTalleres.png" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -201,7 +201,7 @@
                     <a class="service-item d-block rounded text-center h-100 p-4"
                         href="https://programaseducativos.es/programa/gdpatrimonio-grupos-de-desarrollo-del-patrimonio/"
                         target="_blank">
-                        <img class="img-fluid rounded mb-4" src="../../img/GDPatrimonio/carmGDP.png" alt="">
+                        <img class="img-fluid rounded mb-4" src="../../../img/GDPatrimonio/carmGDP.png" alt="">
                         <!--h4 class="mb-0">Convocatoria oficial</h4-->
                     </a>
                 </p>
@@ -219,7 +219,7 @@
                     <a class="service-item d-block rounded text-center h-100 p-4"
                         href="https://digitum.um.es/digitum/bitstream/10201/91774/1/reif2_5.pdf"
                         target="_blank">
-                        <img class="img-fluid rounded mb-4" src="../../img/GDPatrimonio/Publicacion1.png" alt="">
+                        <img class="img-fluid rounded mb-4" src="../../../img/GDPatrimonio/Publicacion1.png" alt="">
                         <!--h6 class="mb-0">GDPatrimonio: creando materiales para el patrimonio de la Región de Murcia</h6-->
                     </a>
                 </p>
@@ -231,10 +231,10 @@
    
         <!-- Footer común -->
         <?php
-            $img="../..";                   // ruta a la carpeta de imágenes
-            $pages="..";                 // ruta a la carpeta del resto de páginas de la web
-            $index="../..";                 // ruta a la carpeta del index.php
-            include "../../footer.php";       // inlcuye el footer común
+        $img="../../../img";                   // ruta a la carpeta de imágenes
+        $pages="../../../pages";               // ruta a la carpeta del resto de páginas de la web
+        $index="../../..";                     // ruta a la carpeta del index.php
+        include "../../../footer.php";         // inlcuye el footer común
         ?>
 
         <!-- Back to Top -->
@@ -246,15 +246,15 @@
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <!--script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="../../lib/wow/wow.min.js"></script>
-        <script src="../../lib/easing/easing.min.js"></script>
-        <script src="../../lib/waypoints/waypoints.min.js"></script>
-        <script src="../../lib/counterup/counterup.min.js"></script>
-        <script src="../../lib/owlcarousel/owl.carousel.min.js"></script>
-        <script src="../../lib/lightbox/js/lightbox.min.js"></script>
+        <script src="../../../lib/wow/wow.min.js"></script>
+        <script src="../../../lib/easing/easing.min.js"></script>
+        <script src="../../../lib/waypoints/waypoints.min.js"></script>
+        <script src="../../../lib/counterup/counterup.min.js"></script>
+        <script src="../../../lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="../../../lib/lightbox/js/lightbox.min.js"></script>
 
         <!-- Template Javascript -->
-        <script src="../../js/main.js"></script>
+        <script src="../../../js/main.js"></script>
 </body>
 
 </html>
