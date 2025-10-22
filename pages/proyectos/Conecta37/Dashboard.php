@@ -127,7 +127,7 @@
                         <a class="btn btn-outline-primary" href="Recursos37.php">Ver Showcase</a>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
-                        <img src="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg" class="img-fluid dashboard-image" alt="Showcase de proyectos">
+                        <img src="https://cdn.pixabay.com/photo/2020/07/08/04/12/work-5382501_1280.jpg" class="img-fluid dashboard-image" alt="Showcase de proyectos">
                     </div>
                 </div>
             </section>
@@ -151,7 +151,7 @@
                         <a class="btn btn-outline-primary" href="Centros.php">Conocer los centros</a>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
-                        <img src="https://images.pexels.com/photos/3862375/pexels-photo-3862375.jpeg" class="img-fluid dashboard-image" alt="Centros participantes">
+                        <img src="https://cdn.pixabay.com/photo/2024/06/28/18/47/laptop-8859951_1280.jpg" class="img-fluid dashboard-image" alt="Centros participantes">
                     </div>
                 </div>
             </section>

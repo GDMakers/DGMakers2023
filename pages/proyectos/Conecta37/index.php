@@ -86,6 +86,9 @@
                             demostr&aacute;ndolo con evidencias. El foco est&aacute; en Lengua y Matem&aacute;ticas, integrando la
                             tecnolog&iacute;a de forma pr&aacute;ctica y creativa.
                         </p>
+                        <p class="mt-3 mb-0">
+                            <a href="Dashboard.php" class="btn btn-conecta37 btn-sm">Visión rápida Conecta 37</a>
+                        </p>
                     </div>
                 </div>
                 <div class="col-lg-4 text-center wow fadeInUp" data-wow-delay="0.2s">
