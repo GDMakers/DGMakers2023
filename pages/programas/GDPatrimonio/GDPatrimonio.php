@@ -108,6 +108,55 @@
     <!-- Service End -->
     <div class="container-xxl py-5">
         <div class="container">
+            <div class="row gy-4 align-items-center wow fadeInUp" data-wow-delay="0.1s">
+              
+                <div class="col-lg-7">
+                    <div class="bg-white rounded-3 shadow-sm p-4">
+                        <h6 class="section-title bg-white text-start text-primary pe-3">Centros que participan</h6>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <ul class="list-unstyled mb-0">
+                                    <li>CBEP Artero</li>
+                                    <li>CEIP El Alba</li>
+                                    <li>CEIP Las Tejeras</li>
+                                    <li>CEIP Virgen del Oro</li>
+                                    <li>Colegio Susarte</li>
+                                    <li>IES Alcántara</li>
+                                    <li>IES Bartolomé Pérez Casas</li>
+                                    <li>IES Cañada de las Eras</li>
+                                    <li>IES Diego Tortosa</li>
+                                    <li>IES Europa</li>
+                                    <li>IES Floridablanca</li>
+                                    <li>IES Francisco de Goya</li>
+                                    <li>IES José Luis Castillo-Puche</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <ul class="list-unstyled mb-0">
+                                    <li>IES Jose Planes</li>
+                                    <li>IES Licenciado Francisco Cascales</li>
+                                    <li>IES Los Albares</li>
+                                    <li>IES Los Molinos</li>
+                                    <li>IES Mediterráneo</li>
+                                    <li>IES Miguel Hernández</li>
+                                    <li>IES Príncipe de Asturias</li>
+                                    <li>IES Rambla de Nogalte</li>
+                                    <li>IES Ribera de los Molinos</li>
+                                    <li>IES Saavedra Fajardo</li>
+                                    <li>IES San Isidoro</li>
+                                    <li>IES Vega del Argos</li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-xxl py-5">
+        <div class="container">
         <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <h6 class="section-title bg-white text-start text-primary pe-3">¿Qué ventajas proporciona?
                 </h6>
