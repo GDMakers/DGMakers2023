@@ -171,7 +171,7 @@
                 <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="h-100 roadmap-step">
                         <h4 class="section-title bg-white text-start text-primary pe-3">Reuni&oacute;n 1 · Activate Mode</h4>
-                        <h5>12 NOV 25</h5>
+                        <h5>13 NOV 25. 11:30 h</h5>
                         <ul class="mb-0">
                             <li><strong>Sprint planning:</strong> Lengua + Matem&aacute;ticas obligatorias, &aacute;reas extra bienvenidas.</li>
                             <li><strong>Mini-unidad 1:</strong> plantillas b&aacute;sicas listas para adaptar y publicar.</li>
