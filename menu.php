@@ -15,14 +15,7 @@ echo "<nav class='navbar navbar-expand-lg navbar-dark py-2 sticky-top'>
                         <a class='nav-link dropdown-toggle' href='#' id='navbarDropdown' role='button' data-bs-toggle='dropdown' aria-expanded='false'>Proyectos</a>
                         <ul class='dropdown-menu' aria-labelledby='navbarDropdown'>
                             <li><a class='dropdown-item' href='https://gdmuseos.iesalcantara.es' target='_blank'>GDMuseos</a></li>
-                            <li class='dropdown-submenu'>
-                                <a class='dropdown-item dropdown-toggle' href='#'>GDPatrimonio</a>
-                                <ul class='dropdown-menu'>
-                                    <li><a class='dropdown-item' href='$pages/programas/GDPatrimonio/GDPatrimonio.php'>GDPatrimonio 25 - 26</a></li>
-                                    <li><a class='dropdown-item' href='$pages/programas/GDPatrimonio/JornadasGDP26.php'>Jornadas GDPatrimonio 2026</a></li>
-                                    <li><a class='dropdown-item' href='$pages/programas/GDPatrimonio/FormacionGDP26.php'>Formación GDP</a></li>
-                                </ul>
-                            </li>
+                            
                             <li class='dropdown-submenu'>
                                 <a class='dropdown-item dropdown-toggle' href='#'>Conecta 37</a>
                                 <ul class='dropdown-menu'>
