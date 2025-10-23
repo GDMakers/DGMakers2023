@@ -103,20 +103,12 @@
                                 <div class="small text-muted">Necesidades para desarrollar proyectos útiles</div>
                             </td>
                         </tr>
-                        <tr>
-                            <td>Fotogrametría</td>
-                        </tr>
-                        <tr>
-                            <td>Tinkercad</td>
-                        </tr>
+                       
+                        
                         <tr>
                             <td>Serigrafía y cortadora láser</td>
                         </tr>
-                        <tr>
-                            <td>Impresión 3D</td>
-                        </tr>
-                        <tr>
-                            <td>Audio y vídeo</td>
+                        
                         </tr>
                     </tbody>
                 </table>
