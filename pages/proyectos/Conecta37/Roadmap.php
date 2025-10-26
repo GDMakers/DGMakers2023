@@ -173,8 +173,8 @@
                         <h4 class="section-title bg-white text-start text-primary pe-3">Reuni&oacute;n 1 · Activate Mode</h4>
                         <h5>13 NOV 25. 11:30 h</h5>
                         <ul class="mb-0">
-                            <li><strong>Sprint planning:</strong> Lengua + Matem&aacute;ticas obligatorias, &aacute;reas extra bienvenidas.</li>
-                            <li><strong>Mini-unidad 1:</strong> plantillas b&aacute;sicas listas para adaptar y publicar.</li>
+                            <li><strong>Sprint planning:</strong> <a href="https://forms.gle/X36qycRv7vRBxHxi8" target="_blank" class="text-decoration-none link-offset-2 link-primary">Lengua + Matem&aacute;ticas obligatorias, &aacute;reas extra bienvenidas.</a></li>
+                            <li><strong>Mini-unidad 1:</strong> <a href="#mini-unidad-1" class="text-decoration-none link-offset-2 link-primary">plantillas b&aacute;sicas listas para adaptar y publicar.</a></li>
                             <li><strong>Evidencias &amp; publicaci&oacute;n:</strong> pruebas pre/post y artefactos para la Showcase.</li>
                             <li><strong>Showcase de proyectos:</strong> demo-day, producto p&uacute;blico e hitos en el Hall of Learning.</li>
                             <li><strong>Live hub:</strong> microtalleres Student-to-Student, Teacher Clinics y matchmaking mentor&ndash;mentee.</li>
@@ -191,7 +191,7 @@
                 </div>
                 <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="h-100 roadmap-step">
-                        <h4 class="section-title bg-white text-start text-primary pe-3">Mini-Unidad 1 &mdash; Plantilla MVP</h4>
+                        <h4 id="mini-unidad-1" class="section-title bg-white text-start text-primary pe-3">Mini-Unidad 1 &mdash; Plantilla MVP</h4>
                         <div class="row g-3 mb-2">
                             <div class="col-sm-6">
                                 <p class="mb-1"><strong>Centro:</strong> <span class="text-muted">____________________</span></p>
@@ -214,7 +214,7 @@
                             </ul>
                         </div>
                         <div>
-                            <h5 class="mb-2">3) Definition of Done (todo debe cumplirse)</h5>
+                            <h5 class="mb-2">3) Definición de hecho (todo debe cumplirse)</h5>
                             <ul class="list-unstyled d-flex flex-column gap-2 mb-0">
                                 <li>&#9633; Pre/Post com&uacute;n (5 &iacute;tems) definido</li>
                                 <li>&#9633; Evaluaci&oacute;n:</li>
