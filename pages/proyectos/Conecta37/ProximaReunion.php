@@ -343,47 +343,55 @@
                         <h4 class="section-title bg-white text-start text-primary pe-3">Reuni&oacute;n 1 · Activate Mode</h4>
                         <h5>13 NOV 25. 11:30 h</h5>
                         <div class="roadmap-topics">
-                            <div class="mb-4">
-                                <h5 class="mb-2">Decidir</h5>
-                                <ul class="list-unstyled d-flex flex-column gap-2 mb-0">
-                                    <li><strong>Asignaturas que participan:</strong> lengua, matem&aacute;ticas&hellip;</li>
-                                    <li><strong>Formaci&oacute;n com&uacute;n:</strong> es necesaria, formato (micro-talleres por temas y taller com&uacute;n&hellip;), contenidos&hellip;</li>
-                                    <li>
-                                        <strong>Definici&oacute;n de hecho:</strong>
-                                        <ul class="list-unstyled d-flex flex-column gap-1 ms-3 mb-0">
-                                            <li>Pre/Post com&uacute;n (5 &iacute;tems): prueba inicial y final.</li>
-                                            <li>Producto p&uacute;blico: v&iacute;deo 90&rsquo;&rsquo;, podcast, web&hellip;</li>
-                                            <li>C&oacute;mo se eval&uacute;a: examen, exposici&oacute;n&hellip;</li>
-                                            <li>Fechas.</li>
+                            <ol class="roadmap-topics__list">
+                                <li>
+                                    <span class="topic-badge">1</span>
+                                    <div class="topic-content">
+                                        <h5 class="topic-title">Decidir</h5>
+                                        <ul class="topic-points">
+                                            <li><strong>Asignaturas que participan:</strong> lengua, matem&aacute;ticas&hellip;</li>
+                                            <li><strong>Formaci&oacute;n com&uacute;n:</strong> es necesaria, formato (micro-talleres por temas y taller com&uacute;n&hellip;), contenidos&hellip;</li>
+                                            <li>
+                                                <span class="topic-subtitle"><strong>Definici&oacute;n de hecho:</strong></span>
+                                                <ul class="sub-points">
+                                                    <li>Pre/Post com&uacute;n (5 &iacute;tems): prueba inicial y final.</li>
+                                                    <li>Producto p&uacute;blico: v&iacute;deo 90&rsquo;&rsquo;, podcast, web&hellip;</li>
+                                                    <li>C&oacute;mo se eval&uacute;a: examen, exposici&oacute;n&hellip;</li>
+                                                    <li>Fechas.</li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <span class="topic-subtitle"><strong>Showcase de proyectos:</strong></span>
+                                                <ul class="sub-points">
+                                                    <li>&iquest;Qu&eacute; mostramos? (producto + proceso)</li>
+                                                    <li>Formato: stand + pitch 3&rsquo;.</li>
+                                                    <li>Publicaci&oacute;n: Hub (licencias + citaci&oacute;n).</li>
+                                                    <li>Responsables por centro.</li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <span class="topic-subtitle"><strong>Jornadas:</strong></span>
+                                                <ul class="sub-points">
+                                                    <li>&iquest;Qu&eacute; talleres organizamos?</li>
+                                                    <li>Duraci&oacute;n.</li>
+                                                </ul>
+                                            </li>
                                         </ul>
-                                    </li>
-                                    <li>
-                                        <strong>Showcase de proyectos:</strong>
-                                        <ul class="list-unstyled d-flex flex-column gap-1 ms-3 mb-0">
-                                            <li>&iquest;Qu&eacute; mostramos? (producto + proceso)</li>
-                                            <li>Formato: stand + pitch 3&rsquo;.</li>
-                                            <li>Publicaci&oacute;n: Hub (licencias + citaci&oacute;n).</li>
-                                            <li>Responsables por centro.</li>
+                                    </div>
+                                </li>
+                                <li>
+                                    <span class="topic-badge">2</span>
+                                    <div class="topic-content">
+                                        <h5 class="topic-title">Comenzar</h5>
+                                        <ul class="topic-points">
+                                            <li><strong>Equipo intercentros:</strong> c&oacute;mo comunicarnos y generar comunidad.</li>
+                                            <li><strong>Microtalleres para estudiantes</strong> antes de comenzar el proyecto.</li>
+                                            <li><strong>&iquest;C&oacute;mo usamos la IA?</strong></li>
+                                            <li><strong>Ideas aplazadas.</strong></li>
                                         </ul>
-                                    </li>
-                                    <li>
-                                        <strong>Jornadas:</strong>
-                                        <ul class="list-unstyled d-flex flex-column gap-1 ms-3 mb-0">
-                                            <li>&iquest;Qu&eacute; talleres organizamos?</li>
-                                            <li>Duraci&oacute;n.</li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div>
-                                <h5 class="mb-2">Comenzar</h5>
-                                <ul class="list-unstyled d-flex flex-column gap-2 mb-0">
-                                    <li><strong>Equipo intercentros:</strong> c&oacute;mo comunicarnos y generar comunidad.</li>
-                                    <li><strong>Microtalleres para estudiantes</strong> antes de comenzar el proyecto.</li>
-                                    <li><strong>&iquest;C&oacute;mo usamos la IA?</strong></li>
-                                    <li><strong>Ideas aplazadas.</strong></li>
-                                </ul>
-                            </div>
+                                    </div>
+                                </li>
+                            </ol>
                         </div>
                     </div>
                 </div>
@@ -394,36 +402,38 @@
                     <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80" class="img-fluid roadmap-image" alt="Equipo docente preparando un prototipo de aprendizaje">
                 </div>
                 <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="h-100 roadmap-step">
+                    <div class="h-100 roadmap-step template-card">
                         <h4 class="section-title bg-white text-start text-primary pe-3">Mini-Unidad 1 &mdash; Plantilla MVP</h4>
-                        <div class="row g-3 mb-2">
-                            <div class="col-sm-6">
-                                <p class="mb-1"><strong>Centro:</strong> <span class="text-muted">____________________</span></p>
+                        <div class="template-meta">
+                            <div>
+                                <p class="template-label mb-1">Centro</p>
+                                <p class="template-value">____________________</p>
                             </div>
-                            <div class="col-sm-6">
-                                <p class="mb-1"><strong>&Aacute;reas:</strong> <span class="text-muted">____________________</span></p>
+                            <div>
+                                <p class="template-label mb-1">&Aacute;reas</p>
+                                <p class="template-value">____________________</p>
                             </div>
                         </div>
-                        <div>
+                        <div class="template-section">
                             <h5 class="mb-2">1) El impacto</h5>
-                            <p class="mb-0">Al finalizar, el alumnado ser&aacute; capaz de...</p>
+                            <p class="mb-0">Al finalizar, el alumnado ser&aacute; capaz de.</p>
                         </div>
-                        <div>
+                        <div class="template-section">
                             <h5 class="mb-2">2) Producto p&uacute;blico (elige 1)</h5>
-                            <ul class="list-unstyled d-flex flex-column gap-2 mb-0">
-                                <li>&#9633; V&iacute;deo 90&rsquo;&rsquo;</li>
-                                <li>&#9633; P&oacute;ster A3</li>
-                                <li>&#9633; Podcast 2&rsquo;</li>
-                                <li>&#9633; &hellip;</li>
+                            <ul class="template-choices">
+                                <li>V&iacute;deo 90&rsquo;&rsquo;</li>
+                                <li>P&oacute;ster A3</li>
+                                <li>Podcast 2&rsquo;</li>
+                                <li>&hellip;</li>
                             </ul>
                         </div>
-                        <div>
+                        <div class="template-section">
                             <h5 class="mb-2">3) Definition of Done (todo debe cumplirse)</h5>
-                            <ul class="list-unstyled d-flex flex-column gap-2 mb-0">
-                                <li>&#9633; Pre/Post com&uacute;n (5 &iacute;tems) definido</li>
-                                <li>&#9633; Evaluaci&oacute;n:</li>
-                                <li>&#9633; Publicaci&oacute;n en Hub ( )</li>
-                                <li>&#9633; Fechas fijadas: PRE ___/___ &middot; POST ___/___ &middot; Showcase ___/___</li>
+                            <ul class="template-checklist">
+                                <li>Pre/Post com&uacute;n (5 &iacute;tems) definido</li>
+                                <li>Evaluaci&oacute;n:</li>
+                                <li>Publicaci&oacute;n en Hub ( )</li>
+                                <li>Fechas fijadas: PRE ___/___ &middot; POST ___/___ &middot; Showcase ___/___</li>
                             </ul>
                         </div>
                     </div>
