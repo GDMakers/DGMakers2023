@@ -403,7 +403,11 @@
                                                     <strong>Asignaturas que participan:</strong> lengua, matem&aacute;ticas&hellip;
                                                 </a>
                                             </li>
-                                            <li><strong>Formaci&oacute;n com&uacute;n:</strong> es necesaria, formato (micro-talleres por temas y taller com&uacute;n&hellip;), contenidos&hellip;</li>
+                                            <li>
+                                                <a class="sub-link" href="#talleres-profesorado">
+                                                    <strong>Formaci&oacute;n com&uacute;n:</strong>  formato (micro-talleres por temas y taller com&uacute;n&hellip;), contenidos&hellip;
+                                                </a>
+                                            </li>
                                             <li>
                                                 <span class="topic-subtitle"><strong>Definici&oacute;n de hecho:</strong></span>
                                                 <ul class="sub-points">
@@ -425,7 +429,7 @@
                                             <li>
                                                 <span class="topic-subtitle"><strong>Jornadas:</strong></span>
                                                 <ul class="sub-points">
-                                                    <li>&iquest;Qu&eacute; talleres organizamos?</li>
+                                                    <li><a class="sub-link" href="Encuentro37.php">&iquest;Qu&eacute; talleres organizamos?</a></li>
                                                     <li>Duraci&oacute;n.</li>
                                                 </ul>
                                             </li>
@@ -438,8 +442,16 @@
                                         <h5 class="topic-title">Comenzar</h5>
                                         <ul class="topic-points">
                                             <li><strong>Equipo intercentros:</strong> c&oacute;mo comunicarnos y generar comunidad.</li>
-                                            <li><strong>Microtalleres para estudiantes</strong> antes de comenzar el proyecto.</li>
-                                            <li><strong>&iquest;C&oacute;mo usamos la IA?</strong></li>
+                                            <li>
+                                                <a class="sub-link" href="Livehub37.php">
+                                                    <strong>Microtalleres para estudiantes</strong> antes de comenzar el proyecto.
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="sub-link" href="Ia37.php">
+                                                    <strong>&iquest;C&oacute;mo usamos la IA?</strong>
+                                                </a>
+                                            </li>
                                             <li><strong>Ideas aplazadas.</strong></li>
                                         </ul>
                                     </div>
@@ -487,6 +499,40 @@
                                 <li>Evaluaci&oacute;n:</li>
                                 <li>Publicaci&oacute;n en Hub ( )</li>
                                 <li>Fechas fijadas: PRE ___/___ &middot; POST ___/___ &middot; Showcase ___/___</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row gy-4 mb-5 fact-item align-items-center roadmap-next">
+                <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
+                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80" class="img-fluid roadmap-image" alt="Docentes preparando un taller formativo">
+                </div>
+                <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="h-100 roadmap-step template-card">
+                        <h4 id="talleres-profesorado" class="section-title bg-white text-start text-primary pe-3">Propuesta de talleres para el profesorado</h4>
+                        <div class="template-section">
+                            <h5 class="mb-2">1. Kickstart de Aula (30&rsquo;)</h5>
+                            <ul class="template-checklist">
+                                <li><strong>Qu&eacute;:</strong> completar la Plantilla Mini-Unidad 1 y fijar fechas (PRE, POST, Showcase).</li>
+                                <li><strong>Salida:</strong> plantilla terminada + &ldquo;Definition of Done&rdquo; marcada.</li>
+                                <li><strong>Material:</strong> Tablero &uacute;nico + Plantilla Mini-Unidad 1.</li>
+                            </ul>
+                        </div>
+                        <div class="template-section">
+                            <h5 class="mb-2">2. Cl&iacute;nica B — Producto p&uacute;blico expr&eacute;s (20&rsquo;)</h5>
+                            <ul class="template-checklist">
+                                <li><strong>Qu&eacute;:</strong> elegir formato (v&iacute;deo 90&rsquo;&rsquo; o p&oacute;ster A3) y preparar guion/maqueta.</li>
+                                <li><strong>Salida:</strong> guion (v&iacute;deo) o borrador de p&oacute;ster listo.</li>
+                                <li><strong>Material:</strong> mini-guiones y ejemplos de estructura.</li>
+                            </ul>
+                        </div>
+                        <div class="template-section">
+                            <h5 class="mb-2">3. IA en el aula: usos permitidos (30&rsquo;)</h5>
+                            <ul class="template-checklist">
+                                <li><strong>Qu&eacute;:</strong> cu&aacute;ndo s&iacute;/no, c&oacute;mo citar, y 3 prompts &uacute;tiles (guion, feedback, checklist).</li>
+                                <li><strong>Salida:</strong> Gu&iacute;a de IA responsable + 3 prompts copiable/pegable.</li>
                             </ul>
                         </div>
                     </div>
