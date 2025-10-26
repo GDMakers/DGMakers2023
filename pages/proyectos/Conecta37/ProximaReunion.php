@@ -414,6 +414,13 @@
                                                 <a class="sub-link" href="#talleres-profesorado">
                                                     <strong>Formaci&oacute;n com&uacute;n:</strong>  formato (micro-talleres por temas y taller com&uacute;n&hellip;), contenidos&hellip;
                                                 </a>
+                                                <ul class="sub-points">
+                                                    <li>
+                                                        <a class="sub-link" href="https://forms.gle/ZXfyZBoGLctSbASc6" target="_blank" rel="noopener noreferrer">
+                                                            <strong>Encuesta de formaci&oacute;n.</strong>
+                                                        </a>
+                                                    </li>
+                                                </ul>
                                             </li>
                                             <li>
                                                 <span class="topic-subtitle"><strong>Definici&oacute;n de hecho:</strong></span>
