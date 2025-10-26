@@ -402,6 +402,13 @@
                                                 <a class="sub-link" href="https://docs.google.com/forms/d/e/1FAIpQLSei_SkthRo0JXkGjWslXOupe280eH7TF6_mIRpVKB8j9CDLiQ/viewform" target="_blank" rel="noopener noreferrer">
                                                     <strong>Asignaturas que participan:</strong> lengua, matem&aacute;ticas&hellip;
                                                 </a>
+                                                <ul class="sub-points">
+                                                    <li>
+                                                        <a class="sub-link" href="https://forms.gle/MmPJJUowBDSDXStVA" target="_blank" rel="noopener noreferrer">
+                                                            <strong>Por centro:</strong> confirma participantes y datos de contacto.
+                                                        </a>
+                                                    </li>
+                                                </ul>
                                             </li>
                                             <li>
                                                 <a class="sub-link" href="#talleres-profesorado">
@@ -411,7 +418,7 @@
                                             <li>
                                                 <span class="topic-subtitle"><strong>Definici&oacute;n de hecho:</strong></span>
                                                 <ul class="sub-points">
-                                                    <li>Pre/Post com&uacute;n (5 &iacute;tems): prueba inicial y final.</li>
+                                                    <li>Pre/Post com&uacute;n: prueba inicial y final.</li>
                                                     <li>Producto p&uacute;blico: v&iacute;deo 90&rsquo;&rsquo;, podcast, web&hellip;</li>
                                                     <li>C&oacute;mo se eval&uacute;a: examen, exposici&oacute;n&hellip;</li>
                                                     <li>Fechas.</li>
@@ -451,6 +458,13 @@
                                                 <a class="sub-link" href="Ia37.php">
                                                     <strong>&iquest;C&oacute;mo usamos la IA?</strong>
                                                 </a>
+                                                <ul class="sub-points">
+                                                    <li>
+                                                        <a class="sub-link" href="https://forms.gle/9v9xu72s4GGgfmyQA" target="_blank" rel="noopener noreferrer">
+                                                            <strong>Mi propuesta.</strong>
+                                                        </a>
+                                                    </li>
+                                                </ul>
                                             </li>
                                             <li><strong>Ideas aplazadas.</strong></li>
                                         </ul>
@@ -521,7 +535,7 @@
                             </ul>
                         </div>
                         <div class="template-section">
-                            <h5 class="mb-2">2. Cl&iacute;nica B — Producto p&uacute;blico expr&eacute;s (20&rsquo;)</h5>
+                            <h5 class="mb-2">2. Producto p&uacute;blico expr&eacute;s (20&rsquo;)</h5>
                             <ul class="template-checklist">
                                 <li><strong>Qu&eacute;:</strong> elegir formato (v&iacute;deo 90&rsquo;&rsquo; o p&oacute;ster A3) y preparar guion/maqueta.</li>
                                 <li><strong>Salida:</strong> guion (v&iacute;deo) o borrador de p&oacute;ster listo.</li>
