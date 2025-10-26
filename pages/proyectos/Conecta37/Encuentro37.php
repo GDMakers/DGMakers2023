@@ -118,7 +118,7 @@
                 <h5 class="card-title mb-1">Enseñar en digital con propósito</h5>
                 <p class="mb-2"><span class="badge bg-primary">Metodología</span> <span class="badge bg-secondary">Producto público</span></p>
                 <ul class="small mb-3">
-                  <li><i class="bi bi-calendar-event"></i> Próximamente · 17:00–18:15</li>
+                  <li><i class="bi bi-calendar-event"></i> 6 NOV · 9:00–9:30</li>
                   <li><i class="bi bi-broadcast"></i> Streaming en YouTube</li>
                 </ul>
                 <p class="card-text">Ciclo simple: mini-lección → práctica guiada → tarea rica → evidencia. Ejemplos reales y checklist de aula.</p>
@@ -138,10 +138,10 @@
                 <h5 class="card-title mb-1">Matemáticas que se expresan</h5>
                 <p class="mb-2"><span class="badge bg-primary">Matemáticas</span> <span class="badge bg-secondary">Vídeo/Podcast</span></p>
                 <ul class="small mb-3">
-                  <li><i class="bi bi-calendar-event"></i> Próximamente · 18:30–19:30</li>
+                  <li><i class="bi bi-calendar-event"></i> 6 NOV · 9:30–10:00</li>
                   <li><i class="bi bi-broadcast"></i> Streaming en YouTube</li>
                 </ul>
-                <p class="card-text">Resolver, **escribir** y **explicar**: guiones, ejemplos ancla y rúbrica de claridad/razonamiento para vídeo y podcast.</p>
+                <p class="card-text">Resolver, escribir y explicar: guiones, ejemplos ancla y rúbrica de claridad y razonamiento para vídeo y podcast.</p>
                 <div class="mt-auto">
                   <a href="#" class="btn btn-sm btn-primary me-2"><i class="bi bi-box-arrow-in-right"></i> Inscripción</a>
                   <a href="#" class="btn btn-sm btn-outline-primary"><i class="bi bi-file-earmark-text"></i> Materiales</a>
@@ -158,7 +158,7 @@
                 <h5 class="card-title mb-1">Lengua: productos que importan</h5>
                 <p class="mb-2"><span class="badge bg-primary">Lengua</span> <span class="badge bg-secondary">Comunicación</span></p>
                 <ul class="small mb-3">
-                  <li><i class="bi bi-calendar-event"></i> Próximamente · 17:00–18:00</li>
+                  <li><i class="bi bi-calendar-event"></i> 6 NOV · 9:30–10:00</li>
                   <li><i class="bi bi-broadcast"></i> Streaming en YouTube</li>
                 </ul>
                 <p class="card-text">Periódico y radio escolar digital: guiones breves, licencias abiertas y publicaciones con impacto real.</p>
