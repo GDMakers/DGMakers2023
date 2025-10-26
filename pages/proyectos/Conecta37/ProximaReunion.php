@@ -201,6 +201,55 @@
             border-radius: 50%;
         }
 
+        .topic-link,
+        .sub-link {
+            color: #0a558c;
+            text-decoration: none;
+        }
+
+        .topic-link {
+            font-weight: 600;
+            transition: color 0.2s ease, text-decoration 0.2s ease;
+        }
+
+        .topic-link:hover,
+        .topic-link:focus {
+            color: #084674;
+            text-decoration: underline;
+        }
+
+        .sub-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            padding: 0.18rem 0.65rem;
+            border-radius: 999px;
+            font-weight: 600;
+            background: rgba(10, 85, 140, 0.12);
+            box-shadow: inset 0 0 0 1px rgba(10, 85, 140, 0.26);
+            transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+        }
+
+        .sub-link::after {
+            content: "→";
+            font-size: 0.9rem;
+            transition: transform 0.2s ease;
+        }
+
+        .sub-link:hover,
+        .sub-link:focus {
+            background: #0a558c;
+            color: #ffffff;
+            box-shadow: inset 0 0 0 1px #0a558c, 0 0.4rem 0.8rem rgba(10, 85, 140, 0.2);
+            text-decoration: none;
+            transform: translateX(1px);
+        }
+
+        .sub-link:hover::after,
+        .sub-link:focus::after {
+            transform: translateX(3px);
+        }
+
         .template-card {
             background: radial-gradient(circle at top right, rgba(10, 85, 140, 0.14), rgba(10, 85, 140, 0.05) 42%, rgba(10, 85, 140, 0.04));
             border: 1px solid rgba(1, 81, 131, 0.18);
@@ -349,7 +398,11 @@
                                     <div class="topic-content">
                                         <h5 class="topic-title">Decidir</h5>
                                         <ul class="topic-points">
-                                            <li><strong>Asignaturas que participan:</strong> lengua, matem&aacute;ticas&hellip;</li>
+                                            <li>
+                                                <a class="sub-link" href="https://docs.google.com/forms/d/e/1FAIpQLSei_SkthRo0JXkGjWslXOupe280eH7TF6_mIRpVKB8j9CDLiQ/viewform" target="_blank" rel="noopener noreferrer">
+                                                    <strong>Asignaturas que participan:</strong> lengua, matem&aacute;ticas&hellip;
+                                                </a>
+                                            </li>
                                             <li><strong>Formaci&oacute;n com&uacute;n:</strong> es necesaria, formato (micro-talleres por temas y taller com&uacute;n&hellip;), contenidos&hellip;</li>
                                             <li>
                                                 <span class="topic-subtitle"><strong>Definici&oacute;n de hecho:</strong></span>
@@ -363,7 +416,7 @@
                                             <li>
                                                 <span class="topic-subtitle"><strong>Showcase de proyectos:</strong></span>
                                                 <ul class="sub-points">
-                                                    <li>&iquest;Qu&eacute; mostramos? (producto + proceso)</li>
+                                                    <li><a class="sub-link" href="#mini-unidad-1">&iquest;Qu&eacute; mostramos? (producto + proceso)</a></li>
                                                     <li>Formato: stand + pitch 3&rsquo;.</li>
                                                     <li>Publicaci&oacute;n: Hub (licencias + citaci&oacute;n).</li>
                                                     <li>Responsables por centro.</li>
@@ -403,7 +456,7 @@
                 </div>
                 <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="h-100 roadmap-step template-card">
-                        <h4 class="section-title bg-white text-start text-primary pe-3">Mini-Unidad 1 &mdash; Plantilla MVP</h4>
+                        <h4 id="mini-unidad-1" class="section-title bg-white text-start text-primary pe-3">Mini-Unidad 1 &mdash; Plantilla MVP</h4>
                         <div class="template-meta">
                             <div>
                                 <p class="template-label mb-1">Centro</p>

@@ -175,63 +175,19 @@
                 <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.05s">
                     <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80" class="img-fluid roadmap-image" alt="Primer contacto e idea inicial">
                 </div>
-                <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.15s">
                     <div class="h-100 roadmap-step">
-                        <h4 class="section-title bg-white text-start text-primary pe-3">Reuni&oacute;n 1 · Activate Mode</h4>
-                        <h5>13 NOV 25. 11:30 h</h5>
-                        <ul class="mb-0">
-                            <li><strong>Sprint planning:</strong> Lengua + Matem&aacute;ticas obligatorias, &aacute;reas extra bienvenidas.</li>
-                            <li><strong>Mini-unidad 1:</strong> plantillas b&aacute;sicas listas para adaptar y publicar.</li>
-                            <li><strong>Evidencias &amp; publicaci&oacute;n:</strong> pruebas pre/post y artefactos para la Showcase.</li>
-                            <li><strong>Showcase de proyectos:</strong> demo-day, producto p&uacute;blico e hitos en el Hall of Learning.</li>
-                            <li><strong>Live hub:</strong> microtalleres Student-to-Student, Teacher Clinics y matchmaking mentor&ndash;mentee.</li>
-                            <li><strong>Jornadas 2026:</strong> keynotes, showroom y Hack-Sprint con Informe de Impacto.</li>
-                            <li><strong>Formación docentes:</strong> ¿es necesaria? ¿cómo y cuándo?</li>
+                        <h4 class="section-title bg-white text-start text-primary pe-3">CODE ZERO</h4>
+                        <h5>MAY 25</h5>
+                        <ul class="mb-0" style="display: flex; flex-direction: column; gap: 0.6rem;">
+                            <li>Reconexión con centros: mapa de personas clave y canales de coordinación.</li>
+                            <li>Necesidades detectadas: retos prioritarios en Lengua y Matemáticas.</li>
+                            <li>Hoja de ruta preliminar: calendario de trabajo y compromisos por centro.</li>
                         </ul>
                     </div>
                 </div>
             </div>
-
-            <div class="row gy-4 mb-5 fact-item align-items-center flex-lg-row-reverse roadmap-idea">
-                <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
-                    <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1200&q=80" class="img-fluid roadmap-image" alt="Equipo docente preparando un prototipo de aprendizaje">
-                </div>
-                <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="h-100 roadmap-step">
-                        <h4 class="section-title bg-white text-start text-primary pe-3">Mini-Unidad 1 &mdash; Plantilla MVP</h4>
-                        <div class="row g-3 mb-2">
-                            <div class="col-sm-6">
-                                <p class="mb-1"><strong>Centro:</strong> <span class="text-muted">____________________</span></p>
-                            </div>
-                            <div class="col-sm-6">
-                                <p class="mb-1"><strong>&Aacute;reas:</strong> <span class="text-muted">____________________</span></p>
-                            </div>
-                        </div>
-                        <div>
-                            <h5 class="mb-2">1) El impacto</h5>
-                            <p class="mb-0">Al finalizar, el alumnado ser&aacute; capaz de.</p>
-                        </div>
-                        <div>
-                            <h5 class="mb-2">2) Producto p&uacute;blico (elige 1)</h5>
-                            <ul class="list-unstyled d-flex flex-column gap-2 mb-0">
-                                <li>&#9633; V&iacute;deo 90&rsquo;&rsquo;</li>
-                                <li>&#9633; P&oacute;ster A3</li>
-                                <li>&#9633; Podcast 2&rsquo;</li>
-                                <li>&#9633; &hellip;</li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h5 class="mb-2">3) Definition of Done (todo debe cumplirse)</h5>
-                            <ul class="list-unstyled d-flex flex-column gap-2 mb-0">
-                                <li>&#9633; Pre/Post com&uacute;n (5 &iacute;tems) definido</li>
-                                <li>&#9633; Evaluaci&oacute;n:</li>
-                                <li>&#9633; Publicaci&oacute;n en Hub ( )</li>
-                                <li>&#9633; Fechas fijadas: PRE ___/___ &middot; POST ___/___ &middot; Showcase ___/___</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+           
 
             <div class="row gy-4 fact-item">
                 <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.3s">
