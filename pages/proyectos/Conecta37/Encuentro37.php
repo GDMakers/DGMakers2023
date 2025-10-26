@@ -103,7 +103,7 @@
           <div class="col-lg-10 mx-auto text-center">
             <h4 class="section-title bg-white text-primary d-inline-block px-3">Programa & Streaming</h4>
             <h5 class="card-title mb-1">Febrero 2026</h5>
-            <p class="mt-3 mb-0">Formato online · sesiones de 60–90’ · materiales descargables · Q&A en vivo.</p>
+            <p class="mt-3 mb-0">Formato online · sesiones de 30 - 45’ · materiales descargables · Q&A en vivo.</p>
           </div>
         </div>
 
