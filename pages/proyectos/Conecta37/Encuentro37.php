@@ -257,7 +257,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                   <div class="card h-100 shadow-sm">
-                    <img src="https://images.unsplash.com/photo-1581093588401-22e8c5fbe28d?auto=format&fit=crop&w=800&q=80" class="card-img-top encuentro-card-img" alt="Taller Code Creativo con micro:bit">
+                    <img src="https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1931" class="card-img-top encuentro-card-img" alt="Taller Code Creativo con micro:bit">
                     <div class="card-body d-flex flex-column">
                       <h5 class="card-title mb-1">Code Creativo</h5>
                       <p class="mb-2"><span class="badge bg-primary">Coding</span> <span class="badge bg-secondary">MakeCode micro:bit</span></p>
@@ -386,7 +386,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.15s">
                   <div class="card h-100 shadow-sm">
-                    <img src="https://images.unsplash.com/photo-1522177811190-2f3f4a677409?auto=format&fit=crop&w=800&q=80" class="card-img-top encuentro-card-img" alt="Taller Vídeo 60s con Clipchamp o WeVideo">
+                    <img src="https://images.unsplash.com/photo-1607968565043-36af90dde238?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1738" class="card-img-top encuentro-card-img" alt="Taller Vídeo 60s con Clipchamp o WeVideo">
                     <div class="card-body d-flex flex-column">
                       <h5 class="card-title mb-1">Vídeo 60s</h5>
                       <p class="mb-2"><span class="badge bg-primary">Vídeo</span> <span class="badge bg-secondary">Clipchamp · WeVideo</span></p>
@@ -404,7 +404,7 @@
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.05s">
                   <div class="card h-100 shadow-sm">
-                    <img src="https://images.unsplash.com/photo-1588075592446-236693731f0f?auto=format&fit=crop&w=800&q=80" class="card-img-top encuentro-card-img" alt="Taller Mates que se Expresan con Docs y Jamboard">
+                    <img src="https://images.unsplash.com/photo-1636466497217-26a8cbeaf0aa?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1548" class="card-img-top encuentro-card-img" alt="Taller Mates que se Expresan con Docs y Jamboard">
                     <div class="card-body d-flex flex-column">
                       <h5 class="card-title mb-1">Mates que se Expresan</h5>
                       <p class="mb-2"><span class="badge bg-primary">Matemáticas</span> <span class="badge bg-secondary">Docs · Jamboard</span></p>
