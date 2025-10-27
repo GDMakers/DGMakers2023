@@ -223,7 +223,7 @@
             align-items: center;
             gap: 0.35rem;
             padding: 0.18rem 0.65rem;
-            border-radius: 999px;
+            border-radius: 7px;
             font-weight: 600;
             background: rgba(10, 85, 140, 0.12);
             box-shadow: inset 0 0 0 1px rgba(10, 85, 140, 0.26);
