@@ -239,7 +239,7 @@
               <div class="row g-4 mb-4">
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.05s">
                   <div class="card h-100 shadow-sm">
-                    <img src="https://images.unsplash.com/photo-1580894742926-42ac7b6c7f88?auto=format&fit=crop&w=800&q=80" class="card-img-top encuentro-card-img" alt="Taller 3D Exprés en Tinkercad">
+                    <img src="https://images.unsplash.com/photo-1611117775350-ac3950990985?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2671" class="card-img-top encuentro-card-img" alt="Taller 3D Exprés en Tinkercad">
                     <div class="card-body d-flex flex-column">
                       <h5 class="card-title mb-1">3D Exprés</h5>
                       <p class="mb-2"><span class="badge bg-primary">Diseño 3D</span> <span class="badge bg-secondary">Tinkercad</span></p>
