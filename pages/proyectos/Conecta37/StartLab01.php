@@ -242,7 +242,7 @@
                             <div class="col-md-6">
                                 <div class="bg-white rounded-4 h-100 p-3 shadow-sm">
                                     <p class="text-uppercase text-muted mb-1 small fw-semibold">Estructura</p>
-                                    <p class="mb-0">Taller&middot; Sprint creativo potenciado con IA.</p>
+                                    <p class="mb-0">Taller &middot; Sprint creativo potenciado con IA.</p>
                                 </div>
                             </div>
                             <div class="col-md-6">

@@ -229,7 +229,7 @@
               
 
               <hr class="my-4">
-              <h3 class="h5 text-uppercase text-primary mb-3" id="talleres">Talleres (60’ cada uno)</h3>
+              <h3 class="h5 text-uppercase text-primary mb-3" id="talleres">Talleres (30’ cada uno)</h3>
               <p class="mb-2"><strong>Elige 1 del Bloque A y 1 del Bloque B.</strong> Sal con un borrador publicado.</p>
               <p class="mb-3">Elige tus dos talleres (A/B) en los bloques siguientes.</p>
               <div class="alert alert-warning mb-4" role="alert">
