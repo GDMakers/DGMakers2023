@@ -235,14 +235,14 @@
                     <div class="col-lg-7">
                         <span class="text-uppercase text-primary lab-tag d-inline-block mb-2">Guion Final Mejorado</span>
                         <h2 class="fw-bold mb-3">Conecta-37 Start Lab (2 h 30 min)</h2>
-                        <p class="mb-4">Un taller vivencial que acelera el ciclo Dise&ntilde;ar &rarr; Crear &rarr; Compartir utilizando la IA como copiloto inteligente, sin sustituir la mirada pedag&oacute;gica del docente.</p>
+                        <p class="mb-4">Un taller que acelera el ciclo Dise&ntilde;ar &rarr; Crear &rarr; Compartir utilizando la IA como copiloto inteligente, sin sustituir la mirada pedag&oacute;gica del docente.</p>
                     </div>
                     <div class="col-lg-5">
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="bg-white rounded-4 h-100 p-3 shadow-sm">
                                     <p class="text-uppercase text-muted mb-1 small fw-semibold">Estructura</p>
-                                    <p class="mb-0">Taller vivencial &middot; Sprint creativo potenciado con IA.</p>
+                                    <p class="mb-0">Taller&middot; Sprint creativo potenciado con IA.</p>
                                 </div>
                             </div>
                             <div class="col-md-6">
