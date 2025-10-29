@@ -113,90 +113,32 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    
                                     <tr>
                                         <th scope="row">10:15 – 11:00</th>
-                                        <td>
-                                            <ul class="mb-0">
-                                                <li>Gafas de Realidad Virtual y vídeo 360º</li>
-                                                <li>Edición vídeo y croma (OBS o iPad)</li>
-                                            </ul>
-                                        </td>
-                                        <td>
-                                            <ul class="mb-0">
-                                                <li>MBot2</li>
-                                                <li>Arduino</li>
-                                            </ul>
-                                        </td>
-                                        <td>
-                                            <ul class="mb-0">
-                                                <li>Minecraft</li>
-                                                <li>Programación Scratch</li>
-                                            </ul>
-                                        </td>
-                                        <td>
-                                            <ul class="mb-0">
-                                                <li>App Inventor</li>
-                                                <li>Diseño web</li>
-                                            </ul>
-                                        </td>
+                                        <td>Lumio</td>
+                                        <td>Cata de aromas</td>
+                                        <td>Jabón casero</td>
+                                        <td>Danzas del Mundo</td>
                                     </tr>
                                     <tr class="table-warning">
                                         <th scope="row">11:00 – 11:30</th>
-                                        <td colspan="2" class="fw-semibold">
-                                            <i class="bi bi-cup-hot-fill me-2"></i>Pausa creativa &mdash; café para docentes y networking
-                                        </td>
-                                        <td colspan="2">
-                                            Espacio informal para compartir aprendizajes, recargar energías y descubrir cómo replicar los talleres en tu centro.
-                                        </td>
+                                        <td colspan="2" class="fw-semibold">Pausa creativa &mdash; café para docentes y networking</td>
+                                        <td colspan="2" class="fw-semibold">Espacio informal para compartir aprendizajes, recargar energías y descubrir cómo replicar los talleres en tu centro.</td>
+                                        
                                     </tr>
                                     <tr>
                                         <th scope="row">11:30 – 12:15</th>
-                                        <td>
-                                            <ul class="mb-0">
-                                                <li>IA para rendimiento académico</li>
-                                                <li>Microbit</li>
-                                            </ul>
-                                        </td>
-                                        <td>
-                                            <ul class="mb-0">
-                                                <li>Construcción filtros de agua</li>
-                                                <li>Jabón casero</li>
-                                            </ul>
-                                        </td>
-                                        <td>
-                                            <ul class="mb-0">
-                                                <li>Chapas</li>
-                                            </ul>
-                                        </td>
-                                        <td>
-                                            <ul class="mb-0">
-                                                <li>Música/Teatro</li>
-                                            </ul>
-                                        </td>
+                                        <td>Vectorizar dibujo y preparación en Tinkercad para impresión en 3D</td>
+                                        <td>Crea tu amuleto egipcio</td>
+                                        <td>Jabón casero</td>
+                                        <td>Danzas del Mundo</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">12:15 – 13:00</th>
-                                        <td>
-                                            <ul class="mb-0">
-                                                <li>Lumio Smart TV</li>
-                                            </ul>
-                                        </td>
-                                        <td>
-                                            <ul class="mb-0">
-                                                <li>Construye tu amuleto egipcio</li>
-                                            </ul>
-                                        </td>
-                                        <td>
-                                            <ul class="mb-0">
-                                                <li>Cortadora Láser</li>
-                                            </ul>
-                                        </td>
-                                        <td>
-                                            <ul class="mb-0">
-                                                <li>Juegos y deporte</li>
-                                            </ul>
-                                        </td>
+                                        <td>Escaneado y realidad aumentada con Reality Composer</td>
+                                        <td>Vectorizar dibujo y preparación en Tinkercad para impresión en 3D</td>
+                                        <td>Tinkerdard</td>
+                                        <td>Danzas del Mundo</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -240,6 +182,12 @@
                                         <td>&mdash;</td>
                                     </tr>
                                     <tr>
+                                        <th scope="row">Jabón casero</th>
+                                        <td>CEE LAS BOQUERAS</td>
+                                        <td>Elaboración de jabón casero con ingredientes accesibles.</td>
+                                        <td>&mdash;</td>
+                                    </tr>
+                                    <tr>
                                         <th scope="row">Escaneado y realidad aumentada con Reality Composer</th>
                                         <td>IES CAÑADA DE LAS ERAS</td>
                                         <td>Se muestra el proceso de escaneo con iPad Pro y la incorporación del objeto en Reality Composer para su enriquecimiento y visión en RA.</td>
@@ -270,6 +218,57 @@
                                         <td>&mdash;</td>
                                     </tr>
                                 </tbody>
+                            </table>
+                        </div>
+                        <h6 class="mt-4 text-primary">Número de asistentes por centro</h6>
+                        <div class="table-responsive mt-2">
+                            <table class="table table-bordered align-middle">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th scope="col">Centro</th>
+                                        <th scope="col">Asistentes</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">CEE ENRIQUE VIVIENTE</th>
+                                        <td>20</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">CEE EUSEBIO MARTÍNEZ</th>
+                                        <td>13</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">IES FLORIDABLANCA</th>
+                                        <td>23</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">IES ALCÁNTARA</th>
+                                        <td>25</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">CEE LAS BOQUERAS</th>
+                                        <td>9</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">IES CAÑADA DE LAS ERAS</th>
+                                        <td>22</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">CEIP MARIANO AROCA</th>
+                                        <td>7</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">IES SIERRA MINERA</th>
+                                        <td>12</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot class="table-secondary">
+                                    <tr>
+                                        <th scope="row">Total</th>
+                                        <td>131</td>
+                                    </tr>
+                                </tfoot>
                             </table>
                         </div>
                     </div>
