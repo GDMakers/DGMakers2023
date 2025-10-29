@@ -109,6 +109,8 @@
                                         <th scope="col">Aula DGMakers</th>
                                         <th scope="col">Aula 0A04</th>
                                         <th scope="col">Aula 0A06</th>
+                                        <th scope="col">2E03</th>
+                                        <th scope="col">2E04</th>
                                         <th scope="col">Salón de actos</th>
                                     </tr>
                                 </thead>
@@ -118,26 +120,32 @@
                                         <td>Lumio</td>
                                         <td>Cata de aromas</td>
                                         <td>Jabón casero</td>
+                                        <td>Vectorizar dibujo y preparación en Tinkercad para impresión en 3D</td>
+                                        <td>Escaneado y realidad aumentada con Reality Composer</td>
                                         <td>Danzas del Mundo</td>
                                     </tr>
                                     <tr class="table-warning">
                                         <th scope="row">11:00 – 11:30</th>
                                         <td colspan="2" class="fw-semibold">Pausa creativa &mdash; café para docentes y networking</td>
-                                        <td colspan="2" class="fw-semibold">Espacio informal para compartir aprendizajes, recargar energías y descubrir cómo replicar los talleres en tu centro.</td>
+                                        <td colspan="4" class="fw-semibold">Espacio informal para compartir aprendizajes, recargar energías y descubrir cómo replicar los talleres en tu centro.</td>
                                         
                                     </tr>
                                     <tr>
                                         <th scope="row">11:30 – 12:15</th>
-                                        <td>Vectorizar dibujo y preparación en Tinkercad para impresión en 3D</td>
+                                        <td>Lumio</td>
                                         <td>Crea tu amuleto egipcio</td>
                                         <td>Jabón casero</td>
+                                        <td>Vectorizar dibujo y preparación en Tinkercad para impresión en 3D</td>
+                                        <td>Escaneado y realidad aumentada con Reality Composer</td>
                                         <td>Danzas del Mundo</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">12:15 – 13:00</th>
-                                        <td>Escaneado y realidad aumentada con Reality Composer</td>
+                                        <td>Lumio</td>
                                         <td>Vectorizar dibujo y preparación en Tinkercad para impresión en 3D</td>
                                         <td>Tinkerdard</td>
+                                        <td>Vectorizar dibujo y preparación en Tinkercad para impresión en 3D</td>
+                                        <td>Escaneado y realidad aumentada con Reality Composer</td>
                                         <td>Danzas del Mundo</td>
                                     </tr>
                                 </tbody>
@@ -239,24 +247,24 @@
                                         <td>13</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">IES FLORIDABLANCA</th>
-                                        <td>23</td>
+                                        <th scope="row">CEE LAS BOQUERAS</th>
+                                        <td>9</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">CEIP MARIANO AROCA</th>
+                                        <td>7</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">IES ALCÁNTARA</th>
                                         <td>25</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">CEE LAS BOQUERAS</th>
-                                        <td>9</td>
-                                    </tr>
-                                    <tr>
                                         <th scope="row">IES CAÑADA DE LAS ERAS</th>
                                         <td>22</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">CEIP MARIANO AROCA</th>
-                                        <td>7</td>
+                                        <th scope="row">IES FLORIDABLANCA</th>
+                                        <td>23</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">IES SIERRA MINERA</th>
