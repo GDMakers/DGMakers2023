@@ -81,9 +81,12 @@
                             <li><b>Público</b>: DGMakers + Educación Especial</li>
                             <li><b>Vibe</b>: colaborativo, creativo y muy tech</li>
                         </ul>
-                        <p class="wow fadeIn" data-wow-delay="0.5s" style="text-align:center;">
+                        <p class="wow fadeIn d-flex flex-column flex-sm-row justify-content-center gap-2" data-wow-delay="0.5s">
                             <a class="btn btn-primary" href="https://docs.google.com/spreadsheets/d/150usOMUg_JGZcS__s2Hf2QxezfZFXWT6n6lG6VviGBc/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
                                 <i class="bi bi-pencil-square me-2"></i>Talleres solicitados
+                            </a>
+                            <a class="btn btn-outline-primary" href="https://docs.google.com/spreadsheets/d/1_QdRrF30ZnTLqG9NsDOOi8m-ps6jYmRfYjYQzSoR2tE/edit?gid=128264790#gid=128264790" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-people-fill me-2"></i>Inscribir estudiantes en los talleres
                             </a>
                         </p>
                     </div>
@@ -142,7 +145,7 @@
                                     <tr>
                                         <th scope="row">12:15 – 13:00</th>
                                         <td>Lumio</td>
-                                        <td>Vectorizar dibujo y preparación en Tinkercad para impresión en 3D</td>
+                                        <td>Crea tu amuleto egipcio</td>
                                         <td>Tinkerdard</td>
                                         <td>Vectorizar dibujo y preparación en Tinkercad para impresión en 3D</td>
                                         <td>Escaneado y realidad aumentada con Reality Composer</td>
