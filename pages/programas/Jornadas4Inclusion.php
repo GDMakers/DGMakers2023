@@ -114,6 +114,7 @@
                                         <th scope="col">Aula 0A06</th>
                                         <th scope="col">2E03</th>
                                         <th scope="col">2E04</th>
+                                        <th scope="col">2E05</th>
                                         <th scope="col">Salón de actos</th>
                                     </tr>
                                 </thead>
@@ -125,30 +126,32 @@
                                         <td>Jabón casero</td>
                                         <td>Vectorizar dibujo y preparación en Tinkercad para impresión en 3D</td>
                                         <td>Escaneado y realidad aumentada con Reality Composer</td>
+                                        <td>Decorando el tiempo</td>
                                         <td>Danzas del Mundo</td>
                                     </tr>
                                     <tr class="table-warning">
                                         <th scope="row">11:00 – 11:30</th>
                                         <td colspan="2" class="fw-semibold">Pausa creativa &mdash; café para docentes y networking</td>
-                                        <td colspan="4" class="fw-semibold">Espacio informal para compartir aprendizajes, recargar energías y descubrir cómo replicar los talleres en tu centro.</td>
-                                        
+                                        <td colspan="5" class="fw-semibold">Espacio informal para compartir aprendizajes, recargar energías y descubrir cómo replicar los talleres en tu centro.</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">11:30 – 12:15</th>
                                         <td>Lumio</td>
                                         <td>Crea tu amuleto egipcio</td>
-                                        <td>Jabón casero</td>
+                                        <td>Decorando el tiempo</td>
                                         <td>Vectorizar dibujo y preparación en Tinkercad para impresión en 3D</td>
                                         <td>Escaneado y realidad aumentada con Reality Composer</td>
+                                        <td>Decorando el tiempo</td>
                                         <td>Danzas del Mundo</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">12:15 – 13:00</th>
-                                        <td>Lumio</td>
+                                        <td>Tinkercad</td>
                                         <td>Crea tu amuleto egipcio</td>
-                                        <td>Tinkerdard</td>
+                                        <td>Decorando el tiempo</td>
                                         <td>Vectorizar dibujo y preparación en Tinkercad para impresión en 3D</td>
                                         <td>Escaneado y realidad aumentada con Reality Composer</td>
+                                        <td>Impostor y el pueblo duerme</td>
                                         <td>Danzas del Mundo</td>
                                     </tr>
                                 </tbody>
@@ -182,13 +185,13 @@
                                 <tbody>
                                     <tr>
                                         <th scope="row">Lumio</th>
-                                        <td>CEE EUSEBIO MARTÍNEZ</td>
+                                        <td>CEE EUSEBIO MARTÍNEZ / IES ALCÁNTARA </td>
                                         <td>Jugar y crear sus propios juegos.</td>
                                         <td>&mdash;</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">Tinkerdard</th>
-                                        <td>CEE EUSEBIO MARTÍNEZ</td>
+                                        <th scope="row">Tinkercard</th>
+                                        <td>CEE EUSEBIO MARTÍNEZ / IES ALCÁNTARA </td>
                                         <td>Diseño en 3D y cómo enviarlo a imprimir en la impresora.</td>
                                         <td>&mdash;</td>
                                     </tr>
@@ -226,6 +229,12 @@
                                         <th scope="row">Danzas del Mundo</th>
                                         <td>IES FLORIDABLANCA</td>
                                         <td>La profesora de música y 15 alumnos nos harán bailar danzas de diferentes partes del mundo.</td>
+                                        <td>&mdash;</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Decorando el tiempo</th>
+                                        <td>IES ALCÁNTARA</td>
+                                        <td>Interpretación de relojes de Dalí.</td>
                                         <td>&mdash;</td>
                                     </tr>
                                 </tbody>
