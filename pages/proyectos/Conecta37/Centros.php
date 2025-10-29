@@ -49,6 +49,102 @@
             max-height: 140px;
             object-fit: contain;
         }
+
+        .benefits-card {
+            background: #ffffff;
+            border-radius: 16px;
+            border: 1px solid rgba(1, 81, 131, 0.12);
+            box-shadow: 0 0.75rem 1.5rem rgba(1, 81, 131, 0.08);
+            height: 100%;
+            padding: 1.75rem;
+        }
+
+        .benefits-card h5 {
+            color: #015183;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .benefits-card ul {
+            margin-bottom: 0;
+            padding-left: 1.1rem;
+        }
+
+        .benefits-card li {
+            margin-bottom: 0.55rem;
+        }
+
+        .commitment-card {
+            background: rgba(1, 81, 131, 0.06);
+            border-left: 6px solid #015183;
+            border-radius: 16px;
+            padding: 2rem;
+        }
+
+        .commitment-card h5 {
+            color: #015183;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .commitment-card ul {
+            margin-bottom: 0;
+        }
+
+        .commitment-card li {
+            margin-bottom: 0.5rem;
+        }
+
+        .quickwins-card {
+            background: #ffffff;
+            border-radius: 16px;
+            border: 1px dashed rgba(1, 81, 131, 0.3);
+            box-shadow: 0 0.5rem 1.25rem rgba(1, 81, 131, 0.06);
+            padding: 2rem;
+        }
+
+        .quickwins-card h5 {
+            color: #015183;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .quickwins-card ul {
+            margin-bottom: 0;
+            padding-left: 1.1rem;
+        }
+
+        .quickwins-card li {
+            margin-bottom: 0.5rem;
+        }
+
+        .comparison-card {
+            background: #ffffff;
+            border-radius: 16px;
+            border: 1px solid rgba(1, 81, 131, 0.12);
+            box-shadow: 0 0.5rem 1.25rem rgba(1, 81, 131, 0.08);
+            padding: 1.75rem;
+        }
+
+        .comparison-card h6 {
+            color: #015183;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .comparison-card ul {
+            list-style: none;
+            margin-bottom: 0;
+            padding-left: 0;
+        }
+
+        .comparison-card li {
+            margin-bottom: 0.65rem;
+        }
+
+        .comparison-card li:last-child {
+            margin-bottom: 0;
+        }
     </style>
 </head>
 
@@ -143,6 +239,94 @@
                                 <img src="img/IESSangoneraLaVerde.png" class="img-fluid mx-auto" alt="Logotipo IES Sangonera la Verde">
                             </a>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row gy-4 mt-5 fact-item">
+                <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="h-100">
+                        <h4 class="section-title bg-white text-start text-primary pe-3">Conecta 37: La Innovaci&oacute;n que Funciona</h4>
+                        <p class="mb-2" style="text-align:justify;">Menos papeleo, m&aacute;s producto. Menos promesas, m&aacute;s evidencias.</p>
+                        <p class="mb-0" style="text-align:justify;">Elige Conecta 37 por tres victorias claras:</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row gy-4">
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="benefits-card">
+                        <h5>1. Alumnado que crea, debate y conecta</h5>
+                        <ul class="mb-0">
+                            <li><strong>Aprendizaje S2S:</strong> productos reales (v&iacute;deos, apps, podcasts) que usan y comparten entre centros.</li>
+                            <li><strong>Competencias que se miden:</strong> Mates y Lengua con r&uacute;bricas comunes y comparables.</li>
+                            <li><strong>IA como copiloto:</strong> bocetan, revisan y publican con seguridad y criterios &eacute;ticos.</li>
+                            <li class="mb-0"><strong>DUA real:</strong> mismo reto, m&uacute;ltiples caminos (audio, v&iacute;deo, guion) para m&aacute;s voz y menos ficha repetitiva.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="benefits-card">
+                        <h5>2. Profes que ganan tiempo y foco</h5>
+                        <ul class="mb-0">
+                            <li><strong>Banco Plug &amp; Play:</strong> tareas, r&uacute;bricas y plantillas listas para usar ma&ntilde;ana mismo.</li>
+                            <li><strong>Evidencias autom&aacute;ticas:</strong> los productos y datos se vuelcan solos al PDC o a la memoria.</li>
+                            <li class="mb-0"><strong>Sprints y mentor&iacute;as:</strong> sistema replicable que crece en comunidad, sin depender de h&eacute;roes quemados.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="benefits-card">
+                        <h5>3. Direcci&oacute;n con resultados y visibilidad</h5>
+                        <ul class="mb-0">
+                            <li><strong>Indicadores claros:</strong> datos pre/post sobre competencias clave.</li>
+                            <li><strong>Alineado con tu plan:</strong> cumples objetivos de innovaci&oacute;n (DUA, Metodolog&iacute;as Activas, CDD) sin rehacer documentos.</li>
+                            <li class="mb-0"><strong>Visibilidad positiva:</strong> galer&iacute;a de proyectos, sello de participaci&oacute;n y puente a alianzas (Erasmus+, redes).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row gy-4 mt-4 fact-item">
+                <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="commitment-card text-center">
+                        <h5 class="mb-0">&iquest;Qu&eacute; recibes? &iquest;Qu&eacute; pones?</h5>
+                    </div>
+                </div>
+
+                <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="comparison-card">
+                        <div class="row g-4 align-items-start">
+                            <div class="col-md-6">
+                                <h6>Lo que te damos </h6>
+                                <ul class="mb-0">
+                                    <li><strong>Onboarding Kit:</strong> Gu&iacute;a r&aacute;pida + 12 tareas listas.</li>
+                                    <li><strong>Pack IA:</strong> Prompts seguros y gu&iacute;as.</li>
+                                    <li class="mb-0"><strong>Soporte entre iguales:</strong> Canal de dudas y demos.</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6">
+                                <h6>Tu compromiso </h6>
+                                <ul class="mb-0">
+                                    <li><strong>1 Coordinador/a</strong> + Equipo de 3&ndash;5 profes.</li>
+                                    <li><strong>1 tarea/mes</strong> por grupo.</li>
+                                    <li class="mb-0"><strong>1 exposici&oacute;n/trimestre</strong>.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row gy-4 mt-4 fact-item">
+                <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="quickwins-card">
+                        <h5>Tus &ldquo;Quick Wins&rdquo; (en 6&ndash;8 semanas)</h5>
+                        <ul class="mb-0">
+                            <li><strong>Primeras tareas de Mates y Lengua</strong> publicadas y visibles.</li>
+                            <li><strong>Panel de evidencias del centro</strong> activo y compartible.</li>
+                            <li class="mb-0"><strong>Primer mini-evento S2S</strong> conectando a dos grupos.</li>
+                        </ul>
                     </div>
                 </div>
             </div>

@@ -81,9 +81,12 @@
                             <li><b>Público</b>: DGMakers + Educación Especial</li>
                             <li><b>Vibe</b>: colaborativo, creativo y muy tech</li>
                         </ul>
-                        <p class="wow fadeIn" data-wow-delay="0.5s" style="text-align:center;">
+                        <p class="wow fadeIn d-flex flex-column flex-sm-row justify-content-center gap-2" data-wow-delay="0.5s">
                             <a class="btn btn-primary" href="https://docs.google.com/spreadsheets/d/150usOMUg_JGZcS__s2Hf2QxezfZFXWT6n6lG6VviGBc/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
                                 <i class="bi bi-pencil-square me-2"></i>Talleres solicitados
+                            </a>
+                            <a class="btn btn-outline-primary" href="https://docs.google.com/spreadsheets/d/1_QdRrF30ZnTLqG9NsDOOi8m-ps6jYmRfYjYQzSoR2tE/edit?gid=128264790#gid=128264790" target="_blank" rel="noopener noreferrer">
+                                <i class="bi bi-people-fill me-2"></i>Inscribir estudiantes en los talleres
                             </a>
                         </p>
                     </div>
@@ -109,6 +112,9 @@
                                         <th scope="col">Aula DGMakers</th>
                                         <th scope="col">Aula 0A04</th>
                                         <th scope="col">Aula 0A06</th>
+                                        <th scope="col">2E03</th>
+                                        <th scope="col">2E04</th>
+                                        <th scope="col">2E05</th>
                                         <th scope="col">Salón de actos</th>
                                     </tr>
                                 </thead>
@@ -118,26 +124,34 @@
                                         <td>Lumio</td>
                                         <td>Cata de aromas</td>
                                         <td>Jabón casero</td>
+                                        <td>Vectorizar dibujo y preparación en Tinkercad para impresión en 3D</td>
+                                        <td>Escaneado y realidad aumentada con Reality Composer</td>
+                                        <td>Decorando el tiempo</td>
                                         <td>Danzas del Mundo</td>
                                     </tr>
                                     <tr class="table-warning">
                                         <th scope="row">11:00 – 11:30</th>
                                         <td colspan="2" class="fw-semibold">Pausa creativa &mdash; café para docentes y networking</td>
-                                        <td colspan="2" class="fw-semibold">Espacio informal para compartir aprendizajes, recargar energías y descubrir cómo replicar los talleres en tu centro.</td>
-                                        
+                                        <td colspan="5" class="fw-semibold">Espacio informal para compartir aprendizajes, recargar energías y descubrir cómo replicar los talleres en tu centro.</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">11:30 – 12:15</th>
-                                        <td>Vectorizar dibujo y preparación en Tinkercad para impresión en 3D</td>
+                                        <td>Lumio</td>
                                         <td>Crea tu amuleto egipcio</td>
-                                        <td>Jabón casero</td>
+                                        <td>Decorando el tiempo</td>
+                                        <td>Vectorizar dibujo y preparación en Tinkercad para impresión en 3D</td>
+                                        <td>Escaneado y realidad aumentada con Reality Composer</td>
+                                        <td>Decorando el tiempo</td>
                                         <td>Danzas del Mundo</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">12:15 – 13:00</th>
-                                        <td>Escaneado y realidad aumentada con Reality Composer</td>
+                                        <td>Tinkercad</td>
+                                        <td>Crea tu amuleto egipcio</td>
+                                        <td>Decorando el tiempo</td>
                                         <td>Vectorizar dibujo y preparación en Tinkercad para impresión en 3D</td>
-                                        <td>Tinkerdard</td>
+                                        <td>Escaneado y realidad aumentada con Reality Composer</td>
+                                        <td>Impostor y el pueblo duerme</td>
                                         <td>Danzas del Mundo</td>
                                     </tr>
                                 </tbody>
@@ -171,13 +185,13 @@
                                 <tbody>
                                     <tr>
                                         <th scope="row">Lumio</th>
-                                        <td>CEE EUSEBIO MARTÍNEZ</td>
+                                        <td>CEE EUSEBIO MARTÍNEZ / IES ALCÁNTARA </td>
                                         <td>Jugar y crear sus propios juegos.</td>
                                         <td>&mdash;</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">Tinkerdard</th>
-                                        <td>CEE EUSEBIO MARTÍNEZ</td>
+                                        <th scope="row">Tinkercard</th>
+                                        <td>CEE EUSEBIO MARTÍNEZ / IES ALCÁNTARA </td>
                                         <td>Diseño en 3D y cómo enviarlo a imprimir en la impresora.</td>
                                         <td>&mdash;</td>
                                     </tr>
@@ -217,6 +231,12 @@
                                         <td>La profesora de música y 15 alumnos nos harán bailar danzas de diferentes partes del mundo.</td>
                                         <td>&mdash;</td>
                                     </tr>
+                                    <tr>
+                                        <th scope="row">Decorando el tiempo</th>
+                                        <td>IES ALCÁNTARA</td>
+                                        <td>Interpretación de relojes de Dalí.</td>
+                                        <td>&mdash;</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -230,6 +250,7 @@
                                     </tr>
                                 </thead>
                                 <tbody>
+                                     
                                     <tr>
                                         <th scope="row">CEE ENRIQUE VIVIENTE</th>
                                         <td>20</td>
@@ -239,24 +260,28 @@
                                         <td>13</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">IES FLORIDABLANCA</th>
-                                        <td>23</td>
+                                        <th scope="row">CEE LAS BOQUERAS</th>
+                                        <td>9</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">CEIP CIUDAD DE LA PAZ</th>
+                                        <td>5</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">CEIP MARIANO AROCA</th>
+                                        <td>7</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">IES ALCÁNTARA</th>
                                         <td>25</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">CEE LAS BOQUERAS</th>
-                                        <td>9</td>
-                                    </tr>
-                                    <tr>
                                         <th scope="row">IES CAÑADA DE LAS ERAS</th>
                                         <td>22</td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">CEIP MARIANO AROCA</th>
-                                        <td>7</td>
+                                        <th scope="row">IES FLORIDABLANCA</th>
+                                        <td>23</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">IES SIERRA MINERA</th>
