@@ -477,6 +477,12 @@
                 <li class="mb-2"><strong>Transparencia IA:</strong> di si la usaste y cómo.</li>
                 <li class="mb-0"><strong>Respeto & foco:</strong> 5–20–10 en cada taller.</li>
               </ul>
+              <hr class="my-4">
+              <h4 class="h6 text-uppercase text-primary mb-3">Laboratorios intercentros</h4>
+              <div class="d-flex flex-wrap gap-2 mb-4">
+                <a href="StartLab01_Old.php" class="btn btn-outline-primary btn-sm"><i class="bi bi-flask me-1"></i> Laboratorio 1</a>
+                <a href="StartLab01.php" class="btn btn-outline-primary btn-sm"><i class="bi bi-flask-fill me-1"></i> Laboratorio 2</a>
+              </div>
             </div>
           </div>
         </div>
