@@ -250,6 +250,7 @@
                                     </tr>
                                 </thead>
                                 <tbody>
+                                     
                                     <tr>
                                         <th scope="row">CEE ENRIQUE VIVIENTE</th>
                                         <td>20</td>
@@ -261,6 +262,10 @@
                                     <tr>
                                         <th scope="row">CEE LAS BOQUERAS</th>
                                         <td>9</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">CEIP CIUDAD DE LA PAZ</th>
+                                        <td>5</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">CEIP MARIANO AROCA</th>
