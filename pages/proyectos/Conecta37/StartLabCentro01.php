@@ -219,7 +219,7 @@
                 <div class="row g-0 align-items-stretch">
                     <div class="col-lg-5">
                         <div class="lab-block-media h-100">
-                            <img src="https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?auto=format&fit=crop&w=1200&q=80" class="img-fluid" alt="Docente liderando una sesi&oacute;n r&aacute;pida con equipos de estudiantes">
+                            <img src="https://as2.ftcdn.net/v2/jpg/05/18/75/43/1000_F_518754391_bgzyHPwU0KyijotX1qfjHiyxVMGPxhjM.jpg" class="img-fluid" alt="Docente liderando una sesi&oacute;n r&aacute;pida con equipos de estudiantes">
                         </div>
                     </div>
                     <div class="col-lg-7">
@@ -372,7 +372,7 @@
                 <div class="row g-0 align-items-stretch">
                     <div class="col-lg-5">
                         <div class="lab-block-media h-100">
-                            <img src="https://images.unsplash.com/photo-1528756514091-dee5ecaa3278?auto=format&fit=crop&w=1200&q=80" class="img-fluid" alt="Capturas de diapositivas y documentos listos para publicar">
+                            <img src="https://as2.ftcdn.net/v2/jpg/01/68/77/53/1000_F_168775396_3XinhdWrkJNeKzaSvmfzYE5SrNGGPYbI.jpg" class="img-fluid" alt="Capturas de diapositivas y documentos listos para publicar">
                         </div>
                     </div>
                     <div class="col-lg-7">

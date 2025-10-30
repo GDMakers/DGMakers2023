@@ -326,7 +326,7 @@
                 <div class="row g-0 align-items-stretch">
                     <div class="col-lg-5">
                         <div class="lab-block-media h-100">
-                            <img src="https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?auto=format&fit=crop&w=1200&q=80" class="img-fluid w-100 h-100 object-fit-cover" alt="Equipos intercentro conectando al inicio del taller">
+                            <img src="https://as2.ftcdn.net/v2/jpg/05/18/75/43/1000_F_518754391_bgzyHPwU0KyijotX1qfjHiyxVMGPxhjM.jpg" class="img-fluid w-100 h-100 object-fit-cover" alt="Equipos intercentro conectando al inicio del taller">
                         </div>
                     </div>
                     <div class="col-lg-7">
