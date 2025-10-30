@@ -110,24 +110,24 @@
                                     <tr>
                                         <th scope="col">Horario</th>
                                         <th scope="col">Aula DGMakers</th>
-                                        <th scope="col">Aula 0A04</th>
+                                        <th scope="col">Aula ATECA</th>
                                         <th scope="col">Aula 0A06</th>
                                         <th scope="col">2E03</th>
                                         <th scope="col">2E04</th>
-                                        <th scope="col">2E05</th>
                                         <th scope="col">Salón de actos</th>
+                                        <th scope="col">Laboratorio de física</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <th scope="row">10:15 – 11:00</th>
-                                        <td>Lumio</td>
+                                        <td>Tinkercad</td>
                                         <td>Cata de aromas</td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
+                                        <td>Decorando el tiempo</td>
                                         <td>Impostor y el pueblo duerme</td>
+                                        <td>Taller de percusión</td>
                                         <td>Danzas del Mundo</td>
+                                        <td>Química divertida</td>
                                     </tr>
                                     <tr class="table-warning">
                                         <th scope="row">11:00 – 11:30</th>
@@ -136,18 +136,18 @@
                                     </tr>
                                     <tr>
                                         <th scope="row">11:30 – 12:15</th>
-                                        <td>Lumio</td>
-                                        <td>Crea tu amuleto egipcio</td>
-                                        <td>Decorando el tiempo</td>
-                                        <td>Vectorizar dibujo y preparación en Tinkercad para impresión en 3D</td>
+                                        <td>Tinkercad</td>
                                         <td>Escaneado y realidad aumentada con Reality Composer</td>
+                                        <td>Crea tu amuleto egipcio</td>
+                                        <td>Vectorizar dibujo y preparación en Tinkercad para impresión en 3D</td>
+                                        <td></td>
                                         <td></td>
                                         <td>Danzas del Mundo</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">12:15 – 13:00</th>
                                         <td>Tinkercad</td>
-                                        <td>Crea tu amuleto egipcio</td>
+                                        <td></td>
                                         <td>Decorando el tiempo</td>
                                         <td>Vectorizar dibujo y preparación en Tinkercad para impresión en 3D</td>
                                         <td>Escaneado y realidad aumentada con Reality Composer</td>
@@ -237,12 +237,7 @@
                                         <td>Interpretación de relojes de Dalí.</td>
                                         <td>&mdash;</td>
                                     </tr>
-                                    <tr>
-                                        <th scope="row">Taller de cartas</th>
-                                        <td>IES ALCÁNTARA</td>
-                                        <td>Creación de juegos con cartas online y físicas.</td>
-                                        <td>&mdash;</td>
-                                    </tr>
+                                    
                                      <tr>
                                         <th scope="row">Taller de percusion</th>
                                         <td>IES ALCÁNTARA</td>
@@ -258,7 +253,7 @@
                                     <tr>
                                         <th scope="row">Química divertida</th>
                                         <td>IES ALCÁNTARA</td>
-                                        <td></td>
+                                        <td>Elaboración de tinta de monasterias y un chivato químico muy colorido</td>
                                         <td>&mdash;</td>
                                     </tr>
                                 </tbody>
