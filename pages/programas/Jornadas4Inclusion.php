@@ -123,10 +123,10 @@
                                         <th scope="row">10:15 – 11:00</th>
                                         <td>Lumio</td>
                                         <td>Cata de aromas</td>
-                                        <td>Jabón casero</td>
-                                        <td>Vectorizar dibujo y preparación en Tinkercad para impresión en 3D</td>
-                                        <td>Escaneado y realidad aumentada con Reality Composer</td>
-                                        <td>Decorando el tiempo</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td>Impostor y el pueblo duerme</td>
                                         <td>Danzas del Mundo</td>
                                     </tr>
                                     <tr class="table-warning">
@@ -141,7 +141,7 @@
                                         <td>Decorando el tiempo</td>
                                         <td>Vectorizar dibujo y preparación en Tinkercad para impresión en 3D</td>
                                         <td>Escaneado y realidad aumentada con Reality Composer</td>
-                                        <td>Decorando el tiempo</td>
+                                        <td></td>
                                         <td>Danzas del Mundo</td>
                                     </tr>
                                     <tr>
@@ -237,6 +237,30 @@
                                         <td>Interpretación de relojes de Dalí.</td>
                                         <td>&mdash;</td>
                                     </tr>
+                                    <tr>
+                                        <th scope="row">Taller de cartas</th>
+                                        <td>IES ALCÁNTARA</td>
+                                        <td>Creación de juegos con cartas online y físicas.</td>
+                                        <td>&mdash;</td>
+                                    </tr>
+                                     <tr>
+                                        <th scope="row">Taller de percusion</th>
+                                        <td>IES ALCÁNTARA</td>
+                                        <td></td>
+                                        <td>&mdash;</td>
+                                    </tr>
+                                     <tr>
+                                        <th scope="row">Impostor y el pueblo duerme</th>
+                                        <td>IES ALCÁNTARA</td>
+                                        <td></td>
+                                        <td>&mdash;</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Química divertida</th>
+                                        <td>IES ALCÁNTARA</td>
+                                        <td></td>
+                                        <td>&mdash;</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -291,7 +315,7 @@
                                 <tfoot class="table-secondary">
                                     <tr>
                                         <th scope="row">Total</th>
-                                        <td>131</td>
+                                        <td>136</td>
                                     </tr>
                                 </tfoot>
                             </table>
