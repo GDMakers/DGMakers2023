@@ -113,7 +113,7 @@
                                         <th scope="col">Aula ATECA</th>
                                         <th scope="col">Aula 0A06</th>
                                         <th scope="col">2E03</th>
-                                        <th scope="col">2E04</th>
+                                        <th scope="col">2E05</th>
                                         <th scope="col">Salón de actos</th>
                                         <th scope="col">Laboratorio de física</th>
                                     </tr>
@@ -125,7 +125,7 @@
                                         <td>Cata de aromas</td>
                                         <td>Decorando el tiempo</td>
                                         <td>Impostor y el pueblo duerme</td>
-                                        <td>Taller de percusión</td>
+                                        <td>Lumio</td>
                                         <td>Danzas del Mundo</td>
                                         <td>Química divertida</td>
                                     </tr>
@@ -146,7 +146,7 @@
                                     </tr>
                                     <tr>
                                         <th scope="row">12:15 – 13:00</th>
-                                        <td>Lumio/td>
+                                        <td>Lumio</td>
                                         <td>Escaneado y realidad aumentada con Reality Composer</td>
                                         <td>Crea tu amuleto egipcio</td>
                                         <td>Vectorizar dibujo y preparación en Tinkercad para impresión en 3D</td>
