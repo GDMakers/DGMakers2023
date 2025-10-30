@@ -25,6 +25,8 @@ echo "<nav class='navbar navbar-expand-lg navbar-dark py-2 sticky-top'>
                                     <li><a class='dropdown-item' href='$pages/proyectos/Conecta37/Recursos37.php'>Recursos</a></li>
                                     <li><a class='dropdown-item' href='$pages/proyectos/Conecta37/Ia37.php'>Uso de la IA</a></li>
                                     <li><a class='dropdown-item' href='$pages/proyectos/Conecta37/Metodologia37.php'>Cómo lo hacemos</a></li>
+                                    <li><a class='dropdown-item' href='$pages/proyectos/Conecta37/StartLab01.php'>Star Lab</a></li>
+                                    <li><a class='dropdown-item' href='$pages/proyectos/Conecta37/StartLabCentro01.php'>Star Lab Centro</a></li>
                                 </ul>
                             </li>
                             

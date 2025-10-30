@@ -190,7 +190,7 @@
 
             <!-- Logística -->
             <section class="lab-block card border-0 mb-4">
-                <div class="row g-0 align-items-stretch">
+                <div class="row g-0 align-items-stretch flex-lg-row-reverse">
                     <div class="col-lg-5">
                         <div class="lab-block-media h-100 lab-block-media--compact">
                             <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80" class="img-fluid" alt="Equipo de estudiantes organizando materiales durante un taller">
@@ -241,6 +241,13 @@
                             <div class="activity-card">
                                 <h4 class="activity-title h5 mb-2">Arranque (5&rsquo;)</h4>
                                 <p class="activity-meta mb-0">Bienvenida, sorteo de equipos mixtos, ritmo 45&rsquo; y repaso de los criterios comunes: claridad, evidencia mínima, cr&eacute;ditos + IA Responsable.</p>
+                                <div class="d-flex flex-wrap gap-2 justify-content-center mt-3">
+                                    <a href="https://padlet.com/gines_ruiz/proyectos-conecta-37-dbg40ys4jgyem5s9"
+                                    target="_blank" rel="noopener noreferrer"
+                                    class="btn btn-outline-primary btn-sm">
+                                        <i class="bi bi-grid-3x3-gap me-1"></i> Panel compartido
+                                    </a>
+                                </div>
                             </div>
 
                             <div class="activity-card">
@@ -268,11 +275,12 @@
                                     <li>Ascensor/Desnivel: subir y bajar plantas o metros.</li>
                                 </ul>
                                 <h5 class="h6 text-primary text-uppercase mb-2">IA boost (opcional)</h5>
-                                <ul class="ps-3 mb-0">
-                                    <li><code>Dame 3 ideas de contexto reales para operaciones con enteros (14&ndash;16 a&ntilde;os).</code></li>
-                                    <li><code>Prop&oacute;n una cadena de operaciones con par&eacute;ntesis que d&eacute; resultado = [target] usando estos enteros: [...].</code></li>
-                                    <li><code>Genera un enunciado ≤80 palabras, claro y sin ambig&uuml;edades.</code></li>
-                                </ul>
+                            <ul class="ps-3 mb-0">
+                                <li><code>Dame 3 ideas de contexto reales para operaciones con enteros (14&ndash;16 a&ntilde;os).</code></li>
+                                <li><code>Prop&oacute;n una cadena de operaciones con par&eacute;ntesis que d&eacute; resultado = [target] usando estos enteros: [...].</code></li>
+                                <li><code>Genera un enunciado ≤80 palabras, claro y sin ambig&uuml;edades.</code></li>
+                            </ul>
+
                             </div>
 
                             <div class="activity-card mb-0">
