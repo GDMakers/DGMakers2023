@@ -163,6 +163,13 @@
             font-size: 0.9rem;
         }
 
+        p,
+        .activity-card p,
+        .lab-overview p,
+        .lab-block p {
+            text-align: justify;
+        }
+
         .lab-block-media {
             position: relative;
             min-height: 240px;
@@ -407,10 +414,10 @@
                             <p class="mb-4">Objetivo: operar como un estudio distribuido. Dise&ntilde;ar, producir y documentar el MVP (Producto M&iacute;nimo Viable) aprovechando la plataforma colaborativa central y los boosts de IA.</p>
 
                             <div class="activity-card">
-                                <h4 class="activity-title h5 mb-2">Momento 0 (10 min) · Activar el HQ digital (Headquarters)</h4>
+                                <h4 class="activity-title h5 mb-2">Momento 0 (10 min) · Activar el HQ digital (Headquarters) - OPCIONAL - </h4>
                                 <p class="activity-meta mb-3">Cada equipo lanza su canal privado en Discord/Slack/Teams con tablero integrado.</p>
                                 <ul class="ps-3 mb-0">
-                                    <li>Plantilla base: #brief, #assets, #feedback.</li>
+                                    <li>Plantilla base: #assets, #feedback...</li>
                                     <li>Checklist de convivencia digital (c&aacute;maras, turnos, tiempos de silencio productivo).</li>
                                     <li>Asignaci&oacute;n de responsable de bit&aacute;cora para documentar decisiones clave.</li>
                                 </ul>
@@ -501,13 +508,13 @@
                         <div class="card-body p-4 p-md-5">
                             <div class="d-flex flex-wrap align-items-center gap-3 mb-3">
                                 <span class="lab-badge">Bloque 3</span>
-                                <h3 class="h4 mb-0">Debrief Estrat&eacute;gico Intercentros <span class="text-muted fw-normal ms-2">(20 min)</span></h3>
+                                <h3 class="h4 mb-0">Informe Estrat&eacute;gico Intercentros <span class="text-muted fw-normal ms-2">(20 min)</span></h3>
                             </div>
                             <p class="mb-4">Objetivo: capturar aprendizajes del equipo distribuido, evaluar el uso de IA y fijar mejoras en la colaboraci&oacute;n digital antes de la incubadora.</p>
 
                             <div class="activity-card mb-3">
                                 <h4 class="activity-title h5 mb-2">Actividad 1 · Mapa de aprendizajes</h4>
-                                <p class="activity-meta mb-3">Cada equipo completa un canvas compartido en el canal #retro:</p>
+                                <p class="activity-meta mb-3">Cada equipo completa un canvas compartido:</p>
                                 <ul class="ps-3 mb-0">
                                     <li><strong>Lo que funcion&oacute;:</strong> rituales, prompts, flujos de trabajo.</li>
                                     <li><strong>Lo que ajustaremos:</strong> horarios, roles, integraciones digitales.</li>
