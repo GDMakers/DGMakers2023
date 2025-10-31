@@ -107,6 +107,12 @@
             font-size: 0.95rem;
         }
 
+        .lab-overview p,
+        .lab-block p,
+        .activity-card p {
+            text-align: justify;
+        }
+
         .logistics-list li + li {
             margin-top: 0.4rem;
         }
@@ -161,7 +167,7 @@
                     <div class="col-lg-7">
                         <span class="lab-badge">Micro-Jornadas internas</span>
                         <h2 class="fw-bold mb-3">Entrenamiento intercentro en formato 45&rsquo;</h2>
-                        <p class="mb-4">Objetivo: que equipos mixtos (varias clases) practiquen el ciclo Mercado &rarr; Sprint &rarr; Debrief y salgan con dos productos listos para el Showcase.</p>
+                        <p class="mb-4">Objetivo: que equipos mixtos (varias clases) practiquen el ciclo Mercado &rarr; Sprint &rarr; Debrief y salgan con un producto listo para el Showcase.</p>
                     </div>
                     <div class="col-lg-5">
                         <div class="row g-3">
@@ -205,10 +211,10 @@
                             <ul class="logistics-list ps-3 mb-4">
                                 <li><strong>Participantes:</strong> 10&ndash;20 estudiantes en 2&ndash;4 equipos de 4&ndash;5 personas.</li>
                                 <li><strong>Soporte:</strong> 1 docente coordinador + 2&ndash;4 mentores (alumnado avanzado) para rotar entre equipos.</li>
-                                <li><strong>Canales:</strong> Meet principal + 2 salas Meet para talleres, Google Chat (space por equipo) y Drive (carpeta por equipo).</li>
+                                <li><strong>Canales:</strong> Meet principal + 2 salas Meet para talleres, Padlet y Drive (carpeta por equipo).</li>
                                 <li><strong>Material base:</strong> plantillas 1-Slide/1-Page + Sello IA Responsable.</li>
                             </ul>
-                            <p class="mb-0">La estructura replica el Start Lab completo, pero en mini formato: Mercado de ideas interno &rarr; Sprint en parejas de talleres &rarr; Debrief con lanzadera al Showcase.</p>
+                            <p class="mb-0">La estructura replica el Start Lab completo, pero en mini formato: Mercado de ideas interno &rarr; Sprint en parejas de talleres &rarr; Informe con lanzadera al Showcase.</p>
                         </div>
                     </div>
                 </div>
@@ -219,7 +225,7 @@
                 <div class="row g-0 align-items-stretch">
                     <div class="col-lg-5">
                         <div class="lab-block-media h-100">
-                            <img src="https://as2.ftcdn.net/v2/jpg/05/18/75/43/1000_F_518754391_bgzyHPwU0KyijotX1qfjHiyxVMGPxhjM.jpg" class="img-fluid" alt="Docente liderando una sesi&oacute;n r&aacute;pida con equipos de estudiantes">
+                            <img src="https://images.unsplash.com/photo-1596496050827-8299e0220de1?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1740" class="img-fluid" alt="Docente liderando una sesi&oacute;n r&aacute;pida con equipos de estudiantes">
                         </div>
                     </div>
                     <div class="col-lg-7">
@@ -234,7 +240,7 @@
                                 <ul class="ps-3 mb-3">
                                 <li>Mismo ritmo (45&rsquo;). El docente coordina tiempos globales; mentores lideran cada sala.</li>
                                 <li>Checkpoints comunes en minuto 15 y 30 para asegurar entregables.</li>
-                                <li>Demo rel&aacute;mpago final (60&ndash;90&rsquo;) por equipo en el Meet principal, alineado con los pitch y el Showcase.</li>
+                                <li>Demo rel&aacute;mpago final (60&ndash;90") por equipo en el Meet principal, alineado con los pitch y el Showcase.</li>
                             </ul>
                             </div>
 
@@ -308,7 +314,7 @@
                                     <li><code>Prop&oacute;n 3 t&iacute;tulos de ≤6 palabras con tono [informativo/inspirador].</code></li>
                                     <li><code>Detecta palabras imprecisas y sugiere sin&oacute;nimos m&aacute;s espec&iacute;ficos.</code></li>
                                 </ul>
-                                <p class="mb-0"><strong>Accesibilidad r&aacute;pida:</strong> contraste legible, tama&ntilde;o ≥24 pt, texto alternativo para im&aacute;genes, subt&iacute;tulos autom&aacute;ticos en Meet si procede.</p>
+                                <p class="mb-0"><strong>Accesibilidad r&aacute;pida:</strong> contraste legible, tama&ntilde;o ≥24 pt, texto alternativo para im&aacute;genes, subt&iacute;tulos autom&aacute;ticos si procede.</p>
                             </div>
 
                             <div class="activity-card mb-0">
@@ -382,7 +388,7 @@
                                 <h3 class="h4 mb-0">Checklist com&uacute;n para todos los talleres</h3>
                             </div>
                             <ul class="ps-3 mb-3">
-                                <li>1 archivo por equipo (Slide/Doc) con nombre C37-Equipo##-MicroA/MicroB.</li>
+                                <li>1 archivo por equipo (Slide/Doc) con nombre C37-Equipo-MicroA/MicroB.</li>
                                 <li><strong>Mensaje claro:</strong> t&iacute;tulo + una frase o conclusi&oacute;n.</li>
                                 <li><strong>Evidencia mínima:</strong> texto, gr&aacute;fico o storyboard que lo sustente.</li>
                                 <li><strong>Cr&eacute;ditos + IA Responsable:</strong> plantilla cumplimentada antes de publicar.</li>

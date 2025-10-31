@@ -315,6 +315,14 @@
                                     <li>Mini kit previo: canal digital de bienvenida + gu&iacute;a de convivencia y roles.</li>
                                     <li>Checklist de preparaci&oacute;n (herramientas digitales, responsables de cada tarea, horarios de conexi&oacute;n).</li>
                                 </ul>
+                                <div class="d-flex flex-wrap gap-2 mt-3">
+                                    <a href="https://forms.gle/ofywN2oaHh68t79k7" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary btn-sm">
+                                        <i class="bi bi-ui-checks-grid me-1"></i> Encuesta
+                                    </a>
+                                    <a href="https://docs.google.com/forms/d/1iYE41HrOwh50e8whF_GcmbvfDZOEF63ZRFLCl0HLiyU/copy" target="_blank" rel="noopener noreferrer" class="btn btn-outline-primary btn-sm">
+                                        <i class="bi bi-files me-1"></i> Hacer copia del formulario
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -341,7 +349,7 @@
                                 <h4 class="activity-title h5 mb-2">Actividad 1 (10 min) · Ritual de bienvenida</h4>
                                 <p class="activity-meta mb-3">Dinámica rápida para que los integrantes de cada centro compartan motivaciones y acuerden reglas de juego.</p>
                                 <ul class="ps-3 mb-0">
-                                    <li>Mapa rápido de quién es quién + rol asumido (lead narrativo, datos, producción).</li>
+                                    <li>Mapa rápido de quién es quién.</li>
                                     <li>Declaración de propósito común: ¿qué impacto quieren lograr con este prototipo?</li>
                                 </ul>
                                 <div class="ponente-toggle mt-3">
@@ -363,7 +371,7 @@
                                 <ul class="ps-3 mb-0">
                                     <li>Checklist: audiencia, problema, impacto y entregable público.</li>
                                     <li>Decidir indicadores rápidos de éxito para el sprint (qué significa un MVP —Producto Mínimo Viable— logrado).</li>
-                                    <li>Backlog inicial de tareas compartidas en la plataforma colaborativa.</li>
+                                    <li>Tablero Kanban con tareas pendientes, accesible para todo el equipo.</li>
                                 </ul>
                                 <div class="ponente-toggle mt-3">
                                     <button class="btn btn-outline-secondary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#nota-b1a2" aria-expanded="false" aria-controls="nota-b1a2">
