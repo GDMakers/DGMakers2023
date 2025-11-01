@@ -64,8 +64,8 @@
                     <img class="w-100" src="../../img/4Inclusion/DGM4Inclusion.png" alt="Imagen Jornadas 4Inclusion">
                     <div class="carousel-caption">
                         <div class="p-3" style="max-width: 900px;">
-                            <h1 class="display-3 text-white mb-3 animated zoomIn">IA en las Jornadas 4Inclusion</h1>
-                            <h5 class="text-white text-uppercase mb-4 animated zoomIn"><i>Un copiloto inteligente al servicio de la autonom&iacute;a y la creatividad.</i></h5>
+                            <h1 class="display-3 text-white mb-3 animated zoomIn">IA en  4Inclusion</h1>
+                            <h5 class="text-white text-uppercase mb-4 animated zoomIn"><i>Un copiloto inteligente al servicio de la inclusión.</i></h5>
                             <a href="#vision" class="btn animated zoomIn pt-1 pb-1" style="background: #015183">Ver gu&iacute;a</a>
                             <a href="#participar" class="btn animated zoomIn pt-1 pb-1 ms-2" style="background: #015183">C&oacute;mo participar</a>
                         </div>
@@ -90,7 +90,7 @@
                     </p>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <img src="https://images.unsplash.com/photo-1529429617124-aee3dce4a8ef?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Estudiantes colaborando con tecnolog&iacute;a accesible" class="img-fluid section-illustration">
+                    <img src="https://images.unsplash.com/photo-1665690399857-9de8bbbeb108?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1932" alt="Estudiantes colaborando con tecnolog&iacute;a accesible" class="img-fluid section-illustration">
                 </div>
             </div>
 
@@ -192,7 +192,7 @@
                     </ul>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <img src="https://images.unsplash.com/photo-1526378722484-cc5c1b7d471e?auto=format&amp;fit=crop&amp;w=1200&amp;q=80" alt="Colecci&oacute;n de herramientas digitales accesibles" class="img-fluid section-illustration">
+                    <img src="https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YWl8ZW58MHx8MHx8fDI%3D&auto=format&fit=crop&q=60&w=800" alt="Colecci&oacute;n de herramientas digitales accesibles" class="img-fluid section-illustration">
                 </div>
             </div>
 
