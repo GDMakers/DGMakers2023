@@ -272,6 +272,9 @@
                                 <button class="btn btn-outline-secondary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#start-pack-ejemplo-detallado-2" aria-expanded="false" aria-controls="start-pack-ejemplo-detallado-2">
                                     Ejemplo detallado 2
                                 </button>
+                                <button class="btn btn-outline-secondary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#start-pack-carta" aria-expanded="false" aria-controls="start-pack-carta">
+                                    Ejemplo carta personalizada
+                                </button>
                             </div>
                             <div id="start-pack-collapse" class="collapse">
                                 <h3 class="h5 mb-3">Start Pack 4Inclusion + IA copiloto (v1.0)</h3>
@@ -533,12 +536,12 @@ Texto a adaptar:<br>
                             </div>
                             <div id="start-pack-ejemplo-detallado-2" class="collapse mt-4">
                                 <h3 class="h5 mb-3">Ejemplo detallado 2 &middot; Agendas visuales y secuencias con pictogramas</h3>
-                                <div class="ponente-note">
-                                    <div class="d-flex flex-wrap gap-2 mb-3">
+                                <div class="d-flex flex-wrap gap-2 mb-3">
                                     <a class="btn btn-sm btn-primary" href="https://drive.google.com/file/d/1IYsgDtASeQBgXfJWk-p6Ga1Gp0HSY9MX/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                                         <i class="bi bi-file-earmark-text me-1"></i>Plantilla
                                     </a>
                                 </div>
+                                <div class="ponente-note">
                                     <p class="mb-3"><strong>Uso 2 &mdash; Agendas visuales y secuencias con pictogramas</strong></p>
                                     <ul class="ps-3 mb-3">
                                         <li><strong>Objetivo:</strong> anticipar lo que va a ocurrir y aumentar la autonom&iacute;a en rutinas.</li>
@@ -676,8 +679,59 @@ Condiciones: evita tecnicismos, no uses nombres propios, incluye un paso final d
                                         <li>Comedor: &laquo;Hacer la fila y sentarse&raquo;.</li>
                                         <li>Salidas: &laquo;Preparar mochila antes de ir a casa&raquo;.</li>
                                     </ul>
-                                </div>
+                                </div>                                
                         </div>
+                                <div id="start-pack-carta" class="collapse mt-4">
+                                    <div class="ponente-note">
+                                        <h3 class="h5 mb-3">Prompt &ldquo;Carta Autom&aacute;gica 4Inclusion&rdquo;</h3>
+                                        <p class="mb-3"><strong>Rol:</strong> Eres mi asistente de redacci&oacute;n. Rellena una carta a familias usando la plantilla y las reglas de m&aacute;s abajo.</p>
+                                        <p class="mb-3"><strong>Objetivo:</strong> producir una carta clara, breve y con tono adecuado seg&uacute;n la calificaci&oacute;n.</p>
+                                        <p class="mb-2"><strong>Datos:</strong></p>
+                                        <ul class="ps-3 mb-3">
+                                            <li><strong>Nombre destinatario/a:</strong> [NOMBRE]</li>
+                                            <li><strong>Estudiante:</strong> [ESTUDIANTE]</li>
+                                            <li><strong>Asignatura:</strong> ASIGNATURA</li>
+                                            <li><strong>Calificaci&oacute;n:</strong> CALIFICACI&Oacute;N (1&ndash;10 o &ldquo;Insuficiente/Suficiente/Notable/Sobresaliente&rdquo;)</li>
+                                            <li><strong>Fecha:</strong> FECHA (si no la indicas, usa hoy en formato largo, Espa&ntilde;a)</li>
+                                            <li><strong>Medio:</strong> [correo / carta impresa / WhatsApp]</li>
+                                            <li><strong>Tono:</strong> [formal / cercano / muy cercano]</li>
+                                            <li><strong>Extra (opcional):</strong> [breve motivo o comentario]</li>
+                                        </ul>
+                                        <h4 class="h6 mb-2">Plantilla m&iacute;nima</h4>
+                                        <ul class="ps-3 mb-3">
+                                            <li>Saludo personalizado</li>
+                                            <li>Fecha y asunto (l&iacute;nea corta)</li>
+                                            <li>Resultado (decir la calificaci&oacute;n)</li>
+                                            <li>Mensaje adaptado a la calificaci&oacute;n</li>
+                                            <li>Siguientes pasos (si procede)</li>
+                                            <li>Despedida acorde</li>
+                                            <li>Firma del centro/docente</li>
+                                        </ul>
+                                        <h4 class="h6 mb-2">Reglas de tono seg&uacute;n calificaci&oacute;n</h4>
+                                        <ul class="ps-3 mb-3">
+                                            <li><strong>Insuficiente / 1&ndash;4:</strong> tono firme y emp&aacute;tico. Incluye plan de mejora con 3 acciones concretas y oferta de reuni&oacute;n. Despedida motivadora.</li>
+                                            <li><strong>Suficiente / 5&ndash;6:</strong> reconocimiento + 2 recomendaciones para consolidar. Despedida cordial.</li>
+                                            <li><strong>Notable / 7&ndash;8:</strong> felicitaci&oacute;n + 2 retos de ampliaci&oacute;n. Despedida entusiasta y cercana.</li>
+                                            <li><strong>Sobresaliente / 9&ndash;10:</strong> felicitaci&oacute;n destacada + propuesta de enriquecimiento (taller, mentor&iacute;a, concurso). Despedida celebrativa.</li>
+                                        </ul>
+                                        <h4 class="h6 mb-2">Estilo y formato</h4>
+                                        <ul class="ps-3 mb-3">
+                                            <li>Espa&ntilde;ol (Espa&ntilde;a), lectura f&aacute;cil (frases de 8&ndash;15 palabras).</li>
+                                            <li>P&aacute;rrafos cortos (m&aacute;ximo 4 l&iacute;neas).</li>
+                                            <li>Si el medio es &ldquo;WhatsApp&rdquo;, incluye asunto corto y versi&oacute;n resumida (&le; 320 caracteres).</li>
+                                            <li>No incluyas datos sensibles.</li>
+                                            <li>Cierra con firma: &ldquo;[DOCENTE] &ndash; [CENTRO] &ndash; [Contacto]&rdquo;.</li>
+                                        </ul>
+                                        <h4 class="h6 mb-2">Salida esperada</h4>
+                                        <ol class="mb-0">
+                                            <li>Asunto (m&aacute;x. 60 caracteres).</li>
+                                            <li>Carta completa.</li>
+                                            <li>P.D. con enlaces o recursos si procede.</li>
+                                            <li>Versi&oacute;n corta (si medio = WhatsApp).</li>
+                                            <li>Checklist de 4 &iacute;tems: calificaci&oacute;n correcta, tono adecuado, siguientes pasos, despedida.</li>
+                                        </ol>
+                                    </div>
+                                </div>
                     </div>
                 </div>
             </div>
