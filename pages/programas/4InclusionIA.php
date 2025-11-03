@@ -275,6 +275,9 @@
                                 <button class="btn btn-outline-secondary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#start-pack-carta" aria-expanded="false" aria-controls="start-pack-carta">
                                     Ejemplo carta personalizada
                                 </button>
+                                <a class="btn btn-outline-secondary btn-sm" href="https://padlet.com/gines_ruiz/dgmakers-4inclusion-ufve9o46bguqdf0y" target="_blank" rel="noopener noreferrer">
+                                    Repositorio Padlet
+                                </a>
                             </div>
                             <div id="start-pack-collapse" class="collapse">
                                 <h3 class="h5 mb-3">Start Pack 4Inclusion + IA copiloto (v1.0)</h3>
