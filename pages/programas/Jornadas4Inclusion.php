@@ -110,7 +110,7 @@
                     <div class="h-100">
                         <h6 class="section-title bg-white text-start text-primary pe-3 wow fadeInLeftBig">Programa express</h6>
                         <p class="mb-4" style="text-align:justify;">
-                            Cada hora se activan cuatro talleres en paralelo. Elige aula, completa el reto rápido y comparte resultados en la nube 4Inclusion antes de moverte a la siguiente parada.
+                            Cada hora se activan 7 talleres en paralelo. Elige aula, completa el reto rápido y comparte resultados en la nube 4Inclusion antes de moverte a la siguiente parada.
                         </p>
                         <div class="alert alert-primary" role="alert">
                             <strong>10:00 – 10:15 · Kick-off en Salón de actos</strong> · Bienvenida, reto del día y formación de equipos mixtos DGMakers + EE.
