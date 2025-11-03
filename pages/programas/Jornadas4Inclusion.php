@@ -67,7 +67,7 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="row gy-3 mb-5 fact-item" id="rapidos">
-                <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="h-100">
                         <h6 class="section-title bg-white text-start text-primary pe-3 wow fadeInLeftBig">Datos rápidos</h6>
                         <!--p class="mb-4" style="text-align:justify;">
@@ -90,7 +90,19 @@
                             </a>
                         </p>
                     </div>
-                </div>      
+                </div>
+                <div class="col-lg-6 wow fadeInUp mt-4 mt-lg-0" data-wow-delay="0.2s">
+                    <div class="h-100">
+                        <h6 class="section-title bg-white text-start text-primary pe-3 wow fadeInLeftBig">Autoridades</h6>
+                        <ul class="mb-4" style="text-align:justify;">
+                            <li>Dña. Francisca Terol Cano, Alcaldesa de Alcantarilla.</li>
+                            <li>Dña. Belén López Cambronero, Concejala de Educación y Atención a la Ciudadanía del Ayuntamiento de Murcia.</li>
+                            <li>Representantes de la Consejería de Educación de la Región de Murcia.</li>
+                            <li>Directores y equipos directivos de los centros educativos participantes.</li>
+                            <li>Equipo de Altas Capacidades de Murcia.</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
 
             <div class="row gy-3 my-5 fact-item" id="programa">
@@ -283,7 +295,7 @@
                                     </tr>
                                     <tr>
                                         <th scope="row">CEIP MARIANO AROCA</th>
-                                        <td>7</td>
+                                        <td>8</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">IES ALCÁNTARA</th>
