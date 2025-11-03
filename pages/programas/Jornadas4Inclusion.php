@@ -77,7 +77,7 @@
                         <ul class="mb-4" style="text-align:justify;">
                             <li><b>Lugar</b>: IES Alcántara</li>
                             <li><b>Fecha</b>: 6 Noviembre</li>
-                            <li><b>Horario</b>: 09:00 – 13:15</li>
+                            <li><b>Horario</b>: 10:00 – 13:15</li>
                             <li><b>Público</b>: DGMakers + Educación Especial</li>
                             <li><b>Vibe</b>: colaborativo, creativo y muy tech</li>
                         </ul>
