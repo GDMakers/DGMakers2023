@@ -195,12 +195,7 @@
                                         <td>Diseño en 3D y cómo enviarlo a imprimir en la impresora.</td>
                                         <td>&mdash;</td>
                                     </tr>
-                                    <tr>
-                                        <th scope="row">Jabón casero</th>
-                                        <td>CEE LAS BOQUERAS</td>
-                                        <td>Elaboración de jabón casero con ingredientes accesibles.</td>
-                                        <td>&mdash;</td>
-                                    </tr>
+                                    
                                     <tr>
                                         <th scope="row">Escaneado y realidad aumentada con Reality Composer</th>
                                         <td>IES CAÑADA DE LAS ERAS</td>
