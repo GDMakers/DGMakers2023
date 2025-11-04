@@ -152,7 +152,7 @@
                                         <td>Escaneado y realidad aumentada con Reality Composer</td>
                                         <td>Crea tu amuleto egipcio</td>
                                         <td>Vectorizar dibujo y preparación en Tinkercad para impresión en 3D</td>
-                                        <td>Taller de percusion</td>
+                                        <td>Taller de percusión</td>
                                         <td>Danzas del Mundo</td>
                                         <td>Química divertida</td>
                                     </tr>
@@ -162,7 +162,7 @@
                                         <td>Escaneado y realidad aumentada con Reality Composer</td>
                                         <td>Crea tu amuleto egipcio</td>
                                         <td>Vectorizar dibujo y preparación en Tinkercad para impresión en 3D</td>
-                                        <td>Taller de percusion</td>
+                                        <td>Taller de percusión</td>
                                         <td>Danzas del Mundo</td>
                                         <td>Química divertida</td>
                                     </tr>
