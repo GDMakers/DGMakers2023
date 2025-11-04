@@ -246,7 +246,7 @@
                                     </tr>
                                     
                                      <tr>
-                                        <th scope="row">Taller de percusion</th>
+                                        <th scope="row">Taller de percusión</th>
                                         <td>IES ALCÁNTARA</td>
                                         <td></td>
                                         <td>&mdash;</td>
