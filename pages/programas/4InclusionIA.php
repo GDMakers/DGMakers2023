@@ -277,7 +277,10 @@
                                 </button>
                                 <a class="btn btn-outline-secondary btn-sm" href="https://padlet.com/gines_ruiz/dgmakers-4inclusion-ufve9o46bguqdf0y" target="_blank" rel="noopener noreferrer">
                                     Repositorio Padlet
-                                </a>
+    </a>
+                                <a class="btn btn-outline-secondary btn-sm" href="https://drive.google.com/drive/folders/1KCYN_M8z1Vmwael5M-lklwQYTpJg9mo0?usp=share_link" target="_blank" rel="noopener noreferrer">
+                                    Ejemplo PAP
+    </a>
                             </div>
                             <div id="start-pack-collapse" class="collapse">
                                 <h3 class="h5 mb-3">Start Pack 4Inclusion + IA copiloto (v1.0)</h3>
