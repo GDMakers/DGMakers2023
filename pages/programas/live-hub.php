@@ -132,7 +132,7 @@
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-workshop>
                                 <div class="card h-100 shadow-sm border-0">
-                                    <img src="https://images.unsplash.com/photo-1601000938259-9b3d5fca3f73?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Manos preparando bombas de semilla">
+                                    <img src="https://images.unsplash.com/photo-1593116175571-00a89ab9a365?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Manos preparando bombas de semilla">
                                     <div class="card-body d-flex flex-column">
                                         <h5 class="card-title mb-1">Bombas de Semilla</h5>
                                         <p class="mb-2">
@@ -176,7 +176,7 @@
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-workshop>
                                 <div class="card h-100 shadow-sm border-0">
-                                    <img src="https://images.unsplash.com/photo-1581078428760-7d1c5cdd49f9?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Pantalla de edición de audio en ordenador">
+                                    <img src="https://images.unsplash.com/photo-1590602843632-3507a0149d5e?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Pantalla de edición de audio en ordenador">
                                     <div class="card-body d-flex flex-column">
                                         <h5 class="card-title mb-1">Audacity</h5>
                                         <p class="mb-2">
@@ -198,7 +198,7 @@
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-workshop>
                                 <div class="card h-100 shadow-sm border-0">
-                                    <img src="https://images.unsplash.com/photo-1551739440-13b1173a5742?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Chapas personalizadas y maquinaria de troquelado">
+                                    <img src="https://images.unsplash.com/photo-1620306134441-c173c3374241?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Chapas personalizadas y maquinaria de troquelado">
                                     <div class="card-body d-flex flex-column">
                                         <h5 class="card-title mb-1">Chapas</h5>
                                         <p class="mb-2">
@@ -220,7 +220,7 @@
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-workshop>
                                 <div class="card h-100 shadow-sm border-0">
-                                    <img src="https://images.unsplash.com/photo-1580171405390-bd6cc9a02d79?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Jabones artesanales de colores">
+                                    <img src="https://images.unsplash.com/photo-1600857544200-b2f67afff2b9?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Jabones artesanales de colores">
                                     <div class="card-body d-flex flex-column">
                                         <h5 class="card-title mb-1">Jabón Casero</h5>
                                         <p class="mb-2">
@@ -242,7 +242,7 @@
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-workshop>
                                 <div class="card h-100 shadow-sm border-0">
-                                    <img src="https://images.unsplash.com/photo-1515169067865-5387ec356754?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Grupo de estudiantes en un taller de danza">
+                                    <img src="https://images.unsplash.com/photo-1508700929628-666bc8bd84ea?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Grupo de estudiantes en un taller de danza">
                                     <div class="card-body d-flex flex-column">
                                         <h5 class="card-title mb-1">Danza</h5>
                                         <p class="mb-2">
@@ -264,7 +264,7 @@
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-workshop>
                                 <div class="card h-100 shadow-sm border-0">
-                                    <img src="https://images.unsplash.com/photo-1580894875947-6701ad444259?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Cortadora láser trabajando sobre madera">
+                                    <img src="https://images.unsplash.com/photo-1611287140922-e6e7c1f89c46?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Cortadora láser trabajando sobre madera">
                                     <div class="card-body d-flex flex-column">
                                         <h5 class="card-title mb-1">Corte Láser</h5>
                                         <p class="mb-2">
@@ -286,7 +286,7 @@
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-workshop>
                                 <div class="card h-100 shadow-sm border-0">
-                                    <img src="https://images.unsplash.com/photo-1496317556649-28517f3f10f6?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Materiales artísticos variados sobre una mesa">
+                                    <img src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Materiales artísticos variados sobre una mesa">
                                     <div class="card-body d-flex flex-column">
                                         <h5 class="card-title mb-1">Arte</h5>
                                         <p class="mb-2">
@@ -462,7 +462,7 @@
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-workshop>
                                 <div class="card h-100 shadow-sm border-0">
-                                    <img src="https://images.unsplash.com/photo-1520454974741-62b98c1e3e89?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Producción de chapas con diseños personalizados">
+                                    <img src="https://images.unsplash.com/photo-1617812066825-f09b52b31497?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Producción de chapas con diseños personalizados">
                                     <div class="card-body d-flex flex-column">
                                         <h5 class="card-title mb-1">Taller de Hacer Chapas</h5>
                                         <p class="mb-2">
@@ -484,7 +484,7 @@
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-workshop>
                                 <div class="card h-100 shadow-sm border-0">
-                                    <img src="https://images.unsplash.com/photo-1464375117522-1311d6a5b81a?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Escenario teatral con iluminación colorida">
+                                    <img src="https://images.unsplash.com/photo-1503095396549-00085cdf1e42?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Escenario teatral con iluminación colorida">
                                     <div class="card-body d-flex flex-column">
                                         <h5 class="card-title mb-1">Teatro</h5>
                                         <p class="mb-2">
