@@ -892,7 +892,9 @@
                 const applyFilter = (filter) => {
                     cards.forEach((card) => {
                         let show = true;
-                        const { dateIso, hasDate, centerSlug, modeSlug } = card.dataset;
+                        const { dateIso, hasDate } = card.dataset;
+                        const centerValue = card.dataset.centerSlug || '';
+                        const modeValue = card.dataset.modeSlug || '';
 
                         switch (filter) {
                             case 'next-week':
@@ -908,16 +910,16 @@
                                 show = hasDate === '0';
                                 break;
                             case 'mode-presencial':
-                                show = modeSlug === 'presencial';
+                                show = modeValue === 'presencial' || modeValue === 'hibrido' || modeValue === 'presencial-hibrido';
                                 break;
                             case 'mode-streaming':
-                                show = modeSlug === 'streaming';
+                                show = modeValue === 'streaming' || modeValue === 'online';
                                 break;
                             case 'center-cee-eusebio':
-                                show = centerSlug === slugify('CEE Eusebio') || centerSlug === slugify('CEPEE Eusebio');
+                                show = centerValue.includes(slugify('CEE Eusebio')) || centerValue.includes(slugify('CEPEE Eusebio'));
                                 break;
                             case 'center-ies-alcantara':
-                                show = centerSlug === slugify('IES Alcántara');
+                                show = centerValue.includes(slugify('IES Alcántara'));
                                 break;
                             case 'all':
                             default:
