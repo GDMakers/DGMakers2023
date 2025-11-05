@@ -95,9 +95,9 @@
                     <div class="h-100">
                         <h6 class="section-title bg-white text-start text-primary pe-3 wow fadeInLeftBig">Autoridades</h6>
                         <ul class="mb-4" style="text-align:justify;">
+                            <li>D. Pedro Mondejar Mateo, Director General de Atención a la Diversidad de la Consejería de Educación de la Región de Murcia.</li>    
                             <li>Dña. Francisca Terol Cano, Alcaldesa de Alcantarilla.</li>
                             <li>Dña. Belén López Cambronero, Concejala de Educación y Atención a la Ciudadanía del Ayuntamiento de Murcia.</li>
-                            <li>Representantes de la Consejería de Educación de la Región de Murcia.</li>
                             <li>Directores y equipos directivos de los centros educativos participantes.</li>
                             <li>Equipo de Altas Capacidades de Murcia.</li>
                         </ul>
