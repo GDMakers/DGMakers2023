@@ -132,7 +132,7 @@
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-workshop>
                                 <div class="card h-100 shadow-sm border-0">
-                                    <img src="https://images.unsplash.com/photo-1593116175571-00a89ab9a365?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Manos preparando bombas de semilla">
+                                    <img src="https://images.unsplash.com/photo-1598132393703-e4c8f9f0bd9d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1740" class="card-img-top" alt="Manos preparando bombas de semilla">
                                     <div class="card-body d-flex flex-column">
                                         <h5 class="card-title mb-1">Bombas de Semilla</h5>
                                         <p class="mb-2">
@@ -152,31 +152,10 @@
                                     </div>
                                 </div>
                             </div>
+                            
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-workshop>
                                 <div class="card h-100 shadow-sm border-0">
-                                    <img src="https://images.unsplash.com/photo-1525182008055-f88b95ff7980?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Estudiantes grabando un programa de radio escolar">
-                                    <div class="card-body d-flex flex-column">
-                                        <h5 class="card-title mb-1">Radio</h5>
-                                        <p class="mb-2">
-                                            <span class="badge bg-primary">CEPEE Eusebio</span>
-                                            <span class="badge bg-secondary">Comunicación</span>
-                                        </p>
-                                        <p class="card-text">Taller continuo de entrevistas, ambientación sonora y emisión en directo con roles adaptados para cada participante.</p>
-                                        <div class="mt-auto pt-2">
-                                            <ul class="small mb-3">
-                                                <li><i class="bi bi-calendar-event me-1"></i> Próxima fecha · Por confirmar</li>
-                                                <li><i class="bi bi-geo-alt me-1"></i> Modalidad · Por confirmar</li>
-                                                <li><i class="bi bi-people me-1"></i> Plazas según demanda</li>
-                                            </ul>
-                                            <a href="#" class="btn btn-sm btn-primary me-2"><i class="bi bi-box-arrow-in-right"></i> Inscripción</a>
-                                            <a href="#" class="btn btn-sm btn-outline-primary"><i class="bi bi-file-earmark-text"></i> Programa</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-workshop>
-                                <div class="card h-100 shadow-sm border-0">
-                                    <img src="https://images.unsplash.com/photo-1590602843632-3507a0149d5e?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Pantalla de edición de audio en ordenador">
+                                    <img src="https://images.unsplash.com/photo-1599580856824-f5224acb901b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1740" class="card-img-top" alt="Pantalla de edición de audio en ordenador">
                                     <div class="card-body d-flex flex-column">
                                         <h5 class="card-title mb-1">Audacity</h5>
                                         <p class="mb-2">
@@ -198,7 +177,7 @@
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-workshop>
                                 <div class="card h-100 shadow-sm border-0">
-                                    <img src="https://images.unsplash.com/photo-1620306134441-c173c3374241?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Chapas personalizadas y maquinaria de troquelado">
+                                    <img src="https://cdn.palbincdn.com/users/44916/images/CHAPAS-PERSONALIZADAS-50mm-1612570203.jpg" class="card-img-top" alt="Chapas personalizadas y maquinaria de troquelado">
                                     <div class="card-body d-flex flex-column">
                                         <h5 class="card-title mb-1">Chapas</h5>
                                         <p class="mb-2">
@@ -220,7 +199,7 @@
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-workshop>
                                 <div class="card h-100 shadow-sm border-0">
-                                    <img src="https://images.unsplash.com/photo-1600857544200-b2f67afff2b9?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Jabones artesanales de colores">
+                                    <img src="https://images.unsplash.com/photo-1600857544200-b2f666a9a2ec?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1740" class="card-img-top" alt="Jabones artesanales de colores">
                                     <div class="card-body d-flex flex-column">
                                         <h5 class="card-title mb-1">Jabón Casero</h5>
                                         <p class="mb-2">
@@ -264,7 +243,7 @@
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-workshop>
                                 <div class="card h-100 shadow-sm border-0">
-                                    <img src="https://images.unsplash.com/photo-1611287140922-e6e7c1f89c46?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Cortadora láser trabajando sobre madera">
+                                    <img src="https://images.unsplash.com/photo-1615286922420-c6b348ffbd62?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1740" class="card-img-top" alt="Cortadora láser trabajando sobre madera">
                                     <div class="card-body d-flex flex-column">
                                         <h5 class="card-title mb-1">Corte Láser</h5>
                                         <p class="mb-2">
@@ -306,31 +285,10 @@
                                     </div>
                                 </div>
                             </div>
+                            
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-workshop>
                                 <div class="card h-100 shadow-sm border-0">
-                                    <img src="https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Piezas cortadas con láser y estudiantes trabajando">
-                                    <div class="card-body d-flex flex-column">
-                                        <h5 class="card-title mb-1">Cortadora Láser</h5>
-                                        <p class="mb-2">
-                                            <span class="badge bg-primary">IES Alcántara</span>
-                                            <span class="badge bg-secondary">Fabricación digital</span>
-                                        </p>
-                                        <p class="card-text">Profundiza en la cortadora láser con proyectos avanzados: encajes, prototipos volumétricos y acabados finos.</p>
-                                        <div class="mt-auto pt-2">
-                                            <ul class="small mb-3">
-                                                <li><i class="bi bi-calendar-event me-1"></i> Próxima fecha · Por confirmar</li>
-                                                <li><i class="bi bi-geo-alt me-1"></i> Modalidad · Por confirmar</li>
-                                                <li><i class="bi bi-people me-1"></i> Plazas según demanda</li>
-                                            </ul>
-                                            <a href="#" class="btn btn-sm btn-primary me-2"><i class="bi bi-box-arrow-in-right"></i> Inscripción</a>
-                                            <a href="#" class="btn btn-sm btn-outline-primary"><i class="bi bi-file-earmark-text"></i> Programa</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-workshop>
-                                <div class="card h-100 shadow-sm border-0">
-                                    <img src="https://images.unsplash.com/photo-1581090700227-1e37b190418e?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Diseño 3D en pantalla con Tinkercad">
+                                    <img src="https://images.unsplash.com/photo-1676238560626-45d35b63b38f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1548" class="card-img-top" alt="Diseño 3D en pantalla con Tinkercad">
                                     <div class="card-body d-flex flex-column">
                                         <h5 class="card-title mb-1">Diseño 3D Tinkercad</h5>
                                         <p class="mb-2">
@@ -352,7 +310,7 @@
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-workshop>
                                 <div class="card h-100 shadow-sm border-0">
-                                    <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Profesor usando Lumio en una pizarra digital">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6yXioWr6ZwAeLa3uaTfaYcpJYI9DEBLFFTA&s" class="card-img-top" alt="Profesor usando Lumio en una pizarra digital">
                                     <div class="card-body d-flex flex-column">
                                         <h5 class="card-title mb-1">Lumio</h5>
                                         <p class="mb-2">
@@ -374,7 +332,7 @@
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-workshop>
                                 <div class="card h-100 shadow-sm border-0">
-                                    <img src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Experimento científico con magia y ciencia">
+                                    <img src="https://images.unsplash.com/photo-1519417836265-a245dc27ef52?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=774" class="card-img-top" alt="Experimento científico con magia y ciencia">
                                     <div class="card-body d-flex flex-column">
                                         <h5 class="card-title mb-1">Magia con Ciencia</h5>
                                         <p class="mb-2">
@@ -396,7 +354,7 @@
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-workshop>
                                 <div class="card h-100 shadow-sm border-0">
-                                    <img src="https://images.unsplash.com/photo-1618004912476-29818d81ae2e?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Mundo de Minecraft en pantalla grande">
+                                    <img src="https://images.unsplash.com/photo-1725439507649-dd6345bf9c7f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1748" class="card-img-top" alt="Mundo de Minecraft en pantalla grande">
                                     <div class="card-body d-flex flex-column">
                                         <h5 class="card-title mb-1">Minecraft</h5>
                                         <p class="mb-2">
@@ -416,28 +374,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-workshop>
-                                <div class="card h-100 shadow-sm border-0">
-                                    <img src="https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Alumnado trabajando en retos de Minecraft">
-                                    <div class="card-body d-flex flex-column">
-                                        <h5 class="card-title mb-1">Minecraft</h5>
-                                        <p class="mb-2">
-                                            <span class="badge bg-primary">IES Alcántara</span>
-                                            <span class="badge bg-secondary">Videojuegos</span>
-                                        </p>
-                                        <p class="card-text">Misiones cooperativas y storytelling dentro del juego para practicar comunicación y planificación conjunta.</p>
-                                        <div class="mt-auto pt-2">
-                                            <ul class="small mb-3">
-                                                <li><i class="bi bi-calendar-event me-1"></i> Próxima fecha · Por confirmar</li>
-                                                <li><i class="bi bi-geo-alt me-1"></i> Modalidad · Por confirmar</li>
-                                                <li><i class="bi bi-people me-1"></i> Plazas según demanda</li>
-                                            </ul>
-                                            <a href="#" class="btn btn-sm btn-primary me-2"><i class="bi bi-box-arrow-in-right"></i> Inscripción</a>
-                                            <a href="#" class="btn btn-sm btn-outline-primary"><i class="bi bi-file-earmark-text"></i> Programa</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-workshop>
                                 <div class="card h-100 shadow-sm border-0">
                                     <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Micrófono preparado para grabar un podcast">
@@ -460,31 +397,10 @@
                                     </div>
                                 </div>
                             </div>
+                          
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-workshop>
                                 <div class="card h-100 shadow-sm border-0">
-                                    <img src="https://images.unsplash.com/photo-1617812066825-f09b52b31497?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Producción de chapas con diseños personalizados">
-                                    <div class="card-body d-flex flex-column">
-                                        <h5 class="card-title mb-1">Taller de Hacer Chapas</h5>
-                                        <p class="mb-2">
-                                            <span class="badge bg-primary">IES Alcántara</span>
-                                            <span class="badge bg-secondary">Diseño rápido</span>
-                                        </p>
-                                        <p class="card-text">Del boceto al soporte: creación de chapas de mensajes positivos y distribución en la comunidad educativa.</p>
-                                        <div class="mt-auto pt-2">
-                                            <ul class="small mb-3">
-                                                <li><i class="bi bi-calendar-event me-1"></i> Próxima fecha · Por confirmar</li>
-                                                <li><i class="bi bi-geo-alt me-1"></i> Modalidad · Por confirmar</li>
-                                                <li><i class="bi bi-people me-1"></i> Plazas según demanda</li>
-                                            </ul>
-                                            <a href="#" class="btn btn-sm btn-primary me-2"><i class="bi bi-box-arrow-in-right"></i> Inscripción</a>
-                                            <a href="#" class="btn btn-sm btn-outline-primary"><i class="bi bi-file-earmark-text"></i> Programa</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-workshop>
-                                <div class="card h-100 shadow-sm border-0">
-                                    <img src="https://images.unsplash.com/photo-1503095396549-00085cdf1e42?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Escenario teatral con iluminación colorida">
+                                    <img src="https://images.unsplash.com/photo-1576724196706-3f23f51ea351?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1740" class="card-img-top" alt="Escenario teatral con iluminación colorida">
                                     <div class="card-body d-flex flex-column">
                                         <h5 class="card-title mb-1">Teatro</h5>
                                         <p class="mb-2">
@@ -594,7 +510,7 @@
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-workshop>
                                 <div class="card h-100 shadow-sm border-0">
-                                    <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Captura de monumento para fotogrametría">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaH7K8Q7SCyl2wMzxKnH42KMwJnxU8Dz3BFA&s" class="card-img-top" alt="Captura de monumento para fotogrametría">
                                     <div class="card-body d-flex flex-column">
                                         <h5 class="card-title mb-1">Fotogrametría</h5>
                                         <p class="mb-2">
@@ -616,7 +532,7 @@
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-workshop>
                                 <div class="card h-100 shadow-sm border-0">
-                                    <img src="https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Estudiante grabando voces para doblaje">
+                                    <img src="https://as2.ftcdn.net/v2/jpg/04/66/56/97/1000_F_466569787_qU46q6s2ymoB2LTyIr3c1i8P5yHTyxbr.jpg" class="card-img-top" alt="Estudiante grabando voces para doblaje">
                                     <div class="card-body d-flex flex-column">
                                         <h5 class="card-title mb-1">Doblaje</h5>
                                         <p class="mb-2">
@@ -636,31 +552,10 @@
                                     </div>
                                 </div>
                             </div>
+                            
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-workshop>
                                 <div class="card h-100 shadow-sm border-0">
-                                    <img src="https://images.unsplash.com/photo-1485575301924-6891ef935d1f?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Mesa de trabajo con guiones de doblaje">
-                                    <div class="card-body d-flex flex-column">
-                                        <h5 class="card-title mb-1">Doblaje</h5>
-                                        <p class="mb-2">
-                                            <span class="badge bg-primary">IES Floridablanca</span>
-                                            <span class="badge bg-secondary">Comunicación</span>
-                                        </p>
-                                        <p class="card-text">Sesión orientada a efectos vocales, recursos expresivos y edición rápida para piezas de vídeo cortas.</p>
-                                        <div class="mt-auto pt-2">
-                                            <ul class="small mb-3">
-                                                <li><i class="bi bi-calendar-event me-1"></i> Próxima fecha · Por confirmar</li>
-                                                <li><i class="bi bi-geo-alt me-1"></i> Modalidad · Por confirmar</li>
-                                                <li><i class="bi bi-people me-1"></i> Plazas según demanda</li>
-                                            </ul>
-                                            <a href="#" class="btn btn-sm btn-primary me-2"><i class="bi bi-box-arrow-in-right"></i> Inscripción</a>
-                                            <a href="#" class="btn btn-sm btn-outline-primary"><i class="bi bi-file-earmark-text"></i> Programa</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-workshop>
-                                <div class="card h-100 shadow-sm border-0">
-                                    <img src="https://images.unsplash.com/photo-1452587925148-ce544e77e70d?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Estudiante usando gafas de realidad virtual">
+                                    <img src="https://images.unsplash.com/photo-1576633587382-13ddf37b1fc1?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1744" class="card-img-top" alt="Estudiante usando gafas de realidad virtual">
                                     <div class="card-body d-flex flex-column">
                                         <h5 class="card-title mb-1">Gafas R.V.</h5>
                                         <p class="mb-2">
@@ -682,7 +577,7 @@
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-workshop>
                                 <div class="card h-100 shadow-sm border-0">
-                                    <img src="https://images.unsplash.com/photo-1518131678677-a0c7f5a39eec?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Observación de microorganismos al microscopio">
+                                    <img src="https://images.unsplash.com/photo-1711559653299-eeb9bb60cfc5?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=814" class="card-img-top" alt="Observación de microorganismos al microscopio">
                                     <div class="card-body d-flex flex-column">
                                         <h5 class="card-title mb-1">Microorganismos</h5>
                                         <p class="mb-2">
@@ -704,7 +599,7 @@
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-workshop>
                                 <div class="card h-100 shadow-sm border-0">
-                                    <img src="https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Manos tocando un teclado adaptado">
+                                    <img src="https://images.unsplash.com/photo-1524578471438-cdd96d68d82c?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1740" class="card-img-top" alt="Manos tocando un teclado adaptado">
                                     <div class="card-body d-flex flex-column">
                                         <h5 class="card-title mb-1">PianoTEA</h5>
                                         <p class="mb-2">
@@ -726,7 +621,7 @@
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-workshop>
                                 <div class="card h-100 shadow-sm border-0">
-                                    <img src="https://images.unsplash.com/photo-1485579149621-3123dd979885?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Profesor y estudiantes trabajando en música adaptada">
+                                    <img src="https://resizer.glanacion.com/resizer/v2/JZZTPBHJE5GXZDIH2I2UDGDXQI.jpg?auth=fe07428b850ea9e068f0a3236a3960ddb2ea39e0ad3775218fbc54bb37e11885&width=1280&height=853&quality=70&smart=true" class="card-img-top" alt="Profesor y estudiantes trabajando en música adaptada">
                                     <div class="card-body d-flex flex-column">
                                         <h5 class="card-title mb-1">Música Adaptada en Aulario del IES</h5>
                                         <p class="mb-2">
