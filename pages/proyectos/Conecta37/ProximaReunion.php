@@ -453,6 +453,7 @@
                                             <li>
                                                 <span class="topic-subtitle"><strong>Definici&oacute;n de hecho:</strong></span>
                                                 <ul class="sub-points">
+                                                   <li>¿Qué temas trabajamos primero?.</li> 
                                                     <li>Pre/Post com&uacute;n: prueba inicial y final.</li>
                                                     <li>Producto p&uacute;blico: v&iacute;deo 90&rsquo;&rsquo;, podcast, web&hellip;</li>
                                                     <li>C&oacute;mo se eval&uacute;a: examen, exposici&oacute;n&hellip;</li>
