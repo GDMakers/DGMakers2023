@@ -239,6 +239,24 @@
               <div class="row g-4 mb-4">
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.05s">
                   <div class="card h-100 shadow-sm">
+                    <img src="https://images.unsplash.com/photo-1529070538774-1843cb3265df?auto=format&fit=crop&w=800&q=80" class="card-img-top encuentro-card-img" alt="Taller Lengua que Impacta con Docs y Canva">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Lengua que Impacta</h5>
+                      <p class="mb-2"><span class="badge bg-primary">Comunicación</span> <span class="badge bg-secondary">Docs · Canva</span></p>
+                      <ul class="small mb-3">
+                        <li><i class="bi bi-clock me-1"></i> 10:20–11:20</li>
+                        <li><i class="bi bi-geo-alt me-1"></i> Breakout · Bloque A</li>
+                      </ul>
+                      <p class="card-text">Redacta titular y guion breve bajo licencias CC y publícalo como podcast o pieza visual de impacto.</p>
+                      <div class="mt-auto">
+                        <a href="#" class="btn btn-sm btn-primary me-2"><i class="bi bi-box-arrow-in-right"></i> Inscripción</a>
+                        <a href="#" class="btn btn-sm btn-outline-primary"><i class="bi bi-journal-text"></i> Plantilla</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.05s">
+                  <div class="card h-100 shadow-sm">
                     <img src="https://images.unsplash.com/photo-1611117775350-ac3950990985?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=2671" class="card-img-top encuentro-card-img" alt="Taller 3D Exprés en Tinkercad">
                     <div class="card-body d-flex flex-column">
                       <h5 class="card-title mb-1">3D Exprés</h5>
@@ -291,24 +309,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.05s">
-                  <div class="card h-100 shadow-sm">
-                    <img src="https://images.unsplash.com/photo-1529070538774-1843cb3265df?auto=format&fit=crop&w=800&q=80" class="card-img-top encuentro-card-img" alt="Taller Lengua que Impacta con Docs y Canva">
-                    <div class="card-body d-flex flex-column">
-                      <h5 class="card-title mb-1">Lengua que Impacta</h5>
-                      <p class="mb-2"><span class="badge bg-primary">Comunicación</span> <span class="badge bg-secondary">Docs · Canva</span></p>
-                      <ul class="small mb-3">
-                        <li><i class="bi bi-clock me-1"></i> 10:20–11:20</li>
-                        <li><i class="bi bi-geo-alt me-1"></i> Breakout · Bloque A</li>
-                      </ul>
-                      <p class="card-text">Redacta titular y guion breve bajo licencias CC y publícalo como podcast o pieza visual de impacto.</p>
-                      <div class="mt-auto">
-                        <a href="#" class="btn btn-sm btn-primary me-2"><i class="bi bi-box-arrow-in-right"></i> Inscripción</a>
-                        <a href="#" class="btn btn-sm btn-outline-primary"><i class="bi bi-journal-text"></i> Plantilla</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                   <div class="card h-100 shadow-sm">
                     <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=800&q=80" class="card-img-top encuentro-card-img" alt="Taller Beat Lab con BandLab o Soundtrap">
@@ -366,6 +367,24 @@
                     </div>
                   </div>
                 </div>
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.05s">
+                  <div class="card h-100 shadow-sm">
+                    <img src="https://images.unsplash.com/photo-1636466497217-26a8cbeaf0aa?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1548" class="card-img-top encuentro-card-img" alt="Taller Mates que se Expresan con Docs y Jamboard">
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title mb-1">Mates que se Expresan</h5>
+                      <p class="mb-2"><span class="badge bg-primary">Matemáticas</span> <span class="badge bg-secondary">Docs · Jamboard</span></p>
+                      <ul class="small mb-3">
+                        <li><i class="bi bi-clock me-1"></i> 12:00–13:00</li>
+                        <li><i class="bi bi-geo-alt me-1"></i> Breakout · Bloque B</li>
+                      </ul>
+                      <p class="card-text">Transforma un reto matemático en guion visual con ejemplo ancla y explicación clara compartida.</p>
+                      <div class="mt-auto">
+                        <a href="#" class="btn btn-sm btn-primary me-2"><i class="bi bi-box-arrow-in-right"></i> Inscripción</a>
+                        <a href="#" class="btn btn-sm btn-outline-primary"><i class="bi bi-grid-3x3-gap"></i> Plantilla</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                   <div class="card h-100 shadow-sm">
                     <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80" class="card-img-top encuentro-card-img" alt="Taller Póster Pro con Canva">
@@ -402,24 +421,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.05s">
-                  <div class="card h-100 shadow-sm">
-                    <img src="https://images.unsplash.com/photo-1636466497217-26a8cbeaf0aa?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1548" class="card-img-top encuentro-card-img" alt="Taller Mates que se Expresan con Docs y Jamboard">
-                    <div class="card-body d-flex flex-column">
-                      <h5 class="card-title mb-1">Mates que se Expresan</h5>
-                      <p class="mb-2"><span class="badge bg-primary">Matemáticas</span> <span class="badge bg-secondary">Docs · Jamboard</span></p>
-                      <ul class="small mb-3">
-                        <li><i class="bi bi-clock me-1"></i> 12:00–13:00</li>
-                        <li><i class="bi bi-geo-alt me-1"></i> Breakout · Bloque B</li>
-                      </ul>
-                      <p class="card-text">Transforma un reto matemático en guion visual con ejemplo ancla y explicación clara compartida.</p>
-                      <div class="mt-auto">
-                        <a href="#" class="btn btn-sm btn-primary me-2"><i class="bi bi-box-arrow-in-right"></i> Inscripción</a>
-                        <a href="#" class="btn btn-sm btn-outline-primary"><i class="bi bi-grid-3x3-gap"></i> Plantilla</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
                   <div class="card h-100 shadow-sm">
                     <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80" class="card-img-top encuentro-card-img" alt="Taller Eval Rápida con formularios y rúbricas">

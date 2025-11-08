@@ -95,6 +95,31 @@
             box-shadow: 0 1.4rem 2.4rem rgba(1, 81, 131, 0.08);
         }
 
+        .section-title--tail-lines {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            width: 100%;
+        }
+
+        .section-title--tail-lines::before,
+        .section-title--tail-lines::after {
+            display: none;
+        }
+
+        .section-title__text {
+            flex: 0 1 auto;
+            letter-spacing: 0.04em;
+            min-width: 0;
+        }
+
+        .section-title__tails {
+            flex: 1;
+            min-height: 1.6em;
+            border-top: 2px solid var(--primary);
+            border-bottom: 2px solid var(--primary);
+        }
+
         .roadmap-topics__list {
             list-style: none;
             counter-reset: topic-counter;
@@ -389,7 +414,10 @@
                 </div>
                 <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="h-100 roadmap-step">
-                        <h4 class="section-title bg-white text-start text-primary pe-3">Reuni&oacute;n 1 · Activate Mode</h4>
+                        <h4 class="section-title section-title--tail-lines text-start text-primary pe-3">
+                            <span class="section-title__text">Reuni&oacute;n 1 · Activate Mode</span>
+                            <span class="section-title__tails" aria-hidden="true"></span>
+                        </h4>
                         <h5>13 NOV 25. 11:30 h</h5>
                         <div class="roadmap-topics">
                             <ol class="roadmap-topics__list">
@@ -428,7 +456,7 @@
                                                     <li>Pre/Post com&uacute;n: prueba inicial y final.</li>
                                                     <li>Producto p&uacute;blico: v&iacute;deo 90&rsquo;&rsquo;, podcast, web&hellip;</li>
                                                     <li>C&oacute;mo se eval&uacute;a: examen, exposici&oacute;n&hellip;</li>
-                                                    <li>Fechas.</li>
+                                                    <li>Fechas realistas de incio.</li>
                                                 </ul>
                                             </li>
                                             <li>
@@ -489,7 +517,10 @@
                 </div>
                 <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="h-100 roadmap-step template-card">
-                        <h4 id="mini-unidad-1" class="section-title bg-white text-start text-primary pe-3">Mini-Unidad 1 &mdash; Plantilla MVP</h4>
+                        <h4 id="mini-unidad-1" class="section-title section-title--tail-lines text-start text-primary pe-3">
+                            <span class="section-title__text">Mini-Unidad 1 &mdash; Plantilla MVP</span>
+                            <span class="section-title__tails" aria-hidden="true"></span>
+                        </h4>
                         <div class="template-meta">
                             <div>
                                 <p class="template-label mb-1">Centro</p>
@@ -532,7 +563,10 @@
                 </div>
                 <div class="col-lg-7 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="h-100 roadmap-step template-card">
-                        <h4 id="talleres-profesorado" class="section-title bg-white text-start text-primary pe-3">Propuesta de talleres para el profesorado</h4>
+                        <h4 id="talleres-profesorado" class="section-title section-title--tail-lines text-start text-primary pe-3">
+                            <span class="section-title__text">Propuesta de talleres para el profesorado</span>
+                            <span class="section-title__tails" aria-hidden="true"></span>
+                        </h4>
                         <div class="template-section">
                             <h5 class="mb-2">1. Kickstart de Aula (30&rsquo;)</h5>
                             <ul class="template-checklist">

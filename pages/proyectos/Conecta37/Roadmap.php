@@ -135,7 +135,7 @@
                     <div class="h-100 roadmap-step">
                         <h4 class="section-title bg-white text-start text-primary pe-3">Reuni&oacute;n 1 · Activate Mode</h4>
                         <h5>13 NOV 25. 11:30 h</h5>
-                        <ul class="mb-0">
+                        <ul class="mb-0" style="margin-left: 30pt;">
                             <li><strong>Sprint planning:</strong> Lengua + Matem&aacute;ticas obligatorias, &aacute;reas extra bienvenidas.</li>
                             <li><strong>Mini-unidad 1:</strong> plantillas b&aacute;sicas listas para adaptar y publicar.</li>
                             <li><strong>Evidencias &amp; publicaci&oacute;n:</strong> pruebas pre/post y artefactos para la Showcase.</li>
@@ -192,7 +192,7 @@
             <div class="row gy-4 fact-item">
                 <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="h-100 text-center">
-                        <p class="mb-3">El roadmap se actualiza tras cada sesi&oacute;n. &iquest;Quieres sumar una actividad o proponer un reto?</p>
+                        <p class="mb-3">El roadmap se actualiza tras cada sesi&oacute;n. &iquest;Quieres sumar una información?</p>
                         <a href="mailto:dgmakers@iesalcantara.es?subject=Propuesta%20Roadmap%20Conecta%2037" class="btn btn-conecta37">Compartir propuesta</a>
                     </div>
                 </div>
