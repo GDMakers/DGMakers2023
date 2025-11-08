@@ -130,7 +130,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-workshop>
+                            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-workshop data-date="2025-11-15">
                                 <div class="card h-100 shadow-sm border-0">
                                     <img src="https://images.unsplash.com/photo-1598132393703-e4c8f9f0bd9d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1740" class="card-img-top" alt="Manos preparando bombas de semilla">
                                     <div class="card-body d-flex flex-column">
@@ -691,59 +691,67 @@
                 class="bi bi-arrow-up"></i></a>
 
         <script>
-            (() => {
-                const filterContainer = document.querySelector('#workshopFilters');
-                const grid = document.querySelector('#workshopGrid');
+            (function () {
+                const filterContainer = document.getElementById('workshopFilters');
+                const grid = document.getElementById('workshopGrid');
                 if (!filterContainer || !grid) {
                     return;
                 }
 
-                const slugify = (value) => value
-                    .toLowerCase()
-                    .normalize('NFD')
-                    .replace(/[\u0300-\u036f]/g, '')
-                    .replace(/[^a-z0-9]+/g, '-')
-                    .replace(/(^-|-$)/g, '');
+                const cards = Array.prototype.slice.call(grid.querySelectorAll('[data-workshop]'));
+                if (!cards.length) {
+                    return;
+                }
 
-                const parseIsoDate = (value) => {
+                const slugify = function (value) {
+                    return value
+                        .toLowerCase()
+                        .normalize('NFD')
+                        .replace(/[̀-ͯ]/g, '')
+                        .replace(/[^a-z0-9]+/g, '-')
+                        .replace(/(^-|-$)/g, '');
+                };
+
+                const parseIsoDate = function (value) {
                     if (!value) {
                         return null;
                     }
                     const date = new Date(value);
-                    return Number.isNaN(date.valueOf()) ? null : date;
+                    return isNaN(date.getTime()) ? null : date;
                 };
 
-                const parseDate = (text) => {
-                    const today = new Date();
-                    const match = text.match(/(\\d{1,2})\\/(\\d{1,2})(?:\\/(\\d{2,4}))?/);
+                const parseDateFromText = function (text) {
+                    if (!text) {
+                        return null;
+                    }
+                    const match = text.match(/(\d{1,2})\/(\d{1,2})(?:\/(\d{2,4}))?/);
                     if (!match) {
                         return null;
                     }
-                    let [, day, month, year] = match;
-                    day = parseInt(day, 10);
-                    month = parseInt(month, 10) - 1;
-                    if (Number.isNaN(day) || Number.isNaN(month)) {
+                    const today = new Date();
+                    const day = parseInt(match[1], 10);
+                    const month = parseInt(match[2], 10) - 1;
+                    if (isNaN(day) || isNaN(month)) {
                         return null;
                     }
+                    let year = match[3];
                     if (year) {
                         year = year.length === 2 ? 2000 + parseInt(year, 10) : parseInt(year, 10);
                     } else {
                         year = today.getFullYear();
                     }
                     let candidate = new Date(year, month, day);
-                    const diffDays = (candidate - today) / (1000 * 60 * 60 * 24);
+                    const diffDays = (candidate.getTime() - today.getTime()) / (24 * 60 * 60 * 1000);
                     if (diffDays < -30) {
                         candidate = new Date(year + 1, month, day);
                     }
                     return candidate;
                 };
 
-                const cards = Array.from(grid.querySelectorAll('[data-workshop]'));
-
-                cards.forEach((card) => {
+                cards.forEach(function (card) {
                     const manualCenter = card.getAttribute('data-center') || '';
                     const manualMode = card.getAttribute('data-mode') || '';
-                    const manualDateAttr = card.getAttribute('data-date') || '';
+                    const manualDate = card.getAttribute('data-date') || '';
 
                     let centerSlug = manualCenter ? slugify(manualCenter) : '';
                     const centerBadge = card.querySelector('.badge.bg-primary');
@@ -753,53 +761,64 @@
 
                     let modeSlug = manualMode ? slugify(manualMode) : '';
                     const infoItems = card.querySelectorAll('ul li');
-                    const dateText = infoItems[0]?.textContent || '';
-                    let parsedDate = parseIsoDate(manualDateAttr);
-                    if (!parsedDate) {
-                        parsedDate = parseDate(dateText);
+                    let dateText = '';
+                    if (infoItems.length > 0 && infoItems[0]) {
+                        dateText = infoItems[0].textContent.trim();
                     }
 
-                    const modeRaw = (infoItems[1]?.textContent || '').split('·')[0].trim();
+                    let parsedDate = parseIsoDate(manualDate);
+                    if (!parsedDate) {
+                        parsedDate = parseDateFromText(dateText);
+                    }
+
+                    const modeText = infoItems.length > 1 && infoItems[1]
+                        ? infoItems[1].textContent.split('·')[0].trim()
+                        : '';
                     if (!modeSlug) {
-                        if (!modeRaw || /modalidad|confirmar/i.test(modeRaw)) {
+                        if (!modeText || /modalidad|confirmar/i.test(modeText)) {
                             modeSlug = 'por-confirmar';
                         } else {
-                            modeSlug = slugify(modeRaw);
+                            modeSlug = slugify(modeText);
                         }
                     }
 
                     card.dataset.centerSlug = centerSlug;
                     card.dataset.modeSlug = modeSlug || 'por-confirmar';
-                    card.dataset.dateIso = parsedDate ? parsedDate.toISOString() : '';
+                    card.dataset.timestamp = parsedDate ? String(parsedDate.getTime()) : '';
                     card.dataset.hasDate = parsedDate ? '1' : '0';
                 });
 
-                const isWithin = (iso, days) => {
-                    if (!iso) {
+                const MS_PER_DAY = 24 * 60 * 60 * 1000;
+
+                const isWithin = function (timestamp, days) {
+                    if (!timestamp) {
                         return false;
                     }
-                    const now = new Date();
-                    const target = new Date(iso);
-                    const diffDays = (target - now) / (1000 * 60 * 60 * 24);
+                    const value = Number(timestamp);
+                    if (!isFinite(value)) {
+                        return false;
+                    }
+                    const diffDays = (value - Date.now()) / MS_PER_DAY;
                     return diffDays >= 0 && diffDays <= days;
                 };
 
-                const applyFilter = (filter) => {
-                    cards.forEach((card) => {
+                const applyFilter = function (filter) {
+                    cards.forEach(function (card) {
                         let show = true;
-                        const { dateIso, hasDate } = card.dataset;
+                        const timestamp = card.dataset.timestamp || '';
+                        const hasDate = card.dataset.hasDate || '0';
                         const centerValue = card.dataset.centerSlug || '';
                         const modeValue = card.dataset.modeSlug || '';
 
                         switch (filter) {
                             case 'next-week':
-                                show = isWithin(dateIso, 7);
+                                show = isWithin(timestamp, 7);
                                 break;
                             case 'next-month':
-                                show = isWithin(dateIso, 30);
+                                show = isWithin(timestamp, 30);
                                 break;
                             case 'next-quarter':
-                                show = isWithin(dateIso, 90);
+                                show = isWithin(timestamp, 90);
                                 break;
                             case 'no-date':
                                 show = hasDate === '0';
@@ -811,10 +830,11 @@
                                 show = modeValue === 'streaming' || modeValue === 'online';
                                 break;
                             case 'center-cee-eusebio':
-                                show = centerValue.includes(slugify('CEE Eusebio')) || centerValue.includes(slugify('CEPEE Eusebio'));
+                                show = centerValue.indexOf(slugify('CEE Eusebio')) !== -1
+                                    || centerValue.indexOf(slugify('CEPEE Eusebio')) !== -1;
                                 break;
                             case 'center-ies-alcantara':
-                                show = centerValue.includes(slugify('IES Alcántara'));
+                                show = centerValue.indexOf(slugify('IES Alcántara')) !== -1;
                                 break;
                             case 'all':
                             default:
@@ -822,20 +842,38 @@
                         }
 
                         card.classList.toggle('d-none', !show);
+                        card.style.display = show ? '' : 'none';
+                        card.setAttribute('aria-hidden', show ? 'false' : 'true');
                     });
                 };
 
-                filterContainer.addEventListener('click', (event) => {
-                    const button = event.target.closest('[data-filter]');
+                const findButton = function (target) {
+                    let node = target;
+                    while (node && node !== filterContainer) {
+                        if (node.hasAttribute('data-filter')) {
+                            return node;
+                        }
+                        node = node.parentElement;
+                    }
+                    return null;
+                };
+
+                filterContainer.addEventListener('click', function (event) {
+                    const button = findButton(event.target);
                     if (!button) {
                         return;
                     }
                     event.preventDefault();
-                    filterContainer.querySelectorAll('.btn').forEach((btn) => btn.classList.remove('active'));
+                    Array.prototype.forEach.call(filterContainer.querySelectorAll('.btn'), function (btn) {
+                        btn.classList.remove('active');
+                    });
                     button.classList.add('active');
-                    applyFilter(button.dataset.filter);
+                    applyFilter(button.getAttribute('data-filter'));
                 });
-            })();
+
+                const initialButton = filterContainer.querySelector('.btn.active');
+                applyFilter(initialButton ? initialButton.getAttribute('data-filter') : 'all');
+            }());
         </script>
 
 
