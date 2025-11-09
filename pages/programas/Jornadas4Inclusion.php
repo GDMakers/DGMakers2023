@@ -377,7 +377,7 @@
                         <h6 class="section-title bg-white text-start text-primary pe-3 wow fadeInLeftBig">Galería</h6>
                         <p class="mb-3">Descubre los mejores momentos de las jornadas.</p>
                         <a href="https://drive.google.com/drive/folders/1evwsFCrt1lRXMY48ZccmyLg4BHMoZ9oD?usp=sharing" target="_blank" rel="noopener noreferrer" class="d-inline-block">
-                            <img src="img/4Inclusion/Portada4InclusionJ2025.jpeg" alt="Galería Jornadas 4Inclusion" class="img-fluid rounded shadow" style="max-width: 420px;">
+                            <img src="img/4inclusion/Portada4InclusionJ2025.jpeg" alt="Galería Jornadas 4Inclusion" class="img-fluid rounded shadow" style="max-width: 420px;">
                         </a>
                     </div>
                 </div>
