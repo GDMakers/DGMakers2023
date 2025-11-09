@@ -82,6 +82,23 @@
             margin-bottom: 0.4rem;
         }
 
+        .ia-team-list {
+            list-style: none;
+            padding-left: 0;
+            margin-bottom: 0;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.35rem 0.75rem;
+        }
+
+        .ia-team-list li {
+            padding: 0.2rem 0.75rem;
+            border-radius: 999px;
+            background: rgba(10, 85, 140, 0.12);
+            font-weight: 600;
+            color: #0a3d62;
+        }
+
         .ia-figure {
             border-radius: 1.5rem;
             padding: 1rem;
@@ -562,7 +579,25 @@
             <div class="row g-4 align-items-center">
                 <div class="col-lg-7">
                     <div class="ia-governance-card ia-justify">
-                        <h3 class="mb-3">4. Motor C37: equipos y alianzas</h3>
+                        <h3 class="mb-3">4. Alcántara Innovation Hub</h3>
+                        <p class="small text-muted mb-2">Equipo promotor:</p>
+                        <ul class="ia-team-list mb-3">
+                            <li>Convivencia</li>
+                            <li>Coordinador de innovaci&oacute;n</li>
+                            <li>Coordinador tecnolog&iacute;a</li>
+                            <li>Coordinadora Erasmus</li>
+                            <li>Director</li>
+                            <li>Econom&iacute;a</li>
+                            <li>F&iacute;sica y Qu&iacute;mica</li>
+                            <li>Franc&eacute;s</li>
+                            <li>Geograf&iacute;a e Historia</li>
+                            <li>Inform&aacute;tica</li>
+                            <li>Jefatura</li>
+                            <li>Lengua</li>
+                            <li>Matem&aacute;ticas</li>
+                            <li>Pl&aacute;stica</li>
+                            <li>Tecnolog&iacute;a</li>
+                        </ul>
                         <ul class="ia-list">
                             <li>
                                 <strong>N&uacute;cleo Docente C37 (DevLab):</strong> profesorado DGMakers y Coordinaci&oacute;n TIC; prototipa, valida did&aacute;ctica y redacta playbooks.
