@@ -586,6 +586,8 @@
                             <li>Coordinador de innovaci&oacute;n</li>
                             <li>Coordinador tecnolog&iacute;a</li>
                             <li>Coordinadora Erasmus</li>
+                            <li>DGMakers</li>
+                            <li>DGMakers teachers</li>
                             <li>Director</li>
                             <li>Econom&iacute;a</li>
                             <li>F&iacute;sica y Qu&iacute;mica</li>
