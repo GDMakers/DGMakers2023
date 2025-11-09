@@ -58,6 +58,40 @@
         .ia37-block:last-of-type {
             margin-bottom: 0;
         }
+
+        .ia-chip-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            padding: 0.35rem 0.85rem;
+            border-radius: 0.75rem;
+            font-weight: 600;
+            background: rgba(10, 85, 140, 0.12);
+            box-shadow: inset 0 0 0 1px rgba(10, 85, 140, 0.26);
+            color: #0a558c;
+            text-decoration: none;
+            transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+        }
+
+        .ia-chip-link::after {
+            content: "→";
+            font-size: 0.9rem;
+            transition: transform 0.2s ease;
+        }
+
+        .ia-chip-link:hover,
+        .ia-chip-link:focus {
+            background: #0a558c;
+            color: #ffffff;
+            box-shadow: inset 0 0 0 1px #0a558c, 0 0.4rem 0.8rem rgba(10, 85, 140, 0.2);
+            text-decoration: none;
+            transform: translateX(1px);
+        }
+
+        .ia-chip-link:hover::after,
+        .ia-chip-link:focus::after {
+            transform: translateX(3px);
+        }
     </style>
 </head>
 
@@ -248,6 +282,13 @@
                         <img src="img/iaconecta.png" class="ia37-image" alt="Alumna presentando su proyecto final">
                     </div>
                 </div>
+            </section>
+
+            <section class="ia37-block text-center">
+                <h3 class="text-primary mb-3">Ejemplos de uso</h3>
+                <a href="IAIESAlcantara.php" class="ia-chip-link">
+                    La inteligencia artificial en el IES Alc&aacute;ntara
+                </a>
             </section>
         </div>
     </main>

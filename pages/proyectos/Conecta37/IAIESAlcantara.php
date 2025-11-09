@@ -95,6 +95,15 @@
             height: auto;
         }
 
+        .ia-page p {
+            text-align: justify;
+        }
+
+        .ia-justify p,
+        .ia-justify li {
+            text-align: justify;
+        }
+
         .ia-caption {
             font-size: 0.9rem;
             margin-top: 0.5rem;
@@ -204,7 +213,7 @@
     </style>
 </head>
 
-<body>
+<body class="ia-page">
     <!-- Menú común -->
     <?php
         $img = "../../..";
@@ -235,7 +244,7 @@
                 <div class="col-lg-7">
                     <span class="text-uppercase text-primary">Marco vivo</span>
                     <h2 class="mb-3">La inteligencia artificial en el IES Alc&aacute;ntara: formando creadores, no solo usuarios</h2>
-                    <p class="ia-lede"><strong>&Aacute;mbito:</strong> alumnado (DGMakers y no DGMakers) y profesorado del IES Alc&aacute;ntara.</p>
+                    <p class="ia-lede"><strong>&Aacute;mbito:</strong> alumnado y profesorado del IES Alc&aacute;ntara.</p>
                     <div class="ia-highlight mb-3">
                         <h5 class="mb-2">Filosof&iacute;a</h5>
                         <ul class="ia-list">
@@ -249,7 +258,7 @@
                 <div class="col-lg-5 text-center">
                     <div class="ia-figure">
                         <img src="img/IESAlcantara.png" alt="IES Alc&aacute;ntara" class="img-fluid">
-                        <div class="ia-caption">IES Alc&aacute;ntara · Coraz&oacute;n de la red IA37</div>
+                        <div class="ia-caption">IES Alc&aacute;ntara · IA37</div>
                     </div>
                 </div>
             </div>
@@ -350,7 +359,7 @@
     <div class="container-xxl py-5 bg-light ia-section">
         <div class="container wow fadeInUp" data-wow-delay="0.1s">
             <div class="text-center mb-5">
-                <h3>1) Los DGMakers: de usuarios a desarrolladores de IA</h3>
+                <h3>1. Los DGMakers: de usuarios a desarrolladores de IA</h3>
                 <p class="mb-0">Formamos estudiantes con competencia digital cr&iacute;tica y creativa. Estructuramos el aprendizaje en tres niveles progresivos.</p>
             </div>
             <div class="row g-4 align-items-center mb-4">
@@ -453,7 +462,7 @@
     <div class="container-xxl py-5 ia-section">
         <div class="container wow fadeInUp" data-wow-delay="0.1s">
             <div class="text-center mb-5">
-                <h3>2) El profesorado: la IA como catalizador docente</h3>
+                <h3>2. El profesorado: la IA como catalizador docente</h3>
                 <p class="mb-0">Para que el alumnado innove, el profesorado lidera la transformaci&oacute;n. Usamos IA en cuatro &aacute;reas clave (m&aacute;s extensiones).</p>
             </div>
             <div class="row g-4">
@@ -499,7 +508,7 @@
     <div class="container-xxl py-5 bg-light ia-section">
         <div class="container wow fadeInUp" data-wow-delay="0.1s">
             <div class="text-center mb-5">
-                <h3>3) Playbooks (paso a paso)</h3>
+                <h3>3. Playbooks (paso a paso)</h3>
                 <p class="mb-0">Gu&iacute;as operativas listas para imprimir o incorporar en el aula virtual.</p>
             </div>
             <div class="row g-4">
@@ -552,13 +561,37 @@
         <div class="container wow fadeInUp" data-wow-delay="0.1s">
             <div class="row g-4 align-items-center">
                 <div class="col-lg-7">
-                    <div class="ia-governance-card">
-                        <h3 class="mb-3">4) Gobernanza y roles</h3>
+                    <div class="ia-governance-card ia-justify">
+                        <h3 class="mb-3">4. Motor C37: equipos y alianzas</h3>
                         <ul class="ia-list">
-                            <li>Comisi&oacute;n IA (equipo motor): Coordinaci&oacute;n TIC, DGMakers, Orientaci&oacute;n, Jefatura de Estudios.</li>
-                            <li>Responsable de privacidad: valida que no se suben datos sensibles.</li>
-                            <li>Curadores de repositorios: orden por materias, licencias y metadatos.</li>
-                            <li>Mentores DGMakers: apoyo a docentes y alumnado en proyectos.</li>
+                            <li>
+                                <strong>N&uacute;cleo Docente C37 (DevLab):</strong> profesorado DGMakers y Coordinaci&oacute;n TIC; prototipa, valida did&aacute;ctica y redacta playbooks.
+                                <ul class="ia-list">
+                                    <li><em>Responsabilidades:</em> prototipado y pruebas en aula; redacci&oacute;n de playbooks y plantillas; curadur&iacute;a de repositorios (licencias y metadatos).</li>
+                                    <li><em>Cadencia:</em> quincenal (sprint review).</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>Crew Estudiantil C37 (Student Makers):</strong> alumnado embajador por niveles; co-dise&ntilde;o, pruebas de usabilidad y apoyo peer-to-peer.
+                                <ul class="ia-list">
+                                    <li><em>Responsabilidades:</em> beta-test de actividades y materiales; soporte entre iguales en talleres y aulas; propuestas de mejora de usabilidad y accesibilidad.</li>
+                                    <li><em>Cadencia:</em> semanal (cl&iacute;nica de 30').</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>Direcci&oacute;n estrat&eacute;gica (PMO C37):</strong> equipo directivo y Jefatura; prioridades, recursos, calendario y cumplimiento normativo. Incluye Responsable de privacidad/DPD.
+                                <ul class="ia-list">
+                                    <li><em>Responsabilidades:</em> alineaci&oacute;n con PGA y normativa; asignaci&oacute;n de recursos y calendario; supervisi&oacute;n de privacidad/DPD y riesgos.</li>
+                                    <li><em>Cadencia:</em> mensual (comit&eacute; de seguimiento).</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <strong>Red de aliados C37:</strong> familias, universidades, empresas y entidades; retos reales, mentorizaci&oacute;n y convenios (datos siempre anonimizados).
+                                <ul class="ia-list">
+                                    <li><em>Responsabilidades:</em> definici&oacute;n de retos reales y acuerdos de colaboraci&oacute;n; mentor&iacute;as y charlas t&eacute;cnicas; acceso a entornos y datos anonimizados para proyectos.</li>
+                                    <li><em>Cadencia:</em> trimestral (demo day / convenios).</li>
+                                </ul>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -573,14 +606,14 @@
     </div>
 
     <div class="container-xxl py-5 bg-light ia-section">
-        <div class="container wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container wow fadeInUp ia-justify" data-wow-delay="0.1s">
             <div class="text-center mb-5">
-                <h3>8) Ideas de proyectos y gu&iacute;as pr&aacute;cticas (IA37 + DGMakers)</h3>
+                <h3>5. Ideas de proyectos y gu&iacute;as pr&aacute;cticas (IA37 + DGMakers)</h3>
                 <p class="mb-0">Cat&aacute;logo de acciones r&aacute;pidas para activar la IA en aula, claustro y comunidad.</p>
             </div>
-            <div class="ia-grid">
+            <div class="ia-grid ia-justify">
                 <div class="ia-idea-card">
-                    <h5>8.1. Crear con IA (alumnado)</h5>
+                    <h5>5.1. Crear con IA (alumnado)</h5>
                     <ul class="ia-list">
                         <li>Texto y guion: generar borradores, res&uacute;menes y refinar estilo para podcasts, blogs o presentaciones.</li>
                         <li>Matem&aacute;ticas que se expresan: estructurar razonamientos, anticipar preguntas y generar contraejemplos.</li>
@@ -588,7 +621,7 @@
                     </ul>
                 </div>
                 <div class="ia-idea-card">
-                    <h5>8.2. Dise&ntilde;ar con IA (profesorado)</h5>
+                    <h5>5.2. Dise&ntilde;ar con IA (profesorado)</h5>
                     <ul class="ia-list">
                         <li>Mini-unidades: objetivos, criterios de &eacute;xito y actividades clave en minutos.</li>
                         <li>R&uacute;bricas: primera versi&oacute;n lista para ajustes r&aacute;pidos.</li>
@@ -596,7 +629,7 @@
                     </ul>
                 </div>
                 <div class="ia-idea-card">
-                    <h5>8.3. Integraci&oacute;n en el sprint (3 semanas)</h5>
+                    <h5>5.3. Integraci&oacute;n en el sprint (3 semanas)</h5>
                     <ul class="ia-list">
                         <li>Semana 1 &ndash; Dise&ntilde;ar: lluvia de ideas y definici&oacute;n de criterios de &eacute;xito.</li>
                         <li>Semana 2 &ndash; Crear: la IA act&uacute;a como cr&iacute;tico amable que ofrece feedback.</li>
@@ -604,7 +637,7 @@
                     </ul>
                 </div>
                 <div class="ia-idea-card">
-                    <h5>8.4. L&iacute;mites claros</h5>
+                    <h5>5.4. L&iacute;mites claros</h5>
                     <ul class="ia-list">
                         <li>No se acepta texto generado &iacute;ntegramente por IA como trabajo propio.</li>
                         <li>Cada proyecto incluye Declaraci&oacute;n de uso de IA.</li>
@@ -612,7 +645,7 @@
                     </ul>
                 </div>
                 <div class="ia-idea-card">
-                    <h5>8.5. Kit de herramientas</h5>
+                    <h5>5.5. Kit de herramientas</h5>
                     <ul class="ia-list">
                         <li>Asistente de redacci&oacute;n online.</li>
                         <li>Herramientas de transcripci&oacute;n y subtitulado autom&aacute;ticos.</li>
@@ -620,7 +653,7 @@
                     </ul>
                 </div>
                 <div class="ia-idea-card">
-                    <h5>8.6. Modelos de instrucciones (prompts)</h5>
+                    <h5>5.6. Modelos de instrucciones (prompts)</h5>
                     <ul class="ia-list">
                         <li>Lengua (podcast): "Estructura un guion de 4 minutos sobre [tema] con introducci&oacute;n, dos argumentos y una llamada a la acci&oacute;n".</li>
                         <li>Matem&aacute;ticas (explicaci&oacute;n): "Revisa este razonamiento y detecta posibles saltos l&oacute;gicos. Prop&oacute;name una pregunta desafiante para defenderlo".</li>
@@ -628,7 +661,7 @@
                     </ul>
                 </div>
                 <div class="ia-idea-card">
-                    <h5>8.7. Indicadores de &eacute;xito</h5>
+                    <h5>5.7. Indicadores de &eacute;xito</h5>
                     <ul class="ia-list">
                         <li>Tiempo ahorrado por el docente en cada sprint.</li>
                         <li>Calificaci&oacute;n media en las r&uacute;bricas del producto final.</li>
@@ -636,7 +669,7 @@
                     </ul>
                 </div>
                 <div class="ia-idea-card">
-                    <h5>8.8. Demostraci&oacute;n r&aacute;pida (en clase)</h5>
+                    <h5>5.8. Demostraci&oacute;n r&aacute;pida (en clase)</h5>
                     <ul class="ia-list">
                         <li>Antes y despu&eacute;s: mostrar un texto base y su versi&oacute;n mejorada con IA.</li>
                         <li>R&uacute;brica al instante: generar una r&uacute;brica y ajustarla en directo.</li>
@@ -644,7 +677,7 @@
                     </ul>
                 </div>
                 <div class="ia-idea-card">
-                    <h5>8.9. Proyectos por materia (ideas r&aacute;pidas)</h5>
+                    <h5>5.9. Proyectos por materia (ideas r&aacute;pidas)</h5>
                     <ul class="ia-list">
                         <li>Lengua: analizador de figuras ret&oacute;ricas asistido por IA + reescritura en lectura f&aacute;cil.</li>
                         <li>Matem&aacute;ticas: generador de problemas graduados y corrector con explicaciones.</li>
@@ -663,7 +696,7 @@
             <div class="row g-4">
                 <div class="col-lg-7">
                     <div class="ia-glossary-card h-100">
-                        <h3 class="mb-3">9) Glosario esencial</h3>
+                        <h3 class="mb-3">6. Glosario esencial</h3>
                         <dl>
                             <dt>LLM</dt>
                             <dd>Modelo de lenguaje que predice palabras; &uacute;til como cotutor.</dd>

@@ -131,6 +131,14 @@
             color: #0a558c;
         }
 
+        .inc-focus-placeholder,
+        .inc-card--placeholder,
+        .inc-card--placeholder h5,
+        .inc-card--placeholder p,
+        .inc-card--placeholder ul li {
+            color: rgba(10, 61, 98, 0.5);
+        }
+
         .inc-procedure-step h5 {
             color: #0a558c;
         }
@@ -220,7 +228,7 @@
                 <div class="d-flex flex-column flex-md-row align-items-md-center justify-content-between gap-3">
                     <div>
                         <h2 class="inc-section-title mb-2">Incubadora 37</h2>
-                        <p class="mb-0">Espacio donde testeamos ideas de IA y metodolog&iacute;as con foco en evidencias cortas, transferencia y comunidad.</p>
+                        <p class="mb-0">Espacio donde testeamos ideas metodolog&iacute;as, tecnológicas y de uso de la IA con el foco en evidencias cortas, transferencia y comunidad.</p>
                     </div>
                     <div>
                         
@@ -234,7 +242,7 @@
             <div class="row g-4" id="focos">
                 <div class="col-lg-6">
                     <div class="inc-card h-100">
-                        <h3 class="mb-3">Estructura ligera (5 bloques)</h3>
+                        <h3 class="mb-3">Estructura ligera</h3>
                         <h5 class="text-uppercase text-muted mb-3">1. Focos de innovaci&oacute;n</h5>
                         <ul class="inc-focus-list">
                             <li class="inc-focus-item">
@@ -250,15 +258,17 @@
                                 </div>
                             </li>
                             <li class="inc-focus-item">
-                                <div class="inc-focus-icon"><i class="bi bi-universal-access"></i></div>
-                                <div>
+                                <div class="inc-focus-icon">
+                                    <i class="bi bi-infinity"></i>
+                                </div>
+                                <div class="inc-focus-placeholder">
                                     <strong>Inclusi&oacute;n (UDL/4Inclusion)</strong>: accesibilidad, apoyos multimodales, co-dise&ntilde;o.
                                 </div>
                             </li>
                             <li class="inc-focus-item">
                                 <div class="inc-focus-icon"><i class="bi bi-tools"></i></div>
                                 <div>
-                                    <strong>Herramientas DGMakers</strong>: radar trimestral de pruebas, qui&eacute;n las eval&uacute;a y para qu&eacute;.
+                                    <strong>Herramientas</strong>: radar trimestral de pruebas, qui&eacute;n las eval&uacute;a y para qu&eacute;.
                                 </div>
                             </li>
                         </ul>
@@ -369,7 +379,7 @@
                 </div>
                 <div class="col-lg-6" id="banco">
                     <h3 class="inc-section-title mb-3">Banco de recursos + galer&iacute;a S2S</h3>
-                    <div class="inc-card mb-3">
+                    <div class="inc-card inc-card--placeholder mb-3">
                         <h5>Gu&iacute;as y tutoriales</h5>
                         <ul class="mb-0">
                             <li>Gu&iacute;a r&aacute;pida de prompts docentes.</li>
@@ -378,7 +388,7 @@
                             <li>Plantillas de declaraciones de uso de IA.</li>
                         </ul>
                     </div>
-                    <div class="inc-card">
+                    <div class="inc-card inc-card--placeholder">
                         <h5>Galer&iacute;a S2S</h5>
                         <p>Subimos evidencias con la r&uacute;brica utilizada y una copia editable (Docs, Canvas, Figma, etc.). Cada pieza incluye:</p>
                         <ul class="mb-0">
