@@ -110,7 +110,9 @@
                         <div class="row g-4" id="workshopGrid">
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-workshop data-date="2025-11-15" data-mode="Presencial" data-center="CEE Eusebio">
                                 <div class="card h-100 shadow-sm border-0">
-                                    <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=1200&q=80" class="card-img-top" alt="Mesa de mezclas de radio y micrófonos">
+                                    <img src="https://live.staticflickr.com/65535/54915095715_c0943d9dcd_b.jpg" class="card-img-top" alt="Mesa de mezclas de radio y micrófonos">
+                                    
+                                    
                                     <div class="card-body d-flex flex-column">
                                         <h5 class="card-title mb-1">Radio (La Chula Radio)</h5>
                                         <p class="mb-2">
@@ -120,12 +122,14 @@
                                         <p class="card-text">Producción de una pieza en directo junto al equipo de La Chula Radio: guion, locución y mesa accesible.</p>
                                         <div class="mt-auto pt-2">
                                             <ul class="small mb-3">
-                                                <li><i class="bi bi-calendar-event me-1"></i> 15/11/2025</li>
-                                                <li><i class="bi bi-geo-alt me-1"></i> Modalidad · Por confirmar</li>
-                                                <li><i class="bi bi-people me-1"></i> Plazas según demanda</li>
+                                                <li><i class="bi bi-calendar-event me-1"></i> 10/11/2025</li>
+                                                <li><i class="bi bi-geo-alt me-1"></i> Modalidad · Presencial</li>
+                                                <li><i class="bi bi-people me-1"></i> 10 plazas</li>
                                             </ul>
                                             <a href="#" class="btn btn-sm btn-primary me-2"><i class="bi bi-box-arrow-in-right"></i> Inscripción</a>
                                             <a href="#" class="btn btn-sm btn-outline-primary"><i class="bi bi-file-earmark-text"></i> Programa</a>
+                                            <a href="#" class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#radio15112025" ><i class="bi bi-file-earmark-text"></i> Galería</a>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -148,6 +152,7 @@
                                             </ul>
                                             <a href="#" class="btn btn-sm btn-primary me-2"><i class="bi bi-box-arrow-in-right"></i> Inscripción</a>
                                             <a href="#" class="btn btn-sm btn-outline-primary"><i class="bi bi-file-earmark-text"></i> Programa</a>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -875,6 +880,27 @@
                 applyFilter(initialButton ? initialButton.getAttribute('data-filter') : 'all');
             }());
         </script>
+
+        <!-- Galería Drive Modal -->
+        <div class="modal fade" id="radio15112025" tabindex="-1" aria-labelledby="radio15112025Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="radio15112025Label">Galería · Drive</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div style="max-width:1200px;margin:auto">
+                            <iframe
+                                src="https://drive.google.com/embeddedfolderview?id=1-ZIk0xlM0IpRUReEDS8oeenGPj-U8-D7#grid"
+                                style="width:100%;height:700px;border:0;overflow:hidden"
+                                allow="fullscreen">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
         <!-- JavaScript Libraries -->
