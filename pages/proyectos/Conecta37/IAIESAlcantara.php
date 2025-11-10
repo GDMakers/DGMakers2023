@@ -602,28 +602,28 @@
                         </ul>
                         <ul class="ia-list">
                             <li>
-                                <strong>N&uacute;cleo Docente C37 (DevLab):</strong> profesorado DGMakers y Coordinaci&oacute;n TIC; prototipa, valida did&aacute;ctica y redacta playbooks.
+                                <strong>Innovation Hub.</strong> Profesorado DGMakers y Coordinaci&oacute;n TIC: prototipa, valida did&aacute;ctica y redacta playbooks.
                                 <ul class="ia-list">
                                     <li><em>Responsabilidades:</em> prototipado y pruebas en aula; redacci&oacute;n de playbooks y plantillas; curadur&iacute;a de repositorios (licencias y metadatos).</li>
                                     <li><em>Cadencia:</em> quincenal (sprint review).</li>
                                 </ul>
                             </li>
                             <li>
-                                <strong>Crew Estudiantil C37 (Student Makers):</strong> alumnado embajador por niveles; co-dise&ntilde;o, pruebas de usabilidad y apoyo peer-to-peer.
+                                <strong>DGMakers C37.</strong> Alumnado embajador por niveles: co-dise&ntilde;o, pruebas de usabilidad y apoyo peer-to-peer.
                                 <ul class="ia-list">
                                     <li><em>Responsabilidades:</em> beta-test de actividades y materiales; soporte entre iguales en talleres y aulas; propuestas de mejora de usabilidad y accesibilidad.</li>
                                     <li><em>Cadencia:</em> semanal (cl&iacute;nica de 30').</li>
                                 </ul>
                             </li>
                             <li>
-                                <strong>Direcci&oacute;n estrat&eacute;gica (PMO C37):</strong> equipo directivo y Jefatura; prioridades, recursos, calendario y cumplimiento normativo. Incluye Responsable de privacidad/DPD.
+                                <strong>Direcci&oacute;n estrat&eacute;gica.</strong> Equipo directivo: prioridades, recursos, calendario y cumplimiento normativo. Incluye Responsable de privacidad/DPD.
                                 <ul class="ia-list">
                                     <li><em>Responsabilidades:</em> alineaci&oacute;n con PGA y normativa; asignaci&oacute;n de recursos y calendario; supervisi&oacute;n de privacidad/DPD y riesgos.</li>
                                     <li><em>Cadencia:</em> mensual (comit&eacute; de seguimiento).</li>
                                 </ul>
                             </li>
                             <li>
-                                <strong>Red de aliados C37:</strong> familias, universidades, empresas y entidades; retos reales, mentorizaci&oacute;n y convenios (datos siempre anonimizados).
+                                <strong>Red de aliados C37.</strong> Familias, universidades, empresas y entidades: retos reales, mentorizaci&oacute;n y convenios (datos siempre anonimizados).
                                 <ul class="ia-list">
                                     <li><em>Responsabilidades:</em> definici&oacute;n de retos reales y acuerdos de colaboraci&oacute;n; mentor&iacute;as y charlas t&eacute;cnicas; acceso a entornos y datos anonimizados para proyectos.</li>
                                     <li><em>Cadencia:</em> trimestral (demo day / convenios).</li>
