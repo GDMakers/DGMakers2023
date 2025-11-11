@@ -209,7 +209,7 @@
                     <div class="col-lg-5">
                         <h6 class="section-title bg-white text-start text-primary pe-3">2. Cambios de enfoque</h6>
                         <h2 class="mb-3">Antes &harr; Despu&eacute;s</h2>
-                        <p>Contrastamos percepciones iniciales con lo que ocurre tras convivir en las jornadas.</p>
+                        <p>Contrastamos percepciones iniciales con lo que ocurre tras la formación y convivir en las jornadas.</p>
                     </div>
                     <div class="col-lg-7">
                         <ul class="dev-list">

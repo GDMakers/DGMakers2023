@@ -110,6 +110,32 @@
                         <div class="row g-4" id="workshopGrid">
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-workshop data-date="2025-11-15" data-mode="Presencial" data-center="CEE Eusebio">
                                 <div class="card h-100 shadow-sm border-0">
+                                    <img src="https://live.staticflickr.com/65535/54917593635_3a086f783f_b.jpg" class="card-img-top" alt="Mesa de mezclas de radio y micrófonos">
+                                    
+                                    
+                                    <div class="card-body d-flex flex-column">
+                                        <h5 class="card-title mb-1">Lumio y Tinkercad</h5>
+                                        <p class="mb-2">
+                                            <span class="badge bg-primary">CEE Eusebio + IES Alcántara</span>
+                                            <span class="badge bg-secondary">Comunicación</span>
+                                        </p>
+                                        <p class="card-text">Creación de materiales utilizando Lumio y Tinkercard.</p>
+                                        <div class="mt-auto pt-2">
+                                            <ul class="small mb-3">
+                                                <li><i class="bi bi-calendar-event me-1"></i> 11/11/2025</li>
+                                                <li><i class="bi bi-geo-alt me-1"></i> Modalidad · Presencial</li>
+                                                <li><i class="bi bi-people me-1"></i> 30 plazas</li>
+                                            </ul>
+                                            <a href="#" class="btn btn-sm btn-primary me-2"><i class="bi bi-box-arrow-in-right"></i> Inscripción</a>
+                                            <a href="#" class="btn btn-sm btn-outline-primary"><i class="bi bi-file-earmark-text"></i> Programa</a>
+                                            <a href="#" class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#lumio11112025" ><i class="bi bi-file-earmark-text"></i> Galería</a>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-workshop data-date="2025-11-15" data-mode="Presencial" data-center="CEE Eusebio">
+                                <div class="card h-100 shadow-sm border-0">
                                     <img src="https://live.staticflickr.com/65535/54915095715_c0943d9dcd_b.jpg" class="card-img-top" alt="Mesa de mezclas de radio y micrófonos">
                                     
                                     
@@ -882,6 +908,25 @@
         </script>
 
         <!-- Galería Drive Modal -->
+         <div class="modal fade" id="lumio11112025" tabindex="-1" aria-labelledby="lumio11112025Label" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="lumio11112025Label">Galería · Drive</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div style="max-width:1200px;margin:auto">
+                            <iframe
+                                src="https://drive.google.com/embeddedfolderview?id=1BG9h_Xh3OOFg-xhgDheGQ54--t9S_G6u#grid"
+                                style="width:100%;height:700px;border:0;overflow:hidden"
+                                allow="fullscreen">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="modal fade" id="radio15112025" tabindex="-1" aria-labelledby="radio15112025Label" aria-hidden="true">
             <div class="modal-dialog modal-xl modal-dialog-centered">
                 <div class="modal-content">
