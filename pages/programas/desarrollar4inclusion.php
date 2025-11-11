@@ -114,6 +114,17 @@
             background: rgba(1, 81, 131, 0.04);
         }
 
+        .dev-table tbody tr.is-completed {
+            background: rgba(255, 138, 0, 0.15);
+        }
+
+        .dev-table tbody tr.is-completed td {
+            border-top: 2px solid rgba(255, 138, 0, 0.45);
+            border-bottom: 2px solid rgba(255, 138, 0, 0.45);
+            font-weight: 600;
+            color: #f47d20;
+        }
+
         .dev-divider {
             width: 100%;
             height: 2px;
@@ -248,7 +259,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
+                            <tr class="is-completed">
                                 <td>Radio (La Chula Radio)</td>
                                 <td>IES Alc&aacute;ntara</td>
                                 <td>CEE Eusebio</td>
