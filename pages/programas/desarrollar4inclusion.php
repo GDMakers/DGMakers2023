@@ -119,8 +119,8 @@
         }
 
         .dev-table tbody tr.is-completed td {
-            border-top: 2px solid rgba(255, 138, 0, 0.45);
-            border-bottom: 2px solid rgba(255, 138, 0, 0.45);
+            
+            
             font-weight: 600;
             color: #f47d20;
         }
