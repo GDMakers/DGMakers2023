@@ -427,6 +427,9 @@
                                         <h5 class="topic-title">Decidir</h5>
                                         <ul class="topic-points">
                                             <li>
+                                                <span class="topic-subtitle"><strong>Revisión de la página web</strong></span>
+                                            </li>
+                                            <li>
                                                 <a class="sub-link" href="https://docs.google.com/forms/d/e/1FAIpQLSei_SkthRo0JXkGjWslXOupe280eH7TF6_mIRpVKB8j9CDLiQ/viewform" target="_blank" rel="noopener noreferrer">
                                                     <strong>Asignaturas que participan:</strong> lengua, matem&aacute;ticas&hellip;
                                                 </a>
