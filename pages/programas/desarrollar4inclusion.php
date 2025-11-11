@@ -260,6 +260,11 @@
                         </thead>
                         <tbody>
                             <tr class="is-completed">
+                                <td>Lumio y Tinkercad</td>
+                                <td>CEE Eusebio</td>
+                                <td>IES Alc&aacute;ntara</td>
+                            </tr>
+                            <tr class="is-completed">
                                 <td>Radio (La Chula Radio)</td>
                                 <td>IES Alc&aacute;ntara</td>
                                 <td>CEE Eusebio</td>
