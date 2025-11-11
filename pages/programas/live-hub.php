@@ -128,7 +128,8 @@
                                             </ul>
                                             <a href="#" class="btn btn-sm btn-primary me-2"><i class="bi bi-box-arrow-in-right"></i> Inscripción</a>
                                             <a href="#" class="btn btn-sm btn-outline-primary"><i class="bi bi-file-earmark-text"></i> Programa</a>
-                                            <a href="#" class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#lumio11112025" ><i class="bi bi-file-earmark-text"></i> Galería</a>
+                                            
+                                            <a href="https://drive.google.com/drive/folders/1BG9h_Xh3OOFg-xhgDheGQ54--t9S_G6u?usp=share_link" class="btn btn-sm btn-outline-primary" target="_blank" ><i class="bi bi-file-earmark-text"></i> Galería</a>
                                             
                                         </div>
                                     </div>
@@ -154,7 +155,8 @@
                                             </ul>
                                             <a href="#" class="btn btn-sm btn-primary me-2"><i class="bi bi-box-arrow-in-right"></i> Inscripción</a>
                                             <a href="#" class="btn btn-sm btn-outline-primary"><i class="bi bi-file-earmark-text"></i> Programa</a>
-                                            <a href="#" class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#radio15112025" ><i class="bi bi-file-earmark-text"></i> Galería</a>
+                                            <!-- <a href="https://drive.google.com/drive/folders/1BG9h_Xh3OOFg-xhgDheGQ54--t9S_G6u?usp=share_link" class="btn btn-sm btn-outline-primary" data-bs-toggle="modal" data-bs-target="#radio15112025" ><i class="bi bi-file-earmark-text"></i> Galería</a> -->
+                                            <a href="https://drive.google.com/drive/folders/1-ZIk0xlM0IpRUReEDS8oeenGPj-U8-D7?usp=share_link" class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener noreferrer"><i class="bi bi-file-earmark-text"></i> Galería</a>
                                             
                                         </div>
                                     </div>
@@ -917,8 +919,9 @@
                     </div>
                     <div class="modal-body">
                         <div style="max-width:1200px;margin:auto">
+
                             <iframe
-                                src="https://drive.google.com/embeddedfolderview?id=1BG9h_Xh3OOFg-xhgDheGQ54--t9S_G6u#grid"
+                                src="https://drive.google.com/drive/folders/1BG9h_Xh3OOFg-xhgDheGQ54--t9S_G6u?usp=share_link"
                                 style="width:100%;height:700px;border:0;overflow:hidden"
                                 allow="fullscreen">
                             </iframe>
@@ -937,7 +940,7 @@
                     <div class="modal-body">
                         <div style="max-width:1200px;margin:auto">
                             <iframe
-                                src="https://drive.google.com/embeddedfolderview?id=1-ZIk0xlM0IpRUReEDS8oeenGPj-U8-D7#grid"
+                                src="https://drive.google.com/drive/folders/1-ZIk0xlM0IpRUReEDS8oeenGPj-U8-D7?usp=share_link"
                                 style="width:100%;height:700px;border:0;overflow:hidden"
                                 allow="fullscreen">
                             </iframe>
