@@ -259,9 +259,9 @@
                             </li>
                             <li class="inc-focus-item">
                                 <div class="inc-focus-icon">
-                                    <i class="bi bi-infinity"></i>
+                                    <i class="bi bi-people"></i>
                                 </div>
-                                <div class="inc-focus-placeholder">
+                                <div>
                                     <strong>Inclusi&oacute;n (UDL/4Inclusion)</strong>: accesibilidad, apoyos multimodales, co-dise&ntilde;o.
                                 </div>
                             </li>
