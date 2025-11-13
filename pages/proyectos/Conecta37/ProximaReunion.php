@@ -243,6 +243,19 @@
             text-decoration: underline;
         }
 
+        .ia-chip-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            padding: 0.35rem 0.85rem;
+            border-radius: 0.75rem;
+            font-weight: 600;
+            background: rgba(10, 85, 140, 0.12);
+            box-shadow: inset 0 0 0 1px rgba(10, 85, 140, 0.26);
+            color: #0a558c;
+            text-decoration: none;
+            transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+        }
         .sub-link {
             display: inline-flex;
             align-items: center;
@@ -463,6 +476,13 @@
                                                     <li>Fechas realistas de incio.</li>
                                                 </ul>
                                             </li>
+                                            <div class="d-flex flex-wrap gap-2 justify-content-center mt-3">
+                                    <a href="https://padlet.com/gines_ruiz/proyectos-conecta-37-dbg40ys4jgyem5s9"
+                                    target="_blank" rel="noopener noreferrer"
+                                    class="btn btn-outline-primary btn-sm">
+                                        <i class="bi bi-grid-3x3-gap me-1"></i> Panel compartido Vídeos
+                                    </a>
+                                </div>
                                             <li>
                                                 <span class="topic-subtitle"><strong>Showcase de proyectos:</strong></span>
                                                 <ul class="sub-points">
@@ -480,6 +500,7 @@
                                                 </ul>
                                             </li>
                                         </ul>
+                                        
                                     </div>
                                 </li>
                                 <li>
@@ -502,6 +523,15 @@
                                                         <a class="sub-link" href="https://forms.gle/9v9xu72s4GGgfmyQA" target="_blank" rel="noopener noreferrer">
                                                             <strong>Propuesta IES Alcántara.</strong>
                                                         </a>
+                                                        <div class="mt-4 d-flex justify-content-center">
+                            
+
+                            <a href="https://padlet.com/gines_ruiz/ia-en-el-ies-alc-ntara-k4uik9gce7zmpnx2"
+                                    target="_blank" rel="noopener noreferrer"
+                                    class="btn btn-outline-primary btn-sm">
+                                        <i class="bi bi-grid-3x3-gap me-1"></i> Panel compartido IA
+                            </a>
+                        </div>
                                                     </li>
                                                 </ul>
                                             </li>
