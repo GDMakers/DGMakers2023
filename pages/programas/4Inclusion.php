@@ -81,6 +81,7 @@
                                 <li>IES Sierra Minera (La Unión) ↔ CEE Enrique Viviente (La Unión)</li>
                                 <li>IES Marqués de los Vélez (El Palmar) ↔ CEIP Ciudad de la Paz (El Palmar)</li>
                                 <li>IES Cañada de las Eras (Molina de Segura) ↔ CEE Las Boqueras (Murcia)</li>
+                                <li>Colegio Susarte (Las Torres de Cotillas) ↔ ASTRADE (Murcia)</li>
                             </ul>
                         </p>
 
