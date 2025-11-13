@@ -229,6 +229,12 @@
                     <div>
                         <h2 class="inc-section-title mb-2">Incubadora 37</h2>
                         <p class="mb-0">Espacio donde testeamos ideas metodolog&iacute;as, tecnológicas y de uso de la IA con el foco en evidencias cortas, transferencia y comunidad.</p>
+                        <p></p>
+                        <a href="https://trello.com/invite/b/5dba9062f200283c0a6e8b0f/07a6c2983f3eab9a32b43cf51a4b4977/ies2425"
+                                    target="_blank" rel="noopener noreferrer"
+                                    class="btn btn-outline-primary btn-sm">
+                                        <i class="bi bi-grid-3x3-gap me-1"></i> Panel de ideas
+                        </a>
                     </div>
                     <div>
                         
