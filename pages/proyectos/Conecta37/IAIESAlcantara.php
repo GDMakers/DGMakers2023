@@ -650,6 +650,7 @@
                         </div>
                     </div>
                 </div>
+                
                 <div class="col-lg-5 text-center">
                     <div class="ia-figure">
                         <img src="img/mentorias.png" alt="Gobernanza IA37" class="img-fluid">

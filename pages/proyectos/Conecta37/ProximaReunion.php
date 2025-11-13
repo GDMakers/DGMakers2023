@@ -461,7 +461,7 @@
                                                 <ul class="sub-points">
                                                     <li>
                                                         <a class="sub-link" href="https://forms.gle/ZXfyZBoGLctSbASc6" target="_blank" rel="noopener noreferrer">
-                                                            <strong>Encuesta de formaci&oacute;n.</strong>
+                                                            <strong>Encuesta de formaci&oacute;n por centros.</strong>
                                                         </a>
                                                     </li>
                                                 </ul>
