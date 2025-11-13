@@ -500,7 +500,7 @@
                                                 <ul class="sub-points">
                                                     <li>
                                                         <a class="sub-link" href="https://forms.gle/9v9xu72s4GGgfmyQA" target="_blank" rel="noopener noreferrer">
-                                                            <strong>Mi propuesta.</strong>
+                                                            <strong>Propuesta IES Alcántara.</strong>
                                                         </a>
                                                     </li>
                                                 </ul>
