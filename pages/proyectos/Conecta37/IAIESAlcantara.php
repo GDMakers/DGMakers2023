@@ -90,6 +90,19 @@
             flex-wrap: wrap;
             gap: 0.35rem 0.75rem;
         }
+        .ia-chip-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            padding: 0.35rem 0.85rem;
+            border-radius: 0.75rem;
+            font-weight: 600;
+            background: rgba(10, 85, 140, 0.12);
+            box-shadow: inset 0 0 0 1px rgba(10, 85, 140, 0.26);
+            color: #0a558c;
+            text-decoration: none;
+            transition: background-color 0.2s ease, color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+        }
 
         .ia-team-list li {
             padding: 0.2rem 0.75rem;
@@ -630,6 +643,11 @@
                                 </ul>
                             </li>
                         </ul>
+                        <div class="mt-4 d-flex justify-content-center">
+                            <a href="https://padlet.com/gines_ruiz/ia-en-el-ies-alc-ntara-k4uik9gce7zmpnx2" class="ia-chip-link">
+                                Muro de trabajo
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-5 text-center">
