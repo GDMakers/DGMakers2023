@@ -614,8 +614,8 @@
                         <p class="small text-muted mb-2">Equipo promotor:</p>
                         <ul class="ia-team-list mb-3">
                             <li>Convivencia</li>
-                            <li>Coordinador de innovaci&oacute;n</li>
-                            <li>Coordinador tecnolog&iacute;a</li>
+                            <li>Coordinadora de innovaci&oacute;n</li>
+                            <li>Coordinadora tecnolog&iacute;a</li>
                             <li>Coordinadora Erasmus</li>
                             <li>DGMakers</li>
                             <li>DGMakers teachers</li>
