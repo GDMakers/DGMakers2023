@@ -510,7 +510,7 @@
     <div class="container-xxl py-5 ia-section">
         <div class="container wow fadeInUp" data-wow-delay="0.1s">
             <div class="text-center mb-5">
-                <h3>2. El profesorado: la IA como catalizador docente</h3>
+                <h3>2. IA al servicio del profesorado</h3>
                 <p class="mb-0">Para que el alumnado innove, el profesorado lidera la transformaci&oacute;n. Usamos IA en cuatro &aacute;reas clave (m&aacute;s extensiones).</p>
             </div>
             <div class="row g-4">
