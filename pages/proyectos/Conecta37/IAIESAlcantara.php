@@ -111,6 +111,15 @@
             font-weight: 600;
             color: #0a3d62;
         }
+        .hero-conecta-logo {
+            max-width: 220px;
+            width: 100%;
+        }
+        @media (max-width: 767.98px) {
+            .hero-conecta-logo {
+                margin-top: 2rem;
+            }
+        }
 
         .ia-figure {
             border-radius: 1.5rem;
@@ -253,17 +262,26 @@
     ?>
 
     <div class="container-fluid hero-conecta py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5 text-center">
-            <h1 class="display-4 text-white mb-3">La inteligencia artificial en el IES Alc&aacute;ntara</h1>
-            <p class="lead text-white mb-0">Formamos creadores, no solo usuarios: acompa&ntilde;amos a cada estudiante y docente en un viaje progresivo, &eacute;tico y medible.</p>
-            <div class="d-flex flex-wrap justify-content-center gap-2 mt-4">
-                <a href="index.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Visi&oacute;n general</a>
-                <a href="Encuentro37.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Jornadas 26</a>
-                <a href="Livehub37.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Live Hub</a>
-                <a href="Recursos37.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Showcase de proyectos</a>
-                <a href="Roadmap.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Roadmap</a>
-                <a href="Centros.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Centros participantes</a>
-                <a href="IAIESAlcantara.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1 active" aria-current="page">IA IES Alc&aacute;ntara</a>
+        <div class="container py-5">
+            <div class="row g-4 align-items-center">
+                <div class="col-lg-8 text-center text-lg-start">
+                    <h1 class="display-4 text-white mb-3">La inteligencia artificial en el IES Alc&aacute;ntara</h1>
+                    <p class="lead text-white mb-0">Formamos creadores, no solo usuarios: acompa&ntilde;amos a cada estudiante y docente en un viaje progresivo, &eacute;tico y medible.</p>
+                    <div class="d-flex flex-wrap justify-content-center justify-content-lg-start gap-2 mt-4">
+                        <a href="index.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Visi&oacute;n general</a>
+                        <a href="Encuentro37.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Jornadas 26</a>
+                        <a href="Livehub37.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Live Hub</a>
+                        <a href="Recursos37.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Showcase de proyectos</a>
+                        <a href="Roadmap.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Roadmap</a>
+                        <a href="Centros.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Centros participantes</a>
+                        <a href="IAIESAlcantara.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1 active" aria-current="page">IES Alc&aacute;ntara · IA 37</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 text-center text-lg-end">
+                    <a href="index.php" class="d-inline-block">
+                        <img src="img/LogoConecta37ByN.png" class="img-fluid hero-conecta-logo ms-lg-auto" alt="Logo Conecta 37 blanco y negro">
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -423,7 +441,7 @@
                 </div>
                 <div class="col-lg-4 text-center">
                     <div class="ia-figure">
-                        <img src="img/lengua.png" alt="Cotutor LLM" class="ia-tier-image">
+                        <img src="https://www.iesalcantara.es/img/bg-img/EquipoDis.JPG" alt="Cotutor LLM" class="ia-tier-image">
                         <div class="ia-caption">El cotutor IA refuerza la autonom&iacute;a del estudiante.</div>
                     </div>
                 </div>
@@ -481,7 +499,7 @@
                 </div>
                 <div class="col-lg-4 text-center">
                     <div class="ia-figure">
-                        <img src="img/creando.png" alt="Proyectos TensorFlow" class="ia-tier-image">
+                        <img src="https://www.iesalcantara.es/img/bg-img/Exponer1.jpg" alt="Proyectos TensorFlow" class="ia-tier-image">
                         <div class="ia-caption">Los proyectos reales se documentan con licencias abiertas.</div>
                     </div>
                 </div>
@@ -653,7 +671,7 @@
                 
                 <div class="col-lg-5 text-center">
                     <div class="ia-figure">
-                        <img src="img/mentorias.png" alt="Gobernanza IA37" class="img-fluid">
+                        <img src="img/InnoAlcan25.jpg" alt="Gobernanza IA37" class="img-fluid">
                         <div class="ia-caption">Roles claros garantizan transparencia y seguimiento.</div>
                     </div>
                 </div>
