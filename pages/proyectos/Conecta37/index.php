@@ -67,6 +67,7 @@
                 <a href="Recursos37.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Showcase de proyectos</a>
                 <a href="Roadmap.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Roadmap</a>
                 <a href="Centros.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Centros participantes</a>
+                <a href="https://rer.qualtrics.com/jfe/form/SV_3rfVlta1c2Ce754" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Encuesta 21112025</a>
             </div>
         </div>
     </div>
