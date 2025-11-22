@@ -644,72 +644,8 @@
                 </ul>
             </div>
 
-            <div class="ia-card">
-                <h4 class="mb-3 text-white" style="background-color:#E65525; display:inline-block; padding:0.5rem 1rem; border-radius:0.75rem;">IA para acelerar tus v&#237;deos (Chuleta DGMakers)</h4>
-                <div class="table-responsive">
-                    <table class="table table-striped table-bordered align-middle">
-                        <thead class="table-primary">
-                            <tr>
-                                <th>Ayuda de la IA</th>
-                                <th>Prompt de ejemplo</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Entender bien la parte del tema</td>
-                                <td>&ldquo;Expl&#237;came este apartado del libro sobre n&#250;meros enteros como si tuviera 12 a&#241;os, con frases cortas y un ejemplo sencillo.&rdquo;</td>
-                            </tr>
-                            <tr>
-                                <td>Resumir las ideas clave que voy a explicar</td>
-                                <td>&ldquo;Este es el texto que tengo que explicar. Res&#250;melo en 5 ideas clave para 1&#186; de ESO.&rdquo;</td>
-                            </tr>
-                            <tr>
-                                <td>Dise&#241;ar la estructura del v&#237;deo (inicio&ndash;explicaci&#243;n&ndash;ejemplos&ndash;reto)</td>
-                                <td>&ldquo;Ay&#250;dame a organizar un v&#237;deo de 3&ndash;4 minutos sobre este tema con: inicio, explicaci&#243;n, 2 ejemplos y un mini reto final.&rdquo;</td>
-                            </tr>
-                            <tr>
-                                <td>Elegir ejemplos y dibujos que se vean bien en pantalla</td>
-                                <td>&ldquo;Sugiere 3 ejemplos y qu&#233; podr&#237;a dibujar en la pizarra para explicar este contenido de forma visual.&rdquo;</td>
-                            </tr>
-                            <tr>
-                                <td>Preparar un guion breve con frases claras</td>
-                                <td>&ldquo;Escribe un guion muy corto y claro para explicar este tema a otros alumnos de 1&#186; de ESO, con tono cercano.&rdquo;</td>
-                            </tr>
-                            <tr>
-                                <td>Convertir el guion en puntos clave (tarjetas de apoyo)</td>
-                                <td>&ldquo;Convierte este guion en una lista de puntos clave para tenerlos en una tarjeta mientras hablo, sin frases largas.&rdquo;</td>
-                            </tr>
-                            <tr>
-                                <td>Ensayar la explicaci&#243;n y pulir el orden de las ideas</td>
-                                <td>&ldquo;Este es el guion que pienso decir en el v&#237;deo. Ordena las ideas para que la explicaci&#243;n sea m&#225;s clara y no d&#233; saltos.&rdquo;</td>
-                            </tr>
-                            <tr>
-                                <td>Comprobar si la explicaci&#243;n es clara para 1&#186; ESO</td>
-                                <td>&ldquo;Voy a explicarte mi tema con mis palabras. Dime qu&#233; partes ser&#237;an confusas para un alumno de 1&#186; de ESO y c&#243;mo mejorarlas.&rdquo;</td>
-                            </tr>
-                            <tr>
-                                <td>Ajustar la duraci&#243;n aproximada del v&#237;deo</td>
-                                <td>&ldquo;Este es mi guion. &#191;Crees que se puede explicar en 3&ndash;4 minutos? Si es muy largo, dime qu&#233; partes puedo recortar.&rdquo;</td>
-                            </tr>
-                            <tr>
-                                <td>Inventar un t&#237;tulo atractivo para el v&#237;deo</td>
-                                <td>&ldquo;Sugiere 5 t&#237;tulos cortos y atractivos para un v&#237;deo donde explico este tema a alumnos de 1&#186; de ESO.&rdquo;</td>
-                            </tr>
-                            <tr>
-                                <td>Escribir una descripci&#243;n corta de qu&#233; se aprende en el v&#237;deo</td>
-                                <td>&ldquo;Escribe una descripci&#243;n muy corta para mi v&#237;deo explicando qu&#233; aprender&#225; quien lo vea.&rdquo;</td>
-                            </tr>
-                            <tr>
-                                <td>Crear preguntas tipo quiz sobre lo que explico</td>
-                                <td>&ldquo;A partir de este guion, crea 5 preguntas tipo test sobre el contenido del v&#237;deo, con 4 opciones y una correcta.&rdquo;</td>
-                            </tr>
-                            <tr>
-                                <td>Hacer una mini ficha-resumen para acompa&#241;ar el v&#237;deo</td>
-                                <td>&ldquo;Resume en 8&ndash;10 l&#237;neas lo m&#225;s importante del v&#237;deo para que mis compa&#241;eros lo tengan delante mientras lo ven.&rdquo;</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+            <div class="text-center my-4">
+                <a href="IAVideos.php" class="btn btn-conecta37">IA para acelerar tus v&#237;deos (Chuleta DGMakers)</a>
             </div>
         </div>
     </div>
