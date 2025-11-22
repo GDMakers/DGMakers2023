@@ -227,8 +227,8 @@
     <div class="container-fluid hero-conecta py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5 text-center">
             <span class="text-uppercase text-white-50">Math-Hacker C37</span>
-            <h1 class="display-5 text-white mb-3">Matem&#225;ticas Aumentadas con IA</h1>
-            <p class="lead text-white mb-0"><strong>Tu inteligencia dirige. La Artificial te asiste.</strong> El m&#233;todo que transforma la resoluci&#243;n de problemas: la IA no resuelve por ti, act&#250;a como copiloto para detectar bugs, desbloquear niveles y potenciar tu l&#243;gica.</p>
+            <h1 class="display-5 text-white mb-3">Matem&#225;ticas aumentadas con IA</h1>
+            <p class="lead text-white mb-0"><strong>Tu inteligencia dirige. La artificial te asiste.</strong> El m&#233;todo que transforma la resoluci&#243;n de problemas: la IA no resuelve por ti, act&#250;a como copiloto para detectar bugs, desbloquear niveles y potenciar tu l&#243;gica.</p>
             <div class="d-flex flex-wrap justify-content-center gap-2 mt-4">
                 <a href="index.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Visi&#243;n general</a>
                 <a href="#protocolo" class="btn btn-outline-light animated zoomIn pt-1 pb-1">Ver protocolo</a>
