@@ -284,100 +284,6 @@
                 </div>
             </section>
 
-            <section class="ia37-block">
-                <h3 class="text-primary mb-3 text-center">TABLA COMPARATIVA &#183; Uso de la IA seg&#250;n perfil docente en Conecta 37</h3>
-                <div class="table-responsive">
-                    <table class="table table-striped align-middle">
-                        <thead class="table-primary">
-                            <tr>
-                                <th>Dimensi&#243;n</th>
-                                <th>Profesor tradicional (Eficiencia y optimizaci&#243;n)</th>
-                                <th>Profesor innovador C37</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td><strong>Rol principal de la IA</strong></td>
-                                <td>Asistente eficiente. Herramienta &ldquo;para el profesor&rdquo; que ahorra tiempo: genera ejercicios, adapta enunciados, corrige m&#225;s r&#225;pido. Uso mayoritariamente privado.</td>
-                                <td>Copiloto de dise&#241;o y consultor. &ldquo;Miembro extra&rdquo; del equipo que ayuda a investigar, modelar, prototipar y analizar cr&#237;ticamente lo que hacen los grupos. Uso visible y compartido.</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Objetivo pedag&#243;gico</strong></td>
-                                <td>Mantener el modelo explico &#8594; practican &#8594; corrijo, pero con m&#225;s recursos y correcciones m&#225;s &#225;giles.</td>
-                                <td>Transformar problemas en retos y proyectos: comprender, modelar, crear producto y compartirlo (SITUAR&ndash;DESARROLLAR&ndash;COMPARTIR).</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Preparaci&#243;n de clases</strong></td>
-                                <td>Generaci&#243;n masiva de ejercicios, variantes de ex&#225;menes, ejemplos r&#225;pidos para la pizarra, simplificaci&#243;n de textos para distintos niveles.</td>
-                                <td>Dise&#241;o de retos complejos y proyectos conectados con Conecta 37: secuencias para GD, misiones, r&#250;bricas, prompts maestros para que el alumnado use la IA de forma guiada.</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Din&#225;mica en el aula</strong></td>
-                                <td>La IA casi no aparece delante del alumnado: el docente la usa antes o despu&#233;s de clase. Flujo cl&#225;sico: explicaci&#243;n magistral &#8594; pr&#225;ctica individual &#8594; correcci&#243;n.</td>
-                                <td>La IA aparece en el centro del trabajo de los Grupos de Desarrollo: se usa para validar hip&#243;tesis, comparar modelos, generar esquemas, sugerir mejoras de prototipos. El flujo es iterativo.</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Tipo de actividades</strong></td>
-                                <td>Hojas de ejercicios, problemas cerrados, pr&#225;ctica mec&#225;nica para fijar algoritmos (ecuaciones, enteros, potencias...).</td>
-                                <td>Prototipado de soluciones (DGMakers), visualizaci&#243;n de datos reales, dise&#241;o de productos p&#250;blicos (v&#237;deos, gu&#237;as, apps sencillas), auditor&#237;a de bugs matem&#225;ticos en grupo.</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Gesti&#243;n del atasco</strong></td>
-                                <td>Controlada por el profesor: el alumno pregunta, el profe da pista o soluci&#243;n; la IA se usa para que el docente prepare esas pistas.</td>
-                                <td>Gestionada con protocolos tipo Math-Hacker: el grupo usa la IA para pedir pistas estrat&#233;gicas, ejemplos an&#225;logos o representaciones visuales; solo si siguen bloqueados interviene el docente.</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Rol del alumnado</strong></td>
-                                <td>Principalmente trabajo individual siguiendo un guion; la IA puede ser tutor privado en casa si se autoriza.</td>
-                                <td>Equipo de desarrollo: roles (portavoz, abogado del diablo, documentador...), uso compartido de IA para argumentar, probar y documentar decisiones en el GD.</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Rol del profesor</strong></td>
-                                <td>Explicador y supervisor t&#233;cnico: controla ritmo, corrige errores, decide ejercicios.</td>
-                                <td>Agile coach C37: dise&#241;a el reto, marca tiempos, define roles en GD y ense&#241;a a hacer buenos prompts; eval&#250;a proceso + producto.</td>
-                            </tr>
-                            <tr>
-                                <td><strong>IA + Makers</strong></td>
-                                <td>Puntual: ideas de productos o ejemplos; proceso maker manual y dirigido por el profe.</td>
-                                <td>IA co-dise&#241;a prototipos, guiones de v&#237;deo, infograf&#237;as, interfaces sencillas; puente de matem&#225;ticas a c&#243;digo/dise&#241;o.</td>
-                            </tr>
-                            <tr>
-                                <td><strong>IA + Inclusi&#243;n</strong></td>
-                                <td>Adaptar fichas: simplificar enunciados, cambiar contexto, versiones con lenguaje m&#225;s accesible.</td>
-                                <td>Co-crear materiales inclusivos con el alumnado: pictogramas, historias adaptadas, actividades sensoriales, explicaciones multiformato.</td>
-                            </tr>
-                            <tr>
-                                <td><strong>IA + proyectos C37</strong></td>
-                                <td>IA para redactar alg&#250;n texto o resumen puntual.</td>
-                                <td>IA para investigar, comparar fuentes, dise&#241;ar rutas, guiones de podcast/v&#237;deo y materiales explicativos compartidos en C37.</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Evaluaci&#243;n y feedback</strong></td>
-                                <td>IA para corregir test, generar bancos de &#237;tems, detectar patrones de error; feedback num&#233;rico y puntual.</td>
-                                <td>IA como coach de feedback formativo: revisa borradores, sugiere mejoras, genera preguntas de reflexi&#243;n. Se eval&#250;a proceso, metacognici&#243;n y trabajo en GD.</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Producto final</strong></td>
-                                <td>Ejercicios, ex&#225;menes, cuaderno; ocasionalmente ficha o presentaci&#243;n hecha por el profesor.</td>
-                                <td>Playbooks, v&#237;deos, infograf&#237;as, maquetas, podcasts, miniapps creadas por el alumnado con IA y publicadas en C37.</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Visi&#243;n del error</strong></td>
-                                <td>Error = algo a corregir; se repite hasta que sale bien.</td>
-                                <td>Error = bug interesante: se analiza, documenta y se usa como caso de aprendizaje.</td>
-                            </tr>
-                            <tr>
-                                <td><strong>Integraci&#243;n en Conecta 37</strong></td>
-                                <td>Uso puntual: &ldquo;aqu&#237; hemos usado IA para preparar este material&rdquo;.</td>
-                                <td>Integraci&#243;n nativa: la IA vertebra GD, DGMakers, 4Inclusion, GDPatrimonio y es infraestructura del ecosistema C37.</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div class="text-center mt-4">
-                    <img src="img/IATradivsInnova.png" alt="Comparativa IA tradicional vs innovador" class="img-fluid rounded-3 shadow-sm">
-                </div>
-            </section>
 
             <section class="ia37-block text-center">
                 <h3 class="text-primary mb-3">Ejemplos de uso</h3>
@@ -385,6 +291,98 @@
                     La inteligencia artificial en el IES Alc&aacute;ntara
                 </a>
             </section>
+
+            <section class="ia37-block">
+                <h3 class="text-primary mb-3 text-center">TABLA COMPARATIVA &#183; Uso de la IA seg&#250;n perfil docente en Conecta 37</h3>
+                <div class="table-responsive">
+                    <table class="table table-striped align-middle">
+                        <thead class="table-primary">
+                            <tr>
+                                <th>Dimensi&#243;n</th>
+                                <th>Profesor tradicional (eficiencia y optimizaci&#243;n)</th>
+                                <th>Profesor innovador C37 (GD, DGMakers, colaboraci&#243;n)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Rol de la IA</strong></td>
+                                <td>Asistente del profesor. Prepara y corrige.</td>
+                                <td>Copiloto del equipo. Ayuda a pensar y dise&#241;ar.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Objetivo</strong></td>
+                                <td>Hacer lo mismo de siempre, pero m&#225;s r&#225;pido.</td>
+                                <td>Convertir problemas en retos y proyectos compartibles.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Preparaci&#243;n de clases</strong></td>
+                                <td>Ejercicios, ex&#225;menes, fichas, textos simplificados.</td>
+                                <td>Retos GD, misiones, r&#250;bricas, prompts maestros.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Din&#225;mica en el aula</strong></td>
+                                <td>IA casi invisible; se usa fuera de clase.</td>
+                                <td>IA visible en GD; se consulta en tiempo real.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Tipo de actividades</strong></td>
+                                <td>Pr&#225;ctica mec&#225;nica y problemas cerrados.</td>
+                                <td>Prototipos, productos DGMakers, datos reales, apps sencillas.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Gesti&#243;n del atasco</strong></td>
+                                <td>El alumno pregunta al profe; soluci&#243;n o pista.</td>
+                                <td>El grupo usa IA con protocolo Math-Hacker; luego profe.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Rol del alumnado</strong></td>
+                                <td>Trabajo individual siguiendo un guion dado.</td>
+                                <td>Equipo de desarrollo con roles y decisiones compartidas.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Rol del profesor</strong></td>
+                                <td>Explicador y corrector t&#233;cnico.</td>
+                                <td>Agile coach C37: dise&#241;a, acompa&#241;a y eval&#250;a el proceso.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>IA + inclusi&#243;n</strong></td>
+                                <td>Fichas adaptadas y enunciados m&#225;s f&#225;ciles.</td>
+                                <td>Materiales inclusivos co-creados: pictos, historias, formatos m&#250;ltiples.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>IA + proyectos C37</strong></td>
+                                <td>Uso puntual para redactar o resumir.</td>
+                                <td>Motor para investigar, guionar, dise&#241;ar y documentar proyectos.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Evaluaci&#243;n</strong></td>
+                                <td>Test, bancos de &#237;tems, nota num&#233;rica.</td>
+                                <td>Feedback formativo, metacognici&#243;n y trabajo en GD.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Producto final</strong></td>
+                                <td>Cuaderno, fichas, ex&#225;menes.</td>
+                                <td>Playbooks, v&#237;deos, infograf&#237;as, podcasts, miniapps en C37.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Visi&#243;n del error</strong></td>
+                                <td>Fallo a corregir y olvidar.</td>
+                                <td>Bug del modelo que se analiza y se comparte.</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Integraci&#243;n en Conecta 37</strong></td>
+                                <td>IA a&#241;adida encima del modelo cl&#225;sico.</td>
+                                <td>IA como infraestructura del ecosistema (GD, DGMakers, 4Inclusion, GDPatrimonio).</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="text-center mt-4">
+                    <img src="img/IATradivsInnova.png" alt="Comparativa IA tradicional vs innovador" class="img-fluid rounded-3 shadow-sm">
+                </div>
+
+            </section>
+
         </div>
     </main>
 
