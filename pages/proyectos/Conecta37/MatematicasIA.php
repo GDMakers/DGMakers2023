@@ -256,7 +256,7 @@
             </div>
             <div class="ia-grid">
                 <div class="ia-card">
-                    <h5 class="mb-2 ia-accent">1. Arranque en fr&#237;o (Modo Humano)</h5>
+                    <h5 class="mb-2 ia-accent">1. Arranque en fr&#237;o (Modo humano)</h5>
                     <p class="mb-2"><strong>Primero, tu cerebro.</strong> Antes de encender la IA, ejecuta tu propio sistema.</p>
                     <ul class="ia-list">
                         <li>Lee el problema y reescr&#237;belo mentalmente.</li>
@@ -265,7 +265,7 @@
                     </ul>
                 </div>
                 <div class="ia-card">
-                    <h5 class="mb-2 ia-accent">2. Validaci&#243;n de datos (Data Check)</h5>
+                    <h5 class="mb-2 ia-accent">2. Validaci&#243;n de datos (Data check)</h5>
                     <p class="mb-2"><strong>IA para auditar, no para solucionar.</strong></p>
                     <ul class="ia-list">
                         <li>Env&#237;a tu escaneo a la IA: &ldquo;&#191;Es s&#243;lido o ves alg&#250;n fallo l&#243;gico?&rdquo;</li>
@@ -302,7 +302,7 @@
                     <p class="mb-2"><strong>La firma es tuya.</strong></p>
                     <ul class="ia-list">
                         <li>Sustituye el resultado en el problema y valida.</li>
-                        <li>A&#241;ade tu Declaraci&#243;n de Uso de IA.</li>
+                        <li>A&#241;ade tu declaraci&#243;n de uso de IA.</li>
                     </ul>
                 </div>
             </div>
@@ -585,35 +585,28 @@
     <div class="container-xxl py-5 ia-section ia-panel" data-version="tradicional" data-subject="enteros">
         <div class="container wow FadeInUp" data-wow-delay="0.1s">
             <div class="ia-card">
-                <div class="row g-4 align-items-center">
-                    <div class="col-lg-7">
-                        <div class="text-center mb-3">
-                            <span class="ia-pill">Docente tradicional</span>
-                            <h2 class="mt-2 mb-1">Chuleta IA &#183; DGMakers</h2>
-                            <p class="mb-0">Tema: Operaciones y problemas con n&#250;meros enteros &mdash; Rol: aprendo para poder ense&#241;ar a mi grupo.</p>
-                        </div>
-                        <div class="ia-divider"></div>
-                        <h5 class="mb-2 ia-accent">A. Ideas clave del tema</h5>
-                        <h6 class="mb-2">C&#243;mo usar la IA (sin copiar)</h6>
-                        <ul class="ia-list mb-3">
-                            <li><strong>Para entender mejor la teor&#237;a:</strong> &ldquo;Explica enteros como si tuviera 10 a&#241;os con ejemplos de videojuegos/dinero/temperaturas&rdquo;; &ldquo;Explica valor absoluto y opuesto con ejemplo sencillo&rdquo;; &ldquo;Reescribe esta explicaci&#243;n con frases cortas para 1&#186; ESO&rdquo;.</li>
-                            <li><strong>Para entrenar operaciones:</strong> &ldquo;Revisa esta operaci&#243;n paso a paso y corrige signos/par&#233;ntesis&rdquo;; &ldquo;Genera 10 operaciones parecidas, sin soluci&#243;n&rdquo;; &ldquo;3 f&#225;ciles, 3 medias y 2 reto&rdquo;.</li>
-                            <li><strong>Para cazar errores (modo hacker):</strong> &ldquo;Crea 5 operaciones resueltas con errores t&#237;picos, no digas d&#243;nde&rdquo;; luego: &ldquo;Comprueba si encontr&#233; bien el error y expl&#237;calo&rdquo;; &ldquo;Act&#250;a como alumno que se equivoca en enteros; hago 3 ejercicios y te corrijo&rdquo;.</li>
-                            <li><strong>Para problemas con enteros:</strong> &ldquo;Expl&#237;came el problema: datos, qu&#233; pide y qu&#233; operaci&#243;n hacer&rdquo;; &ldquo;Revisa si mi razonamiento tiene sentido y d&#243;nde fallo&rdquo;; &ldquo;Ay&#250;dame a inventar un problema de enteros sobre [tema] y revisa mi soluci&#243;n&rdquo;.</li>
-                        </ul>
-                        <div class="ia-divider"></div>
-                        <h6 class="mb-2 ia-accent">C. Tu misi&#243;n DGMaker</h6>
-                        <ul class="ia-list mb-0">
-                            <li>Entender el tema mejor que nadie.</li>
-                            <li>Detectar errores t&#237;picos.</li>
-                            <li>Crear explicaciones, ejemplos y problemas para tu GD.</li>
-                            <li>Usar la IA como consultor, no como m&#225;quina de deberes.</li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-5 text-center">
-                        <img src="img/EstOpeEnteros.png" alt="Esquema operaciones con enteros" class="img-fluid rounded-3 shadow-sm">
-                    </div>
+                <div class="text-center mb-3">
+                    <span class="ia-pill">Docente tradicional</span>
+                    <h2 class="mt-2 mb-1">Chuleta IA &#183; DGMakers</h2>
+                    <p class="mb-0">Tema: Operaciones y problemas con n&#250;meros enteros &mdash; Rol: aprendo para poder ense&#241;ar a mi grupo.</p>
                 </div>
+                <div class="ia-divider"></div>
+                <h5 class="mb-2 ia-accent">Ideas clave del tema</h5>
+                <h6 class="mb-2">C&#243;mo usar la IA (sin copiar)</h6>
+                <ul class="ia-list mb-3">
+                    <li><strong>Para entender mejor la teor&#237;a:</strong> &ldquo;Explica enteros como si tuviera 10 a&#241;os con ejemplos de videojuegos/dinero/temperaturas&rdquo;; &ldquo;Explica valor absoluto y opuesto con ejemplo sencillo&rdquo;; &ldquo;Reescribe esta explicaci&#243;n con frases cortas para 1&#186; ESO&rdquo;.</li>
+                    <li><strong>Para entrenar operaciones:</strong> &ldquo;Revisa esta operaci&#243;n paso a paso y corrige signos/par&#233;ntesis&rdquo;; &ldquo;Genera 10 operaciones parecidas, sin soluci&#243;n&rdquo;; &ldquo;3 f&#225;ciles, 3 medias y 2 reto&rdquo;.</li>
+                    <li><strong>Para cazar errores (modo hacker):</strong> &ldquo;Crea 5 operaciones resueltas con errores t&#237;picos, no digas d&#243;nde&rdquo;; luego: &ldquo;Comprueba si encontr&#233; bien el error y expl&#237;calo&rdquo;; &ldquo;Act&#250;a como alumno que se equivoca en enteros; hago 3 ejercicios y te corrijo&rdquo;.</li>
+                    <li><strong>Para problemas con enteros:</strong> &ldquo;Expl&#237;came el problema: datos, qu&#233; pide y qu&#233; operaci&#243;n hacer&rdquo;; &ldquo;Revisa si mi razonamiento tiene sentido y d&#243;nde fallo&rdquo;; &ldquo;Ay&#250;dame a inventar un problema de enteros sobre [tema] y revisa mi soluci&#243;n&rdquo;.</li>
+                </ul>
+                <div class="ia-divider"></div>
+                <h6 class="mb-2 ia-accent">Tu misi&#243;n DGMaker</h6>
+                <ul class="ia-list mb-0">
+                    <li>Entender el tema mejor que nadie.</li>
+                    <li>Detectar errores t&#237;picos.</li>
+                    <li>Crear explicaciones, ejemplos y problemas para tu GD.</li>
+                    <li>Usar la IA como consultor, no como m&#225;quina de deberes.</li>
+                </ul>
             </div>
 
             <div class="ia-divider"></div>
