@@ -584,115 +584,132 @@
 
     <div class="container-xxl py-5 ia-section ia-panel" data-version="tradicional" data-subject="enteros">
         <div class="container wow FadeInUp" data-wow-delay="0.1s">
-            <div class="text-center mb-4">
-                <span class="ia-pill">Docente tradicional</span>
-                <h2 class="mt-2 mb-2">Protocolo Math-Hacker &#183; Enteros v1.0</h2>
-                <p class="mb-0">Problema tipo videojuego, misma secuencia de fases.</p>
-            </div>
             <div class="ia-card">
-                <h4 class="mb-3 ia-accent">Problema (input)</h4>
-                <p class="mb-3">Personaje empieza con -3, gana +7, pierde -5. &#191;Con cu&#225;nta energ&#237;a termina?</p>
-                <div class="ia-grid">
-                    <div class="ia-mini-card">
-                        <h6 class="mb-2 ia-accent">Boot</h6>
-                        <p class="mb-0">Objetivo claro: energ&#237;a final.</p>
-                    </div>
-                    <div class="ia-mini-card">
-                        <h6 class="mb-2 ia-accent">Fase 1 &#183; Escaneo</h6>
-                        <p class="mb-0">Datos: -3, +7, -5. Respeto de signos.</p>
-                    </div>
-                    <div class="ia-mini-card">
-                        <h6 class="mb-2 ia-accent">Fase 2 &#183; Visual</h6>
-                        <p class="mb-0">Recta num&#233;rica: salto a la derecha (+7), luego a la izquierda (-5).</p>
-                    </div>
-                    <div class="ia-mini-card">
-                        <h6 class="mb-2 ia-accent">Fase 3 &#183; C&#243;digo</h6>
-                        <p class="mb-0">Expresi&#243;n: -3 + 7 - 5.</p>
-                    </div>
-                    <div class="ia-mini-card">
-                        <h6 class="mb-2 ia-accent">Fase 4 &#183; Test</h6>
-                        <p class="mb-0">Resultado: -1. Se comprueba en la recta.</p>
-                    </div>
-                    <div class="ia-mini-card">
-                        <h6 class="mb-2 ia-accent">Fase 5 &#183; Explica</h6>
-                        <p class="mb-0">Mini log de 2-3 frases para cerrar.</p>
-                    </div>
+                <div class="text-center mb-3">
+                    <span class="ia-pill">Docente tradicional</span>
+                    <h2 class="mt-2 mb-1">Chuleta IA &#183; DGMakers</h2>
+                    <p class="mb-0">Tema: Operaciones y problemas con n&#250;meros enteros &mdash; Rol: aprendo para poder ense&#241;ar a mi grupo.</p>
                 </div>
                 <div class="ia-divider"></div>
-                <h6 class="mb-2 ia-accent">Kit de emergencias</h6>
-                <ul class="ia-list">
-                    <li>Pista ligera de signos.</li>
-                    <li>Pista visual: dibuja el primer salto.</li>
-                    <li>Ejemplo gemelo para copiar la estructura.</li>
+                <h5 class="mb-2 ia-accent">A. Ideas clave del tema</h5>
+                <h6 class="mb-2">C&#243;mo usar la IA (sin copiar)</h6>
+                <ul class="ia-list mb-3">
+                    <li><strong>Para entender mejor la teor&#237;a:</strong> &ldquo;Explica enteros como si tuviera 10 a&#241;os con ejemplos de videojuegos/dinero/temperaturas&rdquo;; &ldquo;Explica valor absoluto y opuesto con ejemplo sencillo&rdquo;; &ldquo;Reescribe esta explicaci&#243;n con frases cortas para 1&#186; ESO&rdquo;.</li>
+                    <li><strong>Para entrenar operaciones:</strong> &ldquo;Revisa esta operaci&#243;n paso a paso y corrige signos/par&#233;ntesis&rdquo;; &ldquo;Genera 10 operaciones parecidas, sin soluci&#243;n&rdquo;; &ldquo;3 f&#225;ciles, 3 medias y 2 reto&rdquo;.</li>
+                    <li><strong>Para cazar errores (modo hacker):</strong> &ldquo;Crea 5 operaciones resueltas con errores t&#237;picos, no digas d&#243;nde&rdquo;; luego: &ldquo;Comprueba si encontr&#233; bien el error y expl&#237;calo&rdquo;; &ldquo;Act&#250;a como alumno que se equivoca en enteros; hago 3 ejercicios y te corrijo&rdquo;.</li>
+                    <li><strong>Para problemas con enteros:</strong> &ldquo;Expl&#237;came el problema: datos, qu&#233; pide y qu&#233; operaci&#243;n hacer&rdquo;; &ldquo;Revisa si mi razonamiento tiene sentido y d&#243;nde fallo&rdquo;; &ldquo;Ay&#250;dame a inventar un problema de enteros sobre [tema] y revisa mi soluci&#243;n&rdquo;.</li>
+                </ul>
+                <div class="ia-divider"></div>
+                <h6 class="mb-2 ia-accent">C. Tu misi&#243;n DGMaker</h6>
+                <ul class="ia-list mb-0">
+                    <li>Entender el tema mejor que nadie.</li>
+                    <li>Detectar errores t&#237;picos.</li>
+                    <li>Crear explicaciones, ejemplos y problemas para tu GD.</li>
+                    <li>Usar la IA como consultor, no como m&#225;quina de deberes.</li>
                 </ul>
             </div>
+
             <div class="ia-divider"></div>
+
             <div class="ia-card">
-                <h4 class="mb-3 ia-accent">Ejemplo detallado con enteros</h4>
-                <p class="mb-3">Protocolo Math-Hacker para profesor tradicional, fases completas con comentarios para el profe.</p>
-                <div class="mb-3">
-                    <h5 class="mb-2 ia-accent">Problema (input)</h5>
-                    <p class="mb-0">En un videojuego, el personaje empieza con -3 puntos de energia, consigue +7 y pierde 5. &#191;Con cuanta energia termina?</p>
+                <div class="text-center mb-3">
+                    <h2 class="mt-2 mb-1">Chuleta IA &#183; Docentes</h2>
+                    <p class="mb-0">Tema: Unidad de n&#250;meros enteros con IA &mdash; Rol: el libro es el eje, la IA asiste para variar, personalizar y analizar.</p>
                 </div>
-                <div class="ia-grid">
-                    <div class="ia-mini-card">
-                        <h6 class="mb-2 ia-accent">Fase 0 &#183; Boot</h6>
-                        <p class="mb-0">Alumno: expresa el objetivo en una frase. Profe: si no lo formula, no pasa de fase.</p>
-                    </div>
-                    <div class="ia-mini-card">
-                        <h6 class="mb-2 ia-accent">Fase 1 &#183; Escaneo</h6>
-                        <ul class="ia-list">
-                            <li>Datos con signo: -3, +7, -5.</li>
-                            <li>Secuencia: empiezo en -3, sumo 7, resto 5.</li>
-                            <li>Profe: vigila que &#8220;quitar 5&#8221; sea -5.</li>
-                        </ul>
-                    </div>
-                    <div class="ia-mini-card">
-                        <h6 class="mb-2 ia-accent">Fase 2 &#183; Visual</h6>
-                        <ul class="ia-list">
-                            <li>Recta numerica: inicio en -3.</li>
-                            <li>Salto +7 a la derecha; salto -5 a la izquierda.</li>
-                            <li>Profe: corrige si no se ve el punto final.</li>
-                        </ul>
-                    </div>
-                    <div class="ia-mini-card">
-                        <h6 class="mb-2 ia-accent">Fase 3 &#183; Codigo</h6>
-                        <ul class="ia-list">
-                            <li>Operacion: -3 + 7 - 5.</li>
-                            <li>Orden sugerido: primero -3 + 7, luego restar 5.</li>
-                            <li>Profe: comprueba respeto de signos.</li>
-                        </ul>
-                    </div>
-                    <div class="ia-mini-card">
-                        <h6 class="mb-2 ia-accent">Fase 4 &#183; Test</h6>
-                        <ul class="ia-list">
-                            <li>Calculo: -3 + 7 = 4; 4 - 5 = -1.</li>
-                            <li>Test de realidad en la recta: final en -1.</li>
-                            <li>Profe: si no coincide con el dibujo, error de calculo.</li>
-                        </ul>
-                    </div>
-                    <div class="ia-mini-card">
-                        <h6 class="mb-2 ia-accent">Fase 5 &#183; Explica</h6>
-                        <ul class="ia-list">
-                            <li>Log de 2-3 frases con pasos y resultado.</li>
-                            <li>Evidencia de comprension, no solo calculo.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="ia-divider"></div>
-                <h6 class="mb-2 ia-accent">Kit de emergencias</h6>
+                <h5 class="mb-2 ia-accent">IA para planificar y adaptar</h5>
                 <ul class="ia-list">
-                    <li>Nivel 1: pista de signos.</li>
-                    <li>Nivel 2: dibuja solo el primer salto (+7).</li>
-                    <li>Nivel 3: problema gemelo (por ejemplo, -2 + 6 - 3).</li>
+                    <li><strong>Reexplicar y contextualizar:</strong> &ldquo;Reescribe esta explicaci&#243;n con frases cortas y ejemplos cercanos&rdquo;; &ldquo;Actualiza el problema con contexto actual sin cambiar operaciones&rdquo;.</li>
+                    <li><strong>Diferenciar por niveles:</strong> &ldquo;Versi&#243;n f&#225;cil, est&#225;ndar y de reto&rdquo;; &ldquo;8 ejercicios: 3 refuerzo, 3 est&#225;ndar, 2 reto&rdquo;.</li>
+                    <li><strong>Convertir en retos:</strong> &ldquo;Convierte esta lista en una misi&#243;n/escape por equipos manteniendo el contenido matem&#225;tico&rdquo;.</li>
                 </ul>
                 <div class="ia-divider"></div>
-                <h6 class="mb-2 ia-accent">Uso en clase</h6>
+                <h5 class="mb-2 ia-accent">IA durante la clase (GD y DGMakers)</h5>
                 <ul class="ia-list">
-                    <li>No cambia el temario; cambia el procedimiento.</li>
-                    <li>Secuencia fija: objetivo &#8594; datos/signos &#8594; recta &#8594; expresion &#8594; calcular y comprobar.</li>
-                    <li>Reutilizable para temperatura, dinero o alturas.</li>
+                    <li><strong>Pistas y andamiaje:</strong> &ldquo;3 pistas graduadas para esta operaci&#243;n/problema sin dar resultado&rdquo;; ofrecer la pista adecuada cuando un GD se bloquea.</li>
+                    <li><strong>Arbitro y variaciones:</strong> &ldquo;Explica el procedimiento correcto y en qu&#233; falla esta soluci&#243;n&rdquo;; &ldquo;Crea 3 versiones nuevas con mismos pasos y otros n&#250;meros&rdquo;.</li>
                 </ul>
+                <div class="ia-divider"></div>
+                <h5 class="mb-2 ia-accent">IA para trabajar el error y evaluar</h5>
+                <ul class="ia-list">
+                    <li><strong>Analizar errores:</strong> &ldquo;Estos son errores t&#237;picos en enteros; identifica el concepto que falla (signos, par&#233;ntesis, valor absoluto, jerarqu&#237;a)&rdquo;.</li>
+                    <li><strong>Ejercicios con errores did&#225;cticos:</strong> &ldquo;Genera 5 ejercicios de enteros resueltos, cada uno con un error t&#237;pico distinto, para detectarlo&rdquo;.</li>
+                    <li><strong>R&#250;bricas sencillas:</strong> &ldquo;Ayuda a crear una r&#250;brica breve para procedimiento, explicaci&#243;n oral/escrita, vocabulario y trabajo en grupo&rdquo;.</li>
+                </ul>
+                <div class="ia-divider"></div>
+                <h6 class="mb-2 ia-accent">E. Idea clave</h6>
+                <ul class="ia-list mb-0">
+                    <li>Libro: marca el contenido.</li>
+                    <li>IA: acelera preparaci&#243;n, personalizaci&#243;n y an&#225;lisis de errores.</li>
+                    <li>DGMakers + GD: convierten la unidad en un laboratorio de pr&#225;ctica y explicaci&#243;n entre iguales.</li>
+                </ul>
+            </div>
+
+            <div class="ia-card">
+                <h4 class="mb-3 ia-accent">IA para acelerar tus v&#237;deos (Chuleta DGMakers)</h4>
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered align-middle">
+                        <thead class="table-primary">
+                            <tr>
+                                <th>Ayuda de la IA</th>
+                                <th>Prompt de ejemplo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Entender bien la parte del tema</td>
+                                <td>&ldquo;Expl&#237;came este apartado del libro sobre n&#250;meros enteros como si tuviera 12 a&#241;os, con frases cortas y un ejemplo sencillo.&rdquo;</td>
+                            </tr>
+                            <tr>
+                                <td>Resumir las ideas clave que voy a explicar</td>
+                                <td>&ldquo;Este es el texto que tengo que explicar. Res&#250;melo en 5 ideas clave para 1&#186; de ESO.&rdquo;</td>
+                            </tr>
+                            <tr>
+                                <td>Dise&#241;ar la estructura del v&#237;deo (inicio&ndash;explicaci&#243;n&ndash;ejemplos&ndash;reto)</td>
+                                <td>&ldquo;Ay&#250;dame a organizar un v&#237;deo de 3&ndash;4 minutos sobre este tema con: inicio, explicaci&#243;n, 2 ejemplos y un mini reto final.&rdquo;</td>
+                            </tr>
+                            <tr>
+                                <td>Elegir ejemplos y dibujos que se vean bien en pantalla</td>
+                                <td>&ldquo;Sugiere 3 ejemplos y qu&#233; podr&#237;a dibujar en la pizarra para explicar este contenido de forma visual.&rdquo;</td>
+                            </tr>
+                            <tr>
+                                <td>Preparar un guion breve con frases claras</td>
+                                <td>&ldquo;Escribe un guion muy corto y claro para explicar este tema a otros alumnos de 1&#186; de ESO, con tono cercano.&rdquo;</td>
+                            </tr>
+                            <tr>
+                                <td>Convertir el guion en puntos clave (tarjetas de apoyo)</td>
+                                <td>&ldquo;Convierte este guion en una lista de puntos clave para tenerlos en una tarjeta mientras hablo, sin frases largas.&rdquo;</td>
+                            </tr>
+                            <tr>
+                                <td>Ensayar la explicaci&#243;n y pulir el orden de las ideas</td>
+                                <td>&ldquo;Este es el guion que pienso decir en el v&#237;deo. Ordena las ideas para que la explicaci&#243;n sea m&#225;s clara y no d&#233; saltos.&rdquo;</td>
+                            </tr>
+                            <tr>
+                                <td>Comprobar si la explicaci&#243;n es clara para 1&#186; ESO</td>
+                                <td>&ldquo;Voy a explicarte mi tema con mis palabras. Dime qu&#233; partes ser&#237;an confusas para un alumno de 1&#186; de ESO y c&#243;mo mejorarlas.&rdquo;</td>
+                            </tr>
+                            <tr>
+                                <td>Ajustar la duraci&#243;n aproximada del v&#237;deo</td>
+                                <td>&ldquo;Este es mi guion. &#191;Crees que se puede explicar en 3&ndash;4 minutos? Si es muy largo, dime qu&#233; partes puedo recortar.&rdquo;</td>
+                            </tr>
+                            <tr>
+                                <td>Inventar un t&#237;tulo atractivo para el v&#237;deo</td>
+                                <td>&ldquo;Sugiere 5 t&#237;tulos cortos y atractivos para un v&#237;deo donde explico este tema a alumnos de 1&#186; de ESO.&rdquo;</td>
+                            </tr>
+                            <tr>
+                                <td>Escribir una descripci&#243;n corta de qu&#233; se aprende en el v&#237;deo</td>
+                                <td>&ldquo;Escribe una descripci&#243;n muy corta para mi v&#237;deo explicando qu&#233; aprender&#225; quien lo vea.&rdquo;</td>
+                            </tr>
+                            <tr>
+                                <td>Crear preguntas tipo quiz sobre lo que explico</td>
+                                <td>&ldquo;A partir de este guion, crea 5 preguntas tipo test sobre el contenido del v&#237;deo, con 4 opciones y una correcta.&rdquo;</td>
+                            </tr>
+                            <tr>
+                                <td>Hacer una mini ficha-resumen para acompa&#241;ar el v&#237;deo</td>
+                                <td>&ldquo;Resume en 8&ndash;10 l&#237;neas lo m&#225;s importante del v&#237;deo para que mis compa&#241;eros lo tengan delante mientras lo ven.&rdquo;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
