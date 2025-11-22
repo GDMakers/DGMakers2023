@@ -201,6 +201,7 @@
             <p class="lead text-white mb-0">Elige el itinerario que mejor encaja con tu estilo de aula. Dise&#241;ados para que el alumnado aprenda de forma &#233;tica, creativa y medible.</p>
             <div class="d-flex flex-wrap justify-content-center gap-2 mt-4">
                 <a href="index.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Visi&#243;n general</a>
+                <a href="MatematicasIA.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Matemáticas con IA</a>
             </div>
         </div>
     </div>
@@ -264,7 +265,7 @@
                                 </div>
                                 <p class="mb-3">IA como asistente de confianza: reduce carga, mantiene tu estilo y abre espacio a peque&#241;as innovaciones.</p>
                                 <ul class="ia-list">
-                                    <li>V&#237;deos cortos y chatbots para dudas.</li>
+                                    <li>IA para resolver dudas.</li>
                                     <li>Correcci&#243;n autom&#225;tica y seguimiento de errores.</li>
                                     <li>Micro-proyectos y grupos de ayuda mutua.</li>
                                 </ul>
@@ -432,7 +433,7 @@
                     <div class="ia-card h-100">
                         <h4 class="mb-3 ia-accent">Implementaci&#243;n por oleadas</h4>
                         <ul class="ia-list">
-                            <li><strong>Digitalizaci&#243;n sin dolor (primeras 2 semanas):</strong> grabar explicaciones cortas con Loom y usar un chatbot (ManyChat, por ejemplo) para dudas repetitivas.</li>
+                            <li><strong>Primeros pasos (primeras 2 semanas):</strong> Usar la IA para dudas repetitivas.</li>
                             <li><strong>Alivio de carga (semanas 3-6):</strong> correcci&#243;n autom&#225;tica de ejercicios y generaci&#243;n de informes de errores comunes para repasar en clase.</li>
                             <li><strong>Peque&#241;as innovaciones (semanas 7-12):</strong> introducir un problema real por tema, como calcular &#225;reas del patio, y programar una clase espejo mensual con ejercicios personalizados por IA.</li>
                             <li><strong>Metodolog&#237;as activas (a partir del 2&#186; trimestre):</strong> un mini-proyecto por evaluaci&#243;n (ej. &#8220;Las matem&#225;ticas de nuestra ciudad&#8221;) y grupos de ayuda mutua organizados por IA.</li>
@@ -448,7 +449,7 @@
                     <div class="ia-card h-100">
                         <h4 class="mb-3 ia-accent">Kit de supervivencia</h4>
                         <ul class="ia-list">
-                            <li>Herramientas sencillas: Loom, Google Forms y Kahoot como base.</li>
+                            <li>Herramientas sencillas: Google Forms y Drive/Teams como base.</li>
                             <li>Formaci&#243;n ligera: micro-v&#237;deos de 5-10 minutos, sin cursos largos.</li>
                             <li>Protocolo de emergencia: si falla la tecnolog&#237;a, se vuelve al m&#233;todo tradicional sin dramas.</li>
                         </ul>
@@ -464,7 +465,7 @@
                             <div class="ia-mini-card">
                                 <h6 class="mb-2 ia-accent">Alumnado</h6>
                                 <ul class="ia-list">
-                                    <li>Registro semanal de dudas resueltas por chatbot y tiempo ahorrado.</li>
+                                    <li>Registro semanal de dudas resueltas por la IA y tiempo ahorrado.</li>
                                     <li>Comparativa de resultados en ejercicios con y sin IA.</li>
                                 </ul>
                             </div>
@@ -582,7 +583,7 @@
                     <div class="ia-card h-100">
                         <h4 class="mb-3 ia-accent">Niveles de uso</h4>
                         <ul class="ia-list">
-                            <li><strong>IA para el profesor:</strong> preparar explicaciones, crear ejercicios por niveles y dise&#241;ar mejores ex&#225;menes sin cambiar la clase.</li>
+                            <li><strong>IA para el profesor:</strong> preparar explicaciones, crear ejercicios por niveles y dise&#241;ar mejores ex&#225;menes.</li>
                             <li><strong>Cambios visibles:</strong> micro-situar con un problema real, minipausa activa y mini Grupos de Desarrollo de 10-15 minutos; IA como segundo profesor en casa con prompts socr&#225;ticos.</li>
                             <li><strong>Mini proyectos por trimestre:</strong> pocas sesiones para generar una explicaci&#243;n, ficha o mini v&#237;deo, con Conecta 37 suave y realista.</li>
                         </ul>
