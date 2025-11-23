@@ -202,6 +202,13 @@
             background: linear-gradient(135deg, rgba(255, 127, 80, 0.08), rgba(255, 127, 80, 0.02));
         }
 
+        .ia-example {
+            background: rgba(1, 81, 131, 0.06);
+            border: 1px solid rgba(1, 81, 131, 0.18);
+            border-radius: 1rem;
+            padding: 1rem 1.25rem;
+        }
+
         @media (max-width: 767.98px) {
             .hero-conecta h1 {
                 font-size: 1.8rem;
@@ -263,6 +270,20 @@
                         <li>Ejecuta el <em>Escaneo de Datos</em>: actores, cantidades, tiempos.</li>
                         <li>Regla de oro: sin esto, la IA no se activa.</li>
                     </ul>
+                    <div class="mt-3 ia-example">
+                        <p class="mb-1"><strong>Ejemplo:</strong> Sin IA todav&#237;a.</p>
+                        <ol class="ia-list mb-2">
+                            <li>Lee el problema y res&#250;melo en una frase.</li>
+                            <li>Escaneo de datos en la libreta:
+                                <ul class="ia-list">
+                                    <li>Estado inicial: &ndash;3.</li>
+                                    <li>Cambios: +7 y &ndash;5.</li>
+                                    <li>Pregunta: &ldquo;&#191;Puntos finales?&rdquo;</li>
+                                </ul>
+                            </li>
+                        </ol>
+                        <p class="mb-0">Regla: hasta que no tengas esto escrito, no abres la IA.</p>
+                    </div>
                 </div>
                 <div class="ia-card">
                     <h5 class="mb-2 ia-accent">2. Validaci&#243;n de datos (Data check)</h5>
@@ -271,6 +292,17 @@
                         <li>Env&#237;a tu escaneo a la IA: &ldquo;&#191;Es s&#243;lido o ves alg&#250;n fallo l&#243;gico?&rdquo;</li>
                         <li>Objetivo: confirmar la base antes de construir.</li>
                     </ul>
+                    <div class="mt-3 ia-example">
+                        <p class="mb-1"><strong>Ejemplo:</strong> manda solo tu lectura del problema.</p>
+                        <p class="ia-note mb-1">Mensaje a la IA:</p>
+                        <p class="mb-2">Problema: &ldquo;Empiezo con &ndash;3 puntos, luego gano 7 y despu&#233;s pierdo 5.&rdquo;</p>
+                        <ul class="ia-list mb-2">
+                            <li>Estado inicial: &ndash;3.</li>
+                            <li>Cambios: +7 y &ndash;5.</li>
+                            <li>Quiero saber los puntos finales.</li>
+                        </ul>
+                        <p class="mb-0">Cierre: &ldquo;&#191;Ves alg&#250;n fallo en mis signos o en lo que he entendido?&rdquo;</p>
+                    </div>
                 </div>
                 <div class="ia-card">
                     <h5 class="mb-2 ia-accent">3. Kit de desbloqueo (Power-ups)</h5>
@@ -280,6 +312,14 @@
                         <li>Soporte visual: &ldquo;Sugi&#233;reme una tabla o diagrama.&rdquo;</li>
                         <li>Autocompletado y clon de entrenamiento.</li>
                     </ul>
+                    <div class="mt-3 ia-example">
+                        <p class="mb-1"><strong>Ejemplo:</strong> si no sabes seguir, pide pistas, no la soluci&#243;n.</p>
+                        <ul class="ia-list mb-0">
+                            <li>Pista de lenguaje: &ldquo;En este problema: &lsquo;pierde 5&rsquo; y &lsquo;baja 5 grados&rsquo;, &#191;es siempre &ndash;5? Expl&#237;camelo con 1 ejemplo.&rdquo;</li>
+                            <li>Pista visual: &ldquo;Ens&#233;&#241;ame c&#243;mo representar en una recta num&#233;rica esta operaci&#243;n: &ndash;3 + 7 &ndash; 5, sin hacerla por m&#237;.&rdquo;</li>
+                            <li>Ejercicio gemelo: &ldquo;Dame un problema parecido a &lsquo;empiezo con &ndash;3, gano 7 y pierdo 5&rsquo; con otros n&#250;meros, para practicar.&rdquo;</li>
+                        </ul>
+                    </div>
                 </div>
                 <div class="ia-card">
                     <h5 class="mb-2 ia-accent">4. Depuraci&#243;n de c&#243;digo</h5>
@@ -288,6 +328,19 @@
                         <li>La IA marca incoherencias; t&#250; corriges.</li>
                         <li>Sin ecuaciones corregidas: el c&#243;digo es tuyo.</li>
                     </ul>
+                    <div class="mt-3 ia-example">
+                        <p class="mb-1"><strong>Ejemplo:</strong> calculas t&#250;, la IA revisa.</p>
+                        <ol class="ia-list mb-2">
+                            <li>Haz la cuenta en tu libreta:
+                                <ul class="ia-list">
+                                    <li>&ndash;3 + 7 = 4</li>
+                                    <li>4 &ndash; 5 = &ndash;1</li>
+                                </ul>
+                            </li>
+                            <li>Pide revisi&#243;n: &ldquo;He resuelto as&#237;: &ndash;3 + 7 = 4; 4 &ndash; 5 = &ndash;1. &#191;Son correctos estos pasos? Si ves un fallo, dime en qu&#233; l&#237;nea y por qu&#233;, pero no me des la soluci&#243;n hecha.&rdquo;</li>
+                        </ol>
+                        <p class="mb-0">La IA solo marca incoherencias; t&#250; corriges.</p>
+                    </div>
                 </div>
                 <div class="ia-card">
                     <h5 class="mb-2 ia-accent">5. Test de Turing inverso</h5>
@@ -296,6 +349,14 @@
                         <li>Explica paso a paso y pide una pregunta trampa.</li>
                         <li>Objetivo: comprobar dominio real.</li>
                     </ul>
+                    <div class="mt-3 ia-example">
+                        <p class="mb-1"><strong>Ejemplo:</strong> t&#250; mandas, la IA valida.</p>
+                        <ul class="ia-list mb-2">
+                            <li>Explicaci&#243;n: &ldquo;Empiezo en &ndash;3 porque estoy por debajo de cero. Sumo 7 porque gano puntos. Resto 5 porque los pierdo. Llego a &ndash;1.&rdquo;</li>
+                            <li>Petici&#243;n: &ldquo;Hazme una pregunta trampa para comprobar si de verdad entiendo las operaciones con enteros.&rdquo;</li>
+                        </ul>
+                        <p class="mb-0">Si respondes bien a la pregunta trampa, dominas el proceso.</p>
+                    </div>
                 </div>
                 <div class="ia-card">
                     <h5 class="mb-2 ia-accent">6. Certificaci&#243;n humana (QA Final)</h5>
@@ -304,10 +365,19 @@
                         <li>Sustituye el resultado en el problema y valida.</li>
                         <li>A&#241;ade tu declaraci&#243;n de uso de IA.</li>
                     </ul>
+                    <div class="mt-3 ia-example">
+                        <p class="mb-1"><strong>Ejemplo:</strong> comprobaci&#243;n final y firma.</p>
+                        <ol class="ia-list mb-2">
+                            <li>Sustituye el resultado: &ldquo;Si termino con &ndash;1, &#191;tiene sentido? &#191;Estoy por debajo de cero?&rdquo;</li>
+                            <li>Frase de cierre: &ldquo;Empiezo con &ndash;3, gano 7 (paso a 4), pierdo 5 (quedo en &ndash;1). La respuesta tiene sentido porque acabo con menos de 0 puntos.&rdquo;</li>
+                            <li>Declaraci&#243;n de uso de IA: &ldquo;He usado IA solo para revisar mi lectura del problema y comprobar mis pasos.&rdquo;</li>
+                        </ol>
+                        <p class="mb-0">La &#250;ltima palabra es siempre tuya.</p>
+                    </div>
                 </div>
             </div>
             <div class="d-flex flex-wrap justify-content-center gap-2 mt-4">
-                <a href="#" class="btn btn-conecta37">Descargar gu&#237;a PDF</a>
+                <a href="https://drive.google.com/file/d/1JRkFd44cv8jXtX9grUT9371WNfwRB2J-/view?usp=sharing" class="btn btn-conecta37">Descargar gu&#237;a PDF</a>
                 <a href="#comparativa" class="btn btn-outline-primary">Ver comparativa</a>
             </div>
         </div>
