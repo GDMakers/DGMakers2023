@@ -856,7 +856,7 @@
             <div class="text-center mb-4">
                 <span class="ia-pill">Docente innovador</span>
                 <h2 class="mt-2 mb-2">C&#243;mo aplicar el m&#233;todo Math-Hacker C37 con IA</h2>
-                <p class="mb-0">Versi&#243;n profesor tradicional &#183; Operaciones con enteros.</p>
+                <p class="mb-0">Versi&#243;n profesor innovador &#183; Operaciones con enteros.</p>
             </div>
             <div class="ia-card">
                 <h4 class="mb-3 ia-accent">Objetivo</h4>
@@ -984,6 +984,15 @@
                     <li>&#191;Qu&#233; truco visual evita errores de signo?</li>
                     <li>&#191;Qu&#233; har&#237;ais distinto en la siguiente iteraci&#243;n?</li>
                 </ul>
+                <div class="ia-divider"></div>
+                <h6 class="mb-2 ia-accent">Operaciones con enteros con IA</h6>
+                <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <figure class="ia-figure text-center">
+                        <img src="img/OperEnterosIA.png" alt="Operaciones con enteros con IA" class="img-fluid">
+                    </figure>
+                </div>
+            </div>
             </div>
         </div>
     </div>
