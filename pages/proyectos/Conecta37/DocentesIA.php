@@ -300,6 +300,9 @@
         <div class="container wow fadeInUp" data-wow-delay="0.1s">
             <div class="text-center mb-4">
                 <span class="ia-pill">&#191;Qu&#233; tipo de docente eres?</span>
+                <div class="d-flex justify-content-center mt-3">
+                    <a href="https://drive.google.com/file/d/17xSW6SWm2Rim7zKmQr6BGbXVdcNtS_tJ/view?usp=sharing" class="btn ia-switch" target="_blank" rel="noopener noreferrer">IA para cada tipo de docente</a>
+                </div>
                 <h3 class="mt-2 mb-2">Activa la versi&#243;n que quieres explorar</h3>
                 <p class="mb-3 text-muted">Botones neutros hasta que selecciones. El bot&#243;n Reset limpia versi&#243;n y asignatura.</p>
                 <div class="d-flex flex-wrap justify-content-center gap-2">
@@ -715,97 +718,7 @@
     </div>
 
 
-    <section class="py-5">
-        <div class="container">
-            <h3 class="text-primary mb-3 text-center">TABLA COMPARATIVA &#183; Uso de la IA seg&#250;n perfil docente en Conecta 37</h3>
-            <div class="table-responsive w-100">
-                <table class="table table-striped align-middle w-100">
-                    <thead class="table-primary">
-                        <tr>
-                            <th>Dimensi&#243;n</th>
-                            <th>Profesor tradicional (eficiencia y optimizaci&#243;n)</th>
-                            <th>Profesor innovador C37 (GD, DGMakers, colaboraci&#243;n)</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><strong>Rol de la IA</strong></td>
-                            <td>Asistente del profesor. Prepara y corrige.</td>
-                            <td>Copiloto del equipo. Ayuda a pensar y dise&#241;ar.</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Objetivo</strong></td>
-                            <td>Hacer lo mismo de siempre, pero m&#225;s r&#225;pido.</td>
-                            <td>Convertir problemas en retos y proyectos compartibles.</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Preparaci&#243;n de clases</strong></td>
-                            <td>Ejercicios, ex&#225;menes, fichas, textos simplificados.</td>
-                            <td>Retos GD, misiones, r&#250;bricas, prompts maestros.</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Din&#225;mica en el aula</strong></td>
-                            <td>IA casi invisible; se usa fuera de clase.</td>
-                            <td>IA visible en GD; se consulta en tiempo real.</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Tipo de actividades</strong></td>
-                            <td>Pr&#225;ctica mec&#225;nica y problemas cerrados.</td>
-                            <td>Prototipos, productos DGMakers, datos reales, apps sencillas.</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Gesti&#243;n del atasco</strong></td>
-                            <td>El alumno pregunta al profe; soluci&#243;n o pista.</td>
-                            <td>El grupo usa IA con protocolo Math-Hacker; luego profe.</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Rol del alumnado</strong></td>
-                            <td>Trabajo individual siguiendo un guion dado.</td>
-                            <td>Equipo de desarrollo con roles y decisiones compartidas.</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Rol del profesor</strong></td>
-                            <td>Explicador y corrector t&#233;cnico.</td>
-                            <td>Agile coach C37: dise&#241;a, acompa&#241;a y eval&#250;a el proceso.</td>
-                        </tr>
-                        <tr>
-                            <td><strong>IA + inclusi&#243;n</strong></td>
-                            <td>Fichas adaptadas y enunciados m&#225;s f&#225;ciles.</td>
-                            <td>Materiales inclusivos co-creados: pictos, historias, formatos m&#250;ltiples.</td>
-                        </tr>
-                        <tr>
-                            <td><strong>IA + proyectos C37</strong></td>
-                            <td>Uso puntual para redactar o resumir.</td>
-                            <td>Motor para investigar, guionar, dise&#241;ar y documentar proyectos.</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Evaluaci&#243;n</strong></td>
-                            <td>Test, bancos de &#237;tems, nota num&#233;rica.</td>
-                            <td>Feedback formativo, metacognici&#243;n y trabajo en GD.</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Producto final</strong></td>
-                            <td>Cuaderno, fichas, ex&#225;menes.</td>
-                            <td>Playbooks, v&#237;deos, infograf&#237;as, podcasts, miniapps en C37.</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Visi&#243;n del error</strong></td>
-                            <td>Fallo a corregir y olvidar.</td>
-                            <td>Bug del modelo que se analiza y se comparte.</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Integraci&#243;n en Conecta 37</strong></td>
-                            <td>IA a&#241;adida encima del modelo cl&#225;sico.</td>
-                            <td>IA como infraestructura del ecosistema (GD, DGMakers, 4Inclusion, GDPatrimonio).</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="text-center mt-4">
-                <img src="img/IATradivsInnova.png" alt="Comparativa IA tradicional vs innovador" class="img-fluid w-100 rounded-0">
-            </div>
-        </div>
-    </section>
+    
 
     <!-- Footer Start -->
     <?php include "../../../footer.php"; ?>
@@ -887,11 +800,10 @@
 
             switches.forEach(function (btn) {
                 btn.addEventListener("click", function (ev) {
-                    ev.preventDefault();
                     var target = btn.dataset.target;
-                    if (target) {
-                        setVersion(target, true);
-                    }
+                    if (!target) return; // allow normal navigation on switch-styled links
+                    ev.preventDefault();
+                    setVersion(target, true);
                 });
             });
 
