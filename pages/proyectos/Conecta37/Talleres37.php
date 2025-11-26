@@ -297,9 +297,9 @@
                         <div class="workshop-body">
                             <img src="https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&w=600&q=80"
                                 class="workshop-img" alt="Doblaje">
-                            <div class="info-item"><i class="far fa-calendar-alt"></i> 14 Enero 2026</div>
+                            <div class="info-item"><i class="far fa-calendar-alt"></i> Enero 2026</div>
                             <div class="info-item"><i class="far fa-clock"></i> 17:00 - 19:00</div>
-                            <div class="info-item"><i class="fas fa-users"></i> 15 plazas</div>
+                            <div class="info-item"><i class="fas fa-users"></i> 22 plazas</div>
                             <p class="workshop-desc">Pon voz a tus personajes favoritos de cine y animación. Aprende
                                 técnicas de interpretación vocal, sincronización y grabación en estudio profesional.</p>
                         </div>
@@ -320,9 +320,9 @@
                             <div class="workshop-center">IES Alcántara</div>
                         </div>
                         <div class="workshop-body">
-                            <img src="https://images.unsplash.com/photo-1631541909061-71e349d1f203?auto=format&fit=crop&w=600&q=80"
+                            <img src="https://images.unsplash.com/photo-1617396900799-f4ec2b43c7ae?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                                 class="workshop-img" alt="Tinkercad">
-                            <div class="info-item"><i class="far fa-calendar-alt"></i> 15 Enero 2026</div>
+                            <div class="info-item"><i class="far fa-calendar-alt"></i> 27 Enero 2026</div>
                             <div class="info-item"><i class="far fa-clock"></i> 16:30 - 18:30</div>
                             <div class="info-item"><i class="fas fa-users"></i> 20 plazas</div>
                             <p class="workshop-desc">Aprende a diseñar objetos en 3D desde cero. Crea tus propios
@@ -346,10 +346,10 @@
                             <div class="workshop-center">IES Cañada</div>
                         </div>
                         <div class="workshop-body">
-                            <img src="https://images.unsplash.com/photo-1544256718-3bcf237f3974?auto=format&fit=crop&w=600&q=80"
+                            <img src="https://images.unsplash.com/photo-1612888077748-00e3a1bd7aad?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                                 class="workshop-img" alt="Escaneado 3D iPad">
-                            <div class="info-item"><i class="far fa-calendar-alt"></i> 19 Enero 2026</div>
-                            <div class="info-item"><i class="far fa-clock"></i> 16:00 - 18:00</div>
+                            <div class="info-item"><i class="far fa-calendar-alt"></i> 23 Enero 2026</div>
+                            <div class="info-item"><i class="far fa-clock"></i> 10:00 - 11:00</div>
                             <div class="info-item"><i class="fas fa-users"></i> 25 plazas</div>
                             <p class="workshop-desc">Digitaliza el mundo real. Utiliza la tecnología LiDAR del iPad para
                                 escanear objetos y entornos, y llévalos a tus proyectos de realidad aumentada.</p>
@@ -373,7 +373,7 @@
                         <div class="workshop-body">
                             <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=600&q=80"
                                 class="workshop-img" alt="Lengua con IA">
-                            <div class="info-item"><i class="far fa-calendar-alt"></i> 20 Enero 2026</div>
+                            <div class="info-item"><i class="far fa-calendar-alt"></i> 29 Enero 2026</div>
                             <div class="info-item"><i class="far fa-clock"></i> 16:00 - 17:30</div>
                             <div class="info-item"><i class="fas fa-users"></i> 40 plazas</div>
                             <p class="workshop-desc">Potencia tu creatividad literaria. Utiliza herramientas de IA para
@@ -398,7 +398,7 @@
                         <div class="workshop-body">
                             <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80"
                                 class="workshop-img" alt="Fotogrametría">
-                            <div class="info-item"><i class="far fa-calendar-alt"></i> 21 Enero 2026</div>
+                            <div class="info-item"><i class="far fa-calendar-alt"></i> 16 febrero 2026</div>
                             <div class="info-item"><i class="far fa-clock"></i> 16:30 - 18:30</div>
                             <div class="info-item"><i class="fas fa-users"></i> 12 plazas</div>
                             <p class="workshop-desc">Crea modelos 3D hiperrealistas a partir de fotografías. Aprende el
@@ -421,9 +421,9 @@
                             <div class="workshop-center">IES Floridablanca</div>
                         </div>
                         <div class="workshop-body">
-                            <img src="https://images.unsplash.com/photo-1622979135225-d2ba269fb1bd?auto=format&fit=crop&w=600&q=80"
+                            <img src="https://images.unsplash.com/photo-1653158861306-e5b3804f6115?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                                 class="workshop-img" alt="Realidad Virtual">
-                            <div class="info-item"><i class="far fa-calendar-alt"></i> 26 Enero 2026</div>
+                            <div class="info-item"><i class="far fa-calendar-alt"></i> 19 febrero 2026</div>
                             <div class="info-item"><i class="far fa-clock"></i> 17:00 - 19:00</div>
                             <div class="info-item"><i class="fas fa-users"></i> 10 plazas</div>
                             <p class="workshop-desc">Sumérgete en nuevos mundos. Experimenta con gafas VR de última
@@ -447,9 +447,9 @@
                             <div class="workshop-center">IES Alcántara</div>
                         </div>
                         <div class="workshop-body">
-                            <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=80"
+                            <img src="https://images.unsplash.com/photo-1524685794168-52985e79c1f8?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                                 class="workshop-img" alt="Minecraft Education">
-                            <div class="info-item"><i class="far fa-calendar-alt"></i> 28 Enero 2026</div>
+                            <div class="info-item"><i class="far fa-calendar-alt"></i> 24 febrero 2026</div>
                             <div class="info-item"><i class="far fa-clock"></i> 16:00 - 18:00</div>
                             <div class="info-item"><i class="fas fa-users"></i> 30 plazas</div>
                             <p class="workshop-desc">Construye, programa y colabora. Utiliza Minecraft Education Edition
@@ -474,7 +474,7 @@
                         <div class="workshop-body">
                             <img src="https://images.unsplash.com/photo-1589903308904-1010c2294adc?auto=format&fit=crop&w=600&q=80"
                                 class="workshop-img" alt="Podcast">
-                            <div class="info-item"><i class="far fa-calendar-alt"></i> 2 Febrero 2026</div>
+                            <div class="info-item"><i class="far fa-calendar-alt"></i> 3 marzo 2026</div>
                             <div class="info-item"><i class="far fa-clock"></i> 16:30 - 18:30</div>
                             <div class="info-item"><i class="fas fa-users"></i> 15 plazas</div>
                             <p class="workshop-desc">Tu voz, tu historia. Aprende a guionizar, grabar y editar podcasts
@@ -499,7 +499,7 @@
                         <div class="workshop-body">
                             <img src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&w=600&q=80"
                                 class="workshop-img" alt="Radio">
-                            <div class="info-item"><i class="far fa-calendar-alt"></i> 4 Febrero 2026</div>
+                            <div class="info-item"><i class="far fa-calendar-alt"></i> 10 marzo 2026</div>
                             <div class="info-item"><i class="far fa-clock"></i> 17:00 - 19:00</div>
                             <div class="info-item"><i class="fas fa-users"></i> 12 plazas</div>
                             <p class="workshop-desc">¡En el aire! Vive la experiencia de realizar un programa de radio
