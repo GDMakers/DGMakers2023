@@ -170,67 +170,15 @@
         </div>
     </div>
 
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-4 align-items-start" id="reflexion">
-                <div class="col-lg-7">
-                    <div class="dev-card">
-                        <h6 class="section-title bg-white text-start text-primary pe-3">1. Analizando el camino recorrido</h6>
-                        <h2 class="mb-3">Reflexiones sobre las Jornadas 4Inclusion</h2>
-                        <p>Espacio para una conversaci&oacute;n honesta (no encuesta). Se puede trabajar en peque&ntilde;os grupos y cerrar en plenario con highlights.</p>
-                        <ul class="dev-list">
-                            <li>&iquest;Qu&eacute; momento o actividad te sorprendi&oacute; m&aacute;s o te hizo sonre&iacute;r especialmente?</li>
-                            <li>&iquest;Hubo alg&uacute;n taller o interacci&oacute;n que cambiara tu forma de ver la colaboraci&oacute;n entre centros de Educaci&oacute;n Especial y Secundaria? &iquest;C&oacute;mo?</li>
-                            <li>Si pudieras describir las jornadas con una sola palabra, &iquest;cu&aacute;l ser&iacute;a y por qu&eacute;?</li>
-                            <li>&iquest;Qu&eacute; crees que fue lo m&aacute;s valioso que se llevaron los estudiantes (EE y Secundaria) de esta experiencia?</li>
-                            <li>&iquest;Hay algo que, con lo aprendido, har&iacute;amos diferente si organiz&aacute;ramos unas jornadas similares?</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-lg-5">
-                    <div class="dev-card dev-card--soft h-100">
-                        <h5 class="mb-3">Din&aacute;mica sugerida</h5>
-                        <ol class="mb-3">
-                            <li>Trabajo en grupos mixtos (10&prime;).</li>
-                            <li>Selecci&oacute;n de aprendizajes clave (5&prime;).</li>
-                            <li>Puesta en com&uacute;n y acuerdos (10&prime;).</li>
-                        </ol>
-                        <p class="mb-0">Objetivo: sintetizar insights emocionales y operativos que inspiren la siguiente fase.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
 
-    <div class="container-xxl py-5 bg-light" id="cambios">
-        <div class="container">
-            <div class="dev-card">
-                <div class="row g-4">
-                    <div class="col-lg-5">
-                        <h6 class="section-title bg-white text-start text-primary pe-3">2. Cambios de enfoque</h6>
-                        <h2 class="mb-3">Antes &harr; Despu&eacute;s</h2>
-                        <p>Contrastamos percepciones iniciales con lo que ocurre tras la formación y convivir en las jornadas.</p>
-                    </div>
-                    <div class="col-lg-7">
-                        <ul class="dev-list">
-                            <li><strong>Antes:</strong> &iquest;qu&eacute; cre&iacute;as que era 4Inclusion? <strong>Despu&eacute;s:</strong> &iquest;qu&eacute; es ahora para ti?</li>
-                            <li>&iquest;Cu&aacute;l era la principal expectativa o preocupaci&oacute;n antes del encuentro?</li>
-                            <li>Tras ver a los estudiantes interactuar, &iquest;qu&eacute; aspecto gan&oacute; fuerza o cambi&oacute; tu perspectiva?</li>
-                            <li>Si 4Inclusion fuera una planta, &iquest;qu&eacute; “semilla” plantamos con estas jornadas y c&oacute;mo esperamos que crezca?</li>
-                            <li>&iquest;Qu&eacute; nueva oportunidad o ventana se abre tras esta experiencia?</li>
-                            <li>&iquest;Qu&eacute; nos impulsa ahora con m&aacute;s fuerza para llevar 4Inclusion al siguiente nivel?</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
 
     <div class="container-xxl py-5" id="talleres">
         <div class="container">
             <div class="row g-4 mb-4">
                 <div class="col-lg-8">
-                    <h6 class="section-title bg-white text-start text-primary pe-3">3. Planificando los pr&oacute;ximos pasos</h6>
+                    <h6 class="section-title bg-white text-start text-primary pe-3">Planificando los pr&oacute;ximos pasos</h6>
                     <h2 class="mb-3">Talleres por parejas de centros</h2>
                     <p>Organiza la ejecuci&oacute;n en parejas (centro solicitante + centro impartidor) y comparte la informaci&oacute;n clave en el plenario.</p>
                 </div>
@@ -470,9 +418,9 @@
             </div>
 
             <div class="dev-card">
-                <h4 class="mb-3">C&oacute;mo fijar fechas y participaci&oacute;n (proceso en 15&prime;)</h4>
+                <h4 class="mb-3">Cómo fijar fechas y participaci&oacute;n</h4>
                 <ul class="dev-list mb-0">
-                    <li>&iquest;Cu&aacute;l es la mejor fecha o rango de fechas para realizar el taller en el centro solicitante?</li>
+                    <li>No seleccionar fechas cercanas a evaluaciones u otros eventos importantes del centro.</li>
                     <li>&iquest;Cu&aacute;ntos estudiantes participar&aacute;n por sesi&oacute;n? (n&uacute;mero estimado para planificar recursos).</li>
                     <li>&iquest;Necesitamos alg&uacute;n recurso o material especial que deba aportar el centro impartidor?</li>
                     <li>&iquest;Hay requisitos espec&iacute;ficos (espacios, adaptaciones, etc.) que el centro impartidor deba conocer?</li>
@@ -485,7 +433,7 @@
     <div class="container-xxl py-5 bg-light" id="jornadas">
         <div class="container">
             <div class="dev-card">
-                <h6 class="section-title bg-white text-start text-primary pe-3">4. Pr&oacute;ximas Jornadas 4Inclusion (abril)</h6>
+                <h6 class="section-title bg-white text-start text-primary pe-3">Pr&oacute;ximas Jornadas 4Inclusion (abril)</h6>
                 <h2 class="mb-3">Visionando el futuro</h2>
                 <p>Planificamos el siguiente gran encuentro con foco en fechas, sedes, talleres y equipos docentes.</p>
                 <div class="row g-4">
@@ -522,23 +470,7 @@
         </div>
     </div>
 
-    <div class="container-xxl py-5" id="cierre">
-        <div class="container">
-            <div class="dev-card">
-                <h6 class="section-title bg-white text-start text-primary pe-3">5. Conclusi&oacute;n y mirada al horizonte</h6>
-                <h2 class="mb-3">Mesa redonda final</h2>
-                <p>Clausura reflexiva para capturar compromisos y mantener la energ&iacute;a.</p>
-                <ul class="dev-list mb-4">
-                    <li>Si tuvi&eacute;ramos que elegir una &ldquo;palabra m&aacute;gica&rdquo; para 4Inclusion este a&ntilde;o, &iquest;cu&aacute;l ser&iacute;a?</li>
-                    <li>&iquest;Cu&aacute;l es el mayor desaf&iacute;o por delante y c&oacute;mo lo convertimos en oportunidad?</li>
-                    <li>Si imaginamos 4Inclusion dentro de un a&ntilde;o, &iquest;qu&eacute; logro nos gustar&iacute;a celebrar?</li>
-                    <li>&iquest;Qu&eacute; compromiso personal nos llevamos hoy para impulsar la iniciativa?</li>
-                    <li>Recordando la energ&iacute;a de las jornadas, &iquest;qu&eacute; mensaje final nos damos para mantener viva la ilusi&oacute;n?</li>
-                </ul>
-                <p class="mb-0 fw-semibold">Cerramos con acuerdos compartidos y un plan visible para sumar m&aacute;s centros, docentes y estudiantes a la red.</p>
-            </div>
-        </div>
-    </div>
+    
 
     <!-- Footer común -->
     <?php
