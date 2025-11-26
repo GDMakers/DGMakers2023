@@ -236,6 +236,32 @@
             margin-bottom: 1.2rem;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
+
+        /* Filter Styles */
+        .filter-container {
+            margin-bottom: 2rem;
+        }
+        
+        .filter-btn {
+            margin: 0.25rem;
+            border-radius: 20px;
+            padding: 0.5rem 1.5rem;
+            border: 2px solid var(--c37-blue);
+            background: transparent;
+            color: var(--c37-blue);
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .filter-btn:hover, .filter-btn.active {
+            background: var(--c37-blue);
+            color: white;
+        }
+
+        .form-check-input:checked {
+            background-color: var(--c37-blue);
+            border-color: var(--c37-blue);
+        }
     </style>
 </head>
 
@@ -258,260 +284,193 @@
 
     <div class="container-xxl py-5">
         <div class="container">
-            <div class="row g-4">
-
-                <!-- 1. Matemáticas con IA (13 Enero) -->
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="workshop-card">
-                        <div class="workshop-header bg-gradient-9">
-                            <span class="badge-mode">Online</span>
-                            <h3 class="workshop-title">Matemáticas con IA</h3>
-                            <div class="workshop-center">IES Alcántara</div>
-                        </div>
-                        <div class="workshop-body">
-                            <img src="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&w=600&q=80"
-                                class="workshop-img" alt="Matemáticas con IA">
-                            <div class="info-item"><i class="far fa-calendar-alt"></i> 13 Enero 2026</div>
-                            <div class="info-item"><i class="far fa-clock"></i> 16:00 - 17:30</div>
-                            <div class="info-item"><i class="fas fa-users"></i> 40 plazas</div>
-                            <p class="workshop-desc">Descubre cómo la Inteligencia Artificial puede ayudarte a
-                                visualizar y resolver problemas matemáticos complejos de forma intuitiva y sorprendente.
-                            </p>
-                        </div>
-                        <div class="workshop-footer">
-                            <a href="https://forms.gle/D2AvTgLfYFk65oGZ8" class="btn btn-register text-center"
-                                target="_blank">Inscribirse</a>
-                            <a href="#" class="btn btn-info text-center"><i class="fas fa-info-circle"></i></a>
-                        </div>
+            
+            <!-- Filters -->
+            <div class="row mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-12 text-center">
+                    <div class="filter-container">
+                        <button class="btn filter-btn active" onclick="filterProjects('all')">Todos</button>
+                        <button class="btn filter-btn" onclick="filterProjects('DGMakers')">DGMakers</button>
+                        <button class="btn filter-btn" onclick="filterProjects('GDPatrimonio')">GDPatrimonio</button>
+                        <button class="btn filter-btn" onclick="filterProjects('Conecta37')">Conecta37</button>
+                        <button class="btn filter-btn" onclick="filterProjects('4Inclusion')">4Inclusion</button>
+                    </div>
+                    <div class="form-check form-switch d-inline-block">
+                        <input class="form-check-input" type="checkbox" id="hidePastEvents" onchange="togglePastEvents()">
+                        <label class="form-check-label" for="hidePastEvents">Ocultar eventos pasados</label>
                     </div>
                 </div>
+            </div>
 
-                <!-- 2. Doblaje (14 Enero) -->
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="workshop-card">
-                        <div class="workshop-header bg-gradient-2">
-                            <span class="badge-mode">Presencial</span>
-                            <h3 class="workshop-title">Doblaje</h3>
-                            <div class="workshop-center">IES Floridablanca</div>
-                        </div>
-                        <div class="workshop-body">
-                            <img src="https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&w=600&q=80"
-                                class="workshop-img" alt="Doblaje">
-                            <div class="info-item"><i class="far fa-calendar-alt"></i> Enero 2026</div>
-                            <div class="info-item"><i class="far fa-clock"></i> 17:00 - 19:00</div>
-                            <div class="info-item"><i class="fas fa-users"></i> 22 plazas</div>
-                            <p class="workshop-desc">Pon voz a tus personajes favoritos de cine y animación. Aprende
-                                técnicas de interpretación vocal, sincronización y grabación en estudio profesional.</p>
-                        </div>
-                        <div class="workshop-footer">
-                            <a href="https://forms.gle/D2AvTgLfYFk65oGZ8" class="btn btn-register text-center"
-                                target="_blank">Inscribirse</a>
-                            <a href="#" class="btn btn-info text-center"><i class="fas fa-info-circle"></i></a>
+            <div class="row g-4" id="workshops-container">
+
+                <?php
+                // Definición de talleres
+                $talleres = [
+                    [
+                        'title' => 'Matemáticas con IA',
+                        'center' => 'IES Alcántara',
+                        'mode' => 'Online',
+                        'image' => 'https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&w=600&q=80',
+                        'date' => '2026-01-13',
+                        'display_date' => '13 Enero 2026',
+                        'time' => '10:00 - 11:30',
+                        'capacity' => '40 plazas',
+                        'desc' => 'Descubre cómo la Inteligencia Artificial puede ayudarte a visualizar y resolver problemas matemáticos complejos de forma intuitiva y sorprendente.',
+                        'header_class' => 'bg-gradient-9',
+                        'projects' => ['DGMakers','Conecta37']
+                    ],
+                    [
+                        'title' => 'Doblaje',
+                        'center' => 'IES Floridablanca',
+                        'mode' => 'Presencial',
+                        'image' => 'https://images.unsplash.com/photo-1590602847861-f357a9332bbc?auto=format&fit=crop&w=600&q=80',
+                        'date' => '2026-01-29', // Asumiendo fecha exacta basada en orden original o placeholder
+                        'display_date' => '29 Enero 2026',
+                        'time' => '11:15 - 13:15',
+                        'capacity' => '22 plazas',
+                        'desc' => 'Pon voz a tus personajes favoritos de cine y animación. Aprende técnicas de interpretación vocal, sincronización y grabación en estudio profesional.',
+                        'header_class' => 'bg-gradient-2',
+                        'projects' => ['DGMakers', 'GDPatrimonio', 'Conecta37', '4Inclusion']
+                    ],
+                    [
+                        'title' => 'Tinkercad',
+                        'center' => 'IES Alcántara',
+                        'mode' => 'Presencial',
+                        'image' => 'https://images.unsplash.com/photo-1617396900799-f4ec2b43c7ae?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                        'date' => '2026-01-27',
+                        'display_date' => '27 Enero 2026',
+                        'time' => '10:00 - 12:00',
+                        'capacity' => '20 plazas',
+                        'desc' => 'Aprende a diseñar objetos en 3D desde cero. Crea tus propios llaveros, figuras y piezas mecánicas listas para imprimir. ¡Tu imaginación es el límite!',
+                        'header_class' => 'bg-gradient-1',
+                        'projects' => ['DGMakers', 'GDPatrimonio', 'Conecta37', '4Inclusion']
+                    ],
+                    [
+                        'title' => 'Escaneado 3D iPad',
+                        'center' => 'IES Cañada',
+                        'mode' => 'Online',
+                        'image' => 'https://images.unsplash.com/photo-1612888077748-00e3a1bd7aad?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                        'date' => '2026-01-23',
+                        'display_date' => '23 Enero 2026',
+                        'time' => '10:00 - 11:00',
+                        'capacity' => '25 plazas',
+                        'desc' => 'Digitaliza el mundo real. Utiliza la tecnología LiDAR del iPad para escanear objetos y entornos, y llévalos a tus proyectos de realidad aumentada.',
+                        'header_class' => 'bg-gradient-3',
+                        'projects' => ['DGMakers', 'GDPatrimonio', 'Conecta37', '4Inclusion']
+                    ],
+                    [
+                        'title' => 'Lengua con IA',
+                        'center' => 'IES Alcántara',
+                        'mode' => 'Online',
+                        'image' => 'https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=600&q=80',
+                        'date' => '2026-01-14',
+                        'display_date' => '14 Enero 2026',
+                        'time' => '11:15 - 12:45',
+                        'capacity' => '40 plazas',
+                        'desc' => 'Potencia tu creatividad literaria. Utiliza herramientas de IA para generar ideas, corregir estilo y explorar nuevas formas de narrativa digital.',
+                        'header_class' => 'bg-gradient-10',
+                        'projects' => ['DGMakers','Conecta37']
+                    ],
+                    [
+                        'title' => 'Fotogrametría',
+                        'center' => 'IES Floridablanca',
+                        'mode' => 'Presencial',
+                        'image' => 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80',
+                        'date' => '2026-02-16',
+                        'display_date' => '16 Febrero 2026',
+                        'time' => '10:00 - 12:00',
+                        'capacity' => '12 plazas',
+                        'desc' => 'Crea modelos 3D hiperrealistas a partir de fotografías. Aprende el flujo de trabajo completo: toma de fotos, procesado y optimización de modelos.',
+                        'header_class' => 'bg-gradient-4',
+                        'projects' => ['DGMakers', 'GDPatrimonio', 'Conecta37', '4Inclusion']
+                    ],
+                    [
+                        'title' => 'Realidad Virtual',
+                        'center' => 'IES Floridablanca',
+                        'mode' => 'Presencial',
+                        'image' => 'https://images.unsplash.com/photo-1653158861306-e5b3804f6115?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                        'date' => '2026-02-19',
+                        'display_date' => '19 Febrero 2026',
+                        'time' => '11:15 - 13:15',
+                        'capacity' => '10 plazas',
+                        'desc' => 'Sumérgete en nuevos mundos. Experimenta con gafas VR de última generación y aprende los principios básicos para crear tus propias experiencias inmersivas.',
+                        'header_class' => 'bg-gradient-5',
+                        'projects' => ['DGMakers', 'GDPatrimonio', 'Conecta37', '4Inclusion']
+                    ],
+                    [
+                        'title' => 'Minecraft Education',
+                        'center' => 'IES Alcántara',
+                        'mode' => 'Online',
+                        'image' => 'https://images.unsplash.com/photo-1524685794168-52985e79c1f8?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                        'date' => '2026-02-24',
+                        'display_date' => '24 Febrero 2026',
+                        'time' => '10:00 - 12:00',
+                        'capacity' => '30 plazas',
+                        'desc' => 'Construye, programa y colabora. Utiliza Minecraft Education Edition para resolver retos de ingeniería y crear mundos interactivos mediante código.',
+                        'header_class' => 'bg-gradient-6',
+                        'projects' => ['DGMakers', 'GDPatrimonio', 'Conecta37', '4Inclusion']
+                    ],
+                    [
+                        'title' => 'Podcast',
+                        'center' => 'IES Alcántara',
+                        'mode' => 'Presencial',
+                        'image' => 'https://images.unsplash.com/photo-1589903308904-1010c2294adc?auto=format&fit=crop&w=600&q=80',
+                        'date' => '2026-03-03',
+                        'display_date' => '3 Marzo 2026',
+                        'time' => '11:15 - 13:15',
+                        'capacity' => '15 plazas',
+                        'desc' => 'Tu voz, tu historia. Aprende a guionizar, grabar y editar podcasts profesionales. Descubre los secretos del storytelling sonoro.',
+                        'header_class' => 'bg-gradient-7',
+                        'projects' => ['DGMakers', 'GDPatrimonio', 'Conecta37', '4Inclusion']
+                    ],
+                    [
+                        'title' => 'Radio',
+                        'center' => 'CEPEE Eusebio',
+                        'mode' => 'Presencial',
+                        'image' => 'https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&w=600&q=80',
+                        'date' => '2026-03-10',
+                        'display_date' => '10 Marzo 2026',
+                        'time' => '10:00 - 12:00',
+                        'capacity' => '12 plazas',
+                        'desc' => '¡En el aire! Vive la experiencia de realizar un programa de radio en directo. Control técnico, locución y producción en un estudio real.',
+                        'header_class' => 'bg-gradient-8',
+                        'projects' => ['DGMakers', 'GDPatrimonio', 'Conecta37', '4Inclusion']
+                    ]
+                ];
+
+                // Ordenar por fecha
+                usort($talleres, function ($a, $b) {
+                    return strtotime($a['date']) - strtotime($b['date']);
+                });
+
+                foreach ($talleres as $taller):
+                    $projectsJson = json_encode($taller['projects']);
+                ?>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp workshop-item" 
+                         data-wow-delay="0.1s" 
+                         data-projects='<?php echo $projectsJson; ?>'
+                         data-date="<?php echo $taller['date']; ?>">
+                        <div class="workshop-card">
+                            <div class="workshop-header <?php echo $taller['header_class']; ?>">
+                                <span class="badge-mode"><?php echo $taller['mode']; ?></span>
+                                <h3 class="workshop-title"><?php echo $taller['title']; ?></h3>
+                                <div class="workshop-center"><?php echo $taller['center']; ?></div>
+                            </div>
+                            <div class="workshop-body">
+                                <img src="<?php echo $taller['image']; ?>" class="workshop-img" alt="<?php echo $taller['title']; ?>">
+                                <div class="info-item"><i class="far fa-calendar-alt"></i> <?php echo $taller['display_date']; ?></div>
+                                <div class="info-item"><i class="far fa-clock"></i> <?php echo $taller['time']; ?></div>
+                                <div class="info-item"><i class="fas fa-users"></i> <?php echo $taller['capacity']; ?></div>
+                                <p class="workshop-desc"><?php echo $taller['desc']; ?></p>
+                            </div>
+                            <div class="workshop-footer">
+                                <a href="https://forms.gle/D2AvTgLfYFk65oGZ8" class="btn btn-register text-center" target="_blank">Inscribirse</a>
+                                <a href="#" class="btn btn-info text-center"><i class="fas fa-info-circle"></i></a>
+                            </div>
                         </div>
                     </div>
-                </div>
-
-                <!-- 3. Tinkercad (15 Enero) -->
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="workshop-card">
-                        <div class="workshop-header bg-gradient-1">
-                            <span class="badge-mode">Presencial</span>
-                            <h3 class="workshop-title">Tinkercad</h3>
-                            <div class="workshop-center">IES Alcántara</div>
-                        </div>
-                        <div class="workshop-body">
-                            <img src="https://images.unsplash.com/photo-1617396900799-f4ec2b43c7ae?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                class="workshop-img" alt="Tinkercad">
-                            <div class="info-item"><i class="far fa-calendar-alt"></i> 27 Enero 2026</div>
-                            <div class="info-item"><i class="far fa-clock"></i> 16:30 - 18:30</div>
-                            <div class="info-item"><i class="fas fa-users"></i> 20 plazas</div>
-                            <p class="workshop-desc">Aprende a diseñar objetos en 3D desde cero. Crea tus propios
-                                llaveros, figuras y piezas mecánicas listas para imprimir. ¡Tu imaginación es el límite!
-                            </p>
-                        </div>
-                        <div class="workshop-footer">
-                            <a href="https://forms.gle/D2AvTgLfYFk65oGZ8" class="btn btn-register text-center"
-                                target="_blank">Inscribirse</a>
-                            <a href="#" class="btn btn-info text-center"><i class="fas fa-info-circle"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 4. Escaneado 3D iPad (19 Enero) -->
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="workshop-card">
-                        <div class="workshop-header bg-gradient-3">
-                            <span class="badge-mode">Online</span>
-                            <h3 class="workshop-title">Escaneado 3D iPad</h3>
-                            <div class="workshop-center">IES Cañada</div>
-                        </div>
-                        <div class="workshop-body">
-                            <img src="https://images.unsplash.com/photo-1612888077748-00e3a1bd7aad?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                class="workshop-img" alt="Escaneado 3D iPad">
-                            <div class="info-item"><i class="far fa-calendar-alt"></i> 23 Enero 2026</div>
-                            <div class="info-item"><i class="far fa-clock"></i> 10:00 - 11:00</div>
-                            <div class="info-item"><i class="fas fa-users"></i> 25 plazas</div>
-                            <p class="workshop-desc">Digitaliza el mundo real. Utiliza la tecnología LiDAR del iPad para
-                                escanear objetos y entornos, y llévalos a tus proyectos de realidad aumentada.</p>
-                        </div>
-                        <div class="workshop-footer">
-                            <a href="https://forms.gle/D2AvTgLfYFk65oGZ8" class="btn btn-register text-center"
-                                target="_blank">Inscribirse</a>
-                            <a href="#" class="btn btn-info text-center"><i class="fas fa-info-circle"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 5. Lengua con IA (20 Enero) -->
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="workshop-card">
-                        <div class="workshop-header bg-gradient-10">
-                            <span class="badge-mode">Online</span>
-                            <h3 class="workshop-title">Lengua con IA</h3>
-                            <div class="workshop-center">IES Alcántara</div>
-                        </div>
-                        <div class="workshop-body">
-                            <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=600&q=80"
-                                class="workshop-img" alt="Lengua con IA">
-                            <div class="info-item"><i class="far fa-calendar-alt"></i> 29 Enero 2026</div>
-                            <div class="info-item"><i class="far fa-clock"></i> 16:00 - 17:30</div>
-                            <div class="info-item"><i class="fas fa-users"></i> 40 plazas</div>
-                            <p class="workshop-desc">Potencia tu creatividad literaria. Utiliza herramientas de IA para
-                                generar ideas, corregir estilo y explorar nuevas formas de narrativa digital.</p>
-                        </div>
-                        <div class="workshop-footer">
-                            <a href="https://forms.gle/D2AvTgLfYFk65oGZ8" class="btn btn-register text-center"
-                                target="_blank">Inscribirse</a>
-                            <a href="#" class="btn btn-info text-center"><i class="fas fa-info-circle"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 6. Fotogrametría (21 Enero) -->
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="workshop-card">
-                        <div class="workshop-header bg-gradient-4">
-                            <span class="badge-mode">Presencial</span>
-                            <h3 class="workshop-title">Fotogrametría</h3>
-                            <div class="workshop-center">IES Floridablanca</div>
-                        </div>
-                        <div class="workshop-body">
-                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80"
-                                class="workshop-img" alt="Fotogrametría">
-                            <div class="info-item"><i class="far fa-calendar-alt"></i> 16 febrero 2026</div>
-                            <div class="info-item"><i class="far fa-clock"></i> 16:30 - 18:30</div>
-                            <div class="info-item"><i class="fas fa-users"></i> 12 plazas</div>
-                            <p class="workshop-desc">Crea modelos 3D hiperrealistas a partir de fotografías. Aprende el
-                                flujo de trabajo completo: toma de fotos, procesado y optimización de modelos.</p>
-                        </div>
-                        <div class="workshop-footer">
-                            <a href="https://forms.gle/D2AvTgLfYFk65oGZ8" class="btn btn-register text-center"
-                                target="_blank">Inscribirse</a>
-                            <a href="#" class="btn btn-info text-center"><i class="fas fa-info-circle"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 7. Realidad Virtual (26 Enero) -->
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="workshop-card">
-                        <div class="workshop-header bg-gradient-5">
-                            <span class="badge-mode">Presencial</span>
-                            <h3 class="workshop-title">Realidad Virtual</h3>
-                            <div class="workshop-center">IES Floridablanca</div>
-                        </div>
-                        <div class="workshop-body">
-                            <img src="https://images.unsplash.com/photo-1653158861306-e5b3804f6115?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                class="workshop-img" alt="Realidad Virtual">
-                            <div class="info-item"><i class="far fa-calendar-alt"></i> 19 febrero 2026</div>
-                            <div class="info-item"><i class="far fa-clock"></i> 17:00 - 19:00</div>
-                            <div class="info-item"><i class="fas fa-users"></i> 10 plazas</div>
-                            <p class="workshop-desc">Sumérgete en nuevos mundos. Experimenta con gafas VR de última
-                                generación y aprende los principios básicos para crear tus propias experiencias
-                                inmersivas.</p>
-                        </div>
-                        <div class="workshop-footer">
-                            <a href="https://forms.gle/D2AvTgLfYFk65oGZ8" class="btn btn-register text-center"
-                                target="_blank">Inscribirse</a>
-                            <a href="#" class="btn btn-info text-center"><i class="fas fa-info-circle"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 8. Minecraft Education (28 Enero) -->
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <div class="workshop-card">
-                        <div class="workshop-header bg-gradient-6">
-                            <span class="badge-mode">Online</span>
-                            <h3 class="workshop-title">Minecraft Education</h3>
-                            <div class="workshop-center">IES Alcántara</div>
-                        </div>
-                        <div class="workshop-body">
-                            <img src="https://images.unsplash.com/photo-1524685794168-52985e79c1f8?q=80&w=1548&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                class="workshop-img" alt="Minecraft Education">
-                            <div class="info-item"><i class="far fa-calendar-alt"></i> 24 febrero 2026</div>
-                            <div class="info-item"><i class="far fa-clock"></i> 16:00 - 18:00</div>
-                            <div class="info-item"><i class="fas fa-users"></i> 30 plazas</div>
-                            <p class="workshop-desc">Construye, programa y colabora. Utiliza Minecraft Education Edition
-                                para resolver retos de ingeniería y crear mundos interactivos mediante código.</p>
-                        </div>
-                        <div class="workshop-footer">
-                            <a href="https://forms.gle/D2AvTgLfYFk65oGZ8" class="btn btn-register text-center"
-                                target="_blank">Inscribirse</a>
-                            <a href="#" class="btn btn-info text-center"><i class="fas fa-info-circle"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 9. Podcast (2 Febrero) -->
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="workshop-card">
-                        <div class="workshop-header bg-gradient-7">
-                            <span class="badge-mode">Presencial</span>
-                            <h3 class="workshop-title">Podcast</h3>
-                            <div class="workshop-center">IES Alcántara</div>
-                        </div>
-                        <div class="workshop-body">
-                            <img src="https://images.unsplash.com/photo-1589903308904-1010c2294adc?auto=format&fit=crop&w=600&q=80"
-                                class="workshop-img" alt="Podcast">
-                            <div class="info-item"><i class="far fa-calendar-alt"></i> 3 marzo 2026</div>
-                            <div class="info-item"><i class="far fa-clock"></i> 16:30 - 18:30</div>
-                            <div class="info-item"><i class="fas fa-users"></i> 15 plazas</div>
-                            <p class="workshop-desc">Tu voz, tu historia. Aprende a guionizar, grabar y editar podcasts
-                                profesionales. Descubre los secretos del storytelling sonoro.</p>
-                        </div>
-                        <div class="workshop-footer">
-                            <a href="https://forms.gle/D2AvTgLfYFk65oGZ8" class="btn btn-register text-center"
-                                target="_blank">Inscribirse</a>
-                            <a href="#" class="btn btn-info text-center"><i class="fas fa-info-circle"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- 10. Radio (4 Febrero) -->
-                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="workshop-card">
-                        <div class="workshop-header bg-gradient-8">
-                            <span class="badge-mode">Presencial</span>
-                            <h3 class="workshop-title">Radio</h3>
-                            <div class="workshop-center">CEPEE Eusebio</div>
-                        </div>
-                        <div class="workshop-body">
-                            <img src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&w=600&q=80"
-                                class="workshop-img" alt="Radio">
-                            <div class="info-item"><i class="far fa-calendar-alt"></i> 10 marzo 2026</div>
-                            <div class="info-item"><i class="far fa-clock"></i> 17:00 - 19:00</div>
-                            <div class="info-item"><i class="fas fa-users"></i> 12 plazas</div>
-                            <p class="workshop-desc">¡En el aire! Vive la experiencia de realizar un programa de radio
-                                en directo. Control técnico, locución y producción en un estudio real.</p>
-                        </div>
-                        <div class="workshop-footer">
-                            <a href="https://forms.gle/D2AvTgLfYFk65oGZ8" class="btn btn-register text-center"
-                                target="_blank">Inscribirse</a>
-                            <a href="#" class="btn btn-info text-center"><i class="fas fa-info-circle"></i></a>
-                        </div>
-                    </div>
-                </div>
+                <?php endforeach; ?>
 
             </div>
         </div>
@@ -541,6 +500,81 @@
 
     <!-- Template Javascript -->
     <script src="../../../js/main.js"></script>
+
+    <script>
+        let currentProject = 'all';
+        let hidePast = false;
+
+        // Check for URL parameter
+        const urlParams = new URLSearchParams(window.location.search);
+        const projectParam = urlParams.get('project');
+        if (projectParam) {
+            currentProject = projectParam;
+        }
+
+        // Initialize on load
+        document.addEventListener('DOMContentLoaded', () => {
+             // Set active button
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.classList.remove('active');
+                if (btn.textContent.trim() === (currentProject === 'all' ? 'Todos' : currentProject)) {
+                    btn.classList.add('active');
+                }
+            });
+            applyFilters();
+        });
+
+        function filterProjects(project) {
+            currentProject = project;
+            
+            // Update active button state
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.classList.remove('active');
+                if (btn.textContent.trim() === (project === 'all' ? 'Todos' : project)) {
+                    btn.classList.add('active');
+                }
+            });
+
+            applyFilters();
+        }
+
+        function togglePastEvents() {
+            hidePast = document.getElementById('hidePastEvents').checked;
+            applyFilters();
+        }
+
+        function applyFilters() {
+            const items = document.querySelectorAll('.workshop-item');
+            const today = new Date();
+            today.setHours(0, 0, 0, 0);
+
+            items.forEach(item => {
+                const projects = JSON.parse(item.getAttribute('data-projects'));
+                const dateStr = item.getAttribute('data-date');
+                const itemDate = new Date(dateStr);
+                
+                let show = true;
+
+                // Project filter
+                if (currentProject !== 'all' && !projects.includes(currentProject)) {
+                    show = false;
+                }
+
+                // Past events filter
+                if (hidePast && itemDate < today) {
+                    show = false;
+                }
+
+                if (show) {
+                    item.style.display = 'block';
+                    // Re-trigger animation if needed, or just let it be
+                    item.classList.add('wow', 'fadeInUp');
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+    </script>
 </body>
 
 </html>

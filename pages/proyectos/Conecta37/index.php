@@ -63,8 +63,9 @@
             <div class="d-flex flex-wrap justify-content-center gap-2 mt-4">
                 <a href="index.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1 active" aria-current="page">Visi&oacute;n general</a>
                 <a href="Encuentro37.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Jornadas 26</a>
-                <a href="Livehub37.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Live Hub</a>
-                <a href="Recursos37.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Showcase de proyectos</a>
+                <a href="Talleres37.php?project=Conecta37" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Live Hub</a>
+                <a href="Recursos37.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Showcase de proyectos</a>               
+                
                 <a href="Roadmap.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Roadmap</a>
                 <a href="Centros.php" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Centros participantes</a>
                 <!-- <a href="https://rer.qualtrics.com/jfe/form/SV_3rfVlta1c2Ce754" class="btn btn-conecta37 animated zoomIn pt-1 pb-1">Encuesta 21112025</a> -->
