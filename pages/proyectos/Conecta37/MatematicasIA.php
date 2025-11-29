@@ -555,6 +555,9 @@
                 </div>
             </div>
         </div>
+        <div class="text-center my-4">
+                <a href="IAVideos.php" class="btn btn-conecta37">IA para acelerar tus v&#237;deos (Chuleta DGMakers)</a>
+            </div>
     </div>
 
     <div class="container-xxl py-5 ia-section">

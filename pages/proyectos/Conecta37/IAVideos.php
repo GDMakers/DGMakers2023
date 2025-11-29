@@ -92,6 +92,37 @@
             background: linear-gradient(135deg, #015183, #0a8cc4);
         }
 
+        .studio-hero {
+            background: radial-gradient(circle at 20% 20%, rgba(255, 127, 80, 0.14), transparent 32%), radial-gradient(circle at 80% 0, rgba(1, 81, 131, 0.18), transparent 40%), linear-gradient(135deg, rgba(1, 81, 131, 0.04), rgba(255, 255, 255, 0.9));
+        }
+
+        .studio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1rem;
+        }
+
+        .studio-step {
+            background: #ffffff;
+            border: 1px solid rgba(1, 81, 131, 0.12);
+            border-radius: 1rem;
+            padding: 1rem 1.25rem;
+            box-shadow: 0 0.85rem 1.5rem rgba(1, 81, 131, 0.08);
+        }
+
+        .studio-step h5 {
+            margin-bottom: 0.35rem;
+        }
+
+        .studio-step p {
+            margin-bottom: 0.4rem;
+        }
+
+        .studio-step ul {
+            padding-left: 1.2rem;
+            margin-bottom: 0;
+        }
+
         @media (max-width: 767.98px) {
             .hero-conecta h1 {
                 font-size: 1.8rem;
@@ -118,10 +149,59 @@
 
     <div class="container-xxl py-5 ia-section">
         <div class="container">
+            <div class="row mb-4">
+                <div class="col-12">
+                    <div class="ia-card studio-hero">
+                        <span class="ia-chip mb-2">Math Studio</span>
+                        <h2 class="mb-2">De alumno a creador</h2>
+                        <p class="mb-3"><em>&ldquo;Si no puedes explicarlo en un minuto, es que no lo has entendido. Coge el micro y demu&#233;stralo.&rdquo;</em></p>
+                        <div class="studio-grid">
+                            <div class="studio-step">
+                                <span class="ia-pill d-inline-flex mb-2">Fase 1</span>
+                                <h5 class="ia-accent mb-1">El guion (scripting)</h5>
+                                <p class="text-muted mb-2">Prohibido improvisar. Los grandes youtubers escriben cada palabra.</p>
+                                <ul class="ia-list">
+                                    <li><strong>Gancho (0-5s):</strong> nada de &ldquo;Hola, soy Juan...&rdquo;. Empieza con una pregunta o un error com&#250;n.</li>
+                                    <li><strong>Estructura doble:</strong> divide tu hoja: izquierda lo que se ve (f&#243;rmulas), derecha lo que dices.</li>
+                                    <li><strong>IA assistant:</strong> pide revisi&#243;n para hacerlo m&#225;s directo y con ritmo.</li>
+                                </ul>
+                            </div>
+                            <div class="studio-step">
+                                <span class="ia-pill d-inline-flex mb-2">Fase 2</span>
+                                <h5 class="ia-accent mb-1">El setup (assets)</h5>
+                                <p class="text-muted mb-2">Mata el PowerPoint. Queremos acci&#243;n, no diapositivas est&#225;ticas.</p>
+                                <ul class="ia-list">
+                                    <li><strong>Estilo &ldquo;Khan&rdquo;:</strong> graba la pantalla de tu tablet mientras escribes en directo.</li>
+                                    <li><strong>Estilo &ldquo;Maker&rdquo;:</strong> c&#225;mara cenital con tus manos y rotuladores en papel limpio.</li>
+                                    <li><strong>Formato vertical:</strong> atr&#233;vete con un Short/Reel &lt; 60s.</li>
+                                </ul>
+                            </div>
+                            <div class="studio-step">
+                                <span class="ia-pill d-inline-flex mb-2">Fase 3</span>
+                                <h5 class="ia-accent mb-1">Rec &amp; edit</h5>
+                                <p class="text-muted mb-2">La magia ocurre en la edici&#243;n. Ritmo, claridad y sonido.</p>
+                                <ul class="ia-list">
+                                    <li><strong>Audio &gt; video:</strong> graba en silencio o con cascos; un mal audio arruina todo.</li>
+                                    <li><strong>Cortes r&#225;pidos:</strong> elimina silencios y dudas; usa jump cuts.</li>
+                                    <li><strong>Call to action:</strong> remata con un reto: &ldquo;Pausa el v&#237;deo e intenta resolver este t&#250;&rdquo;.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+                
+                <div class="row mb-4">
+                    <div class="col-12 text-center">
+                        <img src="img/VideosIA1.png" alt="Ruta r\u00e1pida para v\u00eddeos con IA" class="img-fluid rounded-3 shadow-sm">
+                    </div>
+                </div>
+
             <div class="row g-4 align-items-center">
                 <div class="col-lg-6">
                     <div class="ia-card">
-                        <span class="ia-chip mb-2">Versi&#243;n 1 &#183; Reducida (3 pasos)</span>
+                        <span class="ia-chip mb-2">Versi&#243;n 1 &#183; reducida (3 pasos)</span>
                         <h3 class="mb-2">Tu copiloto IA para v&#237;deos: crea contenido &#233;pico en 3 pasos</h3>
                         <div class="ia-divider"></div>
                         <h5 class="ia-accent">1. Preparar (Setup)</h5>
