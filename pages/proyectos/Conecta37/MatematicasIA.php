@@ -78,6 +78,36 @@
             height: auto;
         }
 
+        .ia-code-hero {
+            background: radial-gradient(circle at 10% 20%, rgba(1, 81, 131, 0.12), transparent 40%), radial-gradient(circle at 80% 0, rgba(255, 127, 80, 0.18), transparent 45%), linear-gradient(135deg, rgba(1, 81, 131, 0.05), rgba(255, 255, 255, 0.65));
+            border-radius: 1.5rem;
+            border: 1px solid rgba(1, 81, 131, 0.15);
+            padding: 1.75rem;
+            box-shadow: 0 1.4rem 2.2rem rgba(1, 81, 131, 0.08);
+        }
+
+        .ia-rule-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 1rem;
+        }
+
+        .ia-rule-card {
+            background: #ffffff;
+            border: 1px solid rgba(1, 81, 131, 0.12);
+            border-radius: 1rem;
+            padding: 1rem 1.25rem;
+            box-shadow: 0 0.85rem 1.5rem rgba(1, 81, 131, 0.08);
+        }
+
+        .ia-rule-card h5 {
+            margin-bottom: 0.35rem;
+        }
+
+        .ia-rule-card p {
+            margin-bottom: 0;
+        }
+
         .ia-pill {
             display: inline-flex;
             align-items: center;
@@ -118,8 +148,14 @@
 
         .ia-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
             gap: 1.25rem;
+        }
+
+        @media (max-width: 991.98px) {
+            .ia-grid {
+                grid-template-columns: 1fr;
+            }
         }
 
         .ia-divider {
@@ -246,19 +282,30 @@
     <div id="protocolo" class="container-xxl py-5 ia-section">
         <div class="container wow fadeInUp" data-wow-delay="0.1s">
             <div class="row g-4 align-items-center mb-4">
-                <div class="col-lg-7">
-                    <div class="mb-3">
-                        <span class="ia-pill d-inline-block mb-2">El protocolo</span>
-                        <h2 class="mb-2">Protocolo de sincronizaci&#243;n: c&#243;mo usar tu copiloto digital</h2>
-                        <p class="mb-0">Sigue esta secuencia de arranque para hackear cualquier problema matem&#225;tico.</p>
+                <div class="col-lg-12">
+                    <div class="ia-code-hero">
+                        <div class="d-flex flex-wrap align-items-start justify-content-between gap-3">
+                            <div style="max-width: 520px;">
+                                <span class="ia-pill d-inline-block mb-2">El C&#243;digo del Math-Hacker</span>
+                                <h2 class="mb-2">3 reglas de oro para domar la IA</h2>
+                                <p class="mb-0">No estudies más duro, estudia más inteligente. Hackea el sistema con estas tres reglas de oro.</p>
+                            </div>
+                            <div class="ia-rule-grid flex-grow-1">
+                                <div class="ia-rule-card">
+                                    <h5 class="ia-accent mb-1">Modo solo (Brain first)</h5>
+                                    <p class="text-muted mb-0">Primero lo intentas t&#250;. Lee, dibuja, prueba. La IA no entra hasta que tengas algo que defender.</p>
+                                </div>
+                                <div class="ia-rule-card">
+                                    <h5 class="ia-accent mb-1">Modo copiloto (AI assist)</h5>
+                                    <p class="text-muted mb-0">Solo si te atascas o quieres auditar tu plan. Pide pistas o revisi&#243;n, no soluciones completas.</p>
+                                </div>
+                                <div class="ia-rule-card">
+                                    <h5 class="ia-accent mb-1">Modo boss (Mastery)</h5>
+                                    <p class="text-muted mb-0">T&#250; tienes la &#250;ltima palabra. Comprueba el sentido, firma el resultado y explica por qu&#233; est&#225; bien.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="ia-card">
-                        <h5 class="mb-2 ia-accent">Visi&#243;n r&#225;pida</h5>
-                        <p class="mb-0">Arranque humano, validaci&#243;n de datos, kit de desbloqueo, depuraci&#243;n, test de Turing inverso y certificaci&#243;n final. La IA audita, sugiere y cuestiona; la decisi&#243;n y el c&#243;digo final siempre son del alumno.</p>
-                    </div>
-                </div>
-                <div class="col-lg-5 text-center">
-                    <img src="img/MHIA1.png" alt="Protocolo Math-Hacker con IA" class="img-fluid rounded-3 shadow-sm">
                 </div>
             </div>
             <div class="ia-grid">
@@ -266,9 +313,9 @@
                     <h5 class="mb-2 ia-accent">Uso básico de la IA</h5>
                     <p class="mb-2"><strong>Método socrático.</strong> Técnica de aprendizaje basada en hacer preguntas en lugar de dar respuestas.</p>
                     <ul class="ia-list">
-                        <li><strong>Asignar el Rol: </strong> Dile explícitamente que actúe como "Maestro Socrático".</li>
+                        <li><strong>Asignar el rol: </strong> Dile explícitamente que actúe como "Maestro Socrático".</li>
                         <li><strong>Poner el "freno":</strong>  Ordénale que NO te dé la respuesta ni explicaciones largas, y que te haga solo una pregunta a la vez.</li>
-                        <li><strong>Definir el Objetivo:</strong>  Dile sobre qué tema quieres reflexionar o qué concepto quieres entender.</li>
+                        <li><strong>Definir el objetivo:</strong>  Dile sobre qué tema quieres reflexionar o qué concepto quieres entender.</li>
                     </ul>
                     <div class="mt-3 ia-example">
                          <p class="mb-1"><strong>Matemáticas en Modo Socrático:</strong></p>
@@ -281,24 +328,24 @@
                 </div>
                <div class="ia-card">
                     <h5 class="mb-2 ia-accent">Enseña a la IA</h5>
-                    <p class="mb-2"><strong>Inversión de Roles.</strong> La mejor forma de dominar un tema es explicarlo. Aquí tú eres el maestro y la IA es tu alumno novato.</p>
+                    <p class="mb-2"><strong>Inversión de roles.</strong> La mejor forma de dominar un tema es explicarlo. Aquí tú eres el maestro y la IA es tu alumno novato.</p>
                     <ul class="ia-list">
-                        <li><strong>Amnesia Selectiva: </strong> Dile a la IA que finja no saber nada sobre el tema (ej. "Actúa como un alumno que no sabe operar con enteros").</li>
-                        <li><strong>Carga de Datos:</strong>  Explícale tú las reglas paso a paso con tus propias palabras. Si no lo entiendes, no podrás explicárselo.</li>
-                        <li><strong>El Examen:</strong>  Ponle ejercicios para que los resuelva siguiendo TUS instrucciones. Si la IA falla, es que tu explicación necesita mejorar.</li>
+                        <li><strong>Amnesia selectiva: </strong> Dile a la IA que finja no saber nada sobre el tema (ej. "Actúa como un alumno que no sabe operar con enteros").</li>
+                        <li><strong>Carga de datos:</strong>  Explícale tú las reglas paso a paso con tus propias palabras. Si no lo entiendes, no podrás explicárselo.</li>
+                        <li><strong>El examen:</strong>  Ponle ejercicios para que los resuelva siguiendo TUS instrucciones. Si la IA falla, es que tu explicación necesita mejorar.</li>
                     </ul>
                     <div class="mt-3 ia-example">
-                            <p class="mb-1"><strong>Ejemplo: Enteros y Signos</strong></p>
+                            <p class="mb-1"><strong>Ejemplo: enteros y signos</strong></p>
                         <ol class="ia-list mb-2">
-                            <li><strong>Prompt Inicial:</strong> "Olvida las reglas matemáticas. Yo te enseño cómo sumar números con distinto signo."</li>
-                            <li><strong>Tu Explicación:</strong> "Regla: Restas los valores y pones el signo del que tenga mayor valor absoluto."</li>
+                            <li><strong>Prompt inicial:</strong> "Olvida las reglas matemáticas. Yo te enseño cómo sumar números con distinto signo."</li>
+                            <li><strong>Tu explicación:</strong> "Regla: Restas los valores y pones el signo del que tenga mayor valor absoluto."</li>
                             <li><strong>Validación:</strong> "Ahora resuelve: -5 + 8 y explícame por qué lo haces así basándote en mi regla."</li>
                         </ol>
                     </div>
                 </div>
 
                 <div class="ia-card">
-                    <h5 class="mb-2 ia-accent">Traductor "Nivel 5 años" (ELI5)</h5>
+                    <h5 class="mb-2 ia-accent">Traductor "nivel 5 años" (ELI5)</h5>
                     <p class="mb-2"><strong>Simplificación Extrema.</strong> Si el libro habla en "chino", usa la IA para traducir conceptos abstractos a cosas que ya conoces.</p>
                     <ul class="ia-list">
                         <li><strong>Identifica el bloqueo: </strong> Copia la definición técnica que no entiendas (ej. "Derivada").</li>
@@ -316,7 +363,7 @@
                 </div>
 
                 <div class="ia-card">
-                    <h5 class="mb-2 ia-accent">Matemáticas IRL (Vida Real)</h5>
+                    <h5 class="mb-2 ia-accent">Matemáticas IRL (vida real)</h5>
                     <p class="mb-2"><strong>Conexión Práctica.</strong> Responde a la eterna pregunta "¿Y esto para qué sirve?". Si ves la utilidad, el cerebro se activa.</p>
                     <ul class="ia-list">
                         <li><strong>Contextualiza: </strong> Indica el tema aburrido que estás estudiando (ej. Trigonometría o Vectores).</li>
@@ -333,7 +380,7 @@
                     </div>
                 </div>
                 <div class="ia-card">
-                    <h5 class="mb-2 ia-accent">Desbloqueador de Pistas</h5>
+                    <h5 class="mb-2 ia-accent">Desbloqueador de pistas</h5>
                     <p class="mb-2"><strong>Ayuda sin Spoilers.</strong> Ideal para deberes en casa. Es como tener al profesor al lado para darte un empujón sin hacerte el trabajo.</p>
                     <ul class="ia-list">
                         <li><strong>Muestra tu trabajo: </strong> Escribe el problema y hasta dónde has llegado tú.</li>
@@ -349,6 +396,81 @@
                         </ol>
                     </div>
                 </div>
+                <!-- 2. Entrenador de ejercicios escalonados -->
+                <div class="ia-card">
+                    <h5 class="mb-2 ia-accent">Entrenador por niveles</h5>
+                    <p class="mb-2"><strong>Escalera de dificultad.</strong> Practica un tema subiendo de nivel poco a poco (muy fácil → difícil) sin saltarte pasos.</p>
+                    <ul class="ia-list">
+                        <li><strong>Asignar el Rol:</strong> Pídele que actúe como "Entrenador de ejercicios por niveles".</li>
+                        <li><strong>Definir el Tema y Niveles:</strong> Indica el contenido (por ejemplo, ecuaciones) y cuántos niveles quieres (muy fácil, fácil, medio, difícil…).</li>
+                        <li><strong>Marcar las Reglas:</strong> Un ejercicio cada vez, sin solución inmediata y con pistas muy breves solo si te bloqueas.</li>
+                    </ul>
+                    <div class="mt-3 ia-example">
+                        <p class="mb-1"><strong>Matemáticas en Modo Escalera:</strong></p>
+                        <ol class="ia-list mb-2">
+                            <li><strong>Empieza por lo sencillo:</strong> Resuelve primero el nivel muy fácil y comprueba que dominas la base.</li>
+                            <li><strong>Pasa de nivel al acertar:</strong> Si lo haces bien sin ayuda, sube al siguiente nivel.</li>
+                            <li><strong>Repite cuando cueste:</strong> Si fallas o dudas, quédate en ese nivel y pide otro ejercicio similar.</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <!-- 3. Generador de ejemplos a tu medida -->
+                <!-- <div class="ia-card">
+                    <h5 class="mb-2 ia-accent">Problemas a tu medida</h5>
+                    <p class="mb-2"><strong>Contextos motivadores.</strong> La IA crea problemas de matemáticas usando temas que te gustan (deportes, videojuegos, música…).</p>
+                    <ul class="ia-list">
+                        <li><strong>Asignar el Rol:</strong> Dile que sea "Creador de problemas personalizados".</li>
+                        <li><strong>Elegir Tema y Contexto:</strong> Indica el contenido (fracciones, porcentajes…) y el mundo que te interesa (fútbol, Fortnite, etc.).</li>
+                        <li><strong>Sin solución directa:</strong> Pídele que no resuelva el problema y que solo confirme si tu respuesta es correcta y qué paso debes justificar mejor.</li>
+                    </ul>
+                    <div class="mt-3 ia-example">
+                        <p class="mb-1"><strong>Matemáticas con Historias:</strong></p>
+                        <ol class="ia-list mb-2">
+                            <li><strong>Imagina la escena:</strong> Visualiza el problema como una pequeña historia real.</li>
+                            <li><strong>Modifica datos:</strong> Cambia algún número y vuelve a resolver para comprobar que entiendes el concepto.</li>
+                            <li><strong>Cambia de contexto:</strong> Pide el mismo tipo de problema en otro mundo (deporte → música) y comprueba si lo sigues entendiendo.</li>
+                        </ol>
+                    </div>
+                </div> -->
+
+                <!-- 4. Simulador de examen con autodiagnóstico -->
+                <div class="ia-card">
+                    <h5 class="mb-2 ia-accent">Simulador de examen</h5>
+                    <p class="mb-2"><strong>Ensayo general.</strong> La IA crea un mini-examen y luego analiza qué tipo de errores cometes.</p>
+                    <ul class="ia-list">
+                        <li><strong>Asignar el Rol:</strong> Pídele que actúe como "Simulador de examen de matemáticas, estricto pero amable".</li>
+                        <li><strong>Definir el Formato:</strong> Indica temas, número de preguntas y tipo (problemas, ejercicios cortos, tipo test…).</li>
+                        <li><strong>Separar examen y corrección:</strong> Primero responde a todo, y después pide la corrección y un análisis de tus errores.</li>
+                    </ul>
+                    <div class="mt-3 ia-example">
+                        <p class="mb-1"><strong>Matemáticas en Modo Examen:</strong></p>
+                        <ol class="ia-list mb-2">
+                            <li><strong>Responde sin ayuda:</strong> Haz el mini-examen como si fuera real, sin pedir pistas.</li>
+                            <li><strong>Revisa el diagnóstico:</strong> Observa si tus errores son de despiste, de concepto o de procedimiento.</li>
+                            <li><strong>Crea un plan de mejora:</strong> A partir del análisis, pacta con la IA 2–3 tipos de ejercicios para entrenar lo que más fallas.</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <!-- 5. Traductor de lenguaje matemático -->
+                <!-- <div class="ia-card">
+                    <h5 class="mb-2 ia-accent">Traductor matemático</h5>
+                    <p class="mb-2"><strong>Dos idiomas: palabras y símbolos.</strong> La IA transforma enunciados en ecuaciones y ecuaciones en frases claras.</p>
+                    <ul class="ia-list">
+                        <li><strong>Asignar el Rol:</strong> Dile que sea "Traductor de lenguaje matemático" y que no resuelva los ejercicios.</li>
+                        <li><strong>Traducir en ambos sentidos:</strong> Pídele pasar de frases a ecuaciones y de ecuaciones a enunciados sencillos.</li>
+                        <li><strong>Revisar el sentido:</strong> Comprueba con la IA si la traducción mantiene la misma idea que el original.</li>
+                    </ul>
+                    <div class="mt-3 ia-example">
+                        <p class="mb-1"><strong>Matemáticas en Dos Lenguajes:</strong></p>
+                        <ol class="ia-list mb-2">
+                            <li><strong>Reescribe con tus palabras:</strong> Ajusta la traducción de la IA para que te resulte todavía más clara.</li>
+                            <li><strong>Compara historia y ecuación:</strong> Comprueba que la ecuación cuenta exactamente lo mismo que el texto.</li>
+                            <li><strong>Explora variantes:</strong> Cambia un dato del enunciado y observa cómo cambia también la ecuación.</li>
+                        </ol>
+                    </div>
+                </div> -->
             </div>
             <div class="d-flex flex-wrap justify-content-center gap-2 mt-4">
                 <a href="https://drive.google.com/file/d/1JRkFd44cv8jXtX9grUT9371WNfwRB2J-/view?usp=sharing" class="btn btn-conecta37">Descargar gu&#237;a PDF</a>
