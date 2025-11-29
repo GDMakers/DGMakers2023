@@ -263,116 +263,90 @@
             </div>
             <div class="ia-grid">
                 <div class="ia-card">
-                    <h5 class="mb-2 ia-accent">1. Arranque en fr&#237;o (Modo humano)</h5>
-                    <p class="mb-2"><strong>Primero, tu cerebro.</strong> Antes de encender la IA, ejecuta tu propio sistema.</p>
+                    <h5 class="mb-2 ia-accent">Uso básico de la IA</h5>
+                    <p class="mb-2"><strong>Método socrático.</strong> Técnica de aprendizaje basada en hacer preguntas en lugar de dar respuestas.</p>
                     <ul class="ia-list">
-                        <li>Lee el problema y reescr&#237;belo mentalmente.</li>
-                        <li>Ejecuta el <em>Escaneo de Datos</em>: actores, cantidades, tiempos.</li>
-                        <li>Regla de oro: sin esto, la IA no se activa.</li>
+                        <li><strong>Asignar el Rol: </strong> Dile explícitamente que actúe como "Maestro Socrático".</li>
+                        <li><strong>Poner el "freno":</strong>  Ordénale que NO te dé la respuesta ni explicaciones largas, y que te haga solo una pregunta a la vez.</li>
+                        <li><strong>Definir el Objetivo:</strong>  Dile sobre qué tema quieres reflexionar o qué concepto quieres entender.</li>
                     </ul>
                     <div class="mt-3 ia-example">
-                        <p class="mb-1"><strong>Ejemplo:</strong> Sin IA todav&#237;a.</p>
+                         <p class="mb-1"><strong>Matemáticas en Modo Socrático:</strong></p>
                         <ol class="ia-list mb-2">
-                            <li>Lee el problema y res&#250;melo en una frase.</li>
-                            <li>Escaneo de datos en la libreta:
-                                <ul class="ia-list">
-                                    <li>Estado inicial: &ndash;3.</li>
-                                    <li>Cambios: +7 y &ndash;5.</li>
-                                    <li>Pregunta: &ldquo;&#191;Puntos finales?&rdquo;</li>
-                                </ul>
-                            </li>
+                            <li><strong>Cuestiona el "Por qué":</strong> No apliques fórmulas en automático; pregúntate qué lógica hay detrás de cada paso.</li>
+                            <li><strong>Haz de abogado del diablo:</strong> Antes de dar la solución por buena, intenta encontrar tú mismo dónde podría fallar.</li>
+                            <li><strong>Explícalo para entenderlo:</strong> Si no eres capaz de explicar el proceso en voz alta, es que aún no lo dominas.</li>
                         </ol>
-                        <p class="mb-0">Regla: hasta que no tengas esto escrito, no abres la IA.</p>
                     </div>
                 </div>
-                <div class="ia-card">
-                    <h5 class="mb-2 ia-accent">2. Validaci&#243;n de datos (Data check)</h5>
-                    <p class="mb-2"><strong>IA para auditar, no para solucionar.</strong></p>
+               <div class="ia-card">
+                    <h5 class="mb-2 ia-accent">Enseña a la IA</h5>
+                    <p class="mb-2"><strong>Inversión de Roles.</strong> La mejor forma de dominar un tema es explicarlo. Aquí tú eres el maestro y la IA es tu alumno novato.</p>
                     <ul class="ia-list">
-                        <li>Env&#237;a tu escaneo a la IA: &ldquo;&#191;Es s&#243;lido o ves alg&#250;n fallo l&#243;gico?&rdquo;</li>
-                        <li>Objetivo: confirmar la base antes de construir.</li>
+                        <li><strong>Amnesia Selectiva: </strong> Dile a la IA que finja no saber nada sobre el tema (ej. "Actúa como un alumno que no sabe operar con enteros").</li>
+                        <li><strong>Carga de Datos:</strong>  Explícale tú las reglas paso a paso con tus propias palabras. Si no lo entiendes, no podrás explicárselo.</li>
+                        <li><strong>El Examen:</strong>  Ponle ejercicios para que los resuelva siguiendo TUS instrucciones. Si la IA falla, es que tu explicación necesita mejorar.</li>
                     </ul>
                     <div class="mt-3 ia-example">
-                        <p class="mb-1"><strong>Ejemplo:</strong> manda solo tu lectura del problema.</p>
-                        <p class="ia-note mb-1">Mensaje a la IA:</p>
-                        <p class="mb-2">Problema: &ldquo;Empiezo con &ndash;3 puntos, luego gano 7 y despu&#233;s pierdo 5.&rdquo;</p>
-                        <ul class="ia-list mb-2">
-                            <li>Estado inicial: &ndash;3.</li>
-                            <li>Cambios: +7 y &ndash;5.</li>
-                            <li>Quiero saber los puntos finales.</li>
-                        </ul>
-                        <p class="mb-0">Cierre: &ldquo;&#191;Ves alg&#250;n fallo en mis signos o en lo que he entendido?&rdquo;</p>
-                    </div>
-                </div>
-                <div class="ia-card">
-                    <h5 class="mb-2 ia-accent">3. Kit de desbloqueo (Power-ups)</h5>
-                    <p class="mb-2"><strong>Si te atascas, pide soportes, no respuestas.</strong></p>
-                    <ul class="ia-list">
-                        <li>Pista de sintaxis: &ldquo;&#191;Diferencia implica restar o comparar?&rdquo;</li>
-                        <li>Soporte visual: &ldquo;Sugi&#233;reme una tabla o diagrama.&rdquo;</li>
-                        <li>Autocompletado y clon de entrenamiento.</li>
-                    </ul>
-                    <div class="mt-3 ia-example">
-                        <p class="mb-1"><strong>Ejemplo:</strong> si no sabes seguir, pide pistas, no la soluci&#243;n.</p>
-                        <ul class="ia-list mb-0">
-                            <li>Pista de lenguaje: &ldquo;En este problema: &lsquo;pierde 5&rsquo; y &lsquo;baja 5 grados&rsquo;, &#191;es siempre &ndash;5? Expl&#237;camelo con 1 ejemplo.&rdquo;</li>
-                            <li>Pista visual: &ldquo;Ens&#233;&#241;ame c&#243;mo representar en una recta num&#233;rica esta operaci&#243;n: &ndash;3 + 7 &ndash; 5, sin hacerla por m&#237;.&rdquo;</li>
-                            <li>Ejercicio gemelo: &ldquo;Dame un problema parecido a &lsquo;empiezo con &ndash;3, gano 7 y pierdo 5&rsquo; con otros n&#250;meros, para practicar.&rdquo;</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="ia-card">
-                    <h5 class="mb-2 ia-accent">4. Depuraci&#243;n de c&#243;digo</h5>
-                    <p class="mb-2"><strong>Compilaci&#243;n y b&#250;squeda de errores.</strong></p>
-                    <ul class="ia-list">
-                        <li>La IA marca incoherencias; t&#250; corriges.</li>
-                        <li>Sin ecuaciones corregidas: el c&#243;digo es tuyo.</li>
-                    </ul>
-                    <div class="mt-3 ia-example">
-                        <p class="mb-1"><strong>Ejemplo:</strong> calculas t&#250;, la IA revisa.</p>
+                            <p class="mb-1"><strong>Ejemplo: Enteros y Signos</strong></p>
                         <ol class="ia-list mb-2">
-                            <li>Haz la cuenta en tu libreta:
-                                <ul class="ia-list">
-                                    <li>&ndash;3 + 7 = 4</li>
-                                    <li>4 &ndash; 5 = &ndash;1</li>
-                                </ul>
-                            </li>
-                            <li>Pide revisi&#243;n: &ldquo;He resuelto as&#237;: &ndash;3 + 7 = 4; 4 &ndash; 5 = &ndash;1. &#191;Son correctos estos pasos? Si ves un fallo, dime en qu&#233; l&#237;nea y por qu&#233;, pero no me des la soluci&#243;n hecha.&rdquo;</li>
+                            <li><strong>Prompt Inicial:</strong> "Olvida las reglas matemáticas. Yo te enseño cómo sumar números con distinto signo."</li>
+                            <li><strong>Tu Explicación:</strong> "Regla: Restas los valores y pones el signo del que tenga mayor valor absoluto."</li>
+                            <li><strong>Validación:</strong> "Ahora resuelve: -5 + 8 y explícame por qué lo haces así basándote en mi regla."</li>
                         </ol>
-                        <p class="mb-0">La IA solo marca incoherencias; t&#250; corriges.</p>
                     </div>
                 </div>
+
                 <div class="ia-card">
-                    <h5 class="mb-2 ia-accent">5. Test de Turing inverso</h5>
-                    <p class="mb-2"><strong>Ens&#233;&#241;ale a la m&#225;quina.</strong></p>
+                    <h5 class="mb-2 ia-accent">Traductor "Nivel 5 años" (ELI5)</h5>
+                    <p class="mb-2"><strong>Simplificación Extrema.</strong> Si el libro habla en "chino", usa la IA para traducir conceptos abstractos a cosas que ya conoces.</p>
                     <ul class="ia-list">
-                        <li>Explica paso a paso y pide una pregunta trampa.</li>
-                        <li>Objetivo: comprobar dominio real.</li>
+                        <li><strong>Identifica el bloqueo: </strong> Copia la definición técnica que no entiendas (ej. "Derivada").</li>
+                        <li><strong>Elige tu Analogía:</strong>  Pide que te lo explique usando algo que te guste: Minecraft, fútbol, cocina o redes sociales.</li>
+                        <li><strong>Visualiza:</strong>  El objetivo no es ser exacto matemáticamente, sino crear una imagen mental que se te quede grabada.</li>
                     </ul>
                     <div class="mt-3 ia-example">
-                        <p class="mb-1"><strong>Ejemplo:</strong> t&#250; mandas, la IA valida.</p>
-                        <ul class="ia-list mb-2">
-                            <li>Explicaci&#243;n: &ldquo;Empiezo en &ndash;3 porque estoy por debajo de cero. Sumo 7 porque gano puntos. Resto 5 porque los pierdo. Llego a &ndash;1.&rdquo;</li>
-                            <li>Petici&#243;n: &ldquo;Hazme una pregunta trampa para comprobar si de verdad entiendo las operaciones con enteros.&rdquo;</li>
-                        </ul>
-                        <p class="mb-0">Si respondes bien a la pregunta trampa, dominas el proceso.</p>
-                    </div>
-                </div>
-                <div class="ia-card">
-                    <h5 class="mb-2 ia-accent">6. Certificaci&#243;n humana (QA Final)</h5>
-                    <p class="mb-2"><strong>La firma es tuya.</strong></p>
-                    <ul class="ia-list">
-                        <li>Sustituye el resultado en el problema y valida.</li>
-                        <li>A&#241;ade tu declaraci&#243;n de uso de IA.</li>
-                    </ul>
-                    <div class="mt-3 ia-example">
-                        <p class="mb-1"><strong>Ejemplo:</strong> comprobaci&#243;n final y firma.</p>
+                            <p class="mb-1"><strong>Ejemplo: Entendiendo las Funciones</strong></p>
                         <ol class="ia-list mb-2">
-                            <li>Sustituye el resultado: &ldquo;Si termino con &ndash;1, &#191;tiene sentido? &#191;Estoy por debajo de cero?&rdquo;</li>
-                            <li>Frase de cierre: &ldquo;Empiezo con &ndash;3, gano 7 (paso a 4), pierdo 5 (quedo en &ndash;1). La respuesta tiene sentido porque acabo con menos de 0 puntos.&rdquo;</li>
-                            <li>Declaraci&#243;n de uso de IA: &ldquo;He usado IA solo para revisar mi lectura del problema y comprobar mis pasos.&rdquo;</li>
+                            <li><strong>Duda:</strong> "No entiendo qué es f(x) y el dominio."</li>
+                            <li><strong>Prompt:</strong> "Explícame qué es una función matemática comparándola con una máquina expendedora de refrescos."</li>
+                            <li><strong>Resultado esperado:</strong> La IA te dirá que el dinero es la 'x' (entrada), el refresco es la 'y' (salida) y el dominio son las monedas aceptadas.</li>
                         </ol>
-                        <p class="mb-0">La &#250;ltima palabra es siempre tuya.</p>
+                    </div>
+                </div>
+
+                <div class="ia-card">
+                    <h5 class="mb-2 ia-accent">Matemáticas IRL (Vida Real)</h5>
+                    <p class="mb-2"><strong>Conexión Práctica.</strong> Responde a la eterna pregunta "¿Y esto para qué sirve?". Si ves la utilidad, el cerebro se activa.</p>
+                    <ul class="ia-list">
+                        <li><strong>Contextualiza: </strong> Indica el tema aburrido que estás estudiando (ej. Trigonometría o Vectores).</li>
+                        <li><strong>Conecta con tu pasión:</strong>  Pregunta cómo se usa eso en Videojuegos, Diseño Gráfico, Arquitectura o Deportes.</li>
+                        <li><strong>Pide ejemplos concretos:</strong>  No te conformes con teoría, pide un caso práctico real.</li>
+                    </ul>
+                    <div class="mt-3 ia-example">
+                            <p class="mb-1"><strong>Ejemplo: Vectores y Gaming</strong></p>
+                        <ol class="ia-list mb-2">
+                            <li><strong>Tema:</strong> Vectores en el plano.</li>
+                            <li><strong>Prompt:</strong> "Soy gamer. Explícame para qué sirven los vectores en el desarrollo de un shooter como Fortnite."</li>
+                            <li><strong>Resultado esperado:</strong> Descubrirás que apuntar, el movimiento de la bala y la posición de los enemigos son puro cálculo vectorial.</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="ia-card">
+                    <h5 class="mb-2 ia-accent">Desbloqueador de Pistas</h5>
+                    <p class="mb-2"><strong>Ayuda sin Spoilers.</strong> Ideal para deberes en casa. Es como tener al profesor al lado para darte un empujón sin hacerte el trabajo.</p>
+                    <ul class="ia-list">
+                        <li><strong>Muestra tu trabajo: </strong> Escribe el problema y hasta dónde has llegado tú.</li>
+                        <li><strong>Regla de Oro:</strong>  Ordena explícitamente: "NO me des la solución final".</li>
+                        <li><strong>Solicita la Pista:</strong>  Pide solo el siguiente paso lógico o qué propiedad estás olvidando aplicar.</li>
+                    </ul>
+                    <div class="mt-3 ia-example">
+                            <p class="mb-1"><strong>Ejemplo: Atascado en una Ecuación</strong></p>
+                        <ol class="ia-list mb-2">
+                            <li><strong>Situación:</strong> Tienes la ecuación 3x + 5 = 14 y te has quedado en blanco.</li>
+                            <li><strong>Prompt:</strong> "Tengo 3x + 5 = 14. Quiero despejar la X. No me la resuelvas, solo dime qué debería hacer con el +5 primero."</li>
+                            <li><strong>Resultado esperado:</strong> La IA te recordará que debe pasar al otro lado restando, permitiéndote seguir tú solo.</li>
+                        </ol>
                     </div>
                 </div>
             </div>
