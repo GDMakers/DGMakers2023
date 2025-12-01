@@ -347,19 +347,29 @@
                 
 
                 <div class="ia-card">
-                    <h5 class="mb-2 ia-accent">Matemáticas IRL (vida real)</h5>
-                    <p class="mb-2"><strong>Conexión Práctica.</strong> Responde a la eterna pregunta "¿Y esto para qué sirve?". Si ves la utilidad, el cerebro se activa.</p>
+                    <h5 class="mb-2 ia-accent">Matemáticas en la vida real</h5>
+                    <p class="mb-2">
+                        <strong>Conexión práctica.</strong>
+                        Responde a la eterna pregunta «¿Y esto para qué sirve?». Si ves la utilidad, el cerebro se activa.
+                    </p>
                     <ul class="ia-list">
-                        <li><strong>Contextualiza: </strong> Indica el tema aburrido que estás estudiando (ej. Trigonometría o Vectores).</li>
-                        <li><strong>Conecta con tu pasión:</strong>  Pregunta cómo se usa eso en Videojuegos, Diseño Gráfico, Arquitectura o Deportes.</li>
-                        <li><strong>Pide ejemplos concretos:</strong>  No te conformes con teoría, pide un caso práctico real.</li>
+                        <li><strong>Contextualiza:</strong> Indica el tema que estás estudiando (por ejemplo, números enteros).</li>
+                        <li><strong>Conecta con tu mundo:</strong> Pregunta cómo se usan los enteros en dinero, temperatura, deporte o videojuegos.</li>
+                        <li><strong>Pide ejemplos concretos:</strong> No te quedes solo con teoría, pide un caso real y con números.</li>
                     </ul>
+
                     <div class="mt-3 ia-example">
-                            <p class="mb-1"><strong>Ejemplo: Vectores y Gaming</strong></p>
+                        <p class="mb-1"><strong>Ejemplo: números enteros y dinero del día a día</strong></p>
                         <ol class="ia-list mb-2">
-                            <li><strong>Tema:</strong> Vectores en el plano.</li>
-                            <li><strong>Prompt:</strong> "Soy gamer. Explícame para qué sirven los vectores en el desarrollo de un shooter como Fortnite."</li>
-                            <li><strong>Resultado esperado:</strong> Descubrirás que apuntar, el movimiento de la bala y la posición de los enemigos son puro cálculo vectorial.</li>
+                            <li><strong>Tema:</strong> operaciones con números enteros.</li>
+                            <li><strong>Petición a la IA:</strong>
+                                «Explícame cómo se usan los números enteros para controlar el saldo de una tarjeta:
+                                recargas como números positivos y gastos como números negativos».
+                            </li>
+                            <li><strong>Resultado esperado:</strong>
+                                descubrir que los enteros sirven para representar ahorros y deudas, 
+                                ver cómo cambia el saldo tras cada operación y entender mejor las sumas y restas con signo.
+                            </li>
                         </ol>
                     </div>
                 </div>
