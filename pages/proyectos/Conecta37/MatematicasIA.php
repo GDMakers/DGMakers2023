@@ -344,23 +344,7 @@
                     </div>
                 </div>
 
-                <div class="ia-card">
-                    <h5 class="mb-2 ia-accent">Traductor "nivel 5 años" (ELI5)</h5>
-                    <p class="mb-2"><strong>Simplificación Extrema.</strong> Si el libro habla en "chino", usa la IA para traducir conceptos abstractos a cosas que ya conoces.</p>
-                    <ul class="ia-list">
-                        <li><strong>Identifica el bloqueo: </strong> Copia la definición técnica que no entiendas (ej. "Derivada").</li>
-                        <li><strong>Elige tu Analogía:</strong>  Pide que te lo explique usando algo que te guste: Minecraft, fútbol, cocina o redes sociales.</li>
-                        <li><strong>Visualiza:</strong>  El objetivo no es ser exacto matemáticamente, sino crear una imagen mental que se te quede grabada.</li>
-                    </ul>
-                    <div class="mt-3 ia-example">
-                            <p class="mb-1"><strong>Ejemplo: Entendiendo las Funciones</strong></p>
-                        <ol class="ia-list mb-2">
-                            <li><strong>Duda:</strong> "No entiendo qué es f(x) y el dominio."</li>
-                            <li><strong>Prompt:</strong> "Explícame qué es una función matemática comparándola con una máquina expendedora de refrescos."</li>
-                            <li><strong>Resultado esperado:</strong> La IA te dirá que el dinero es la 'x' (entrada), el refresco es la 'y' (salida) y el dominio son las monedas aceptadas.</li>
-                        </ol>
-                    </div>
-                </div>
+                
 
                 <div class="ia-card">
                     <h5 class="mb-2 ia-accent">Matemáticas IRL (vida real)</h5>
@@ -376,6 +360,23 @@
                             <li><strong>Tema:</strong> Vectores en el plano.</li>
                             <li><strong>Prompt:</strong> "Soy gamer. Explícame para qué sirven los vectores en el desarrollo de un shooter como Fortnite."</li>
                             <li><strong>Resultado esperado:</strong> Descubrirás que apuntar, el movimiento de la bala y la posición de los enemigos son puro cálculo vectorial.</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="ia-card">
+                    <h5 class="mb-2 ia-accent">Traductor "nivel 5 años" (ELI5)</h5>
+                    <p class="mb-2"><strong>Simplificación Extrema.</strong> Si el libro habla en "chino", usa la IA para traducir conceptos abstractos a cosas que ya conoces.</p>
+                    <ul class="ia-list">
+                        <li><strong>Identifica el bloqueo: </strong> Copia la definición técnica que no entiendas (ej. "Derivada").</li>
+                        <li><strong>Elige tu Analogía:</strong>  Pide que te lo explique usando algo que te guste: Minecraft, fútbol, cocina o redes sociales.</li>
+                        <li><strong>Visualiza:</strong>  El objetivo no es ser exacto matemáticamente, sino crear una imagen mental que se te quede grabada.</li>
+                    </ul>
+                    <div class="mt-3 ia-example">
+                            <p class="mb-1"><strong>Ejemplo: Entendiendo las Funciones</strong></p>
+                        <ol class="ia-list mb-2">
+                            <li><strong>Duda:</strong> "No entiendo qué es f(x) y el dominio."</li>
+                            <li><strong>Prompt:</strong> "Explícame qué es una función matemática comparándola con una máquina expendedora de refrescos."</li>
+                            <li><strong>Resultado esperado:</strong> La IA te dirá que el dinero es la 'x' (entrada), el refresco es la 'y' (salida) y el dominio son las monedas aceptadas.</li>
                         </ol>
                     </div>
                 </div>
