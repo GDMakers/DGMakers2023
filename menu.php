@@ -19,15 +19,46 @@ echo "<nav class='navbar navbar-expand-lg navbar-dark py-2 sticky-top'>
                             <li class='dropdown-submenu'>
                                 <a class='dropdown-item dropdown-toggle' href='#'>Conecta 37</a>
                                 <ul class='dropdown-menu'>
-                                    <li><a class='dropdown-item' href='$pages/proyectos/Conecta37/index.php'>Proyecto</a></li>
-                                    <li><a class='dropdown-item' href='$pages/proyectos/Conecta37/Encuentro37.php'>Jornadas 2026</a></li>
-                                    <li><a class='dropdown-item' href='$pages/proyectos/Conecta37/Roadmap.php'>Roadmap</a></li> 
-                                    <li><a class='dropdown-item' href='$pages/proyectos/Conecta37/Talleres37.php?project=Conecta37'>Live Hub</a></li>
-                                    <li><a class='dropdown-item' href='$pages/proyectos/Conecta37/Recursos37.php'>Recursos</a></li>
-                                    <li><a class='dropdown-item' href='$pages/proyectos/Conecta37/Ia37.php'>Uso de la IA</a></li>
-                                    <li><a class='dropdown-item' href='$pages/proyectos/Conecta37/Metodologia37.php'>Cómo lo hacemos</a></li>
+                                    <!-- Proyecto -->
                                     <li class='dropdown-submenu'>
-                                        <a class='dropdown-item dropdown-toggle' href='#'>Start Lab</a>
+                                        <a class='dropdown-item dropdown-toggle' href='#'>Proyecto</a>
+                                        <ul class='dropdown-menu'>
+                                            <li><a class='dropdown-item' href='$pages/proyectos/Conecta37/index.php'>Visión general</a></li>
+                                            <li><a class='dropdown-item' href='$pages/proyectos/Conecta37/Dashboard.php'>Dashboard</a></li>
+                                            <li><a class='dropdown-item' href='$pages/proyectos/Conecta37/Roadmap.php'>Roadmap</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <!-- Eventos -->
+                                    <li class='dropdown-submenu'>
+                                        <a class='dropdown-item dropdown-toggle' href='#'>Eventos</a>
+                                        <ul class='dropdown-menu'>
+                                            <li><a class='dropdown-item' href='$pages/proyectos/Conecta37/Encuentro37.php'>Jornadas</a></li>
+                                            <li><a class='dropdown-item' href='$pages/proyectos/Conecta37/Talleres37.php?project=Conecta37'>Live Hub</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <!-- Recursos -->
+                                    <li class='dropdown-submenu'>
+                                        <a class='dropdown-item dropdown-toggle' href='#'>Recursos</a>
+                                        <ul class='dropdown-menu'>
+                                            <li><a class='dropdown-item' href='$pages/proyectos/Conecta37/Recursos37.php'>Showcase</a></li>
+                                            <li><a class='dropdown-item' href='$pages/proyectos/Conecta37/Centros.php'>Centros</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <!-- Modelo C37 -->
+                                    <li class='dropdown-submenu'>
+                                        <a class='dropdown-item dropdown-toggle' href='#'>Modelo C37</a>
+                                        <ul class='dropdown-menu'>
+                                            <li><a class='dropdown-item' href='$pages/proyectos/Conecta37/Metodologia37.php'>Metodología</a></li>
+                                            <li><a class='dropdown-item' href='$pages/proyectos/Conecta37/Ia37.php'>Uso de la IA</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <!-- Incubadora -->
+                                    <li class='dropdown-submenu'>
+                                        <a class='dropdown-item dropdown-toggle' href='#'>Incubadora</a>
                                         <ul class='dropdown-menu'>
                                             <li><a class='dropdown-item' href='$pages/proyectos/Conecta37/Incubadora37.php'>Incubadora</a></li>
                                             <li><a class='dropdown-item' href='$pages/proyectos/Conecta37/StartLab01.php'>Start Lab</a></li>

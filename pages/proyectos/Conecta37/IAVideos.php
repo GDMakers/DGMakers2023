@@ -141,7 +141,7 @@
 
     <div class="container-fluid hero-conecta py-5 mb-5">
         <div class="container py-5 text-center text-white">
-            <span class="ia-pill bg-white text-primary">DGMakers</span>
+            <span class="ia-pill bg-white text-primary">Math hacker - IA para v&#237;deos</span>
             <h1 class="display-5 text-white mb-3">IA para v&#237;deos: acelera tu estudio</h1>
             <p class="lead mb-0">Tu estudio de producci&#243;n con IA: guiones, visuales y extras listos para compartir en Conecta 37.</p>
         </div>
