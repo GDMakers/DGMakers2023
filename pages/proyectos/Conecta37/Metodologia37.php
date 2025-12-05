@@ -108,7 +108,7 @@
             <section class="metodologia-block">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6">
-                        <h2 class="text-primary mb-3">Lengua que impulsa todo</h2>
+                        <h2 class="text-primary mb-3">Lengua que lo impulsa todo</h2>
                         <p class="mb-4">Comunicar bien = aprender mejor (en todas las asignaturas).</p>
                         <ul class="arrow-list">
                             <li>Guion claro (inicio → desarrollo → cierre).</li>
@@ -142,7 +142,7 @@
             <section class="metodologia-block">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6">
-                        <h2 class="text-primary mb-3">Productos públicos (tu “señal”)</h2>
+                        <h2 class="text-primary mb-3">Productos públicos</h2>
                         <p class="mb-4">Elige el <strong>formato</strong> que mejor cuente tu idea.</p>
                         <ul class="arrow-list">
                             <li>Vídeo corto, <strong>podcast</strong>, póster/infografía o <strong>dashboard</strong>.</li>
