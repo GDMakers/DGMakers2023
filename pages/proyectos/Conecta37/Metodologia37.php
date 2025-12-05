@@ -108,7 +108,7 @@
             <section class="metodologia-block">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-6">
-                        <h2 class="text-primary mb-3">Lengua que lo impulsa todo</h2>
+                        <h2 class="text-primary mb-3">Lengua que impulsa todo</h2>
                         <p class="mb-4">Comunicar bien = aprender mejor (en todas las asignaturas).</p>
                         <ul class="arrow-list">
                             <li>Guion claro (inicio → desarrollo → cierre).</li>
