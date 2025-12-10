@@ -116,6 +116,7 @@
                         <h4 class="text-uppercase text-muted mb-2">Opciones rápidas</h4>
                         <ul class="mb-0">
                             <li><a href="Incubadora37.php">Incubadora 37</a>: explora focos y lanza ideas.</li>
+                            <li><a href="UsoIA.php">Uso Responsable IA</a>: principios de seguridad y ética.</li>
                         </ul>
                     </div>
                 </div>
@@ -134,7 +135,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="inc-card h-100 text-center">
-                        <img src="../../../img/MatematicasIA2.png" alt="Matemáticas con IA" class="img-fluid rounded-3 mb-3" />
+                        <img src="img/MatematicasIA2.png" alt="Matemáticas con IA" class="img-fluid rounded-3 mb-3" />
                         <h5 class="mb-2">Matemáticas con IA</h5>
                         <p class="mb-3">Math-Hacker modo turbo: IA como copiloto para modelar, probar y compartir.</p>
                         <a href="MatematicasIA.php" class="btn btn-conecta37 pt-1 pb-1">
