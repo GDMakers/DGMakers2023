@@ -152,7 +152,7 @@
                 <div class="d-flex align-items-center gap-2 mb-2">
                     <span class="alex-chip"><i class="bi bi-lightning-charge"></i> Concepto</span>
                 </div>
-                <h3 class="mb-3">Alejandr&#237;a 2025 rompe los muros del aula</h3>
+                <h3 class="mb-3">Alejandr&#237;a rompe los muros del aula</h3>
                 <p class="mb-0">Antes el saber se acumulaba; hoy se distribuye. Convertimos la clase en una redacci&#243;n de contenidos donde cada estudiante activa tres roles: autor&#237;a, edici&#243;n y divulgaci&#243;n.</p>
             </div>
             <div class="alex-grid">
