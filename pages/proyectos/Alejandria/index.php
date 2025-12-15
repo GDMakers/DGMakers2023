@@ -153,28 +153,28 @@
                     <span class="alex-chip"><i class="bi bi-lightning-charge"></i> Concepto</span>
                 </div>
                 <h3 class="mb-3">Alejandr&#237;a 2025 rompe los muros del aula</h3>
-                <p class="mb-0">Antes el saber se acumulaba; hoy se distribuye. [cite_start]Convertimos la clase en una redacci&#243;n de contenidos donde cada estudiante activa tres roles: autor&#237;a, edici&#243;n y divulgaci&#243;n[cite: 126, 128].</p>
+                <p class="mb-0">Antes el saber se acumulaba; hoy se distribuye. Convertimos la clase en una redacci&#243;n de contenidos donde cada estudiante activa tres roles: autor&#237;a, edici&#243;n y divulgaci&#243;n.</p>
             </div>
             <div class="alex-grid">
                 <div class="alex-card">
                     <h4 class="mb-3">Nuestra filosof&#237;a</h4>
                     <ul class="alex-list">
-                        <li>[cite_start]<strong>Domina lo que cuentas:</strong> ense&#241;ar es la mejor forma de aprender[cite: 176].</li>
+                        <li><strong>Domina lo que cuentas:</strong> ense&#241;ar es la mejor forma de aprender.</li>
                         <li><strong>Audiencia real:</strong> no hacemos &ldquo;trabajos para el profesor&rdquo;, creamos activos digitales para el mundo.</li>
                         <li><strong>En fase beta:</strong> el error no penaliza, es un dato que nos ayuda a mejorar la siguiente versi&#243;n.</li>
-                        <li>[cite_start]<strong>Efecto red:</strong> lo que funciona aqu&#237;, se comparte y replica en otros centros v&#237;a <strong>Conecta 37</strong>[cite: 156].</li>
+                        <li><strong>Efecto red:</strong> lo que funciona aqu&#237;, se comparte y replica en otros centros v&#237;a <strong>Conecta 37</strong>.</li>
                     </ul>
                 </div>
                 <div class="alex-card">
                     <h4 class="mb-3">ADN Alejandr&#237;a (qu&#233; medimos)</h4>
                     <ol class="mb-0">
                         <li><strong>Claridad:</strong> se entiende a la primera, sin ruido.</li>
-                        <li>[cite_start]<strong>Rigor:</strong> datos exactos, citas correctas y vocabulario preciso[cite: 165].</li>
+                        <li><strong>Rigor:</strong> datos exactos, citas correctas y vocabulario preciso.</li>
                         <li><strong>Estructura:</strong> inicio potente, desarrollo l&#243;gico y cierre memorable.</li>
                         <li><strong>Impacto:</strong> &#191;sirve para algo? &#191;genera conversaci&#243;n? &#191;es compartible en <strong>Conecta 37</strong>?</li>
                     </ol>
                     <div class="alex-divider"></div>
-                    <p class="mb-0"><strong>Estilo visual:</strong> minimalismo funcional. Poco texto, mucha idea, dise&#241;o limpio. [cite_start]Hibridamos lo mejor del papel (bocetos, pensamiento profundo) con la potencia de lo digital (alcance, multimedia)[cite: 151].</p>
+                    <p class="mb-0"><strong>Estilo visual:</strong> minimalismo funcional. Poco texto, mucha idea, dise&#241;o limpio. Hibridamos lo mejor del papel (bocetos, pensamiento profundo) con la potencia de lo digital (alcance, multimedia).</p>
                 </div>
             </div>
         </div>
@@ -190,18 +190,18 @@
             <div class="alex-grid">
                 <div class="alex-card">
                     <h5 class="mb-2">1. Situar (el detonante)</h5>
-                    <p class="mb-2">Contexto, reto y prop&#243;sito. No empezamos con teor&#237;a, empezamos con una pregunta potente. Definimos la misi&#243;n y a qui&#233;n le vamos a hablar. [cite_start]Es el momento de conectar el contenido curricular con la realidad palpable[cite: 172, 175].</p>
+                    <p class="mb-2">Contexto, reto y prop&#243;sito. No empezamos con teor&#237;a, empezamos con una pregunta potente. Definimos la misi&#243;n y a qui&#233;n le vamos a hablar. Es el momento de conectar el contenido curricular con la realidad palpable.</p>
                 </div>
                 <div class="alex-card">
                     <h5 class="mb-2">2. Desarrollar (el laboratorio)</h5>
-                    <p class="mb-0">Creaci&#243;n y prototipado. Equipos de <strong>m&#225;ximo 7 personas</strong> con roles especializados: gui&#243;n, voz, t&#233;cnica, dise&#241;o y direcci&#243;n. [cite_start]Aqu&#237; se cocina el contenido en formatos &#225;giles: audio, v&#237;deo, narrativa transmedia o IA generativa[cite: 26, 71].</p>
+                    <p class="mb-0">Creaci&#243;n y prototipado. Equipos de <strong>m&#225;ximo 7 personas</strong> con roles especializados: gui&#243;n, voz, t&#233;cnica, dise&#241;o y direcci&#243;n. Aqu&#237; se cocina el contenido en formatos &#225;giles: audio, v&#237;deo, narrativa transmedia o IA generativa.</p>
                 </div>
                 <div class="alex-card">
                     <h5 class="mb-2">3. Compartir (el legado)</h5>
                     <p class="mb-2">Publicaci&#243;n e impacto. El conocimiento no se queda en el disco duro. Se libera.</p>
                     <ul class="alex-list">
-                        <li>[cite_start]<strong>Repositorio Alejandr&#237;a:</strong> una revista digital viva[cite: 85, 123].</li>
-                        <li>[cite_start]<strong>QRs f&#237;sicos:</strong> las paredes del centro hablan a trav&#233;s de los dispositivos m&#243;viles[cite: 44].</li>
+                        <li><strong>Repositorio Alejandr&#237;a:</strong> una revista digital viva.</li>
+                        <li><strong>QRs f&#237;sicos:</strong> las paredes del centro hablan a trav&#233;s de los dispositivos m&#243;viles.</li>
                         <li><strong>Conecta 37:</strong> intercambio de &ldquo;episodios espejo&rdquo; con otros centros para globalizar el aprendizaje.</li>
                     </ul>
                 </div>
@@ -219,29 +219,29 @@
             <div class="alex-grid">
                 <div class="alex-card">
                     <h5 class="mb-2">Lengua castellana</h5>
-                    <p class="mb-2"><strong>Hackeando a los cl&#225;sicos.</strong> [cite_start]&#191;C&#243;mo viralizar&#237;a L&#225;zaro de Tormes sus desgracias en un hilo de redes sociales?[cite: 47, 48]. &#191;Qu&#233; lista de reproducci&#243;n escuchar&#237;a Bernarda Alba? Usamos la tecnolog&#237;a para dialogar con la tradici&#243;n.</p>
+                    <p class="mb-2"><strong>Hackeando a los cl&#225;sicos.</strong> &#191;C&#243;mo viralizar&#237;a L&#225;zaro de Tormes sus desgracias en un hilo de redes sociales? &#191;Qu&#233; lista de reproducci&#243;n escuchar&#237;a Bernarda Alba? Usamos la tecnolog&#237;a para dialogar con la tradici&#243;n.</p>
                     <ul class="alex-list mb-0">
-                        <li>[cite_start]<strong>Situar:</strong> detectamos problemas eternos (pobreza, noticias falsas, amor t&#243;xico) en textos antiguos[cite: 53].</li>
-                        <li>[cite_start]<strong>Desarrollar:</strong> creamos desde &ldquo;rese&#241;as podcast&rdquo; de un minuto [cite: 7] [cite_start]hasta &ldquo;knolling literario&rdquo; (bodegones visuales de la obra) [cite: 3] [cite_start]o batallas de versos con ayuda de IA[cite: 26].</li>
-                        <li>[cite_start]<strong>Compartir:</strong> todo converge en una presentaci&#243;n digital interactiva y accesible mediante QRs[cite: 28, 44].</li>
+                        <li><strong>Situar:</strong> detectamos problemas eternos (pobreza, noticias falsas, amor t&#243;xico) en textos antiguos.</li>
+                        <li><strong>Desarrollar:</strong> creamos desde &ldquo;rese&#241;as podcast&rdquo; de un minuto hasta &ldquo;knolling literario&rdquo; (bodegones visuales de la obra) o batallas de versos con ayuda de IA.</li>
+                        <li><strong>Compartir:</strong> todo converge en una presentaci&#243;n digital interactiva y accesible mediante QRs.</li>
                     </ul>
                 </div>
                 <div class="alex-card">
                     <h5 class="mb-2">F&#237;sica y qu&#237;mica</h5>
-                    <p class="mb-2"><strong>Ciencia contada, ciencia entendida.</strong> La ciencia no se memoriza, se comunica. [cite_start]Transformamos cada unidad en una misi&#243;n de divulgaci&#243;n cient&#237;fica[cite: 165, 173].</p>
+                    <p class="mb-2"><strong>Ciencia contada, ciencia entendida.</strong> La ciencia no se memoriza, se comunica. Transformamos cada unidad en una misi&#243;n de divulgaci&#243;n cient&#237;fica.</p>
                     <ul class="alex-list mb-0">
-                        <li>[cite_start]<strong>Situar:</strong> leemos divulgaci&#243;n para entender el vocabulario y lanzamos un reto: &ldquo;&#191;qu&#233; ocurre aqu&#237; y c&#243;mo me lo explicas?&rdquo;[cite: 168, 172].</li>
-                        <li><strong>Desarrollar:</strong> traducimos conceptos abstractos a narrativas. [cite_start]Desde un &ldquo;cuento cient&#237;fico&rdquo; donde los &#225;tomos tienen personalidad[cite: 185], hasta un podcast de &ldquo;minuto cient&#237;fico&rdquo; o una infograf&#237;a de alto impacto.</li>
-                        <li><strong>Compartir:</strong> defensa oral con soporte visual minimalista. [cite_start]Si no eres capaz de explicarlo de forma sencilla, es que no lo has entendido bien[cite: 204].</li>
+                        <li><strong>Situar:</strong> leemos divulgaci&#243;n para entender el vocabulario y lanzamos un reto: &ldquo;&#191;qu&#233; ocurre aqu&#237; y c&#243;mo me lo explicas?&rdquo;</li>
+                        <li><strong>Desarrollar:</strong> traducimos conceptos abstractos a narrativas. Desde un &ldquo;cuento cient&#237;fico&rdquo; donde los &#225;tomos tienen personalidad, hasta un podcast de &ldquo;minuto cient&#237;fico&rdquo; o una infograf&#237;a de alto impacto.</li>
+                        <li><strong>Compartir:</strong> defensa oral con soporte visual minimalista. Si no eres capaz de explicarlo de forma sencilla, es que no lo has entendido bien.</li>
                     </ul>
                 </div>
                 <div class="alex-card">
                     <h5 class="mb-2">Matem&#225;ticas</h5>
-                    <p class="mb-2"><strong>Narrativa de datos.</strong> En mates el resultado es solo el final de la historia; lo importante es el viaje del razonamiento. [cite_start]Pasamos del problema abstracto a la situaci&#243;n real explicada[cite: 191, 192].</p>
+                    <p class="mb-2"><strong>Narrativa de datos.</strong> En mates el resultado es solo el final de la historia; lo importante es el viaje del razonamiento. Pasamos del problema abstracto a la situaci&#243;n real explicada.</p>
                     <ul class="alex-list mb-0">
-                        <li><strong>Situar:</strong> el alumnado trae la realidad al aula (deporte, econom&#237;a, mapas). [cite_start]Dise&#241;amos la pregunta matem&#225;tica sobre un contexto vivo[cite: 192].</li>
-                        <li><strong>Desarrollar:</strong> creamos &ldquo;historias de pensamiento&rdquo;. [cite_start]Un v&#237;deo tutorial resolviendo el enigma, un p&#243;ster sobre &ldquo;c&#243;mo detectar errores t&#237;picos&rdquo; o un informe de debug de procedimientos[cite: 195].</li>
-                        <li><strong>Compartir:</strong> mini-defensa oral. [cite_start]Explicar el proceso en voz alta ordena las ideas, detecta fallos y consolida la l&#243;gica matem&#225;tica[cite: 204, 205].</li>
+                        <li><strong>Situar:</strong> el alumnado trae la realidad al aula (deporte, econom&#237;a, mapas). Dise&#241;amos la pregunta matem&#225;tica sobre un contexto vivo.</li>
+                        <li><strong>Desarrollar:</strong> creamos &ldquo;historias de pensamiento&rdquo;. Un v&#237;deo tutorial resolviendo el enigma, un p&#243;ster sobre &ldquo;c&#243;mo detectar errores t&#237;picos&rdquo; o un informe de debug de procedimientos.</li>
+                        <li><strong>Compartir:</strong> mini-defensa oral. Explicar el proceso en voz alta ordena las ideas, detecta fallos y consolida la l&#243;gica matem&#225;tica.</li>
                     </ul>
                 </div>
             </div>
