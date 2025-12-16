@@ -96,6 +96,10 @@
             padding-left: 1.1rem;
         }
 
+        .alex-indent {
+            padding-left: 2rem;
+        }
+
         .alex-divider {
             width: 100%;
             height: 2px;
@@ -153,9 +157,9 @@
                     <span class="alex-chip"><i class="bi bi-lightning-charge"></i> Concepto</span>
                 </div>
                 <h3 class="mb-3">La palabra al servicio de la cultura</h3>
-                <p class="mb-3">La palabra no desaparece en el mundo tecnol&#243;gico, evoluciona. El saber ya no se almacena: se distribuye, se comparte y se comunica.</p>
+                
                 <p class="mb-3">El aula se transforma en un espacio vivo donde el alumnado asume tres papeles esenciales:</p>
-                <ul class="alex-list mb-3">
+                <ul class="alex-list alex-indent mb-3">
                     <li><strong>Creador:</strong> produce conocimiento.</li>
                     <li><strong>Protagonista:</strong> aprende desde la acci&#243;n.</li>
                     <li><strong>Divulgador:</strong> comunica lo aprendido a otros.</li>
