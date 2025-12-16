@@ -15,6 +15,7 @@ echo "<nav class='navbar navbar-expand-lg navbar-dark py-2 sticky-top'>
                         <a class='nav-link dropdown-toggle' href='#' id='navbarDropdown' role='button' data-bs-toggle='dropdown' aria-expanded='false'>Proyectos</a>
                         <ul class='dropdown-menu' aria-labelledby='navbarDropdown'>
                             <li><a class='dropdown-item' href='https://gdmuseos.iesalcantara.es' target='_blank'>GDMuseos</a></li>
+                            <li><a class='dropdown-item' href='$pages/proyectos/Alejandria/index.php' target='_blank'>Alejandría</a></li>
                             
                             <li class='dropdown-submenu'>
                                 <a class='dropdown-item dropdown-toggle' href='#'>Conecta 37</a>
