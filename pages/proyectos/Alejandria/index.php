@@ -134,9 +134,9 @@
         <div class="container py-5">
             <div class="row align-items-center g-4">
                 <div class="col-lg-8">
-                    <div class="alex-pill mb-3">La red del conocimiento</div>
-                    <h1 class="display-5 mb-3">Proyecto Alejandr&#237;a</h1>
-                    <p class="lead mb-4"><strong>La palabra como tecnolog&#237;a de aprendizaje.</strong> Leemos para pensar, pensamos para escribir y publicamos para que otros aprendan.</p>
+                    <div class="alex-pill mb-3">La palabra al servicio de la cultura</div>
+                    <h1 class="display-5 mb-3 text-uppercase">Proyecto Alejandr&#237;a</h1>
+                    <p class="lead mb-4"><strong>La palabra no desaparece en el mundo tecnol&#243;gico, evoluciona.</strong> El saber ya no se almacena: se distribuye, se comparte y se comunica.</p>
                     <div class="d-flex flex-wrap gap-2">
                         <a href="#concepto" class="btn btn-alex">Ver concepto</a>
                         <a href="#algoritmo" class="btn btn-outline-primary">El algoritmo de trabajo</a>
@@ -152,29 +152,37 @@
                 <div class="d-flex align-items-center gap-2 mb-2">
                     <span class="alex-chip"><i class="bi bi-lightning-charge"></i> Concepto</span>
                 </div>
-                <h3 class="mb-3">Alejandr&#237;a rompe los muros del aula</h3>
-                <p class="mb-0">Antes el saber se acumulaba; hoy se distribuye. Convertimos la clase en una redacci&#243;n de contenidos donde cada estudiante activa tres roles: autor&#237;a, edici&#243;n y divulgaci&#243;n.</p>
+                <h3 class="mb-3">La palabra al servicio de la cultura</h3>
+                <p class="mb-3">La palabra no desaparece en el mundo tecnol&#243;gico, evoluciona. El saber ya no se almacena: se distribuye, se comparte y se comunica.</p>
+                <p class="mb-3">El aula se transforma en un espacio vivo donde el alumnado asume tres papeles esenciales:</p>
+                <ul class="alex-list mb-3">
+                    <li><strong>Creador:</strong> produce conocimiento.</li>
+                    <li><strong>Protagonista:</strong> aprende desde la acci&#243;n.</li>
+                    <li><strong>Divulgador:</strong> comunica lo aprendido a otros.</li>
+                </ul>
+                <p class="mb-0">La lengua deja de ser un contenido aislado para convertirse en herramienta de pensamiento, creaci&#243;n y conexi&#243;n con la realidad.</p>
             </div>
             <div class="alex-grid">
                 <div class="alex-card">
                     <h4 class="mb-3">Nuestra filosof&#237;a</h4>
-                    <ul class="alex-list">
-                        <li><strong>Domina lo que cuentas:</strong> ense&#241;ar es la mejor forma de aprender.</li>
-                        <li><strong>Audiencia real:</strong> no hacemos &ldquo;trabajos para el profesor&rdquo;, creamos activos digitales para el mundo.</li>
-                        <li><strong>En fase beta:</strong> el error no penaliza, es un dato que nos ayuda a mejorar la siguiente versi&#243;n.</li>
-                        <li><strong>Efecto red:</strong> lo que funciona aqu&#237;, se comparte y replica en otros centros v&#237;a <strong>Conecta 37</strong>.</li>
+                    <p class="mb-3"><strong>Aprende para ense&#241;ar. Crea para aportar y crecer.</strong></p>
+                    <p class="mb-2">En Alejandr&#237;a:</p>
+                    <ul class="alex-list mb-0">
+                        <li>El aprendizaje no se hace para el profesor, sino para compartirlo.</li>
+                        <li>El error no penaliza: impulsa la mejora.</li>
+                        <li>Todo lo creado tiene valor cuando se comunica y se pone al servicio de los dem&#225;s.</li>
+                        <li>El aula es un laboratorio de ideas donde ense&#241;ar y aprender forman parte del mismo proceso.</li>
                     </ul>
                 </div>
                 <div class="alex-card">
-                    <h4 class="mb-3">ADN Alejandr&#237;a (qu&#233; medimos)</h4>
-                    <ol class="mb-0">
-                        <li><strong>Claridad:</strong> se entiende a la primera, sin ruido.</li>
-                        <li><strong>Rigor:</strong> datos exactos, citas correctas y vocabulario preciso.</li>
-                        <li><strong>Estructura:</strong> inicio potente, desarrollo l&#243;gico y cierre memorable.</li>
-                        <li><strong>Impacto:</strong> &#191;sirve para algo? &#191;genera conversaci&#243;n? &#191;es compartible en <strong>Conecta 37</strong>?</li>
-                    </ol>
-                    <div class="alex-divider"></div>
-                    <p class="mb-0"><strong>Estilo visual:</strong> minimalismo funcional. Poco texto, mucha idea, dise&#241;o limpio. Hibridamos lo mejor del papel (bocetos, pensamiento profundo) con la potencia de lo digital (alcance, multimedia).</p>
+                    <h4 class="mb-3">ADN Alejandr&#237;a &#183; Nuestra finalidad</h4>
+                    <p class="mb-2">El Proyecto Alejandr&#237;a busca:</p>
+                    <ul class="alex-list mb-3">
+                        <li>Mejorar la claridad en la expresi&#243;n escrita y oral.</li>
+                        <li>Fomentar el rigor en el uso de fuentes y contenidos.</li>
+                        <li>Crear productos que sirvan realmente para aprender.</li>
+                    </ul>
+                    <p class="mb-0">Apostamos por un equilibrio consciente entre lo anal&#243;gico y lo digital: el papel, la escritura y la lectura profunda como base para potenciar la creaci&#243;n digital, no para sustituirla.</p>
                 </div>
             </div>
         </div>
@@ -184,26 +192,22 @@
         <div class="container wow fadeInUp" data-wow-delay="0.1s">
             <div class="text-center mb-4">
                 <span class="alex-pill">El algoritmo de trabajo</span>
-                <h3 class="mt-3 mb-2">Tres fases, siete personas m&#225;ximo, un objetivo com&#250;n.</h3>
-                <p class="mb-0">Situar, desarrollar, compartir. Cada fase con foco y roles definidos.</p>
+                <h3 class="mt-3 mb-2">El aprendizaje se articula en grupos cooperativos con roles definidos.</h3>
+                <p class="mb-0">Tres fases: situar, desarrollar y compartir.</p>
             </div>
             <div class="alex-grid">
                 <div class="alex-card">
-                    <h5 class="mb-2">1. Situar (el detonante)</h5>
-                    <p class="mb-2">Contexto, reto y prop&#243;sito. No empezamos con teor&#237;a, empezamos con una pregunta potente. Definimos la misi&#243;n y a qui&#233;n le vamos a hablar. Es el momento de conectar el contenido curricular con la realidad palpable.</p>
+                    <h5 class="mb-2">1. Situar &#183; El reto</h5>
+                    <p class="mb-0">Se plantea un desaf&#237;o conectado con el curr&#237;culo y con la realidad del alumnado.</p>
                 </div>
                 <div class="alex-card">
-                    <h5 class="mb-2">2. Desarrollar (el laboratorio)</h5>
-                    <p class="mb-0">Creaci&#243;n y prototipado. Equipos de <strong>m&#225;ximo 7 personas</strong> con roles especializados: gui&#243;n, voz, t&#233;cnica, dise&#241;o y direcci&#243;n. Aqu&#237; se cocina el contenido en formatos &#225;giles: audio, v&#237;deo, narrativa transmedia o IA generativa.</p>
+                    <h5 class="mb-2">2. Desarrollar</h5>
+                    <p class="mb-0">Cada grupo avanza seg&#250;n sus habilidades, se ayuda, se complementa y refuerza sus fortalezas. Se utilizan formatos diversos: audio, v&#237;deo, escritura, soportes f&#237;sicos, herramientas digitales e IA generativa.</p>
                 </div>
                 <div class="alex-card">
-                    <h5 class="mb-2">3. Compartir (el legado)</h5>
-                    <p class="mb-2">Publicaci&#243;n e impacto. El conocimiento no se queda en el disco duro. Se libera.</p>
-                    <ul class="alex-list">
-                        <li><strong>Repositorio Alejandr&#237;a:</strong> una revista digital viva.</li>
-                        <li><strong>QRs f&#237;sicos:</strong> las paredes del centro hablan a trav&#233;s de los dispositivos m&#243;viles.</li>
-                        <li><strong>Conecta 37:</strong> intercambio de &ldquo;episodios espejo&rdquo; con otros centros para globalizar el aprendizaje.</li>
-                    </ul>
+                    <h5 class="mb-2">3. Compartir &#183; La puesta en com&#250;n</h5>
+                    <p class="mb-2">Lo aprendido se comparte fuera del aula: redes, c&#243;digos QR, exposiciones, podcasts, intercambios con otros centros o proyectos intercentros.</p>
+                    <p class="mb-0"><em>Porque comunicar da sentido a lo aprendido.</em></p>
                 </div>
             </div>
         </div>
@@ -252,7 +256,8 @@
         <div class="container text-center wow fadeInUp" data-wow-delay="0.1s">
             <div class="alex-pill mb-3">Proyecto Alejandr&#237;a</div>
             <h3 class="mb-3">Publicamos para que otros aprendan</h3>
-            <p class="mb-4">Materiales vivos, con licencia para iterar. Cada versi&#243;n es una oportunidad de aprendizaje compartido.</p>
+            <p class="mb-2">Alejandr&#237;a es comunidad.</p>
+            <p class="mb-4">Un proyecto que conecta aulas, centros y personas. Un espacio donde la palabra construye identidad, pensamiento cr&#237;tico y cultura compartida.</p>
             <a href="#concepto" class="btn btn-alex">Volver al inicio</a>
         </div>
     </div>
