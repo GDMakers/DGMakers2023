@@ -227,9 +227,9 @@
             <div class="alex-grid">
                 <div class="alex-card">
                     <h5 class="mb-2">Lengua castellana</h5>
-                    <p class="mb-2"><strong>Hackeando a los cl&#225;sicos.</strong> &#191;C&#243;mo viralizar&#237;a L&#225;zaro de Tormes sus desgracias en un hilo de redes sociales? &#191;Qu&#233; lista de reproducci&#243;n escuchar&#237;a Bernarda Alba? Usamos la tecnolog&#237;a para dialogar con la tradici&#243;n.</p>
+                    <p class="mb-2"><strong>Los guardianes de los cl&#225;sicos.</strong> &#191;C&#243;mo viralizar&#237;a L&#225;zaro de Tormes sus desgracias en un hilo de redes sociales? &#191;Qu&#233; lista de reproducci&#243;n escuchar&#237;a Bernarda Alba? Usamos la tecnolog&#237;a para dialogar con la tradici&#243;n.</p>
                     <ul class="alex-list mb-0">
-                        <li><strong>Situar:</strong> detectamos problemas eternos (pobreza, noticias falsas, amor t&#243;xico) en textos antiguos.</li>
+                        <li><strong>Situar:</strong> detectamos problemas eternos (pobreza, noticias falsas) en textos antiguos.</li>
                         <li><strong>Desarrollar:</strong> creamos desde &ldquo;rese&#241;as podcast&rdquo; de un minuto hasta &ldquo;knolling literario&rdquo; (bodegones visuales de la obra) o batallas de versos con ayuda de IA.</li>
                         <li><strong>Compartir:</strong> todo converge en una presentaci&#243;n digital interactiva y accesible mediante QRs.</li>
                     </ul>
