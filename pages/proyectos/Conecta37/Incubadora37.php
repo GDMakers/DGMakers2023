@@ -235,6 +235,12 @@
                                     class="btn btn-outline-primary btn-sm">
                                         <i class="bi bi-grid-3x3-gap me-1"></i> Panel de ideas
                         </a>
+                        <a href="#enteros" class="btn btn-primary btn-sm ms-2">
+                             <i class="bi bi-calculator me-1"></i> Enteros
+                        </a>
+                        <a href="#ecuaciones" class="btn btn-primary btn-sm ms-2">
+                             <i class="bi bi-x-diamond me-1"></i> Ecuaciones
+                        </a>
                     </div>
                     <div>
                         
@@ -309,8 +315,322 @@
             </div>
         </div>
     </div>
+    <div class="container-xxl py-5" id="enteros">
+        <div class="container wow fadeInUp" data-wow-delay="0.1s">
+            <h2 class="inc-section-title mb-2">Incubadora de matemáticas</h2>
+            <p class="mb-5" style="font-size: 1.2rem; color: #666;">Repaso con números enteros</p>
 
-    
+            <!-- ESTRATEGIA 1 -->
+            <div class="inc-card mb-5">
+                <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-3">
+                    <div class="d-flex align-items-center gap-3">
+                        <span class="badge bg-primary fs-6">Estrategia 1</span>
+                        <h3 class="mb-0 h4">Clínica de errores “caza el bug”</h3>
+                    </div>
+                    <div class="btn-group" role="group">
+                        <input type="radio" class="btn-check" name="strat1Options" id="optionA" autocomplete="off" checked onchange="toggleStrategy1()">
+                        <label class="btn btn-outline-primary" for="optionA">Opción A</label>
+
+                        <input type="radio" class="btn-check" name="strat1Options" id="optionB" autocomplete="off" onchange="toggleStrategy1()">
+                        <label class="btn btn-outline-primary" for="optionB">Opción B</label>
+                    </div>
+                </div>
+
+                <!-- OPCIÓN A -->
+                <div id="strat1-optA">
+                    <div class="row g-4">
+                        <div class="col-lg-6">
+                            <h5 class="text-primary mb-3">Objetivo y Dinámica</h5>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i><strong>Objetivo:</strong> dejar de fallar en suma/resta con signos distintos y en “restar un negativo”.</li>
+                                <li class="mb-2"><i class="bi bi-box-seam text-primary me-2"></i><strong>Producto final:</strong> “mi bug dominante” + antídoto en 3 reglas.</li>
+                            </ul>
+                            <div class="bg-light p-3 rounded mb-3">
+                                <strong>Dinámica (clase 1):</strong>
+                                <ul class="mb-0 mt-2">
+                                    <li>En papel: 12 operaciones mezcladas.</li>
+                                    <li>Predicción: marcar negativas/positivas antes de calcular.</li>
+                                    <li>Con IA (modo detective): enseñar a la IA dónde se rompe la lógica.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <h5 class="text-primary mb-3">Prompt (IA socrática)</h5>
+                            <div class="p-3 bg-white border rounded">
+                                <p class="mb-2 fst-italic text-muted">“Eres mi aprendiz de matemáticas. No sabes resolver todavía.
+                                    Te voy a enseñar cómo lo hago en papel y tú debes ayudarme a encontrar mi primer error.
+                                    Reglas: no me des el resultado final. Solo hazme una pregunta cada vez.
+                                    Aquí está mi procedimiento: [pego mi paso a paso].
+                                    Pregúntame hasta que yo detecte el error y lo corrija.”</p>
+                            </div>
+                            <div class="mt-3">
+                                <strong>Cierre (Bug tag):</strong> signos distintos / doble negativo / confundo suma y resta...
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- OPCIÓN B -->
+                <div id="strat1-optB" style="display: none;">
+                    <div class="row g-4">
+                        <div class="col-lg-6">
+                            <h5 class="text-primary mb-3">Sesión 1: El "Bug" de los Signos</h5>
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><i class="bi bi-check-circle text-success me-2"></i><strong>Objetivo:</strong> Diferenciar suma de valores absolutos vs resta.</li>
+                            </ul>
+                            <div class="bg-light p-3 rounded mb-3">
+                                <strong>La Dinámica:</strong>
+                                <p class="mb-0 small">Los alumnos entrenan a una IA programada para fallar. Piden resolver 5 operaciones y la IA falla a propósito. El alumno explica el error usando metáforas (dinero/recta).</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <h5 class="text-primary mb-3">Prompt sugerido</h5>
+                            <div class="p-3 bg-white border rounded">
+                                <p class="mb-2 fst-italic text-muted">"Actúa como un estudiante de 1º de ESO que se confunde siempre con los signos. Resuelve −8+5 diciendo que es +13 porque 8+5 son 13 y el signo es el del primero. Yo seré tu profesor y te explicaré paso a paso por qué te has equivocado usando el ejemplo de dinero en el banco."</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ESTRATEGIA 2 -->
+            <div class="inc-card mb-5">
+                <div class="d-flex align-items-center gap-3 mb-3">
+                    <span class="badge bg-primary fs-6">Estrategia 2</span>
+                    <h3 class="mb-0 h4">Dojo de signos + “pista única”</h3>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <p><strong>Objetivo:</strong> automatizar decisiones rápidas (mismo signo sumo, distinto resto...).</p>
+                        <p><strong>Producto final:</strong> “cinturón” (nivel) + lista personal de trampas.</p>
+                        <div class="bg-light p-3 rounded">
+                            <strong>Dinámica (clase 2):</strong> 5 rondas de 2 min (tipo videojuego). La IA solo recibe resultados, valida <strong>Correcto / Incorrecto</strong> y da UNA pista si fallas.
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h5 class="text-primary mb-2">Prompt</h5>
+                        <div class="p-3 bg-white border rounded">
+                            <p class="mb-0 fst-italic text-muted line-clamp-3">“Modo dojo de enteros. Dame 6 operaciones con signos distintos. Yo respondo solo resultados. Tú respondes <strong>Correcto / Incorrecto</strong>. Si fallo, dame una sola pista y ponme un gemelo casi igual.”</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ESTRATEGIA 3 -->
+            <div class="inc-card mb-5">
+                <div class="d-flex align-items-center gap-3 mb-3">
+                    <span class="badge bg-primary fs-6">Estrategia 3</span>
+                    <h3 class="mb-0 h4">Taller de problemas “traductor”</h3>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <p><strong>Objetivo:</strong> que no se bloqueen con enunciados (palabras ↔ enteros).</p>
+                        <ul class="list-unstyled small">
+                            <li><strong>Plantilla fija:</strong> Datos / Traducción / Operación / Resultado + frase.</li>
+                            <li><strong>Dinámica:</strong> La IA hace de “alumno”. Solo pregunta para traducir, no resuelve.</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <h5 class="text-primary mb-2">Prompt</h5>
+                        <div class="p-3 bg-white border rounded">
+                            <p class="mb-0 fst-italic text-muted">“Eres un alumno que se pierde con problemas... Te voy a enseñar a traducir... No resuelvas. Solo hazme preguntas...”</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- EVALUACIÓN -->
+            <div class="p-4 rounded border" style="background-color: rgba(1, 81, 131, 0.05); border-color: rgba(1, 81, 131, 0.1) !important;">
+                <h5 class="mb-3 text-primary"><i class="bi bi-clipboard-check me-2"></i>Mini pack de evaluación</h5>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <div class="p-2 border bg-white rounded"><strong>Pre:</strong> 6 operaciones + 1 problema</div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="p-2 border bg-white rounded"><strong>Post:</strong> Isomorfo (mismo tipo, otros datos)</div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="p-2 border bg-white rounded"><strong>Bug-tag final:</strong> Bug + Antídoto</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- SECCIÓN ECUACIONES -->
+    <div class="container-xxl py-5" style="background-color: #fafbfc;" id="ecuaciones">
+        <div class="container wow fadeInUp" data-wow-delay="0.1s">
+            <h2 class="inc-section-title mb-2">Incubadora de matemáticas</h2>
+            <p class="mb-5" style="font-size: 1.2rem; color: #666;">Repaso con ecuaciones de primer grado</p>
+
+            <div class="row g-5">
+                <!-- SESIÓN 1 -->
+                <div class="col-lg-12">
+                     <div class="inc-card mb-4">
+                        <div class="d-flex align-items-center gap-3 mb-3">
+                            <span class="badge bg-primary fs-6">Estrategia 1</span>
+                            <h3 class="mb-0 h4">El detector de errores (foco en el procedimiento)</h3>
+                        </div>
+                        <p class="mb-4">El objetivo es que el alumno entienda que una ecuación es una <strong>balanza</strong> y que cada movimiento debe estar justificado. Evitaremos que "pasen cosas al otro lado" de forma mágica.</p>
+                        
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="bg-light p-3 rounded h-100">
+                                    <h5 class="text-primary mb-2"><i class="bi bi-play-circle me-2"></i>Dinámica</h5>
+                                    <p class="mb-3">El alumno resuelve en papel y usa la IA para validar el "hilo lógico". La IA tiene prohibido dar la solución final; solo puede actuar como un sensor de errores.</p>
+                                    <div class="alert alert-info border-0 mb-0">
+                                        <strong><i class="bi bi-trophy me-2"></i>El reto:</strong> Conseguir el distintivo de <strong>"Código limpio"</strong> en 5 ecuaciones de dificultad ascendente.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="p-3 border rounded h-100 bg-white">
+                                    <h5 class="text-secondary mb-2"><i class="bi bi-chat-quote me-2"></i>Prompt sugerido</h5>
+                                    <p class="fst-italic text-muted small mb-0">"Actúa como un profesor que solo sabe decir 'sí' o 'no'. Voy a resolver la ecuación X. Te voy a escribir mi primer paso. Si es correcto, dime 'Lógica impecable, sigue'. Si he cometido un error (especialmente con los signos o la propiedad distributiva), dime 'Hay un fallo en este paso' y hazme una pregunta para que yo mismo encuentre el error. No me des la respuesta."</p>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+
+                <!-- SESIÓN 2 -->
+                <div class="col-lg-12">
+                     <div class="inc-card mb-4">
+                        <div class="d-flex align-items-center gap-3 mb-3">
+                             <span class="badge bg-primary fs-6">Estrategia 2</span>
+                            <h3 class="mb-0 h4">Las ecuaciones gemelas (foco en las trampas visuales)</h3>
+                        </div>
+                        <p class="mb-4">Aquí atacamos la impulsividad. Los alumnos suelen operar lo primero que ven sin mirar la estructura.</p>
+                        
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="bg-light p-3 rounded h-100">
+                                    <h5 class="text-primary mb-2"><i class="bi bi-play-circle me-2"></i>Dinámica</h5>
+                                    <p class="mb-3">La IA genera dos ecuaciones que parecen casi iguales pero se resuelven de forma distinta. El alumno debe explicar la diferencia antes de tocar el lápiz.</p>
+                                    <div class="table-responsive bg-white rounded border p-2 mb-0">
+                                        <table class="table table-sm table-borderless mb-0 small">
+                                            <thead>
+                                                <tr class="border-bottom">
+                                                    <th>Ec. A</th>
+                                                    <th>Ec. B</th>
+                                                    <th>¿Trampa?</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>2(x+5)</td>
+                                                    <td>2x+5</td>
+                                                    <td class="text-muted">El 2 multiplica...</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>-x+3=5</td>
+                                                    <td>x-3=5</td>
+                                                    <td class="text-muted">El signo cambia...</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="p-3 border rounded h-100 bg-white">
+                                    <h5 class="text-secondary mb-2"><i class="bi bi-chat-quote me-2"></i>Prompt sugerido</h5>
+                                    <p class="fst-italic text-muted small mb-0">"Genera 3 parejas de 'ecuaciones gemelas' para 1º de ESO. Deben parecerse mucho pero tener una diferencia clave (un paréntesis, un signo negativo delante, o una fracción). No las resuelvas. Pregúntame cuál es la diferencia técnica entre ambas y, cuando te lo explique bien, ayúdame a resolver la que me parezca más difícil."</p>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+
+                <!-- SESIÓN 3 -->
+                <div class="col-lg-12">
+                     <div class="inc-card mb-4">
+                        <div class="d-flex align-items-center gap-3 mb-3">
+                             <span class="badge bg-primary fs-6">Estrategia 3</span>
+                            <h3 class="mb-0 h4">El traductor de historias (foco en problemas)</h3>
+                        </div>
+                         <p class="mb-4">"La IA escéptica". El alumno propone una ecuación para un problema y la IA intenta buscarle las cosquillas a esa traducción.</p>
+                        
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="bg-light p-3 rounded h-100">
+                                    <h5 class="text-primary mb-2"><i class="bi bi-play-circle me-2"></i>Dinámica</h5>
+                                    <p class="mb-2"><strong>Fase de papel:</strong> Se les dan 3 problemas clásicos (edades, huchas, perímetros).</p>
+                                    <p class="mb-0">El alumno usa la IA como crítico, no para resolver. La IA preguntará "¿Qué representa la X?" o "¿Tu ecuación refleja ese paréntesis?".</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="p-3 border rounded h-100 bg-white">
+                                    <h5 class="text-secondary mb-2"><i class="bi bi-chat-quote me-2"></i>Prompt sugerido</h5>
+                                    <p class="fst-italic text-muted small mb-0">"Soy un traductor de problemas a matemáticas. Para este problema: [Pegar enunciado], mi propuesta de ecuación es: [Pegar ecuación]. Tu trabajo es actuar como un crítico. No me digas si el resultado es correcto. Dime: 1. ¿Qué representa la X? 2. ¿Mi ecuación refleja los datos? 3. Inventa un final alternativo."</p>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+                </div>
+
+                <!-- RESUMEN -->
+                <div class="col-12">
+                    <div class="p-4 rounded border bg-white">
+                        <h4 class="mb-3 text-primary">Resumen de la estrategia de repaso</h4>
+                        <div class="table-responsive">
+                            <table class="table table-hover">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th>Clase</th>
+                                        <th>Actividad</th>
+                                        <th>Fallo que corrige</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td><strong>1</strong></td>
+                                        <td>El detector de errores</td>
+                                        <td>Saltarse pasos y errores de cálculo básico.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>2</strong></td>
+                                        <td>Las ecuaciones gemelas</td>
+                                        <td>Errores de lectura y propiedad distributiva.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>3</strong></td>
+                                        <td>El traductor de historias</td>
+                                        <td>Bloqueo ante el lenguaje algebraico.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="alert alert-warning d-flex align-items-center mb-0 mt-3" role="alert">
+                             <i class="bi bi-exclamation-triangle-fill me-2 fs-4"></i>
+                             <div>
+                                <strong>Nota para el docente:</strong> Es vital que en la Clase 1 insistas en que si la IA les da la solución directamente, han "perdido la partida". El juego consiste en que ellos enseñen a la IA que son capaces de encontrar sus propios fallos.
+                             </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function toggleStrategy1() {
+            const optA = document.getElementById('strat1-optA');
+            const optB = document.getElementById('strat1-optB');
+            const radioA = document.getElementById('optionA');
+
+            if (radioA.checked) {
+                optA.style.display = 'block';
+                optB.style.display = 'none';
+            } else {
+                optA.style.display = 'none';
+                optB.style.display = 'block';
+            }
+        }
+    </script>
+
 
     <!-- Footer común -->
     <?php
