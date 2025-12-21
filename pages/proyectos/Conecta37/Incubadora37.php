@@ -440,17 +440,51 @@
             </div>
 
             <!-- EVALUACIÓN -->
-            <div class="p-4 rounded border" style="background-color: rgba(1, 81, 131, 0.05); border-color: rgba(1, 81, 131, 0.1) !important;">
-                <h5 class="mb-3 text-primary"><i class="bi bi-clipboard-check me-2"></i>Mini pack de evaluación</h5>
-                <div class="row text-center">
-                    <div class="col-md-4">
-                        <div class="p-2 border bg-white rounded"><strong>Pre:</strong> 6 operaciones + 1 problema</div>
+            <!-- RESUMEN -->
+            <div class="col-12 mt-5">
+                <div class="p-4 rounded border bg-white">
+                    <h4 class="mb-3 text-primary">Resumen de la Estrategia para el Aula</h4>
+                    <div class="table-responsive">
+                        <table class="table table-hover">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>Sesión</th>
+                                    <th>Foco del Error</th>
+                                    <th>Rol del Alumno</th>
+                                    <th>Herramienta Conceptual</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><strong>1. Sumas/Restas</strong></td>
+                                    <td>Confundir sumar con restar</td>
+                                    <td>Tutor de IA</td>
+                                    <td>Recta numérica / Deudas</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>2. Mult/Div</strong></td>
+                                    <td>Aplicar mal la "Regla de Signos"</td>
+                                    <td>Auditor de errores</td>
+                                    <td>Tabla comparativa de reglas</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>3. Problemas</strong></td>
+                                    <td>Falta de comprensión lectora</td>
+                                    <td>Arquitecto de contextos</td>
+                                    <td>Traducción Lenguaje-Matemáticas</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-                    <div class="col-md-4">
-                        <div class="p-2 border bg-white rounded"><strong>Post:</strong> Isomorfo (mismo tipo, otros datos)</div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="p-2 border bg-white rounded"><strong>Bug-tag final:</strong> Bug + Antídoto</div>
+                    <div class="alert alert-warning d-flex align-items-center mb-0 mt-3" role="alert">
+                         <i class="bi bi-exclamation-triangle-fill me-2 fs-4"></i>
+                         <div>
+                            <strong>Nota para el docente:</strong>
+                            <ul class="mb-0 mt-1 small">
+                                <li><strong>Validación:</strong> Pide a los alumnos que hagan una captura de pantalla de la explicación más clara que le hayan dado a la IA.</li>
+                                <li><strong>Meta-reflexión:</strong> Al final de cada clase, pregunta: "¿Qué ha sido lo más difícil de explicarle a la IA?". Eso te dará la clave de lo que aún no comprenden ellos.</li>
+                            </ul>
+                         </div>
                     </div>
                 </div>
             </div>
