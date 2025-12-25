@@ -45,6 +45,9 @@
             font-family: monospace;
             white-space: pre-wrap;
         }
+        .hero-header {
+            background-color: var(--primary);
+        }
     </style>
 </head>
 
@@ -58,7 +61,7 @@
     ?>
 
     <!-- Hero -->
-    <div class="container-fluid bg-primary hero-header mb-5">
+    <div class="container-fluid hero-header mb-5">
         <div class="container py-5">
             <div class="row justify-content-center">
                 <div class="col-lg-10 text-center">
