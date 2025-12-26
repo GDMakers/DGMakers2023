@@ -757,7 +757,6 @@ ${ex2Steps}`;
 `Actúa como ENTRENADOR de matemáticas (fracciones, 1º-2º ESO).
 
 REGLAS DE FORMATO (IMPORTANTE):
-- Usa formato LaTeX para TODAS las fracciones (ej: $\\frac{1}{2}$).
 - NO me des la solución completa de golpe.
 - Corrige MI PROCESO, no solo el resultado.
 - Cita la LÍNEA exacta donde aparece el bug (copiándola).
@@ -792,7 +791,7 @@ D) Ejemplo práctico (solo planteado) similar al que fallé.`;
 `Actúa como mi ENTRENADOR JIT de fracciones (1º-2º ESO).
 
 REGLAS INNEGOCIABLES:
-- Dame SOLO el EJERCICIO 1 primero (enunciado con LaTeX).
+
 - Yo pego mi proceso.
 - Tú evalúas línea a línea.
 - Si detectas que fallo 2 veces seguidas en el mismo concepto (ej: mcm), ACTIVA "MODO RESCATE": Para y ponme un ejercicio aislado solo de esa habilidad.
