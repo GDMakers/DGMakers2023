@@ -47,8 +47,6 @@
             padding: 1.5rem;
             font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
             white-space: pre-wrap;
-            max-height: 400px;
-            overflow-y: auto;
         }
         .hero-header {
             background: linear-gradient(135deg, var(--primary) 0%, #0E82C7 100%);
