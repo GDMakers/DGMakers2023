@@ -123,7 +123,7 @@
             </div>
 
             <div class="row gy-4 mt-2">
-                <div class="col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="inc-card h-100 text-center">
                         <img src="../../../img/IA/DGIA02.jpeg" alt="Laboratorio de IA" class="img-fluid rounded-3 mb-3" />
                         <h5 class="mb-2">Laboratorio de IA</h5>
@@ -133,7 +133,8 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-4">
+
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="inc-card h-100 text-center">
                         <img src="img/MatematicasIA2.png" alt="Matemáticas con IA" class="img-fluid rounded-3 mb-3" />
                         <h5 class="mb-2">Matemáticas con IA</h5>
@@ -143,7 +144,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <div class="inc-card h-100 text-center">
                         <img src="https://images.unsplash.com/photo-1757955622421-b75472080224?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Lab Vídeos con IA" class="img-fluid rounded-3 mb-3" />
                         <h5 class="mb-2">Lab Vídeos con IA</h5>
@@ -153,6 +154,30 @@
                         </a>
                     </div>
                 </div>
+            </div>
+           
+            <div class="row gy-4 mt-2">
+                 <div class="col-12 col-md-6 col-lg-4">
+                    <div class="inc-card h-100 text-center">
+                        <img src="https://images.unsplash.com/photo-1643822308530-533d7d11a8d2?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Operaciones con enteros" class="img-fluid rounded-3 mb-3" />
+                        <h5 class="mb-2">Enteros 1</h5>
+                        <p class="mb-3">Detecta tu bug de signos y consigue un plan guiado para operaciones con enteros.</p>
+                        <a href="Enteros01.php" class="btn btn-conecta37 pt-1 pb-1">
+                            Ir a Enteros 1
+                        </a>
+                    </div>
+            </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="inc-card h-100 text-center">
+                        <img src="https://images.unsplash.com/photo-1509228627152-72ae9ae6848d?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Ecuaciones en pizarra" class="img-fluid rounded-3 mb-3" />
+                        <h5 class="mb-2">Ecuaciones 1</h5>
+                        <p class="mb-3">Generador de prompts blindados y mapa de bugs para ecuaciones lineales.</p>
+                        <a href="Ecuaciones1.php" class="btn btn-conecta37 pt-1 pb-1">
+                            Ir a Ecuaciones 1
+                        </a>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </div>
