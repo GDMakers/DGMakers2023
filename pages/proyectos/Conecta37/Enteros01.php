@@ -161,6 +161,7 @@
                     </div>
                     <div class="d-flex flex-wrap justify-content-center justify-content-lg-start mt-4 gap-3">
                         <a class="btn btn-light btn-lg px-4" href="#diagnostico">Empieza</a>
+                        <a class="btn btn-outline-light btn-lg px-4" href="https://chatgpt.com/g/g-694c4053ac308191b4abc5d60fee753d-c37-tutor-de-enteros" target="_blank" rel="noopener">C37 · Tutor de enteros</a>
                         <span class="hero-chip hero-chip-alt">Listo en menos de 2 minutos</span>
                     </div>
                 </div>
