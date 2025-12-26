@@ -225,30 +225,31 @@
 /*** Section Title ***/
 .section-title {
     position: relative;
-    display: inline-block;
+    display: block;
     text-transform: uppercase;
+    padding: 14px 0;
+    margin: 0 auto;
+    text-align: center;
 }
 
-.section-title::before {
-    position: absolute;
-    content: "";
-    width: calc(100% + 80px);
-    height: 2px;
-    top: 4px;
-    left: -40px;
-    background: var(--primary);
-    z-index: -1;
-}
-
+.section-title::before,
 .section-title::after {
     position: absolute;
     content: "";
-    width: calc(100% + 120px);
+    width: calc(100% + 100px);
     height: 2px;
-    bottom: 4px;
-    left: -60px;
+    left: 50%;
+    transform: translateX(-50%);
     background: var(--primary);
     z-index: -1;
+}
+
+.section-title::before {
+    top: 0;
+}
+
+.section-title::after {
+    bottom: 0;
 }
 
 .section-title.text-start::before {
