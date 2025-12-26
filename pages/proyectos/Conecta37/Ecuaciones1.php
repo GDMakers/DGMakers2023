@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Ecuaciones 1 · Conecta 37</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    
+
     <!-- Favicon -->
     <link href="../../../img/favicon.png" rel="icon">
 
@@ -33,16 +33,13 @@
             padding: 1.75rem;
             box-shadow: 0 1.5rem 2.4rem rgba(1, 81, 131, 0.08);
         }
-        .inc-card h4 {
-            font-weight: 700;
-            color: #0F172A;
-        }
+        .inc-card h4 { font-weight: 700; color: #0F172A; }
         .form-label {
             font-weight: 600;
             color: #015183;
             font-family: 'Open Sans', sans-serif;
         }
-        .form-select, .form-select option {
+        .form-select, .form-control, .form-select option {
             font-family: 'Open Sans', sans-serif;
         }
         .result-box {
@@ -50,7 +47,7 @@
             border: 1px dashed rgba(1, 81, 131, 0.25);
             border-radius: 0.5rem;
             padding: 1.5rem;
-            font-family: monospace;
+            font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
             white-space: pre-wrap;
         }
         .hero-header {
@@ -68,18 +65,9 @@
             border-radius: 50%;
             background: rgba(255, 255, 255, 0.06);
         }
-        .hero-header::before {
-            top: -140px;
-            left: -60px;
-        }
-        .hero-header::after {
-            bottom: -180px;
-            right: -120px;
-        }
-        .hero-content {
-            position: relative;
-            z-index: 1;
-        }
+        .hero-header::before { top: -140px; left: -60px; }
+        .hero-header::after { bottom: -180px; right: -120px; }
+        .hero-content { position: relative; z-index: 1; }
         .hero-chip {
             display: inline-block;
             padding: 0.35rem 0.9rem;
@@ -89,27 +77,16 @@
             font-weight: 700;
             letter-spacing: 0.01em;
         }
-        .hero-chip-alt {
-            background: rgba(255, 255, 255, 0.26);
-        }
-        .hero-highlights {
-            color: #e8f4ff;
-            font-weight: 600;
-        }
-        .hero-highlights i {
-            color: #ffdd57;
-            margin-right: 0.35rem;
-        }
+        .hero-chip-alt { background: rgba(255, 255, 255, 0.26); }
+        .hero-highlights { color: #e8f4ff; font-weight: 600; }
+        .hero-highlights i { color: #ffdd57; margin-right: 0.35rem; }
         .section-title small {
             letter-spacing: 0.08em;
             text-transform: uppercase;
             font-weight: 800;
             color: var(--primary);
         }
-        .section-title h3 {
-            font-weight: 800;
-            margin-bottom: 0.35rem;
-        }
+        .section-title h3 { font-weight: 800; margin-bottom: 0.35rem; }
         .mini-step {
             padding: 0.75rem 1rem;
             border-radius: 0.85rem;
@@ -118,18 +95,41 @@
             color: #0F172A;
             border: 1px solid rgba(1, 81, 131, 0.08);
         }
-        .mini-step span {
-            color: var(--primary);
-            font-weight: 800;
-            margin-right: 0.35rem;
-        }
+        .mini-step span { color: var(--primary); font-weight: 800; margin-right: 0.35rem; }
         #placeholderArea {
             background: #f8fafc;
             border: 1px dashed rgba(1, 81, 131, 0.2);
             border-radius: 1rem;
         }
-        .tab-content .btn.btn-sm {
-            border-radius: 999px;
+        .tab-content .btn.btn-sm { border-radius: 999px; }
+
+        /* Evidence exercises */
+        .exercise-box{
+            background:#f8fafc;
+            border:1px solid rgba(1,81,131,0.10);
+            border-radius:0.9rem;
+            padding:1rem;
+        }
+        .exercise-title{
+            font-weight:800;
+            color:#0F172A;
+        }
+        .math-big{
+            font-size:1.15rem;
+            font-weight:800;
+            letter-spacing:0.01em;
+            color:#0F172A;
+        }
+        .hint-chip{
+            display:inline-flex;
+            align-items:center;
+            gap:.35rem;
+            padding:.25rem .65rem;
+            border-radius:999px;
+            background:rgba(1,81,131,.08);
+            color:#015183;
+            font-weight:700;
+            font-size:.85rem;
         }
     </style>
 </head>
@@ -150,19 +150,19 @@
                 <div class="col-lg-10 text-center text-lg-start">
                     <div class="d-flex flex-wrap gap-2 justify-content-center justify-content-lg-start mb-3">
                         <span class="hero-chip">3º ESO</span>
-                        <span class="hero-chip hero-chip-alt">Ecuaciones Lineales</span>
-                        <span class="hero-chip">IA + Entrenador</span>
+                        <span class="hero-chip hero-chip-alt">Ecuaciones lineales</span>
+                        <span class="hero-chip">IA + entrenador</span>
                     </div>
-                    <h1 class="display-3 text-white animated slideInDown mb-2">Ecuaciones 1</h1>
-                    <p class="fs-4 text-white-50 mb-4">Generador de Prompts Blindados · Mapa de Bugs</p>
+                    <h1 class="display-3 text-white animated slideInDown mb-2">Ecuaciones 1.1</h1>
+                    <p class="fs-4 text-white-50 mb-4">Diagnóstico por evidencia · Kit anti-bug (ecuaciones)</p>
                     <div class="d-flex flex-wrap justify-content-center justify-content-lg-start hero-highlights gap-4">
-                        <div><i class="bi bi-bullseye"></i>Detecta tu bug</div>
-                        <div><i class="bi bi-lightning-charge"></i>Plan corto y accionable</div>
-                        <div><i class="bi bi-joystick"></i>Modo práctica guiada</div>
+                        <div><i class="bi bi-bullseye"></i>Diagnóstico por ejercicios (no por opinión)</div>
+                        <div><i class="bi bi-lightning-charge"></i>Micro-plan automático (60–90 s)</div>
+                        <div><i class="bi bi-joystick"></i>Training guiado y mini-examen</div>
                     </div>
                     <div class="d-flex flex-wrap justify-content-center justify-content-lg-start mt-4 gap-3">
-                        <a class="btn btn-light btn-lg px-4" href="#diagnostico">Empieza diagnóstico</a>
-                        <span class="hero-chip hero-chip-alt">Lista en menos de 2 minutos</span>
+                        <a class="btn btn-light btn-lg px-4" href="#diagnostico">Empieza</a>
+                        <span class="hero-chip hero-chip-alt">Listo en menos de 2 minutos</span>
                     </div>
                 </div>
             </div>
@@ -176,149 +176,138 @@
                 <div class="col-12">
                     <div class="section-title">
                         <small>Diagnóstico rápido</small>
-                        <h3>Detecta tu bug y recibe un plan inmediato</h3>
-                        <p class="text-muted mb-0">5 respuestas, un mapa de bugs y prompts listos para copiar en tu IA o profe-tutor.</p>
+                        <h3>Tu bug real (por evidencia) + plan inmediato</h3>
+                        <p class="text-muted mb-0">Resuelve 2 ecuaciones generadas automáticamente y pega tus pasos. La IA detecta el patrón de error y genera prompts listos para copiar.</p>
                     </div>
                 </div>
                 <div class="col-12">
                     <div class="d-flex flex-column flex-md-row align-items-stretch gap-3 mt-1">
-                        <div class="mini-step flex-fill"><span>1</span>Responde las preguntas</div>
-                        <div class="mini-step flex-fill"><span>2</span>Genera tu pack anti-bug</div>
-                        <div class="mini-step flex-fill"><span>3</span>Practica en modo guiado</div>
+                        <div class="mini-step flex-fill"><span>1</span>Haz 2 ecuaciones</div>
+                        <div class="mini-step flex-fill"><span>2</span>Pega tus pasos</div>
+                        <div class="mini-step flex-fill"><span>3</span>Recibe micro-plan + training</div>
                     </div>
                 </div>
             </div>
 
             <div class="row g-5">
-                <!-- Columna Izquierda: Formulario -->
+                <!-- Columna Izquierda -->
                 <div class="col-lg-5">
                     <div class="inc-card">
-                        <h4 class="mb-3">Tu diagnóstico</h4>
-                        <p class="text-muted mb-4">Marca lo que más te pasa en examen para desbloquear tu kit personalizado.</p>
+                        <h4 class="mb-3">Mini-diagnóstico por evidencia</h4>
+                        <p class="text-muted mb-4">No me digas “me lío”. Muéstrame tu proceso y detectamos el bug real.</p>
+
                         <form id="bugForm">
-                            
-                            <!-- Q1 -->
+                            <!-- Preferencia de explicación -->
                             <div class="mb-3">
-                                <label class="form-label">1. ¿Dónde fallas más?</label>
-                                <select class="form-select" id="q1_area" onchange="toggleConditionals()">
-                                    <option value="">Selecciona...</option>
-                                    <option value="translate">Traducir enunciado a x</option>
-                                    <option value="parentheses">Paréntesis y signos</option>
-                                    <option value="isolate">Mover términos (x a un lado)</option>
-                                    <option value="fractions">Fracciones / Denominadores</option>
-                                    <option value="final_wrong">Resultado final incorrecto</option>
+                                <label class="form-label">0. ¿Cómo quieres que te expliquen?</label>
+                                <select class="form-select" id="pref_style">
+                                    <option value="balance">Método balanza (misma operación en ambos lados)</option>
+                                    <option value="clean_steps">Pasos limpios (un cambio por línea)</option>
+                                    <option value="minimal">Directo y corto (pero sin saltos)</option>
                                 </select>
                             </div>
 
-                            <!-- QA (Condicional Translate) -->
-                            <div class="mb-3 d-none" id="group_qA">
-                                <label class="form-label ps-3 border-start border-3 border-primary">⚠️ En definitiva, ¿qué cuesta más?</label>
-                                <select class="form-select" id="qA_translate_fail">
-                                    <option value="unknown">No sé cual es la incógnita</option>
-                                    <option value="data">Uso mal los números</option>
-                                    <option value="relation">Relacionar datos ("doble de", etc)</option>
-                                    <option value="letter">Me lío con la letra</option>
-                                </select>
+                            <!-- Ejercicio 1: paréntesis/distributiva -->
+                            <div class="exercise-box mb-3">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <div class="exercise-title">Ecuación 1 (paréntesis y signos)</div>
+                                    <span class="hint-chip"><i class="bi bi-bug-fill"></i>distributiva</span>
+                                </div>
+                                <div class="math-big mb-2" id="ex1_text">—</div>
+
+                                <label class="form-label mb-1">Tu solución (x = …)</label>
+                                <input class="form-control mb-2" id="ex1_answer" placeholder="Ejemplo: x = 3" />
+
+                                <label class="form-label mb-1">Pega tus pasos (2–10 líneas)</label>
+                                <textarea class="form-control" id="ex1_steps" rows="4" placeholder="Ejemplo:
+3(x − 2) = 2x + 5
+3x − 6 = 2x + 5
+x − 6 = 5
+x = 11"></textarea>
                             </div>
 
-                            <!-- QB (Condicional Isolate/Fractions) -->
-                            <div class="mb-3 d-none" id="group_qB">
-                                <label class="form-label ps-3 border-start border-3 border-primary">⚠️ Al despejar, ¿dónde está el error?</label>
-                                <select class="form-select" id="qB_isolate_fail">
-                                    <option value="add_sub">Sumar/restar al pasar</option>
-                                    <option value="mult_div">Multiplicar/dividir</option>
-                                    <option value="fractions">Lío con fracciones</option>
-                                    <option value="order">Orden de pasos</option>
-                                </select>
+                            <!-- Ejercicio 2: fracciones/denominadores -->
+                            <div class="exercise-box mb-3">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <div class="exercise-title">Ecuación 2 (fracciones)</div>
+                                    <span class="hint-chip"><i class="bi bi-bug-fill"></i>denominadores</span>
+                                </div>
+                                <div class="math-big mb-2" id="ex2_text">—</div>
+
+                                <label class="form-label mb-1">Tu solución (x = …)</label>
+                                <input class="form-control mb-2" id="ex2_answer" placeholder="Ejemplo: x = -4" />
+
+                                <label class="form-label mb-1">Pega tus pasos (2–12 líneas)</label>
+                                <textarea class="form-control" id="ex2_steps" rows="4" placeholder="Ejemplo:
+(x − 7)/3 = −2
+x − 7 = −6
+x = 1"></textarea>
                             </div>
 
-                            <!-- Q2 -->
-                            <div class="mb-3">
-                                <label class="form-label">2. ¿Cuándo ocurre el fallo?</label>
-                                <select class="form-select" id="q2_moment">
-                                    <option value="">Selecciona...</option>
-                                    <option value="start">Al empezar (bloqueo)</option>
-                                    <option value="middle">A mitad (me pierdo)</option>
-                                    <option value="end">Al final (cálculo/signo)</option>
-                                </select>
+                            <div class="d-flex flex-wrap gap-2">
+                                <button type="button" class="btn btn-outline-secondary" onclick="regenExercises()">
+                                    <i class="bi bi-arrow-repeat me-1"></i> Cambiar ecuaciones
+                                </button>
+                                <div class="small text-muted align-self-center">Genera nuevos números (mismo estilo).</div>
                             </div>
 
-                            <!-- Q3 -->
-                            <div class="mb-3">
-                                <label class="form-label">3. Tu estilo al escribir</label>
-                                <select class="form-select" id="q3_style">
-                                    <option value="">Selecciona...</option>
-                                    <option value="few_steps">Pocos pasos (mental)</option>
-                                    <option value="messy">Desordenado / Tachones</option>
-                                    <option value="ordered_but_wrong">Ordenado pero fallo igual</option>
-                                </select>
-                            </div>
-
-                            <!-- Q4 -->
-                            <div class="mb-3">
-                                <label class="form-label">4. El punto rojo crítico</label>
-                                <select class="form-select" id="q4_redpoint">
-                                    <option value="">Selecciona...</option>
-                                    <option value="sign_transfer">Cambio de signo al mover</option>
-                                    <option value="distribute_negatives">Signo delante de paréntesis</option>
-                                    <option value="divide_bothsides">Dividir todo (no solo una parte)</option>
-                                    <option value="equals_confusion">Confundo el significado del =</option>
-                                </select>
-                            </div>
-
-                            <!-- Q5 -->
-                            <div class="mb-3">
-                                <label class="form-label">5. ¿Verificas?</label>
-                                <select class="form-select" id="q5_verify">
-                                    <option value="always">Siempre</option>
-                                    <option value="sometimes">A veces</option>
-                                    <option value="never">Nunca / No sé cómo</option>
+                            <!-- Plan opcional -->
+                            <div class="mb-3 mt-3">
+                                <label class="form-label">Extra (opcional): ¿quieres que también te proponga un plan largo?</label>
+                                <select class="form-select" id="plan_choice">
+                                    <option value="ask">Pregúntame después (recomendado)</option>
+                                    <option value="10min">Sí, plan rápido 10 minutos</option>
+                                    <option value="2x45">Sí, plan 2 días (2×45’)</option>
+                                    <option value="training">Sí, training guiado (3 rondas)</option>
+                                    <option value="exam">Sí, mini-examen (6 min)</option>
                                 </select>
                             </div>
 
                             <div class="d-grid mt-4">
                                 <button type="button" class="btn btn-primary btn-lg" onclick="generatePrompts()">
-                                    <i class="bi bi-magic me-2"></i> Generar Prompts
+                                    <i class="bi bi-magic me-2"></i> Generar prompts
                                 </button>
                             </div>
 
+                            <div class="small text-muted mt-3">
+                                <i class="bi bi-shield-check me-1"></i>
+                                Esto NO te da la solución: genera un prompt para que tu tutor/IA corrija tu proceso paso a paso.
+                            </div>
                         </form>
                     </div>
                 </div>
 
-                <!-- Columna Derecha: Resultado -->
+                <!-- Columna Derecha -->
                 <div class="col-lg-7">
                     <div id="resultArea" class="inc-card h-100" style="display:none;">
                         <div class="d-flex justify-content-between align-items-center mb-3">
                             <h4 class="mb-0 text-primary">Tu kit anti-bug</h4>
-                            <small class="text-muted">Lista para copiar</small>
+                            <small class="text-muted">Listo para copiar</small>
                         </div>
-                        
-                        <!-- Bugs Badge -->
+
                         <div class="mb-4">
                             <span class="badge bg-danger fs-6 me-2" id="badgePrimary"></span>
                             <span class="badge bg-warning text-dark fs-6" id="badgeSecondary"></span>
                         </div>
 
-                        <!-- Prompts Tabs -->
                         <ul class="nav nav-tabs mb-3" id="promptTabs" role="tablist">
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link active" id="p1-tab" data-bs-toggle="tab" data-bs-target="#p1" type="button" role="tab">1. Diagnóstico</button>
                             </li>
                             <li class="nav-item" role="presentation">
-                                <button class="nav-link" id="p2-tab" data-bs-toggle="tab" data-bs-target="#p2" type="button" role="tab">2. Kit Anti-Bug</button>
+                                <button class="nav-link" id="p2-tab" data-bs-toggle="tab" data-bs-target="#p2" type="button" role="tab">2. Micro-plan</button>
                             </li>
-                             <li class="nav-item" role="presentation">
+                            <li class="nav-item" role="presentation">
                                 <button class="nav-link" id="p3-tab" data-bs-toggle="tab" data-bs-target="#p3" type="button" role="tab">3. Training</button>
                             </li>
-                             <li class="nav-item" role="presentation">
+                            <li class="nav-item" role="presentation">
                                 <button class="nav-link" id="p4-tab" data-bs-toggle="tab" data-bs-target="#p4" type="button" role="tab">4. Examen</button>
                             </li>
-                             <li class="nav-item" role="presentation">
-                                <button class="nav-link bg-light" id="pall-tab" data-bs-toggle="tab" data-bs-target="#pall" type="button" role="tab"><strong>PACK COMPLETO</strong></button>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link bg-light" id="pall-tab" data-bs-toggle="tab" data-bs-target="#pall" type="button" role="tab"><strong>Pack completo</strong></button>
                             </li>
                         </ul>
-                        
+
                         <div class="tab-content" id="promptTabsContent">
                             <div class="tab-pane fade show active" id="p1" role="tabpanel">
                                 <div class="position-relative">
@@ -327,53 +316,50 @@
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="p2" role="tabpanel">
-                                 <div class="position-relative">
+                                <div class="position-relative">
                                     <button class="btn btn-sm btn-outline-secondary position-absolute top-0 end-0 m-2" onclick="copyToClipboard('txtP2')">Copiar</button>
                                     <div class="result-box" id="txtP2"></div>
                                 </div>
                             </div>
                             <div class="tab-pane fade" id="p3" role="tabpanel">
-                                 <div class="position-relative">
+                                <div class="position-relative">
                                     <button class="btn btn-sm btn-outline-secondary position-absolute top-0 end-0 m-2" onclick="copyToClipboard('txtP3')">Copiar</button>
                                     <div class="result-box" id="txtP3"></div>
                                 </div>
                             </div>
-                             <div class="tab-pane fade" id="p4" role="tabpanel">
-                                 <div class="position-relative">
+                            <div class="tab-pane fade" id="p4" role="tabpanel">
+                                <div class="position-relative">
                                     <button class="btn btn-sm btn-outline-secondary position-absolute top-0 end-0 m-2" onclick="copyToClipboard('txtP4')">Copiar</button>
                                     <div class="result-box" id="txtP4"></div>
                                 </div>
                             </div>
-                             <div class="tab-pane fade" id="pall" role="tabpanel">
-                                 <div class="position-relative">
-                                    <button class="btn btn-sm btn-outline-primary position-absolute top-0 end-0 m-2" onclick="copyToClipboard('txtPAll')">Copiar TODO</button>
+                            <div class="tab-pane fade" id="pall" role="tabpanel">
+                                <div class="position-relative">
+                                    <button class="btn btn-sm btn-outline-primary position-absolute top-0 end-0 m-2" onclick="copyToClipboard('txtPAll')">Copiar todo</button>
                                     <div class="result-box" id="txtPAll"></div>
                                 </div>
                             </div>
                         </div>
-
                     </div>
-                    
-                    <!-- Placeholder Inicial -->
+
                     <div id="placeholderArea" class="text-center py-5 text-muted">
                         <i class="bi bi-arrow-left-circle display-4 mb-3 d-block"></i>
-                        Responde y desbloquea tu kit anti-bug en segundos.
+                        Resuelve las 2 ecuaciones y pega tus pasos para desbloquear tu kit.
                     </div>
-                    
                 </div>
             </div>
 
-            <!-- Mapa de Bugs Collapsible -->
+            <!-- Mapa de Bugs -->
             <div class="mt-5">
-                 <p class="d-inline-flex gap-1">
-                  <a class="btn btn-outline-secondary btn-sm" data-bs-toggle="collapse" href="#collapseMap" role="button" aria-expanded="false" aria-controls="collapseMap">
-                    Ver Mapa de Bugs (JSON)
-                  </a>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-outline-secondary btn-sm" data-bs-toggle="collapse" href="#collapseMap" role="button" aria-expanded="false" aria-controls="collapseMap">
+                        Ver mapa de bugs (JSON)
+                    </a>
                 </p>
                 <div class="collapse" id="collapseMap">
-                  <div class="card card-body bg-light small font-monospace">
-                    <pre id="jsonDisplay"></pre>
-                  </div>
+                    <div class="card card-body bg-light small font-monospace">
+                        <pre id="jsonDisplay"></pre>
+                    </div>
                 </div>
             </div>
 
@@ -388,10 +374,129 @@
         include "../../../footer.php";
     ?>
 
-
-    <!-- Logic Scripts -->
     <script>
-        // 1. DATA: BUG MAP
+        // ------------------------------------------------------------
+        // Utils
+        // ------------------------------------------------------------
+        const UMINUS = "−";
+
+        function rint(min, max) { return Math.floor(Math.random() * (max - min + 1)) + min; }
+
+        function normalizeMinus(s) {
+            return (s || "")
+                .replaceAll("−", "-")
+                .replaceAll("·", "*")
+                .replaceAll("×", "*")
+                .replaceAll(":", "/")
+                .trim();
+        }
+
+        function fmtSigned(n) {
+            if (n < 0) return UMINUS + String(Math.abs(n));
+            return String(n);
+        }
+
+        function fmtLinearTerm(coeff, variable = "x") {
+            // coeff positive integer expected here
+            if (coeff === 1) return variable;
+            return `${coeff}${variable}`;
+        }
+
+        function parseRational(s) {
+            // accepts: "x=3", "3", "-4", "3/2"
+            let t = normalizeMinus(s).toLowerCase();
+            t = t.replaceAll(" ", "")
+                 .replaceAll("x", "")
+                 .replaceAll("=", "")
+                 .replaceAll(":", "");
+            if (!t) return null;
+
+            if (t.includes("/")) {
+                const parts = t.split("/");
+                if (parts.length !== 2) return null;
+                const num = Number(parts[0]);
+                const den = Number(parts[1]);
+                if (!Number.isFinite(num) || !Number.isFinite(den) || den === 0) return null;
+                return num / den;
+            }
+
+            const n = Number(t);
+            if (!Number.isFinite(n)) return null;
+            return n;
+        }
+
+        function approxEqual(a, b, eps = 1e-9) {
+            return Math.abs(a - b) < eps;
+        }
+
+        // ------------------------------------------------------------
+        // Exercise generator (AUTO)
+        // Eq1: a(x − b) = c x + d  (tests distributiva + mover términos)
+        // Eq2: (x − p)/q = r        (tests fracciones/denominadores)
+        // Both generated to have integer solution x0.
+        // ------------------------------------------------------------
+        let exData = {
+            ex1: { a: 3, b: 2, c: 2, d: 5, x0: 11, text: "", expected: 11 },
+            ex2: { p: 7, q: 3, r: -2, x0: 1, text: "", expected: 1 }
+        };
+
+        function buildEq1Text(a, b, c, d) {
+            // a(x − b) = c x + d (d can be negative)
+            const left = `${a}(x ${UMINUS} ${b})`;
+            const right = `${fmtLinearTerm(c)} ${d >= 0 ? "+" : UMINUS} ${Math.abs(d)}`;
+            return `${left} = ${right}`;
+        }
+
+        function buildEq2Text(p, q, r) {
+            // (x − p)/q = r  OR (x + p)/q = r (we keep x − p for consistency; p can be 0)
+            const num = p >= 0 ? `(x ${UMINUS} ${p})` : `(x + ${Math.abs(p)})`;
+            return `${num}/${q} = ${r < 0 ? (UMINUS + Math.abs(r)) : r}`;
+        }
+
+        function generateExercises() {
+            // ---- Eq1: choose a,c,b and integer x0, then compute d to satisfy
+            while (true) {
+                const a = rint(2, 6);
+                const c = rint(1, 6);
+                const b = rint(1, 9);
+                const x0 = rint(-9, 12);
+                // d = a(x0 - b) - c*x0
+                const d = a * (x0 - b) - c * x0;
+                if (Math.abs(d) > 30) continue; // keep small
+                // avoid degenerate cases where both sides already similar
+                if (a === c && d === -a*b) continue;
+                exData.ex1 = { a, b, c, d, x0, text: buildEq1Text(a,b,c,d), expected: x0 };
+                break;
+            }
+
+            // ---- Eq2: choose q and r and p so that x0 is integer & small: x0 = p + q*r
+            while (true) {
+                const q = rint(2, 9);
+                const r = rint(-4, 4);
+                const p = rint(0, 12);
+                const x0 = p + q * r;
+                if (x0 < -15 || x0 > 20) continue;
+                exData.ex2 = { p, q, r, x0, text: buildEq2Text(p,q,r), expected: x0 };
+                break;
+            }
+
+            document.getElementById("ex1_text").innerText = exData.ex1.text;
+            document.getElementById("ex2_text").innerText = exData.ex2.text;
+        }
+
+        function regenExercises() {
+            generateExercises();
+            document.getElementById("ex1_answer").value = "";
+            document.getElementById("ex2_answer").value = "";
+            document.getElementById("ex1_steps").value = "";
+            document.getElementById("ex2_steps").value = "";
+            document.getElementById("resultArea").style.display = "none";
+            document.getElementById("placeholderArea").style.display = "block";
+        }
+
+        // ------------------------------------------------------------
+        // BUG MAP (ecuaciones) — se usa para construir prompts
+        // ------------------------------------------------------------
         const bugMap = {
           "bugs": [
             {
@@ -409,7 +514,7 @@
               "weakness": "Paréntesis y distributiva (sobre todo con negativos)",
               "focus": "Expandir sin perder signos",
               "exercise_pack": "parentheses_distribute",
-              "traps": ["- fuera del paréntesis", "doble negativo", "distribuir solo el primero"],
+              "traps": ["− fuera del paréntesis", "doble negativo", "distribuir solo el primero"],
               "default_mantra": "STOP: distribuye a TODOS los términos"
             },
             {
@@ -460,253 +565,235 @@
           ]
         };
 
-        // 2. DATA: SCORING RULES
-        const scoringRules = {
-          "weights": {
-            "q1_area": {
-              "translate": {"translator": 4},
-              "parentheses": {"distributor": 4},
-              "isolate": {"isolator": 3, "sign_mover": 2},
-              "fractions": {"fractioner": 4},
-              "final_wrong": {"verifier_zero": 3}
-            },
-            "q2_moment": {
-              "start": {"translator": 2},
-              "middle": {"isolator": 2, "sign_mover": 2, "step_skipper": 1},
-              "end": {"verifier_zero": 2}
-            },
-            "q3_style": {
-              "few_steps": {"step_skipper": 4},
-              "messy": {"step_skipper": 3, "isolator": 1},
-              "ordered_but_wrong": {"verifier_zero": 2, "sign_mover": 1}
-            },
-            "q4_redpoint": {
-              "sign_transfer": {"sign_mover": 5},
-              "distribute_negatives": {"distributor": 5},
-              "divide_bothsides": {"fractioner": 4, "isolator": 1},
-              "equals_confusion": {"translator": 2, "sign_mover": 1}
-            },
-            "q5_verify": {
-              "always": {},
-              "sometimes": {"verifier_zero": 1},
-              "never": {"verifier_zero": 4}
-            },
-            "qA_translate_fail": {
-              "unknown": {"translator": 2},
-              "data": {"translator": 2},
-              "relation": {"translator": 3},
-              "letter": {"translator": 1}
-            },
-            "qB_isolate_fail": {
-              "add_sub": {"sign_mover": 2, "isolator": 1},
-              "mult_div": {"fractioner": 2, "isolator": 1},
-              "fractions": {"fractioner": 3},
-              "order": {"isolator": 3}
-            }
-          },
-          "tie_break": ["sign_mover", "distributor", "fractioner", "isolator", "translator", "step_skipper", "verifier_zero"]
-        };
-
-        // Display JSON
         document.getElementById('jsonDisplay').textContent = JSON.stringify(bugMap, null, 2);
 
-        function toggleConditionals() {
-            const q1 = document.getElementById('q1_area').value;
-            const grpA = document.getElementById('group_qA');
-            const grpB = document.getElementById('group_qB');
-            
-            grpA.classList.add('d-none');
-            grpB.classList.add('d-none');
-            
-            if (q1 === 'translate') {
-                grpA.classList.remove('d-none');
-            } else if (q1 === 'isolate' || q1 === 'fractions') {
-                grpB.classList.remove('d-none');
+        function getBugById(id) { return bugMap.bugs.find(b => b.id === id); }
+
+        // ------------------------------------------------------------
+        // DETECCIÓN DETERMINISTA (por evidencia)
+        // (No es perfecto, pero estable y coherente.)
+        // ------------------------------------------------------------
+        const tieBreak = ["fractioner", "distributor", "sign_mover", "isolator", "step_skipper", "verifier_zero", "translator"];
+
+        function scoreFromEvidence(ex1Ans, ex2Ans, ex1Steps, ex2Steps) {
+            let scores = {};
+            bugMap.bugs.forEach(b => scores[b.id] = 0);
+
+            const s1 = normalizeMinus(ex1Steps).toLowerCase();
+            const s2 = normalizeMinus(ex2Steps).toLowerCase();
+            const combined = (s1 + "\n" + s2);
+
+            // Pocos pasos -> step_skipper
+            const stepsLen = (s1 + s2).replace(/\s+/g, "").length;
+            if (stepsLen < 30) scores["step_skipper"] += 4;
+
+            // Si aparece "paso al otro lado" / "pasa" -> sign_mover
+            if (/(paso|pasar|al otro lado)/i.test(combined)) scores["sign_mover"] += 2;
+
+            // Si menciona comprobar/sustituir -> verifier_zero (en negativo, reduce)
+            if (/(compruebo|sustituyo|verifico)/i.test(combined)) scores["verifier_zero"] -= 1;
+
+            // Parse answers
+            const a1 = parseRational(ex1Ans);
+            const a2 = parseRational(ex2Ans);
+
+            const exp1 = exData.ex1.expected;
+            const exp2 = exData.ex2.expected;
+
+            // Correctness signals
+            if (a1 === null || !approxEqual(a1, exp1)) {
+                scores["distributor"] += 3;
+                scores["isolator"] += 2;
+                scores["sign_mover"] += 1;
+
+                // Heurística típica: no multiplica el término constante en distributiva:
+                // busca patrón "... ax - b" con b sin multiplicar por a
+                const a = exData.ex1.a;
+                const b = exData.ex1.b;
+                // ejemplo error: "3x - 2" en vez de "3x - 6"
+                const reWrong = new RegExp(`\\b${a}\\s*x\\s*[-+]\\s*${b}\\b`);
+                const reRight = new RegExp(`\\b${a}\\s*x\\s*[-+]\\s*${a*b}\\b`);
+                if (reWrong.test(s1) && !reRight.test(s1)) {
+                    scores["distributor"] += 5;
+                }
+            } else {
+                scores["distributor"] += 1;
             }
+
+            if (a2 === null || !approxEqual(a2, exp2)) {
+                scores["fractioner"] += 5;
+                scores["isolator"] += 2;
+                scores["sign_mover"] += 1;
+
+                // Si en pasos aparece "multiplico por" pero solo en un lado (muy difícil de detectar)
+                // aproximación: si aparece "multiplico por" y NO aparece "en ambos lados" => sube sign_mover/fractioner
+                if (/(multiplico|mcm|denominador)/i.test(s2) && !/(ambos lados|en los dos lados)/i.test(s2)) {
+                    scores["fractioner"] += 2;
+                    scores["sign_mover"] += 1;
+                }
+            } else {
+                scores["fractioner"] += 1;
+            }
+
+            // Verifier: si ambos mal y no hay señales de comprobación
+            if ((a1 === null || !approxEqual(a1, exp1)) && (a2 === null || !approxEqual(a2, exp2)) && !/(compruebo|sustituyo|verifico)/i.test(combined)) {
+                scores["verifier_zero"] += 2;
+            }
+
+            // Clamp negatives to 0 for sorting sanity
+            for (const k in scores) { if (scores[k] < 0) scores[k] = 0; }
+
+            return scores;
         }
 
-        function getBugById(id) {
-            return bugMap.bugs.find(b => b.id === id);
+        function pickPrimarySecondary(scores) {
+            let sorted = Object.entries(scores).sort((a, b) => {
+                if (b[1] !== a[1]) return b[1] - a[1];
+                return tieBreak.indexOf(a[0]) - tieBreak.indexOf(b[0]);
+            });
+            return { primary: sorted[0][0], secondary: sorted[1][0], sorted };
         }
 
+        function prefLabel(pref) {
+            if (pref === "balance") return "Método balanza (misma operación en ambos lados)";
+            if (pref === "minimal") return "Directo y corto (pero sin saltos)";
+            return "Pasos limpios (un cambio por línea)";
+        }
+
+        // ------------------------------------------------------------
+        // PROMPTS (misma filosofía que Enteros 1)
+        // ------------------------------------------------------------
         function generatePrompts() {
-            // 1. Gather inputs
-            const inputs = {
-                q1_area: document.getElementById('q1_area').value,
-                q2_moment: document.getElementById('q2_moment').value,
-                q3_style: document.getElementById('q3_style').value,
-                q4_redpoint: document.getElementById('q4_redpoint').value,
-                q5_verify: document.getElementById('q5_verify').value,
-                qA_translate_fail: document.getElementById('qA_translate_fail').value,
-                qB_isolate_fail: document.getElementById('qB_isolate_fail').value
-            };
+            const pref = document.getElementById('pref_style').value;
 
-            // Basic validation
-            if(!inputs.q1_area || !inputs.q2_moment || !inputs.q3_style || !inputs.q4_redpoint || !inputs.q5_verify) {
-                alert("Por favor, responde todas las preguntas principales.");
+            const ex1Text = document.getElementById('ex1_text').innerText;
+            const ex2Text = document.getElementById('ex2_text').innerText;
+
+            const ex1Ans = document.getElementById('ex1_answer').value;
+            const ex2Ans = document.getElementById('ex2_answer').value;
+
+            const ex1Steps = document.getElementById('ex1_steps').value.trim();
+            const ex2Steps = document.getElementById('ex2_steps').value.trim();
+
+            if (!ex1Ans || !ex2Ans || !ex1Steps || !ex2Steps) {
+                alert("Completa soluciones y pega tus pasos en las 2 ecuaciones.");
                 return;
             }
 
-            // 2. Compute Scores
-            let scores = {};
-            // Init scores
-            bugMap.bugs.forEach(b => scores[b.id] = 0);
+            const planChoice = document.getElementById('plan_choice').value;
 
-            // Helper to add scores
-            const addScores = (questionKey, answerValue) => {
-                if (!answerValue) return;
-                const weightMap = scoringRules.weights[questionKey];
-                if (weightMap && weightMap[answerValue]) {
-                    for (const [bugId, points] of Object.entries(weightMap[answerValue])) {
-                        if (scores[bugId] !== undefined) {
-                            scores[bugId] += points;
-                        }
-                    }
-                }
-            };
+            const scores = scoreFromEvidence(ex1Ans, ex2Ans, ex1Steps, ex2Steps);
+            const picked = pickPrimarySecondary(scores);
 
-            addScores('q1_area', inputs.q1_area);
-            addScores('q2_moment', inputs.q2_moment);
-            addScores('q3_style', inputs.q3_style);
-            addScores('q4_redpoint', inputs.q4_redpoint);
-            addScores('q5_verify', inputs.q5_verify);
-            
-            if(inputs.q1_area === 'translate') addScores('qA_translate_fail', inputs.qA_translate_fail);
-            if(inputs.q1_area === 'isolate' || inputs.q1_area === 'fractions') addScores('qB_isolate_fail', inputs.qB_isolate_fail);
+            const primaryBug = getBugById(picked.primary);
+            const secondaryBug = getBugById(picked.secondary);
 
-            // 3. Determine Winner (Primary & Secondary)
-            let sortedBugs = Object.entries(scores).sort((a, b) => {
-                if (b[1] !== a[1]) return b[1] - a[1]; // Sort by score desc
-                // Tie break
-                const idxA = scoringRules.tie_break.indexOf(a[0]);
-                const idxB = scoringRules.tie_break.indexOf(b[0]);
-                return idxA - idxB;
-            });
-            
-            const primaryBugId = sortedBugs[0][0];
-            const secondaryBugId = sortedBugs[1][0];
-            
-            const primaryBug = getBugById(primaryBugId);
-            const secondaryBug = getBugById(secondaryBugId);
-
-            // 4. Prepare Tokens for Templates
-            const getText = (id) => {
-                const el = document.getElementById(id);
-                if (el && el.selectedIndex >= 0) return el.options[el.selectedIndex].text;
-                return "";
-            };
-
-            const tokens = {
-                q1_area_text: getText('q1_area'),
-                q2_moment_text: getText('q2_moment'),
-                q3_style_text: getText('q3_style'),
-                q4_redpoint_text: getText('q4_redpoint'),
-                q5_verify_text: getText('q5_verify'),
-                qA_translate_fail_text: (inputs.q1_area === 'translate') ? getText('qA_translate_fail') : "",
-                qB_isolate_fail_text: (inputs.q1_area === 'isolate' || inputs.q1_area === 'fractions') ? getText('qB_isolate_fail') : "",
-                
-                primary_bug_name: primaryBug.name,
-                secondary_bug_name: secondaryBug.name,
-                primary_bug_weakness: primaryBug.weakness,
-                primary_bug_focus: primaryBug.focus,
-                primary_bug_traps: primaryBug.traps.join(", "),
-                primary_bug_exercise_pack: primaryBug.exercise_pack,
-                primary_bug_status: sortedBugs[0][1] // score
-            };
-
-            // Update UI
             document.getElementById('placeholderArea').style.display = 'none';
             document.getElementById('resultArea').style.display = 'block';
-            
-            document.getElementById('badgePrimary').innerText = "Bug Principal: " + primaryBug.name;
+
+            document.getElementById('badgePrimary').innerText = "Bug principal: " + primaryBug.name;
             document.getElementById('badgeSecondary').innerText = "Secundario: " + secondaryBug.name;
-            
-            // 5. Generate Prompts Text
-            // P1
-            const p1 = `Actúa como ENTRENADOR de matemáticas de 3º ESO especializado en ecuaciones lineales.
+
+            const evidenceBlock =
+`EVIDENCIA (NO INVENTES NADA, USA ESTO):
+Ecuación 1: ${normalizeMinus(ex1Text)}
+Mi solución: ${normalizeMinus(ex1Ans)}
+Mis pasos:
+${ex1Steps}
+
+Ecuación 2: ${normalizeMinus(ex2Text)}
+Mi solución: ${normalizeMinus(ex2Ans)}
+Mis pasos:
+${ex2Steps}`;
+
+            const p1 =
+`Actúa como ENTRENADOR de matemáticas de 3º ESO especializado en ecuaciones de 1er grado.
 
 REGLAS:
-- NO me des la solución final de ningún ejercicio.
-- Haz 1 pregunta cada vez (estilo entrenador).
+- NO me des la solución completa de las ecuaciones.
 - Corrige MI PROCESO, no solo el resultado.
-- Si detectas mi bug, dime el PASO EXACTO donde aparece y por qué.
+- Cita la LÍNEA exacta donde aparece el bug (copiándola).
+- Haz 1 pregunta cada vez. (Yo respondo y tú sigues)
 
-PERFIL DEL ESTUDIANTE:
-- Área donde fallo: ${tokens.q1_area_text}
-- Momento del fallo: ${tokens.q2_moment_text}
-- Mi estilo: ${tokens.q3_style_text}
-- Punto rojo: ${tokens.q4_redpoint_text}
-- Verificación: ${tokens.q5_verify_text}
-${tokens.qA_translate_fail_text ? `- En traducción fallo en: ${tokens.qA_translate_fail_text}` : ''}
-${tokens.qB_isolate_fail_text ? `- En despeje fallo en: ${tokens.qB_isolate_fail_text}` : ''}
+PREFERENCIA DE EXPLICACIÓN:
+- Usa: ${prefLabel(pref)} (si ayuda)
 
-DIAGNÓSTICO:
-- Bug principal: "${tokens.primary_bug_name}"
-- Bug secundario: "${tokens.secondary_bug_name}"
-- Debilidad: ${tokens.primary_bug_weakness}
-- Foco de entrenamiento: ${tokens.primary_bug_focus}
+DIAGNÓSTICO PREVIO (generado por la web):
+- Bug principal: "${primaryBug.name}"
+- Bug secundario: "${secondaryBug.name}"
+- Debilidad: ${primaryBug.weakness}
+- Foco: ${primaryBug.focus}
+- Trampas típicas: ${primaryBug.traps.join(", ")}
 
-Ahora:
-1) Explícame por qué tengo este bug (2 frases, directo).
-2) Pon 1 ejemplo típico de examen donde caigo (sin resolverlo).
-3) Dime 3 hábitos concretos que debo entrenar esta semana (muy accionables).`;
+${evidenceBlock}
 
-            // P2
-            const p2 = `Actúa como diseñador de hábitos de estudio para 3º ESO.
+TAREAS:
+1) Confirma o corrige el bug mirando MIS pasos (si está mal, cámbialo y explica por qué).
+2) Dime en 2 frases por qué caigo ahí.
+3) Señala el paso exacto donde me equivoqué (cita la línea).
+4) Dame UNA pista para rehacer la ecuación 1 sin resolverla entera.
+5) Hazme 1 pregunta para comprobar si lo entendí.`;
 
-REGLAS:
-- Nada de teoría larga: solo cosas aplicables en examen.
-- Debe ser MEMORABLE y específico para mi bug.
+            const p2 =
+`Actúa como coach de estudio para 3º ESO. Quiero un plan que funcione ya mismo.
 
-Mi bug principal: "${tokens.primary_bug_name}"
-Debilidad: ${tokens.primary_bug_weakness}
-Foco: ${tokens.primary_bug_focus}
-Trampas típicas: ${tokens.primary_bug_traps}
+MI BUG PRINCIPAL:
+- "${primaryBug.name}"
+- Debilidad: ${primaryBug.weakness}
+- Foco: ${primaryBug.focus}
+- Mantra STOP: ${primaryBug.default_mantra}
 
-Diseña mi KIT ANTI-BUG:
+PREFERENCIA:
+- Explicación con: ${prefLabel(pref)}
 
-1) MANTRA STOP (máx. 8 palabras)
-2) CHECKLIST PRE-EJERCICIO (3 checks)
-3) RITUAL DURANTE (3 pasos numerados, 1 cambio por línea)
-4) VERIFICACIÓN FINAL (2 preguntas obligatorias)
-5) Señal de alarma: “Si veo ___, me detengo y ___”
+MICRO-PLAN AUTOMÁTICO (obligatorio, 60–90 segundos):
+A) Regla-motor (1 sola regla que aplico siempre) — en 1 frase.
+B) Checklist pre-ecuación (3 checks).
+C) Ritual durante (3 pasos, “un cambio por línea”).
+D) Verificación exprés (2 preguntas de 5 segundos) + sustitución si procede.
+E) Ejemplo mini (NO lo resuelvas): un ejemplo parecido al mío y dime solo el PRIMER paso correcto.
 
-Todo debe estar adaptado a "${tokens.primary_bug_name}".`;
+DESPUÉS, PREGÚNTAME:
+¿Quieres plan largo? Elige una opción:
+- 10 minutos
+- 2 días (2×45’)
+- Training guiado
+- Mini-examen
 
-            // P3
-            const p3 = `Actúa como mi entrenador personal de ecuaciones (3º ESO).
+Si yo elijo uno, lo ejecutas adaptado a mi bug y a mi preferencia.`;
 
-REGLAS:
-- NO des soluciones.
-- Dame SOLO el EJERCICIO 1 primero.
-- Espera a que yo pegue mi proceso.
-- Evalúa si evitó mi bug o caí en él, citando la línea exacta.
-- Luego dame un micro-consejo y pasa al siguiente.
+            const p3 =
+`Actúa como mi ENTRENADOR JIT de ecuaciones (3º ESO).
 
-Mi bug: "${tokens.primary_bug_name}"
-Debilidad: ${tokens.primary_bug_weakness}
-Pack de ejercicios: ${tokens.primary_bug_exercise_pack}
-Trampas típicas: ${tokens.primary_bug_traps}
+REGLAS INNEGOCIABLES:
+- Dame SOLO la ECUACIÓN 1 primero (enunciado).
+- Yo pego mi proceso.
+- Tú: (a) señalas la línea exacta del bug, (b) das microfeedback (1–2 frases), (c) das una pista, (d) pasas a la siguiente.
+- NO des soluciones completas.
+
+Mi bug: "${primaryBug.name}"
+Pack de ejercicios: ${primaryBug.exercise_pack}
+Trampas típicas: ${primaryBug.traps.join(", ")}
+Preferencia: ${prefLabel(pref)}
 
 MISIÓN:
-Genera 3 ejercicios del pack indicado, cada uno con una trampa oculta típica (no digas cuál es).
-Nivel: 3º ESO.
+Genera 3 ecuaciones del pack indicado, cada una con una trampa típica (no digas cuál).
+Empieza con ECUACIÓN 1 (solo enunciado).`;
 
-Empieza con EJERCICIO 1 (solo enunciado).`;
-
-            // P4
-            const p4 = `Genera un MINI-EXAMEN de recuperación para 3º ESO.
+            const p4 =
+`Genera un MINI-EXAMEN de recuperación para 3º ESO (ecuaciones lineales).
 
 REGLAS:
-- Dame SOLO los enunciados. NO resuelvas nada.
+- Dame SOLO los enunciados. NO resuelvas.
 - 2 ejercicios, 5 puntos cada uno.
 - Deben atacar mi bug.
 
-Mi bug: "${tokens.primary_bug_name}"
-Trampas típicas: ${tokens.primary_bug_traps}
+Mi bug: "${primaryBug.name}"
+Trampas típicas: ${primaryBug.traps.join(", ")}
+Preferencia de explicación posterior: ${prefLabel(pref)}
 
 EJERCICIO 1 (5 puntos):
-- Ecuación lineal (puede incluir paréntesis/fracciones según mi bug)
+- Ecuación lineal (paréntesis y/o fracciones si procede)
 - Con trampa típica de mi bug
 
 EJERCICIO 2 (5 puntos):
@@ -720,12 +807,27 @@ EJERCICIO 1:
 EJERCICIO 2:
 ...`;
 
+            const pAll =
+`=== PROMPT 1 (Diagnóstico por evidencia) ===
+${p1}
+
+=== PROMPT 2 (Micro-plan + plan opcional) ===
+${p2}
+
+=== PROMPT 3 (Training guiado) ===
+${p3}
+
+=== PROMPT 4 (Mini-examen) ===
+${p4}
+
+NOTA:
+Si yo he marcado en la web una preferencia de plan (“${planChoice}”), respétala si tiene sentido; si no, pregúntame cuál quiero.`;
+
             document.getElementById('txtP1').innerText = p1;
             document.getElementById('txtP2').innerText = p2;
             document.getElementById('txtP3').innerText = p3;
             document.getElementById('txtP4').innerText = p4;
-            document.getElementById('txtPAll').innerText = `=== PROMPT 1 (Diagnóstico) ===\n${p1}\n\n=== PROMPT 2 (Ritual) ===\n${p2}\n\n=== PROMPT 3 (Training Round) ===\n${p3}\n\n=== PROMPT 4 (Mini-examen) ===\n${p4}`;
-
+            document.getElementById('txtPAll').innerText = pAll;
         }
 
         function copyToClipboard(elementId) {
@@ -735,8 +837,12 @@ EJERCICIO 2:
             });
         }
 
+        // Init
+        document.addEventListener("DOMContentLoaded", () => {
+            generateExercises();
+        });
     </script>
-    
+
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
