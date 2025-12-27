@@ -162,8 +162,18 @@
                         <img src="https://images.unsplash.com/photo-1643822308530-533d7d11a8d2?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Operaciones con enteros" class="img-fluid rounded-3 mb-3" />
                         <h5 class="mb-2">Enteros 1</h5>
                         <p class="mb-3">Detecta tu bug de signos y consigue un plan guiado para operaciones con enteros.</p>
-                        <a href="Enteros01.php" class="btn btn-conecta37 pt-1 pb-1">
+                        <a href="priv/Enteros01.php" class="btn btn-conecta37 pt-1 pb-1">
                             Ir a Enteros 1
+                        </a>
+                    </div>
+                </div>
+                 <div class="col-12 col-md-6 col-lg-4">
+                    <div class="inc-card h-100 text-center">
+                        <img src="https://images.unsplash.com/photo-1549814862-9a27a4de6656?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Fracciones con IA" class="img-fluid rounded-3 mb-3" />
+                        <h5 class="mb-2">Fracciones 1</h5>
+                        <p class="mb-3">Entrenador JIT para mcm, signos y simplificación en fracciones.</p>
+                        <a href="priv/Fracciones01.php" class="btn btn-conecta37 pt-1 pb-1">
+                            Ir a Fracciones 1
                         </a>
                     </div>
                 </div>
@@ -172,33 +182,36 @@
                         <img src="https://images.unsplash.com/photo-1509228627152-72ae9ae6848d?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Ecuaciones en pizarra" class="img-fluid rounded-3 mb-3" />
                         <h5 class="mb-2">Ecuaciones 1</h5>
                         <p class="mb-3">Generador de prompts blindados y mapa de bugs para ecuaciones lineales.</p>
-                        <a href="Ecuaciones01.php" class="btn btn-conecta37 pt-1 pb-1">
+                        <a href="priv/Ecuaciones01.php" class="btn btn-conecta37 pt-1 pb-1">
                             Ir a Ecuaciones 1
                         </a>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4">
+               
+               <div class="col-12 col-md-6 col-lg-4">
                     <div class="inc-card h-100 text-center">
-                        <img src="https://images.unsplash.com/photo-1549814862-9a27a4de6656?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Fracciones con IA" class="img-fluid rounded-3 mb-3" />
-                        <h5 class="mb-2">Fracciones 1</h5>
-                        <p class="mb-3">Entrenador JIT para mcm, signos y simplificación en fracciones.</p>
-                        <a href="Fracciones01.php" class="btn btn-conecta37 pt-1 pb-1">
-                            Ir a Fracciones 1
+                        <img src="https://images.unsplash.com/photo-1754304342428-b7c71f6811d2?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Ecuaciones de segundo grado" class="img-fluid rounded-3 mb-3" />
+                        <h5 class="mb-2">Ecuaciones 2º grado</h5>
+                        <p class="mb-3">Entrenador JIT y prompts blindados para ecuaciones cuadráticas.</p>
+                        <a href="priv/Ecuaciones2G01.php" class="btn btn-conecta37 pt-1 pb-1">
+                            Ir a Ecuaciones 2º
                         </a>
                     </div>
                 </div>
-             
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="inc-card h-100 text-center">
                         <img src="https://images.unsplash.com/photo-1509228468518-180dd4864904?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Sistemas de ecuaciones" class="img-fluid rounded-3 mb-3" />
                         <h5 class="mb-2">Sistemas 1</h5>
                         <p class="mb-3">Diagnóstico JIT para sistemas (sustitución y eliminación) con plan anti-bug.</p>
-                        <a href="Sistemas01.php" class="btn btn-conecta37 pt-1 pb-1">
+                        <a href="priv/Sistemas01.php" class="btn btn-conecta37 pt-1 pb-1">
                             Ir a Sistemas 1
                         </a>
                     </div>
                 </div>
+              
             </div>
+
+
         </div>
     </div>
 
