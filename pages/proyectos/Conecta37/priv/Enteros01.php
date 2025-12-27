@@ -508,7 +508,7 @@
             </div>
 
             <!-- Mapa de Bugs -->
-            <div class="mt-5">
+            <!-- <div class="mt-5">
                 <p class="d-inline-flex gap-1">
                     <a class="btn btn-outline-secondary btn-sm" data-bs-toggle="collapse" href="#collapseMap" role="button" aria-expanded="false" aria-controls="collapseMap">
                         Ver mapa de bugs (JSON)
@@ -519,7 +519,7 @@
                         <pre id="jsonDisplay"></pre>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
         </div>
     </div>
