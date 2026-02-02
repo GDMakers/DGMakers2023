@@ -48,6 +48,12 @@
 </head>
 
 <body>
+    <!-- Redirección forzada a Conecta37 -->
+    <?php
+        header("Location: http://conecta37.iesalcantara.es", true, 302);
+        exit;
+    ?>
+
     <!-- Men&uacute; com&uacute;n -->
     <?php
         $img = "../../..";                // ruta a la carpeta de imagenes
