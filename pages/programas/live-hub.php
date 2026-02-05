@@ -47,6 +47,22 @@
             background-color: var(--primary, #0d6efd);
             border-color: var(--primary, #0d6efd);
         }
+
+        .clamp-3 {
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .read-more-btn {
+            padding: 0;
+            font-size: 0.9rem;
+            display: block;
+            text-align: right;
+            margin-top: -30px;
+            margin-bottom: 6px;
+        }
     </style>
 </head>
 
@@ -171,10 +187,12 @@
                                             <span class="badge bg-primary">Centro Educaativo SUSARTE - Asociación Talentismo</span>
                                             <span class="badge bg-secondary">Música y arte</span>
                                         </p>
-                                        <p class="card-text">En el marco del proyecto 4Inclusión, se llevaron a cabo talleres de elaboración de instrumentos musicales con material reciclado junto a los usuarios de la Asociación Talentismo, promoviendo la creatividad, la participación activa y la conciencia medioambiental.
+                                        <p class="card-text">
+                                            <span class="clamp-3" data-readmore-text>En el marco del proyecto 4Inclusión, se llevaron a cabo talleres de elaboración de instrumentos musicales con material reciclado junto a los usuarios de la Asociación Talentismo, promoviendo la creatividad, la participación activa y la conciencia medioambiental.
 La tercera sesión tuvo lugar el 22 de diciembre en el Centro Educativo SUSTRAE, coincidiendo con el Festival de Villancicos, donde los usuarios de Talentismo participaron en la interpretación musical, compartiendo una experiencia inclusiva y enriquecedora.
-Desde nuestro centro agradecemos y reconocemos la implicación del alumnado en este proyecto 4Inclusión, que demuestra que la educación, la música y la convivencia son herramientas clave para construir una sociedad más justa, diversa e inclusiva.
-</p>
+Desde nuestro centro agradecemos y reconocemos la implicación del alumnado en este proyecto 4Inclusión, que demuestra que la educación, la música y la convivencia son herramientas clave para construir una sociedad más justa, diversa e inclusiva.</span>
+                                        </p>
+                                        <button type="button" class="btn btn-link text-primary read-more-btn" data-readmore-toggle>Más</button>
                                         <div class="mt-auto pt-2">
                                             <ul class="small mb-3">
                                                 <li><i class="bi bi-calendar-event me-1"></i> 28/10/2025 · 18/12/2025</li>
@@ -911,6 +929,42 @@ Desde nuestro centro agradecemos y reconocemos la implicación del alumnado en e
 
                 const initialButton = filterContainer.querySelector('.btn.active');
                 applyFilter(initialButton ? initialButton.getAttribute('data-filter') : 'all');
+            }());
+        </script>
+        <script>
+            (function () {
+                const toggles = document.querySelectorAll('[data-readmore-toggle]');
+                if (!toggles.length) {
+                    return;
+                }
+
+                const shouldHideToggle = function (textEl) {
+                    if (!textEl) {
+                        return true;
+                    }
+                    const isClamped = textEl.classList.contains('clamp-3');
+                    if (!isClamped) {
+                        return false;
+                    }
+                    return textEl.scrollHeight <= textEl.clientHeight + 1;
+                };
+
+                toggles.forEach(function (toggle) {
+                    const textEl = toggle.parentElement
+                        ? toggle.parentElement.querySelector('[data-readmore-text]')
+                        : null;
+
+                    if (!textEl || shouldHideToggle(textEl)) {
+                        toggle.classList.add('d-none');
+                        return;
+                    }
+
+                    toggle.addEventListener('click', function () {
+                        const isExpanded = !textEl.classList.contains('clamp-3');
+                        textEl.classList.toggle('clamp-3', isExpanded);
+                        toggle.textContent = isExpanded ? 'Más' : 'Menos';
+                    });
+                });
             }());
         </script>
 
