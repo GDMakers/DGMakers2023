@@ -164,22 +164,27 @@
                             </div>
                             <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s" data-workshop data-date="2025-11-15">
                                 <div class="card h-100 shadow-sm border-0">
-                                    <img src="https://images.unsplash.com/photo-1598132393703-e4c8f9f0bd9d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1740" class="card-img-top" alt="Manos preparando bombas de semilla">
+                                    <img src="https://drive.google.com/thumbnail?id=1qXb6DDjMGxDDMyrhk4d0nrvCARo7GROK&sz=w1200" class="card-img-top" alt="Manos preparando bombas de semilla" referrerpolicy="no-referrer">
                                     <div class="card-body d-flex flex-column">
-                                        <h5 class="card-title mb-1">Bombas de Semilla</h5>
+                                        <h5 class="card-title mb-1">Elaboración de instrumentos musicales</h5>
                                         <p class="mb-2">
-                                            <span class="badge bg-primary">CEPEE Eusebio</span>
-                                            <span class="badge bg-secondary">Medioambiente</span>
+                                            <span class="badge bg-primary">Centro Educaativo SUSARTE - Asociación Talentismo</span>
+                                            <span class="badge bg-secondary">Música y arte</span>
                                         </p>
-                                        <p class="card-text">Fabricación de bombas de semilla con materiales sostenibles para reverdecer patios y espacios comunitarios.</p>
+                                        <p class="card-text">En el marco del proyecto 4Inclusión, se llevaron a cabo talleres de elaboración de instrumentos musicales con material reciclado junto a los usuarios de la Asociación Talentismo, promoviendo la creatividad, la participación activa y la conciencia medioambiental.
+La tercera sesión tuvo lugar el 22 de diciembre en el Centro Educativo SUSTRAE, coincidiendo con el Festival de Villancicos, donde los usuarios de Talentismo participaron en la interpretación musical, compartiendo una experiencia inclusiva y enriquecedora.
+Desde nuestro centro agradecemos y reconocemos la implicación del alumnado en este proyecto 4Inclusión, que demuestra que la educación, la música y la convivencia son herramientas clave para construir una sociedad más justa, diversa e inclusiva.
+</p>
                                         <div class="mt-auto pt-2">
                                             <ul class="small mb-3">
-                                                <li><i class="bi bi-calendar-event me-1"></i> 15/11/2025 · 17:30–18:30</li>
+                                                <li><i class="bi bi-calendar-event me-1"></i> 28/10/2025 · 18/12/2025</li>
                                                 <li><i class="bi bi-geo-alt me-1"></i> Presencial · Hub Murcia</li>
                                                 <li><i class="bi bi-people me-1"></i> 30 plazas</li>
                                             </ul>
                                             <a href="#" class="btn btn-sm btn-primary me-2"><i class="bi bi-box-arrow-in-right"></i> Inscripción</a>
                                             <a href="#" class="btn btn-sm btn-outline-primary"><i class="bi bi-file-earmark-text"></i> Programa</a>
+                                            
+                                            <a href="https://drive.google.com/drive/folders/1hSkKogOwJjNiUTL7frIKda25ewVDOf98" class="btn btn-sm btn-outline-primary" target="_blank" rel="noopener noreferrer"><i class="bi bi-file-earmark-text"></i> Galería</a>
                                             
                                         </div>
                                     </div>
